@@ -8,16 +8,15 @@
 
 **Map the entire security landscape. One repo. Zero excuses.**
 
-[![Stars](https://img.shields.io/github/stars/AnimeshShaw/AppSec-Atlas?style=for-the-badge&color=3B82F6&labelColor=0A0F1E)](https://github.com/AnimeshShaw/AppSec-Atlas/stargazers)
-[![Contributors](https://img.shields.io/github/contributors/AnimeshShaw/AppSec-Atlas?style=for-the-badge&color=10B981&labelColor=0A0F1E)](https://github.com/AnimeshShaw/AppSec-Atlas/graphs/contributors)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-EF4444?style=for-the-badge&labelColor=0A0F1E)](LICENSE)
+[![Guides](https://img.shields.io/badge/Guides-45%20Modules-10B981?style=for-the-badge&labelColor=0A0F1E)](#-guides)
 [![Website](https://img.shields.io/badge/Website-appsecatlas.com-8B5CF6?style=for-the-badge&labelColor=0A0F1E)](https://appsecatlas.com)
-[![Last Commit](https://img.shields.io/github/last-commit/AnimeshShaw/AppSec-Atlas?style=for-the-badge&color=F59E0B&labelColor=0A0F1E)](https://github.com/AnimeshShaw/AppSec-Atlas/commits/main)
+[![GitHub Stars](https://img.shields.io/github/stars/AnimeshShaw/AppSec-Atlas?style=for-the-badge&color=3B82F6&labelColor=0A0F1E)](https://github.com/AnimeshShaw/AppSec-Atlas/stargazers)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-10B981?style=for-the-badge&labelColor=0A0F1E)](CONTRIBUTING.md)
 
 <br/>
 
-[🌐 Website](https://appsecatlas.com) · [📚 Browse Guides](#-guides) · [🗺️ Learning Paths](#%EF%B8%8F-learning-paths) · [🤝 Contribute](CONTRIBUTING.md) · [💬 Discord](https://discord.gg/appsecatlas) · [💝 Sponsor](https://github.com/sponsors/AnimeshShaw)
+[🌐 Website](https://appsecatlas.com) · [📚 Browse Guides](#-guides) · [🗺️ Learning Paths](#-learning-paths) · [🤝 Contribute](CONTRIBUTING.md) · [💬 Discord](https://discord.gg/appsecatlas) · [💝 Sponsor](https://github.com/sponsors/AnimeshShaw)
 
 </div>
 
