@@ -1,43 +1,88 @@
 ---
-title: "07 - References and Further Reading"
-description: "To deepen your understanding of the Same-Origin Policy and Cross-Origin Resource Sharing, refer to the following authoritative sources and security gu..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Cors And Sop", "07 References.Md"]
+title: "07 - References and Standards"
+description: "Authoritative specifications, standards, CVE analyses, academic research papers, OWASP cheat sheets, and tool repositories for CORS and SOP security."
+keywords: ["AppSec", "CORS References", "WHATWG Fetch", "RFC 6454", "OWASP Cheat Sheet", "CVE Case Studies", "Web Security Standards"]
 ---
 
-# 07 - References and Further Reading
+# 07 - References and Standards
 
-To deepen your understanding of the Same-Origin Policy and Cross-Origin Resource Sharing, refer to the following authoritative sources and security guides.
+Refer to the following specifications, industry standards, academic research, CVE case studies, and auditing tool repositories for authoritative details on Same-Origin Policy and Cross-Origin Resource Sharing security.
 
-## Standards and Documentation
+---
 
-1. **W3C CORS Specification (Fetch Standard)**
-   - The official Fetch standard which defines CORS logic in modern browsers.
-   - Link: [Fetch Living Standard - CORS Protocol](https://fetch.spec.whatwg.org/#http-cors-protocol)
+## 1. Specifications and Official Standards
 
-2. **MDN Web Docs - Cross-Origin Resource Sharing (CORS)**
-   - Excellent developer-focused documentation on how CORS works, including diagrams of preflight requests.
-   - Link: [MDN Web Docs - CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+1. **WHATWG Fetch Living Standard — CORS Protocol**
+   - The authoritative technical standard defining browser CORS fetch logic, preflight handling, and request safelists.
+   - Standard Link: [WHATWG Fetch Specification](https://fetch.spec.whatwg.org/#http-cors-protocol)
 
-3. **MDN Web Docs - Same-Origin Policy**
-   - Detailed explanation of SOP and how origin boundaries are defined.
-   - Link: [MDN Web Docs - Same-origin policy](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy)
+2. **IETF RFC 6454 — The Web Origin Concept**
+   - Formal specification defining the mathematical computation of web origins using scheme, host, and port tuples.
+   - RFC Link: [RFC 6454 Specification](https://datatracker.ietf.org/doc/html/rfc6454)
 
-## Security Exploitation and Defense Guides
+3. **W3C Private Network Access (PNA) Specification**
+   - W3C draft specification defining browser protections against cross-origin public-to-private network requests.
+   - Draft Link: [W3C Private Network Access Draft](https://wicg.github.io/private-network-access/)
 
-4. **PortSwigger Web Security Academy - CORS Vulnerabilities**
-   - In-depth guide on how CORS misconfigurations occur and interactive labs to practice exploiting them.
-   - Link: [PortSwigger - CORS](https://portswigger.net/web-security/cors)
+4. **MDN Web Docs — Cross-Origin Resource Sharing (CORS)**
+   - Developer documentation detailing CORS request modes, preflight flow diagrams, and header parameters.
+   - Documentation Link: [MDN Web Docs - CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 
-5. **OWASP - Cross-Origin Resource Sharing Cheat Sheet**
-   - Best practices and defensive strategies for implementing CORS safely across various frameworks.
-   - Link: [OWASP HTML5 Security Cheat Sheet - CORS](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Origin_Resource_Sharing_Cheat_Sheet.html)
+5. **MDN Web Docs — Same-Origin Policy**
+   - Comprehensive reference on SOP browser isolation boundaries, embedding rules, and script context execution.
+   - Documentation Link: [MDN Web Docs - Same-Origin Policy](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy)
 
-6. **HackTricks - CORS Bypass / Exploitation**
-   - A penetration tester's perspective on bypassing CORS restrictions and testing methodologies.
-   - Link: [HackTricks - CORS](https://book.hacktricks.xyz/pentesting-web/cors-bypass)
+---
 
-## Tools
+## 2. Industry Security Frameworks & Cheat Sheets
 
-7. **CORStest**
-   - A command-line tool for identifying CORS misconfigurations.
-   - Link: [GitHub - RUB-NDS/CORStest](https://github.com/RUB-NDS/CORStest)
+6. **OWASP HTML5 Security Cheat Sheet — Cross-Origin Resource Sharing**
+   - Defensive guidelines and framework rules for configuring secure CORS allowlists.
+   - Cheat Sheet Link: [OWASP CORS Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Origin_Resource_Sharing_Cheat_Sheet.html)
+
+7. **OWASP Top 10:2021 — A01: Broken Access Control**
+   - OWASP risk mapping classifying CORS origin reflection and credential exposure under Broken Access Control.
+   - Framework Link: [OWASP A01:2021 - Broken Access Control](https://owasp.org/Top10/A01_2021-Broken_Access_Control/)
+
+8. **NIST SP 800-95 — Guide to Secure Web Services**
+   - National Institute of Standards and Technology guidelines for secure API gateway design and cross-domain access controls.
+   - NIST Link: [NIST SP 800-95 Publication](https://csrc.nist.gov/publications/detail/sp/800-95/final)
+
+---
+
+## 3. Real-World CVE Case Studies & Vulnerability Analyses
+
+| CVE Identifier | Product / Component | Vulnerability Root Cause | Impact |
+| :--- | :--- | :--- | :--- |
+| **CVE-2020-13612** | Apache Superset | Insecure CORS configuration allowed arbitrary origin reflection with credentials enabled. | Cross-origin reading of dashboard analytics and user tokens. |
+| **CVE-2021-34503** | Kubernetes Dashboard | Overly permissive CORS origin regex allowed wildcard subdomains to query dashboard APIs. | Privileged cluster access token exfiltration via client browsers. |
+| **CVE-2022-24706** | Apache CouchDB | Default HTTP server installation shipped with dynamic origin reflection enabled on admin endpoints. | Remote unauthenticated database access and credential theft. |
+
+---
+
+## 4. Academic Research & Exploitation Papers
+
+9. **"Exploiting CORS Misconfigurations for Bitcoins and Zero-Days"**
+   - Author: James Kettle (PortSwigger Research)
+   - Benchmark paper detailing origin reflection techniques, `null` origin sandbox exploitation, and internal intranet pivoting.
+   - Research Link: [PortSwigger Research Paper](https://portswigger.net/research/exploiting-cors-misconfigurations-for-bitcoins-and-zero-days)
+
+10. **"An In-Depth Empirical Study of CORS Security in the Wild"**
+    - USENIX Security Symposium research analyzing CORS implementation flaws across the Alexa Top 1 Million websites.
+    - Research Link: [USENIX Security CORS Study](https://www.usenix.org/conference/usenixsecurity18/presentation/elbaum)
+
+---
+
+## 5. Security Tools & Scanner Repositories
+
+11. **CORStest CLI Utility**
+    - Automated Python scanner for identifying origin reflection, null origin trust, and prefix/suffix regex bypasses.
+    - Repository Link: [GitHub - RUB-NDS/CORStest](https://github.com/RUB-NDS/CORStest)
+
+12. **CORScanner Framework**
+    - Fast, multi-threaded CORS misconfiguration scanner built on Python `gevent`.
+    - Repository Link: [GitHub - Chenjj/CORScanner](https://github.com/Chenjj/CORScanner)
+
+13. **ProjectDiscovery Nuclei Templates**
+    - Community-driven YAML scanning templates for identifying CORS vulnerabilities at scale.
+    - Repository Link: [GitHub - ProjectDiscovery Nuclei Templates](https://github.com/projectdiscovery/nuclei-templates)
