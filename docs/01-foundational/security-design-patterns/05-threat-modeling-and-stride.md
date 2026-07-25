@@ -98,7 +98,7 @@ A user initiates a money transfer via `Payment Microservice`, which queries `Acc
 
 ### Step 2: STRIDE Breakdown & Risk Scoring (DREAD Framework)
 
-* **Risk Score Formula:** $\text{Risk} = \frac{\text{Damage} + \text{Reproducibility} + \text{Exploitability} + \text{Affected Users} + \text{Discoverability}}{5}$
+* **Risk Score Formula:** `Risk = (Damage + Reproducibility + Exploitability + Affected Users + Discoverability) / 5`
 
 | ID | DFD Target | Threat Description | STRIDE | Damage (1-10) | Exploitability (1-10) | DREAD Score | Action / Mitigation |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :--- |

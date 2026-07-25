@@ -41,12 +41,12 @@ A digital signature provides **Authentication**, **Integrity**, and **Non-repudi
 
 ### The ECDSA Nonce Leak Catastrophe (Sony PlayStation 3 Attack)
 Standard ECDSA (ANSI X9.62) generates a secret random nonce $k$ for every signature:
-$$r = (k \cdot G)_x \pmod n$$
-$$s = k^{-1}(H(m) + r \cdot d) \pmod n$$
+`r = (k * G)_x mod n`
+`s = k^-1(H(m) + r * d) mod n`
 
 > [!CAUTION]
 > **Sony PS3 Private Key Recovery:** In 2010, Sony implemented ECDSA for PS3 firmware signing but reused the exact same nonce $k$ across multiple signatures! If an attacker obtains two signatures $(r, s_1)$ and $(r, s_2)$ generated with the same nonce $k$, simple modular arithmetic recovers the secret private key $d$ instantly:
-> $$k = \frac{H(m_1) - H(m_2)}{s_1 - s_2} \pmod n \implies d = \frac{s_1 \cdot k - H(m_1)}{r} \pmod n$$
+> `k = (H(m_1) - H(m_2)) / (s_1 - s_2) mod n  =>  d = (s_1 * k - H(m_1)) / r mod n`
 
 ### Why Ed25519 is Superior
 Ed25519 (EdDSA RFC 8032) eliminates this vulnerability entirely by deriving the per-message nonce deterministically:

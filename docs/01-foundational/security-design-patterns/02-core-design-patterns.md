@@ -320,7 +320,7 @@ Modern application compartmentalization relies on layered operating system isola
 
 | Pattern | Security Goal | Primary Threat Mitigated | Complexity | Performance Overhead |
 | :--- | :--- | :--- | :---: | :---: |
-| **Circuit Breaker** | Resilience & Availability | Cascading DoS / Remote Service Collapse | 🟡 Medium | 🟢 Negligible (<1ms) |
+| **Circuit Breaker** | Resilience & Availability | Cascading DoS / Remote Service Collapse | 🟡 Medium | 🟢 Negligible (&lt;1ms) |
 | **Token Bucket Rate Limiting** | Traffic Governance | Brute-force, Scrapers, Volumetric DoS | 🟡 Medium | 🟡 Low (Redis RTT) |
 | **Secure Factory** | Secure by Default | Insecure Initialization & Weak Options | 🟢 Low | 🟢 Zero |
 | **Bulkhead** | Blast Radius Isolation | Resource Exhaustion / Starvation | 🟡 Medium | 🟢 Low |
