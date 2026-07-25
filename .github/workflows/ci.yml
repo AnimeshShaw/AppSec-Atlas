@@ -1,0 +1,60 @@
+name: CI — Quality Checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  link-check:
+    name: Check for Broken Links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: --verbose --no-progress '**/*.md'
+          fail: false
+
+  spellcheck:
+    name: Spellcheck
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run spellcheck
+        uses: streetsidesoftware/cspell-action@v5
+        with:
+          files: "docs/**/*.md"
+          config: ".cspell.json"
+          strict: false
+
+  markdown-lint:
+    name: Markdown Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Lint Markdown files
+        uses: DavidAnson/markdownlint-cli2-action@v14
+        with:
+          globs: "**/*.md"
+          config: ".markdownlint.json"
+
+  docusaurus-build:
+    name: Validate Docusaurus Build
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./website
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: website/package-lock.json
+      - name: Install dependencies
+        run: npm ci
+      - name: Build website
+        run: npm run build
