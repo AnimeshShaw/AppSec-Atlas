@@ -74,7 +74,7 @@ AppSec Atlas is the **only** open-source security knowledge base that covers the
 | [Container & Kubernetes Security](docs/03-cloud-and-infra/container-kubernetes/) | 📋 Planned | Intermediate |
 | [Infrastructure as Code Security](docs/03-cloud-and-infra/iac-security/) | 📋 Planned | Intermediate |
 | [Serverless Security Guide](docs/03-cloud-and-infra/serverless-security/) | 📋 Planned | Intermediate |
-| [CI/CD Pipeline Security](docs/03-cloud-and-infra/cicd-pipeline-security/) | 🚧 In Progress | Intermediate |
+| [CI/CD Pipeline Security](docs/03-cloud-and-infra/cicd-pipeline-security/) | ✅ Available | Intermediate |
 | [Secrets Management Guide](docs/03-cloud-and-infra/secrets-management/) | 📋 Planned | Intermediate |
 
 ### 🤖 [Section 4: AI/ML Security](docs/04-ai-ml-security/) ⭐ *Our Flagship*
