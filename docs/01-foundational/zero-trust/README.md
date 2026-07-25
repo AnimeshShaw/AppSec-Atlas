@@ -1,20 +1,25 @@
-﻿# Zero Trust
+# Zero Trust Architecture
 
-> **Status:** 📋 Coming Soon
-> **Contributions welcome!** See [CONTRIBUTING.md](https://github.com/AnimeshShaw/AppSec-Atlas/blob/main/CONTRIBUTING.md)
+## Overview
+Welcome to the Zero Trust Architecture guide. This module covers the paradigm shift from traditional perimeter-based security to a model where trust is never granted implicitly, and verification is continuous.
 
-This guide is planned but not yet written. Want to help build AppSec Atlas?
+## Prerequisites
+- Basic understanding of network security (firewalls, VPNs).
+- Familiarity with Identity and Access Management (IAM) concepts.
+- Basic knowledge of microservices and cloud infrastructure.
 
-## How to Contribute This Guide
+## Learning Objectives
+- Understand the core principles of Zero Trust (Never Trust, Always Verify, Least Privilege, Assume Breach).
+- Implement Identity and Device Trust mechanisms.
+- Apply Network Microsegmentation using Service Meshes.
+- Establish Continuous Verification and Telemetry.
+- Architect Zero Trust environments in Cloud ecosystems.
 
-1. Check the [guide template](https://github.com/AnimeshShaw/AppSec-Atlas/blob/main/community/templates/guide-template.md)
-2. Open an issue saying you want to write this guide
-3. Fork, write, and submit a PR
-
-## Planned Content
-
-See the [Master Strategy](https://github.com/appsec-atlas/appsec-atlas/blob/main/MASTER_STRATEGY.md) for the full specification of what this guide will cover.
-
----
-
-*[Back to AppSec Atlas](https://github.com/AnimeshShaw/AppSec-Atlas/blob/main/README.md)*
+## Navigation
+- [01 Introduction](01-introduction.md)
+- [02 Identity & Device Trust](02-identity-and-device-trust.md)
+- [03 Network Microsegmentation](03-network-microsegmentation.md)
+- [04 Continuous Verification & Telemetry](04-continuous-verification-and-telemetry.md)
+- [05 Zero Trust Cloud Architecture](05-zero-trust-cloud-architecture.md)
+- [06 Hands-on Lab](06-hands-on-lab.md)
+- [07 References](07-references.md)

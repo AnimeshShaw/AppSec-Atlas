@@ -51,7 +51,7 @@ AppSec Atlas is the **only** open-source security knowledge base that covers the
 | [Secure Coding Practices](docs/01-foundational/secure-coding/) | ✅ Available | Beginner |
 | [Cryptography for Developers](docs/01-foundational/cryptography/) | ✅ Available | Intermediate |
 | [Authentication & Authorization Masterclass](docs/01-foundational/auth-and-authz/) | ✅ Available | Intermediate |
-| [Zero Trust Architecture Guide](docs/01-foundational/zero-trust/) | 📋 Planned | Advanced |
+| [Zero Trust Architecture Guide](docs/01-foundational/zero-trust/) | ✅ Available | Advanced |
 | [Security Design Patterns](docs/01-foundational/security-design-patterns/) | 📋 Planned | Intermediate |
 
 ### 🌐 [Section 2: Web & API Security](docs/02-web-and-api/)
@@ -72,7 +72,7 @@ AppSec Atlas is the **only** open-source security knowledge base that covers the
 |-------|--------|-------|
 | [Cloud Security Fundamentals](docs/03-cloud-and-infra/cloud-security/) | 📋 Planned | Intermediate |
 | [Container & Kubernetes Security](docs/03-cloud-and-infra/container-kubernetes/) | ✅ Available | Intermediate |
-| [Infrastructure as Code Security](docs/03-cloud-and-infra/iac-security/) | 📋 Planned | Intermediate |
+| [Infrastructure as Code Security](docs/03-cloud-and-infra/iac-security/) | ✅ Available | Intermediate |
 | [Serverless Security Guide](docs/03-cloud-and-infra/serverless-security/) | 📋 Planned | Intermediate |
 | [CI/CD Pipeline Security](docs/03-cloud-and-infra/cicd-pipeline-security/) | ✅ Available | Intermediate |
 | [Secrets Management Guide](docs/03-cloud-and-infra/secrets-management/) | ✅ Available | Intermediate |
@@ -85,8 +85,8 @@ AppSec Atlas is the **only** open-source security knowledge base that covers the
 | [Agentic AI Security Guide](docs/04-ai-ml-security/agentic-ai-security/) | ✅ Available | Advanced |
 | [LLM Security & Prompt Injection](docs/04-ai-ml-security/llm-prompt-injection/) | ✅ Available | Intermediate |
 | [ML Model Security & Adversarial Attacks](docs/04-ai-ml-security/ml-model-security/) | 📋 Planned | Advanced |
-| [RAG Security Guide](docs/04-ai-ml-security/rag-security/) | 📋 Planned | Advanced |
-| [AI Red Teaming Playbook](docs/04-ai-ml-security/ai-red-teaming/) | 📋 Planned | Advanced |
+| [RAG Security Guide](docs/04-ai-ml-security/rag-security/) | ✅ Available | Advanced |
+| [AI Red Teaming Playbook](docs/04-ai-ml-security/ai-red-teaming/) | ✅ Available | Advanced |
 | [MCP & Tool-Use Security](docs/04-ai-ml-security/mcp-tool-security/) | 📋 Planned | Advanced |
 
 ### 🔴 [Section 5: Offensive Security](docs/05-offensive/)

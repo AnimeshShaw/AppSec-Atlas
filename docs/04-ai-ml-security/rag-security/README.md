@@ -1,20 +1,27 @@
-﻿# Rag Security
+# Retrieval-Augmented Generation (RAG) Security Guide
 
-> **Status:** 📋 Coming Soon
-> **Contributions welcome!** See [CONTRIBUTING.md](../../../../CONTRIBUTING.md)
+Welcome to the AppSec Atlas guide on Retrieval-Augmented Generation (RAG) Security.
 
-This guide is planned but not yet written. Want to help build AppSec Atlas?
+## Overview
+Retrieval-Augmented Generation (RAG) empowers LLMs with external knowledge bases. However, this architectural pattern introduces new attack surfaces such as indirect prompt injection, data poisoning, and cross-tenant data leakage via vector databases. This guide dives deep into attacking and securing RAG applications.
 
-## How to Contribute This Guide
+## Prerequisites
+- Basic understanding of Large Language Models (LLMs) and Prompt Engineering.
+- Familiarity with Vector Databases (e.g., Pinecone, Qdrant, Chroma).
+- Proficiency in Python, specifically frameworks like LangChain or LlamaIndex.
 
-1. Check the [guide template](../../../../community/templates/guide-template.md)
-2. Open an issue saying you want to write this guide
-3. Fork, write, and submit a PR
+## Learning Objectives
+1. Understand the RAG architecture and its threat landscape.
+2. Exploit Document Poisoning and Indirect Injections in RAG setups.
+3. Implement strict multi-tenancy and Metadata filtering (Row-Level Security) in Vector Databases.
+4. Apply Retrieval Sanitization and Guardrails before context injection.
+5. Evaluate RAG security using specialized frameworks.
 
-## Planned Content
-
-See the [Master Strategy](https://github.com/appsec-atlas/appsec-atlas/blob/main/MASTER_STRATEGY.md) for the full specification of what this guide will cover.
-
----
-
-*[Back to AppSec Atlas](../../../../README.md)*
+## Navigation
+- [01 Introduction](01-introduction.md)
+- [02 RAG Poisoning & Indirect Injection](02-rag-poisoning-and-indirect-injection.md)
+- [03 Vector DB Access Control](03-vector-db-access-control.md)
+- [04 Retrieval Sanitization & Guardrails](04-retrieval-sanitization-and-guardrails.md)
+- [05 RAG Security Evaluations](05-rag-security-evaluations.md)
+- [06 Hands-on Lab](06-hands-on-lab.md)
+- [07 References](07-references.md)
