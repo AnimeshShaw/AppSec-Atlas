@@ -1,42 +1,79 @@
 ---
-title: "CI/CD Pipeline Security Guide"
-description: "CI/CD Pipeline Security focuses on securing continuous integration and deployment pipelines against supply chain attacks, pipeline poisoning, secret l..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Cicd Pipeline Security", "Readme.Md"]
+title: "CI/CD Pipeline Security Masterclass"
+description: "Master continuous integration and deployment security: supply chain threat landscape, GitHub Actions hardening, dependency confusion, OIDC auth, and Sigstore/Cosign image signing."
+keywords: ["AppSec", "Cybersecurity", "CI/CD Security", "GitHub Actions Security", "Supply Chain Security", "SLSA Framework", "Sigstore Cosign", "Dependency Confusion", "OIDC AWS"]
 ---
 
-# CI/CD Pipeline Security Guide
+# CI/CD Pipeline Security Masterclass
 
 > **Section:** ☁️ Cloud & Infrastructure Security  
-> **Level:** Intermediate  
-> **Time to Complete:** ~60 minutes  
-> **Prerequisites:** Basic knowledge of GitHub Actions / GitLab CI, Git, and cloud infrastructure  
+> **Level:** Advanced / Intermediate  
+> **Time to Complete:** ~90 minutes  
+> **Prerequisites:** Fundamentals of Git, GitHub Actions or GitLab CI, Docker, and basic Cloud IAM (AWS/GCP/Azure)  
 > **Status:** ✅ Complete & Production-Ready
 
 ---
 
 ## 🎯 Overview & Learning Objectives
 
-CI/CD Pipeline Security focuses on securing continuous integration and deployment pipelines against supply chain attacks, pipeline poisoning, secret leakage, and unauthorized artifact tampering. Modern software delivery relies heavily on automated pipelines; compromised build agents or malicious pull requests can lead to instant production compromise.
+Continuous Integration and Continuous Deployment (CI/CD) pipelines serve as the central nervous system of modern software engineering. However, because build engines possess elevated privileges—accessing source code, cloud deployment infrastructure, production registries, and API keys—they have become the primary attack surface for supply chain compromised adversaries. 
 
-By the end of this practical guide, you will be able to:
-- [x] **Understand** supply chain threat vectors (SLSA framework, SolarWinds, XZ Utils).
-- [x] **Identify** vulnerable GitHub Actions patterns (`pull_request_target`, unpinned actions, script injections).
-- [x] **Harden** CI/CD pipelines using OIDC authentication (eliminating static cloud credentials).
-- [x] **Prevent** dependency confusion and typosquatting attacks in npm, PyPI, and Maven.
-- [x] **Implement** cryptographic container image signing using Sigstore/Cosign.
-- [x] **Solve** a hands-on lab: Vulnerable GitHub Actions workflow + Poisoned PR exploit + Secure Fix.
+Instead of attacking heavily defended production clusters directly, sophisticated threat actors compromise the CI/CD pipeline to inject malicious backdoors into legitimate software updates (e.g., SolarWinds, Codecov, XZ Utils).
+
+```mermaid
+flowchart TD
+    subgraph Developer Space
+        DEV[Developer Commits Code] --> PR[Pull Request Created]
+    end
+
+    subgraph CI/CD Security Gate
+        PR --> LINT[Action Lint & Secret Scan]
+        LINT --> SAST[SAST & SCA Audit]
+        SAST --> OIDC[OIDC Cloud Authentication]
+    end
+
+    subgraph Ephemeral Build Runner
+        OIDC --> BUILD[Hermetic ephemereal Build]
+        BUILD --> SIGN[Sigstore / Cosign Signing]
+    end
+
+    subgraph Immutable Registry & Cloud
+        SIGN --> REG[OCI Container Registry]
+        REG --> KYV[Kubernetes Admission Verification]
+        KYV --> PROD[Production Deployment]
+    end
+
+    style LINT fill:#2d3748,stroke:#4a5568,color:#fff
+    style SAST fill:#2d3748,stroke:#4a5568,color:#fff
+    style OIDC fill:#2b6cb0,stroke:#3182ce,color:#fff
+    style SIGN fill:#2b6cb0,stroke:#3182ce,color:#fff
+    style KYV fill:#2f855a,stroke:#38a169,color:#fff
+```
+
+By completing this masterclass, you will be able to:
+- [x] **Analyze** supply chain threat vectors using the OWASP Top 10 for CI/CD Security and the SLSA (Supply-chain Levels for Software Artifacts v1.0) framework.
+- [x] **Detect and Remediate** Poisoned Pipeline Execution (PPE), insecure `pull_request_target` triggers, third-party tag spoofing, and inline shell script injection vulnerabilities in GitHub Actions.
+- [x] **Eliminate** long-lived cloud credentials from pipeline secrets by implementing federated OpenID Connect (OIDC) authentication with AWS, GCP, and Azure.
+- [x] **Prevent** dependency confusion, namespace squatting, and lockfile tampering across npm, PyPI, Go, and Maven ecosystems.
+- [x] **Implement** cryptographic artifact and container image signing using Sigstore/Cosign with automated admission control verification via Kyverno.
+- [x] **Enforce** policy-as-code governance using Semgrep, TruffleHog, StepSecurity Harden-Runner, Conftest (OPA Rego), and strict GitHub branch protection rules.
+- [x] **Execute** a hands-on vulnerability lab involving an end-to-end PPE exploit, secret exfiltration PoC script, and secure workflow remediation.
 
 ---
 
 ## 📚 Module Navigation
 
-1. **[01. Overview & Supply Chain Threat Landscape](01-introduction.md)** — Introduction to CI/CD supply chain attacks, the SLSA framework (Supply-chain Levels for Software Artifacts), and real-world breach case studies.
-2. **[02. GitHub Actions Security Hardening](02-github-actions-hardening.md)** — Insecure `pull_request_target`, action pinning by commit SHA, untrusted inline script execution, and OIDC federated authentication for AWS/GCP.
-3. **[03. Secrets, Dependencies & Artifact Signing](03-secrets-and-dependency-confusion.md)** — Dependency confusion prevention (npm, PyPI), automated secret scanning (TruffleHog), and container signing via Sigstore/Cosign.
-4. **[04. Pipeline Security Gates & Branch Protection](04-defenses-and-pipeline-rules.md)** — Enforcing strict branch protection rules, `CODEOWNERS` policies, and automated SAST/DAST/SCA security gates in pipelines.
-5. **[05. Hands-On Vulnerability Lab](05-hands-on-lab.md)** — Self-contained Lab: Vulnerable Workflow + Poisoned PR Exploit Payload + Secure Remediation YAML.
-6. **[06. References & Tooling](06-references.md)** — GitHub Security Hardening Guides, SLSA specification, StepSecurity Harden-Runner, and Cosign references.
+1. **[01. Overview, Architecture & Supply Chain Threat Landscape](01-introduction.md)** — CI/CD architecture breakdown, OWASP Top 10 CI/CD Security Risks, SLSA v1.0 specification, and deep-dives into SolarWinds, Codecov, XZ Utils, and CircleCI breaches.
+2. **[02. GitHub Actions & Runner Security Hardening](02-github-actions-hardening.md)** — Poisoned Pipeline Execution (PPE), unsafe `pull_request_target` patterns, action SHA pinning, context variable script injection, and self-hosted runner isolation.
+3. **[03. Secrets Management & Dependency Supply Chain](03-secrets-and-dependency-confusion.md)** — Secret scanning with TruffleHog and Gitleaks, dependency confusion attacks, namespace scope reservation (`.npmrc`, `pip.conf`), and multi-language secure package management (Node.js, Python, Go, Java).
+4. **[04. OIDC Authentication & Cryptographic Artifact Signing](04-oidc-and-artifact-signing.md)** — Short-lived OIDC federated credentials for AWS/GCP/Azure, Sigstore/Cosign keyless and key-based image signing, SLSA provenance generation, and Kubernetes admission controller enforcement.
+5. **[05. Pipeline Security Gates & Governance](05-pipeline-security-gates.md)** — Complete production GitHub Actions security pipeline template, Policy-as-Code using Conftest (OPA Rego), GitHub branch protection, `CODEOWNERS`, and workflow linters (`zizmor`, `actionlint`).
+6. **[06. Hands-On Vulnerability Lab](06-hands-on-lab.md)** — Complete runnable vulnerability lab: Vulnerable GitHub Actions workflow + Python PPE exploit script exfiltrating secrets + secure remediated workflow + automated Python pipeline security audit script.
+7. **[07. References & Standards](07-references.md)** — Framework specifications, CVE bibliography, open-source security tool repository links, and regulatory standards (NIST SP 800-218 SSDF, CIS Benchmarks).
 
 ---
 
-*Begin reading: [01. Overview & Supply Chain Threat Landscape →](01-introduction.md)*
+> [!TIP]
+> **Getting Started:** If you are auditing an existing engineering pipeline, start with [02. GitHub Actions & Runner Security Hardening](02-github-actions-hardening.md) to inspect your workflow triggers and script injection points immediately.
+
+*Begin reading: [01. Overview, Architecture & Supply Chain Threat Landscape →](01-introduction.md)*
