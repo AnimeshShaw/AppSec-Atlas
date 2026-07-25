@@ -1,3 +1,9 @@
+---
+title: "07. References and Further Reading"
+description: "To continue exploring secrets management, review the following authoritative resources and industry standards:"
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Secrets Management", "07 References.Md"]
+---
+
 # 07. References and Further Reading
 
 To continue exploring secrets management, review the following authoritative resources and industry standards:

@@ -1,4 +1,13 @@
+---
+title: "01 - Introduction to Browser Extension Security"
+description: "Browser extensions are prime targets for attackers because they can read and modify all data on websites the user visits, capture credentials, and man..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Browser Extension Security", "01 Introduction.Md"]
+---
+
 # 01 - Introduction to Browser Extension Security
+
+> [!TIP]
+> **Industry Best Practice:** Always align this domain with standard frameworks like OWASP, NIST, or CIS benchmarks for optimal security posture.
 
 ## Threat Landscape
 Browser extensions are prime targets for attackers because they can read and modify all data on websites the user visits, capture credentials, and manipulate transactions. A malicious or compromised extension effectively bypasses traditional web security boundaries like the Same-Origin Policy (SOP).

@@ -1,3 +1,9 @@
+---
+title: "06. Hands-On Lab: Hardcoded Secrets to Vault Integration"
+description: "In this lab, you will start with a vulnerable Python application containing a hardcoded API key. You will exploit this vulnerability, then remediate i..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Secrets Management", "06 Hands On Lab.Md"]
+---
+
 # 06. Hands-On Lab: Hardcoded Secrets to Vault Integration
 
 In this lab, you will start with a vulnerable Python application containing a hardcoded API key. You will exploit this vulnerability, then remediate it by securely injecting the secret via environment variables read from HashiCorp Vault.

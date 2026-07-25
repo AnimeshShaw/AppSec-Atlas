@@ -1,8 +1,17 @@
+---
+title: "01. Introduction to Prompt Injection"
+description: "Prompt Injection is a class of vulnerabilities unique to Large Language Model (LLM) applications. It occurs when untrusted user input alters the inten..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "04 Ai Ml Security", "Llm Prompt Injection", "01 Introduction.Md"]
+---
+
 # 01. Introduction to Prompt Injection
 
 Prompt Injection is a class of vulnerabilities unique to Large Language Model (LLM) applications. It occurs when untrusted user input alters the intended behavior, control logic, or safety guardrails established by the application developer.
 
 ---
+
+> [!TIP]
+> **Industry Best Practice:** Always align this domain with standard frameworks like OWASP, NIST, or CIS benchmarks for optimal security posture.
 
 ## 1. What is Prompt Injection?
 

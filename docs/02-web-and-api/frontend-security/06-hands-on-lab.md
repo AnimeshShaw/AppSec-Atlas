@@ -1,3 +1,9 @@
+---
+title: "06. Hands-On Lab: Exploiting and Securing a React App"
+description: "In this lab, we will identify a DOM XSS vulnerability in a React application that leads to the theft of a JWT stored in LocalStorage, and then apply p..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Frontend Security", "06 Hands On Lab.Md"]
+---
+
 # 06. Hands-On Lab: Exploiting and Securing a React App
 
 In this lab, we will identify a DOM XSS vulnerability in a React application that leads to the theft of a JWT stored in LocalStorage, and then apply proper remediations.

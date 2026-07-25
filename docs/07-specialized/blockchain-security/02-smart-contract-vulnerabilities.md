@@ -1,3 +1,9 @@
+---
+title: "Chapter 2: Smart Contract Vulnerabilities"
+description: "Reentrancy is arguably the most famous smart contract vulnerability, responsible for the 2016 DAO hack. It occurs when a contract calls an external un..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Blockchain Security", "02 Smart Contract Vulnerabilities.Md"]
+---
+
 # Chapter 2: Smart Contract Vulnerabilities
 
 ## 2.1 Reentrancy

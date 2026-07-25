@@ -1,3 +1,9 @@
+---
+title: "Hands-on Full Stack Lab"
+description: "This lab presents a self-contained, multi-stage Capture The Flag scenario. You must chain together multiple vulnerabilities to gain full administrativ..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "09 Hands On", "Ctf Challenges", "06 Hands On Lab.Md"]
+---
+
 # Hands-on Full Stack Lab
 
 ## Objective

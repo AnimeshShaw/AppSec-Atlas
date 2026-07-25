@@ -1,3 +1,8 @@
+---
+title: "06 - Hands-On Lab: Building a DevSecOps Pipeline"
+description: "Comprehensive guide and best practices for 06 - Hands-On Lab: Building a DevSecOps Pipeline in the devsecops-handbook section of AppSec Atlas. Learn how to secu"
+keywords: ['devsecops-handbook', '06---hands-on-lab:-building-a-devsecops-pipeline', 'appsec', 'security', 'compliance']
+---
 # 06 - Hands-On Lab: Building a DevSecOps Pipeline
 
 In this lab, you will create a self-contained DevSecOps GitHub Actions pipeline for a dummy Node.js application.
@@ -63,3 +68,7 @@ To pass the Quality Gate, you must remediate the findings.
 3. **Fix the SCA issue:** Update `express` to `^4.18.2` and change the Docker base image to a modern, supported version (e.g., `node:20-alpine`).
 
 Push the changes. The pipeline will re-run, pass all checks, and allow the PR to be merged!
+
+
+> [!TIP]
+> **Pro Tip:** Always automate your security and compliance checks early in the pipeline to reduce manual overhead and ensure continuous compliance.

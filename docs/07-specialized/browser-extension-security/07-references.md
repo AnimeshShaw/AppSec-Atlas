@@ -1,3 +1,9 @@
+---
+title: "07 - References"
+description: "Comprehensive security guide and practical technical implementation handbook."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Browser Extension Security", "07 References.Md"]
+---
+
 # 07 - References
 
 - [Chrome Extension Manifest V3 Security Guide](https://developer.chrome.com/docs/extensions/mv3/security/)

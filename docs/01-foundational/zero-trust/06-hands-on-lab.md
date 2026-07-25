@@ -1,3 +1,9 @@
+---
+title: "Hands-on Lab: From Perimeter to Zero Trust"
+description: "A vulnerable application trusts all requests originating from the internal network (`10.0.0.0/8`)."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Zero Trust", "06 Hands On Lab.Md"]
+---
+
 # Hands-on Lab: From Perimeter to Zero Trust
 
 ## Scenario

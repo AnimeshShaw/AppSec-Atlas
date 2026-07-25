@@ -1,3 +1,9 @@
+---
+title: "References & Further Practice"
+description: "Once you have mastered the local CTF challenges, continue your practice with these industry-standard vulnerable applications:"
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "09 Hands On", "Ctf Challenges", "07 References.Md"]
+---
+
 # References & Further Practice
 
 ## External Vulnerable Labs

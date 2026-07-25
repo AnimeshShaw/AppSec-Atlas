@@ -1,3 +1,9 @@
+---
+title: "05. Hands-On Vulnerability Lab"
+description: "In this hands-on lab, you will audit a **vulnerable GitHub Actions workflow**, understand how a malicious Pull Request can execute script injection, a..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Cicd Pipeline Security", "05 Hands On Lab.Md"]
+---
+
 # 05. Hands-On Vulnerability Lab
 
 In this hands-on lab, you will audit a **vulnerable GitHub Actions workflow**, understand how a malicious Pull Request can execute script injection, and refactor the workflow to be secure.

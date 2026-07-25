@@ -1,3 +1,9 @@
+---
+title: "CORS & Same-Origin Policy"
+description: "The Same-Origin Policy (SOP) is a fundamental security concept in modern web browsers that restricts how a document or script loaded by one origin can..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Cors And Sop", "Readme.Md"]
+---
+
 # CORS & Same-Origin Policy
 
 ## Overview

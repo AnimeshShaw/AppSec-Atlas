@@ -1,3 +1,8 @@
+---
+title: "01 - Introduction to NIST CSF 2.0"
+description: "Comprehensive guide and best practices for 01 - Introduction to NIST CSF 2.0 in the nist-csf section of AppSec Atlas. Learn how to secure your infrastructure."
+keywords: ['nist-csf', '01---introduction-to-nist-csf-2.0', 'appsec', 'security', 'compliance']
+---
 # 01 - Introduction to NIST CSF 2.0
 
 ## The Evolution of the Framework
@@ -34,3 +39,7 @@ Profiles are a customization of the Core for a specific organization. They align
 - **Current Profile:** Indicates the cybersecurity outcomes currently being achieved.
 - **Target Profile:** Indicates the outcomes needed to achieve the desired cybersecurity risk management goals.
 Comparing the Current and Target Profiles reveals gaps to be addressed to meet cybersecurity risk management objectives.
+
+
+> [!TIP]
+> **Pro Tip:** Always automate your security and compliance checks early in the pipeline to reduce manual overhead and ensure continuous compliance.

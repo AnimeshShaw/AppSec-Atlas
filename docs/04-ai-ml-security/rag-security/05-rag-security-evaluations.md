@@ -1,3 +1,9 @@
+---
+title: "05 - RAG Security Evaluations"
+description: "Automated red-teaming and security evaluations are critical for validating RAG robustness."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "04 Ai Ml Security", "Rag Security", "05 Rag Security Evaluations.Md"]
+---
+
 # 05 - RAG Security Evaluations
 
 ## Evaluating RAG Security

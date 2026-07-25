@@ -1,9 +1,18 @@
+---
+title: "Cloud Native Secrets Managers"
+description: "Explore native secret management solutions in AWS, GCP, and Azure, including IAM integration, automated rotation, and usage via Python, Node.js, and Go SDKs."
+keywords: ["aws secrets manager", "gcp secret manager", "azure key vault", "cloud security"]
+---
 # 03. Cloud Native Secrets Managers
 
-If your infrastructure is entirely within a single cloud provider, their native secret management solutions offer tight IAM integration and simplified operations compared to managing a self-hosted HashiCorp Vault cluster.
+> [!NOTE]
+> If your infrastructure is entirely within a single cloud provider, their native secret management solutions offer tight IAM integration and simplified operations compared to managing a self-hosted HashiCorp Vault cluster. They reduce operational overhead while providing excellent security guarantees.
 
 ## AWS Secrets Manager
-AWS Secrets Manager provides native integration with RDS for automatic password rotation, granular IAM policies, and cross-account access.
+AWS Secrets Manager provides native integration with RDS for automatic password rotation, granular IAM policies, and cross-account access. 
+
+> [!TIP]
+> AWS Secrets Manager is different from AWS Systems Manager Parameter Store. While Parameter Store `SecureString` parameters are cheaper, Secrets Manager offers native rotation capabilities and cross-account sharing.
 
 ### Python (Boto3)
 ```python

@@ -1,3 +1,9 @@
+---
+title: "04. Rate Limiting, Throttling & Auth"
+description: "Without rate limiting and secure token handling, APIs fall victim to resource exhaustion, credential stuffing, and token manipulation attacks (OWASP A..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Api Security", "04 Rate Limiting And Throttling.Md"]
+---
+
 # 04. Rate Limiting, Throttling & Auth
 
 Without rate limiting and secure token handling, APIs fall victim to resource exhaustion, credential stuffing, and token manipulation attacks (OWASP API2 & API4).

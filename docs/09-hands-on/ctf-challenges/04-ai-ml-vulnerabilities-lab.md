@@ -1,3 +1,9 @@
+---
+title: "AI & ML Vulnerabilities Lab"
+description: "system_prompt = 'You are a helpful customer service bot. The secret company password is 'flag{pr0mpt_h4ck3d}'.'"
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "09 Hands On", "Ctf Challenges", "04 Ai Ml Vulnerabilities Lab.Md"]
+---
+
 # AI & ML Vulnerabilities Lab
 
 ## 1. Direct Prompt Injection

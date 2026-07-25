@@ -1,3 +1,8 @@
+---
+title: "Implementing Data Subject Rights"
+description: "Comprehensive guide and best practices for Implementing Data Subject Rights in the gdpr-technical section of AppSec Atlas. Learn how to secure your infrastructu"
+keywords: ['gdpr-technical', 'implementing-data-subject-rights', 'appsec', 'security', 'compliance']
+---
 # Implementing Data Subject Rights
 
 GDPR grants individuals specific rights regarding their personal data. Implementing these requires robust API endpoints and data orchestration.
@@ -75,3 +80,7 @@ app.post('/api/v1/users/:id/forget', async (req, res) => {
 
 ## Article 20: Right to Data Portability
 Users can receive their data in a "structured, commonly used and machine-readable format" (e.g., JSON, XML, CSV). The DSAR JSON export example above often satisfies this requirement.
+
+
+> [!TIP]
+> **Pro Tip:** Always automate your security and compliance checks early in the pipeline to reduce manual overhead and ensure continuous compliance.

@@ -1,3 +1,9 @@
+---
+title: "06. Hands-On Lab: Firmware Analyzer & Hardcoded Secret Detector"
+description: "In this lab, we will build a Python tool that simulates the process of extracting an IoT firmware image and statically analyzing it for hardcoded secr..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Iot Security", "06 Hands On Lab.Md"]
+---
+
 # 06. Hands-On Lab: Firmware Analyzer & Hardcoded Secret Detector
 
 In this lab, we will build a Python tool that simulates the process of extracting an IoT firmware image and statically analyzing it for hardcoded secrets, a common flaw in insecure IoT devices. 

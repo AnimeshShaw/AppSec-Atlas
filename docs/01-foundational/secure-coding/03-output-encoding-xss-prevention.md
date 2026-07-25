@@ -1,3 +1,9 @@
+---
+title: "Chapter 3: Output Encoding & XSS Prevention"
+description: "To prevent Cross-Site Scripting (XSS), user input must be encoded *before* being rendered. The type of encoding depends on the context (HTML body, att..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Secure Coding", "03 Output Encoding Xss Prevention.Md"]
+---
+
 # Chapter 3: Output Encoding & XSS Prevention
 
 ## Context-Aware Encoding

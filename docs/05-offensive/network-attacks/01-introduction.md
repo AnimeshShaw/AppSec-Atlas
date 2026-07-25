@@ -1,4 +1,13 @@
+---
+title: "01 - Introduction & Theory"
+description: "The OSI (Open Systems Interconnection) model breaks network communication down into 7 layers. Security must be applied at multiple layers to be effect..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Network Attacks", "01 Introduction.Md"]
+---
+
 # 01 - Introduction & Theory
+
+> [!TIP]
+> **Industry Best Practice:** Always align this domain with standard frameworks like OWASP, NIST, or CIS benchmarks for optimal security posture.
 
 ## OSI Model Security
 The OSI (Open Systems Interconnection) model breaks network communication down into 7 layers. Security must be applied at multiple layers to be effective.

@@ -1,3 +1,8 @@
+---
+title: "03 - Policy as Code & Compliance Automation"
+description: "Comprehensive guide and best practices for 03 - Policy as Code & Compliance Automation in the devsecops-handbook section of AppSec Atlas. Learn how to secure yo"
+keywords: ['devsecops-handbook', '03---policy-as-code-&-compliance-automation', 'appsec', 'security', 'compliance']
+---
 # 03 - Policy as Code & Compliance Automation
 
 Policy as Code (PaC) involves writing rules in a high-level programming language to manage and automate policies. This ensures that infrastructure, deployments, and configurations are secure and compliant before they are provisioned.
@@ -71,3 +76,7 @@ By organizing your policies by framework, you can automatically generate complia
 - **SOC 2 CC6.1:** Access controls (e.g., Block public S3 buckets, enforce IAM MFA).
 - **ISO 27001 A.14.2.5:** Secure system engineering principles (e.g., Enforce container immutability, vulnerability scanning in CI/CD).
 - **NIST CSF PR.DS-1:** Data-at-rest is protected (e.g., Enforce RDS encryption, S3 encryption).
+
+
+> [!TIP]
+> **Pro Tip:** Always automate your security and compliance checks early in the pipeline to reduce manual overhead and ensure continuous compliance.

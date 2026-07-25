@@ -1,3 +1,9 @@
+---
+title: "05 - Post-Quantum Cryptography (PQC)"
+description: "Quantum computers leverage quantum mechanics to process information in ways classical computers cannot. While currently in their infancy, cryptographi..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Cryptography", "05 Post Quantum Cryptography.Md"]
+---
+
 # 05 - Post-Quantum Cryptography (PQC)
 
 Quantum computers leverage quantum mechanics to process information in ways classical computers cannot. While currently in their infancy, cryptographically relevant quantum computers (CRQCs) threaten the foundation of modern digital security.

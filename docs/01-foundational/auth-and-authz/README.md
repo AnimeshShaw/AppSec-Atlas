@@ -1,3 +1,9 @@
+---
+title: "Authentication & Authorization Masterclass"
+description: "Welcome to the **Authentication & Authorization Masterclass**. This module covers the foundational principles and advanced security patterns for ident..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Auth And Authz", "Readme.Md"]
+---
+
 # Authentication & Authorization Masterclass
 
 Welcome to the **Authentication & Authorization Masterclass**. This module covers the foundational principles and advanced security patterns for identity management, access control, and secure token handling.

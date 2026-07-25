@@ -1,3 +1,8 @@
+---
+title: "Hands-On Lab: Implementing GDPR Controls"
+description: "Comprehensive guide and best practices for Hands-On Lab: Implementing GDPR Controls in the gdpr-technical section of AppSec Atlas. Learn how to secure your infr"
+keywords: ['gdpr-technical', 'hands-on-lab:-implementing-gdpr-controls', 'appsec', 'security', 'compliance']
+---
 # Hands-On Lab: Implementing GDPR Controls
 
 In this lab, we will remediate a non-compliant Python script that stores plain-text PII and fails to handle the "Right to be Forgotten".
@@ -89,3 +94,7 @@ if __name__ == "__main__":
 
 ### Lab Verification
 Run the `secure_app.py`. You should see that Alice's original email and SSN are no longer recoverable from the database, satisfying GDPR Article 17.
+
+
+> [!TIP]
+> **Pro Tip:** Always automate your security and compliance checks early in the pipeline to reduce manual overhead and ensure continuous compliance.

@@ -1,4 +1,13 @@
+---
+title: "01 - Introduction to Same-Origin Policy (SOP)"
+description: "In web security, an **origin** is defined by the combination of three components of a URI:"
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Cors And Sop", "01 Introduction.Md"]
+---
+
 # 01 - Introduction to Same-Origin Policy (SOP)
+
+> [!TIP]
+> **Industry Best Practice:** Always align this domain with standard frameworks like OWASP, NIST, or CIS benchmarks for optimal security posture.
 
 ## What is an Origin?
 In web security, an **origin** is defined by the combination of three components of a URI:

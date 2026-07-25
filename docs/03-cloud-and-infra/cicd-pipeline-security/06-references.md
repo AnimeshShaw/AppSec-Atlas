@@ -1,3 +1,9 @@
+---
+title: "06. References & Tooling"
+description: "Authoritative resources, security guidelines, and open-source tools for CI/CD Pipeline Security."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Cicd Pipeline Security", "06 References.Md"]
+---
+
 # 06. References & Tooling
 
 Authoritative resources, security guidelines, and open-source tools for CI/CD Pipeline Security.

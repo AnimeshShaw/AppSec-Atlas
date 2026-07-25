@@ -1,3 +1,9 @@
+---
+title: "03 - Vector DB Access Control"
+description: "In a multi-tenant application (e.g., a SaaS AI assistant), storing documents from all users in a single vector collection without strict isolation lea..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "04 Ai Ml Security", "Rag Security", "03 Vector Db Access Control.Md"]
+---
+
 # 03 - Vector DB Access Control
 
 ## Multi-tenancy in Vector DBs

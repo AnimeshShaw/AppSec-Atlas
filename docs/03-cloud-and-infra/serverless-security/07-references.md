@@ -1,3 +1,9 @@
+---
+title: "07 - References and Further Reading"
+description: "To deepen your understanding of Serverless Security and stay updated with the latest threats and mitigation strategies, refer to the following industr..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Serverless Security", "07 References.Md"]
+---
+
 # 07 - References and Further Reading
 
 To deepen your understanding of Serverless Security and stay updated with the latest threats and mitigation strategies, refer to the following industry standards, guidelines, and documentation.

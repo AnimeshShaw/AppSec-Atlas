@@ -1,3 +1,9 @@
+---
+title: "02 - AWS Security Hardening"
+description: "Amazon Web Services (AWS) is the most widely adopted cloud platform, making it a frequent target for attackers. This section covers critical security ..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Cloud Security", "02 Aws Security Hardening.Md"]
+---
+
 # 02 - AWS Security Hardening
 
 Amazon Web Services (AWS) is the most widely adopted cloud platform, making it a frequent target for attackers. This section covers critical security controls in AWS.

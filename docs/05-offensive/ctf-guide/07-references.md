@@ -1,3 +1,9 @@
+---
+title: "07 - CTF References & Resources 📚"
+description: "To continue your journey in offensive security and CTFs, bookmark these essential platforms, documentation sites, and practice arenas."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Ctf Guide", "07 References.Md"]
+---
+
 # 07 - CTF References & Resources 📚
 
 To continue your journey in offensive security and CTFs, bookmark these essential platforms, documentation sites, and practice arenas.

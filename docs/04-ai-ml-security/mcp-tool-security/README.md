@@ -1,3 +1,9 @@
+---
+title: "Model Context Protocol (MCP) & Tool-Use Security"
+description: "Welcome to the MCP & Tool-Use Security guide. This module covers the security implications of integrating AI assistants with external tools via the Mo..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "04 Ai Ml Security", "Mcp Tool Security", "Readme.Md"]
+---
+
 # Model Context Protocol (MCP) & Tool-Use Security
 
 Welcome to the MCP & Tool-Use Security guide. This module covers the security implications of integrating AI assistants with external tools via the Model Context Protocol (MCP) and custom tool execution environments.

@@ -1,3 +1,9 @@
+---
+title: "05 - Technical Phishing Defenses"
+description: "Beyond email authentication (DMARC) and user awareness, organizations must implement technical controls to analyze payloads and monitor the external t..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Social Engineering", "05 Technical Phishing Defenses.Md"]
+---
+
 # 05 - Technical Phishing Defenses
 
 Beyond email authentication (DMARC) and user awareness, organizations must implement technical controls to analyze payloads and monitor the external threat landscape.

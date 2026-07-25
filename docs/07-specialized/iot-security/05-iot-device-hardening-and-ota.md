@@ -1,3 +1,9 @@
+---
+title: "05. IoT Device Hardening & Secure OTA"
+description: "Building on the hardware primitives from the previous chapter, we must implement robust operational security at the firmware and application level. Th..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Iot Security", "05 Iot Device Hardening And Ota.Md"]
+---
+
 # 05. IoT Device Hardening & Secure OTA
 
 Building on the hardware primitives from the previous chapter, we must implement robust operational security at the firmware and application level. The two most critical aspects are securing the Over-The-Air (OTA) update process and hardening the device's attack surface before deployment.

@@ -1,3 +1,9 @@
+---
+title: "04. Model Intellectual Property & Extraction Defense"
+description: "Model extraction (stealing) occurs when an adversary queries an ML inference API repeatedly to train a surrogate model that mirrors the proprietary mo..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "04 Ai Ml Security", "Ml Model Security", "04 Model Intellectual Property Protection.Md"]
+---
+
 # 04. Model Intellectual Property & Extraction Defense
 
 Model extraction (stealing) occurs when an adversary queries an ML inference API repeatedly to train a surrogate model that mirrors the proprietary model's behavior.

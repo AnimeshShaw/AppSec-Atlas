@@ -1,3 +1,9 @@
+---
+title: "02 - CORS Mechanics and Headers"
+description: "Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other th..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Cors And Sop", "02 Cors Mechanics And Headers.Md"]
+---
+
 # 02 - CORS Mechanics and Headers
 
 Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources.

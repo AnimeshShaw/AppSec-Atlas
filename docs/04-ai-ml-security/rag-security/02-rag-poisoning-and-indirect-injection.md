@@ -1,3 +1,9 @@
+---
+title: "02 - RAG Poisoning and Indirect Injection"
+description: "Data poisoning in RAG involves injecting malicious content into the knowledge base. If an attacker can upload a CV or a support ticket that gets inges..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "04 Ai Ml Security", "Rag Security", "02 Rag Poisoning And Indirect Injection.Md"]
+---
+
 # 02 - RAG Poisoning and Indirect Injection
 
 ## Document Poisoning

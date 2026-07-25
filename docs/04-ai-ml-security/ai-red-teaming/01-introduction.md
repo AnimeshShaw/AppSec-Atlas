@@ -1,8 +1,17 @@
+---
+title: "01. Overview & AI Red Teaming Methodology"
+description: "AI Red Teaming differs fundamentally from traditional web penetration testing. While software pentesting looks for deterministic bugs (e.g., SQL injec..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "04 Ai Ml Security", "Ai Red Teaming", "01 Introduction.Md"]
+---
+
 # 01. Overview & AI Red Teaming Methodology
 
 AI Red Teaming differs fundamentally from traditional web penetration testing. While software pentesting looks for deterministic bugs (e.g., SQL injection, memory corruption), AI Red Teaming evaluates **probabilistic systems** for unexpected behaviors, safety failures, and prompt injection vulnerabilities.
 
 ---
+
+> [!TIP]
+> **Industry Best Practice:** Always align this domain with standard frameworks like OWASP, NIST, or CIS benchmarks for optimal security posture.
 
 ## 1. AI Red Teaming Lifecycle (NIST AI 100-2 / MITRE ATLAS)
 

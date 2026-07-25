@@ -1,3 +1,9 @@
+---
+title: "03 - Azure and GCP Security"
+description: "While AWS uses IAM policies attached to users and roles, Azure and GCP have distinct but conceptually similar models for handling identity, network se..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Cloud Security", "03 Azure And Gcp Security.Md"]
+---
+
 # 03 - Azure and GCP Security
 
 While AWS uses IAM policies attached to users and roles, Azure and GCP have distinct but conceptually similar models for handling identity, network security, and infrastructure configuration.

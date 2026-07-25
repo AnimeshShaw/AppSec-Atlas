@@ -1,3 +1,9 @@
+---
+title: "LLM Security & Prompt Injection Guide"
+description: "Prompt Injection is the **#1 vulnerability in Large Language Model (LLM) applications** (OWASP LLM01:2025). It occurs when an attacker manipulates the..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "04 Ai Ml Security", "Llm Prompt Injection", "Readme.Md"]
+---
+
 # LLM Security & Prompt Injection Guide
 
 > **Section:** 🤖 AI/ML Security  

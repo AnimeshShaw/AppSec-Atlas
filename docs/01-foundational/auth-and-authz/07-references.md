@@ -1,3 +1,9 @@
+---
+title: "07 - References and Further Reading"
+description: "For deep technical specifications and community best practices, refer to the following authoritative sources."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Auth And Authz", "07 References.Md"]
+---
+
 # 07 - References and Further Reading
 
 For deep technical specifications and community best practices, refer to the following authoritative sources.

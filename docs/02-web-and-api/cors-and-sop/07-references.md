@@ -1,3 +1,9 @@
+---
+title: "07 - References and Further Reading"
+description: "To deepen your understanding of the Same-Origin Policy and Cross-Origin Resource Sharing, refer to the following authoritative sources and security gu..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Cors And Sop", "07 References.Md"]
+---
+
 # 07 - References and Further Reading
 
 To deepen your understanding of the Same-Origin Policy and Cross-Origin Resource Sharing, refer to the following authoritative sources and security guides.

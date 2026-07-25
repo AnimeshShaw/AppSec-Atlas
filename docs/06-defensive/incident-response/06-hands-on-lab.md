@@ -1,3 +1,9 @@
+---
+title: "06 - Hands-On Lab: Web Server Incident Triage"
+description: "In this lab, you will act as a first responder. You have received an alert about suspicious activity on a web server. You will use a Python script to ..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Incident Response", "06 Hands On Lab.Md"]
+---
+
 # 06 - Hands-On Lab: Web Server Incident Triage
 
 In this lab, you will act as a first responder. You have received an alert about suspicious activity on a web server. You will use a Python script to parse an Nginx access log, identify a webshell upload, find the attacker's IP, and determine what commands were executed.

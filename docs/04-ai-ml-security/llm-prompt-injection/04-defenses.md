@@ -1,3 +1,9 @@
+---
+title: "04. Defense-in-Depth & Mitigations"
+description: "No single fix completely solves Prompt Injection. Robust LLM security requires a **defense-in-depth architecture** combining structural separation, pr..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "04 Ai Ml Security", "Llm Prompt Injection", "04 Defenses.Md"]
+---
+
 # 04. Defense-in-Depth & Mitigations
 
 No single fix completely solves Prompt Injection. Robust LLM security requires a **defense-in-depth architecture** combining structural separation, prompt hardening, input/output guardrails, and tool-calling sandboxes.

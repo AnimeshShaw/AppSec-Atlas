@@ -1,3 +1,9 @@
+---
+title: "04 - Forensics & Steganography Tactics 🔎🖼️"
+description: "Forensics and Steganography focus on extracting hidden, deleted, or obfuscated information from files, network captures, and memory dumps."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Ctf Guide", "04 Forensics And Stego Ctf Tactics.Md"]
+---
+
 # 04 - Forensics & Steganography Tactics 🔎🖼️
 
 Forensics and Steganography focus on extracting hidden, deleted, or obfuscated information from files, network captures, and memory dumps.

@@ -1,3 +1,9 @@
+---
+title: "02 - Disk and Filesystem Forensics"
+description: "Creating a bit-for-bit copy of a storage medium."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Digital Forensics", "02 Disk And Filesystem Forensics.Md"]
+---
+
 # 02 - Disk and Filesystem Forensics
 
 ## File System Artifacts

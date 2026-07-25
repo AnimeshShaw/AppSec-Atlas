@@ -1,3 +1,9 @@
+---
+title: "06 Hands-on Lab: Secure Code Review"
+description: "In this lab, you act as the Security Champion reviewing a Pull Request (PR) for a new Python/Flask microservice."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "09 Hands On", "Code Review Guide", "06 Hands On Lab.Md"]
+---
+
 # 06 Hands-on Lab: Secure Code Review
 
 In this lab, you act as the Security Champion reviewing a Pull Request (PR) for a new Python/Flask microservice.

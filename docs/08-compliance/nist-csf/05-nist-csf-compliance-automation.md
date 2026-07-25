@@ -1,3 +1,8 @@
+---
+title: "05 - NIST CSF Compliance Automation"
+description: "Comprehensive guide and best practices for 05 - NIST CSF Compliance Automation in the nist-csf section of AppSec Atlas. Learn how to secure your infrastructure."
+keywords: ['nist-csf', '05---nist-csf-compliance-automation', 'appsec', 'security', 'compliance']
+---
 # 05 - NIST CSF Compliance Automation
 
 Manual compliance mapping is unscalable. Modern AppSec teams use Policy-as-Code (PaC) to map infrastructure configurations to NIST CSF outcomes automatically.
@@ -47,3 +52,7 @@ deny[msg] {
 ```
 
 By integrating these Rego rules into your CI/CD pipeline (using tools like Conftest or Checkov), you enforce NIST CSF compliance *before* infrastructure is deployed.
+
+
+> [!TIP]
+> **Pro Tip:** Always automate your security and compliance checks early in the pipeline to reduce manual overhead and ensure continuous compliance.

@@ -1,3 +1,9 @@
+---
+title: "04 - Defensive Awareness and Simulation"
+description: "Technical controls will inevitably fail. When a phishing email reaches an inbox, the employee is the final line of defense. Security awareness trainin..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Social Engineering", "04 Defensive Awareness And Simulation.Md"]
+---
+
 # 04 - Defensive Awareness and Simulation
 
 Technical controls will inevitably fail. When a phishing email reaches an inbox, the employee is the final line of defense. Security awareness training must transition from annual compliance checkboxes to continuous, engaging, and practical simulations.

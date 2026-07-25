@@ -1,3 +1,9 @@
+---
+title: "04 - MCP Sandbox Isolation"
+description: "When building MCP servers that execute code (e.g., Python REPL tools) or interact with the filesystem, running them directly on the host machine is ca..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "04 Ai Ml Security", "Mcp Tool Security", "04 Mcp Sandbox Isolation.Md"]
+---
+
 # 04 - MCP Sandbox Isolation
 
 ## Containerized Execution

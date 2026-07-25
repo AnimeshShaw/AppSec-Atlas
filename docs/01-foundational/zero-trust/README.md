@@ -1,3 +1,9 @@
+---
+title: "Zero Trust Architecture"
+description: "Welcome to the Zero Trust Architecture guide. This module covers the paradigm shift from traditional perimeter-based security to a model where trust i..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Zero Trust", "Readme.Md"]
+---
+
 # Zero Trust Architecture
 
 ## Overview

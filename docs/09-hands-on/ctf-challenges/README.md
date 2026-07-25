@@ -1,3 +1,9 @@
+---
+title: "CTF Challenges & Vuln App Lab"
+description: "Welcome to the CTF (Capture The Flag) Challenges & Vulnerable App Lab section of the AppSec Atlas. This module is designed to provide hands-on, practi..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "09 Hands On", "Ctf Challenges", "Readme.Md"]
+---
+
 # CTF Challenges & Vuln App Lab
 
 ## Overview

@@ -1,3 +1,9 @@
+---
+title: "06 - Hands-On Lab: Vulnerable Lambda & Remediation"
+description: "In this lab, we will analyze a vulnerable AWS Lambda function, exploit it to demonstrate the blast radius of an overly permissive IAM role, and then a..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Serverless Security", "06 Hands On Lab.Md"]
+---
+
 # 06 - Hands-On Lab: Vulnerable Lambda & Remediation
 
 In this lab, we will analyze a vulnerable AWS Lambda function, exploit it to demonstrate the blast radius of an overly permissive IAM role, and then apply least privilege remediation.

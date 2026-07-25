@@ -1,3 +1,9 @@
+---
+title: "API Vulnerabilities Lab"
+description: "(Covered similarly in the Web Lab, ensure authorization checks validate object ownership against the current user context.)"
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "09 Hands On", "Ctf Challenges", "03 Api Vulnerabilities Lab.Md"]
+---
+
 # API Vulnerabilities Lab
 
 ## 1. Broken Object Level Authorization (BOLA)

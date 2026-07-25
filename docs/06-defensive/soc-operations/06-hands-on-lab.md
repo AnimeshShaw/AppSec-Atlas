@@ -1,3 +1,9 @@
+---
+title: "06 - Hands-on Lab: Automated Alert Triage"
+description: "In this self-contained lab, we will build a Python-based SOC Alert Enricher. It simulates receiving an alert containing an IP address, queries a (simu..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Soc Operations", "06 Hands On Lab.Md"]
+---
+
 # 06 - Hands-on Lab: Automated Alert Triage
 
 ## Objective

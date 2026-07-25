@@ -1,3 +1,9 @@
+---
+title: "04 - Secrets Management and Cold Start Hardening"
+description: "Hardcoding secrets in source code or relying heavily on unencrypted environment variables are common anti-patterns in serverless applications."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Serverless Security", "04 Secrets And Cold Start Hardening.Md"]
+---
+
 # 04 - Secrets Management and Cold Start Hardening
 
 Hardcoding secrets in source code or relying heavily on unencrypted environment variables are common anti-patterns in serverless applications.

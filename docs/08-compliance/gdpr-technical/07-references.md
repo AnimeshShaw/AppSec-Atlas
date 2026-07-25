@@ -1,3 +1,8 @@
+---
+title: "References and Resources"
+description: "Comprehensive guide and best practices for References and Resources in the gdpr-technical section of AppSec Atlas. Learn how to secure your infrastructure."
+keywords: ['gdpr-technical', 'references-and-resources', 'appsec', 'security', 'compliance']
+---
 # References and Resources
 
 To further your understanding of the technical implementation of GDPR, consult the following authoritative resources.

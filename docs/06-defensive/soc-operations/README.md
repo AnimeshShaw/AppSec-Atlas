@@ -1,3 +1,9 @@
+---
+title: "Security Operations Center (SOC) Operations Guide"
+description: "Welcome to the **SOC Operations Guide**. A Security Operations Center (SOC) is the nerve center of an organization's defensive posture, responsible fo..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Soc Operations", "Readme.Md"]
+---
+
 # Security Operations Center (SOC) Operations Guide
 
 ## Overview

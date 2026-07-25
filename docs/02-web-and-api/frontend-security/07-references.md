@@ -1,3 +1,9 @@
+---
+title: "07. References and Resources"
+description: "To deepen your understanding of frontend security, refer to these authoritative resources and specifications."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Frontend Security", "07 References.Md"]
+---
+
 # 07. References and Resources
 
 To deepen your understanding of frontend security, refer to these authoritative resources and specifications.

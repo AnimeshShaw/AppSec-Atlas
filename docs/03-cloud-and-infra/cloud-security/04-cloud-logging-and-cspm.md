@@ -1,3 +1,9 @@
+---
+title: "04 - Cloud Logging and CSPM"
+description: "Visibility is the cornerstone of cloud security. If you cannot see what is happening in your environment, you cannot secure it."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Cloud Security", "04 Cloud Logging And Cspm.Md"]
+---
+
 # 04 - Cloud Logging and CSPM
 
 Visibility is the cornerstone of cloud security. If you cannot see what is happening in your environment, you cannot secure it. 

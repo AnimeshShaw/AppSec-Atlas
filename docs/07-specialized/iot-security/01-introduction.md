@@ -1,8 +1,17 @@
+---
+title: "01. Introduction to IoT Architecture & Attack Surface"
+description: "The Internet of Things (IoT) ecosystem encompasses a massive web of physical devices—sensors, actuators, smart home appliances, industrial controllers..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Iot Security", "01 Introduction.Md"]
+---
+
 # 01. Introduction to IoT Architecture & Attack Surface
 
 The Internet of Things (IoT) ecosystem encompasses a massive web of physical devices—sensors, actuators, smart home appliances, industrial controllers—that connect to the internet to collect and share data.
 
 Securing these systems requires a holistic approach because an IoT environment spans hardware, embedded software (firmware), wireless protocols, and cloud backends.
+
+> [!TIP]
+> **Industry Best Practice:** Always align this domain with standard frameworks like OWASP, NIST, or CIS benchmarks for optimal security posture.
 
 ## 🏗️ IoT Architecture Layers
 

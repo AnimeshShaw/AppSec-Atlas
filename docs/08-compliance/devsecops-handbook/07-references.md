@@ -1,3 +1,8 @@
+---
+title: "07 - References"
+description: "Comprehensive guide and best practices for 07 - References in the devsecops-handbook section of AppSec Atlas. Learn how to secure your infrastructure."
+keywords: ['devsecops-handbook', '07---references', 'appsec', 'security', 'compliance']
+---
 # 07 - References
 
 To further your understanding of DevSecOps, compliance, and security maturity, consult the following industry-standard resources and frameworks.

@@ -1,3 +1,9 @@
+---
+title: "Privacy Engineering Guide"
+description: "Welcome to the AppSec Atlas guide on Privacy Engineering. As data protection regulations like GDPR, CCPA, and HIPAA become stricter, the need to build..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Privacy Engineering", "Readme.Md"]
+---
+
 # Privacy Engineering Guide
 
 ## Overview

@@ -1,3 +1,9 @@
+---
+title: "04. A03: Injection (SQLi, Command Injection & SSRF)"
+description: "Injection flaws occur when untrusted data is sent to an interpreter as part of a command or query. The attacker's hostile data tricks the interpreter ..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Owasp Top 10", "04 A03 Injection.Md"]
+---
+
 # 04. A03: Injection (SQLi, Command Injection & SSRF)
 
 Injection flaws occur when untrusted data is sent to an interpreter as part of a command or query. The attacker's hostile data tricks the interpreter into executing unintended commands or accessing unauthorized data.

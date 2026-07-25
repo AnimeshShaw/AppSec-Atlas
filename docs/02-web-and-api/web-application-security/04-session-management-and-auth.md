@@ -1,3 +1,9 @@
+---
+title: "04 - Session Management and Authentication"
+description: "Proper session management is crucial for maintaining state and identity across HTTP requests securely."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Web Application Security", "04 Session Management And Auth.Md"]
+---
+
 # 04 - Session Management and Authentication
 
 Proper session management is crucial for maintaining state and identity across HTTP requests securely.

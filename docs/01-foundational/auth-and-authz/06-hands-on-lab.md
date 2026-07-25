@@ -1,3 +1,9 @@
+---
+title: "06 - Hands-on Lab: JWT and Session Exploitation"
+description: "In this lab, we will run a vulnerable Python application containing a JWT `alg: none` vulnerability and insecure session cookies, exploit it, and then..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Auth And Authz", "06 Hands On Lab.Md"]
+---
+
 # 06 - Hands-on Lab: JWT and Session Exploitation
 
 In this lab, we will run a vulnerable Python application containing a JWT `alg: none` vulnerability and insecure session cookies, exploit it, and then apply secure remediations.

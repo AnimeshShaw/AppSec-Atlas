@@ -1,3 +1,9 @@
+---
+title: "AI Red Teaming Playbook"
+description: "AI Red Teaming is the practice of systematically evaluating Generative AI models, RAG pipelines, and Autonomous Agent systems for safety vulnerabiliti..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "04 Ai Ml Security", "Ai Red Teaming", "Readme.Md"]
+---
+
 # AI Red Teaming Playbook
 
 > **Section:** 🤖 AI/ML Security  

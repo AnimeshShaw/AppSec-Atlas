@@ -1,3 +1,9 @@
+---
+title: "05. Hands-On Evaluation Lab"
+description: "In this lab, you will build an **Automated AI Security Evaluation Harness** in Python to test a target AI Agent application, measure its vulnerability..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "04 Ai Ml Security", "Ai Red Teaming", "05 Hands On Lab.Md"]
+---
+
 # 05. Hands-On Evaluation Lab
 
 In this lab, you will build an **Automated AI Security Evaluation Harness** in Python to test a target AI Agent application, measure its vulnerability to prompt instruction overrides, and apply a secure guardrail fix.

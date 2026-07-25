@@ -1,3 +1,9 @@
+---
+title: "07. References & Standards"
+description: "Authoritative benchmarks, security standards, and tooling for Container & Kubernetes Security."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Container Kubernetes", "07 References.Md"]
+---
+
 # 07. References & Standards
 
 Authoritative benchmarks, security standards, and tooling for Container & Kubernetes Security.

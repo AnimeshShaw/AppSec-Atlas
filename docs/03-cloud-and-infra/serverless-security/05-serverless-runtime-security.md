@@ -1,3 +1,9 @@
+---
+title: "05 - Serverless Runtime Security"
+description: "Traditional endpoint security agents (like EDRs or Antivirus) cannot be installed inside serverless environments like AWS Lambda. This requires a shif..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Serverless Security", "05 Serverless Runtime Security.Md"]
+---
+
 # 05 - Serverless Runtime Security
 
 Traditional endpoint security agents (like EDRs or Antivirus) cannot be installed inside serverless environments like AWS Lambda. This requires a shift in how we monitor and defend the runtime execution of our code.

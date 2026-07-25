@@ -1,3 +1,9 @@
+---
+title: "02. GitHub Actions Security Hardening"
+description: "GitHub Actions is the most popular CI/CD engine for open-source and commercial software. Misconfigurations in GitHub Actions workflows can lead to sec..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Cicd Pipeline Security", "02 Github Actions Hardening.Md"]
+---
+
 # 02. GitHub Actions Security Hardening
 
 GitHub Actions is the most popular CI/CD engine for open-source and commercial software. Misconfigurations in GitHub Actions workflows can lead to secret theft, repository takeover, and supply chain poisoning.

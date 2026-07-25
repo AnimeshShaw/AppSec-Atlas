@@ -1,3 +1,9 @@
+---
+title: "03. GraphQL & gRPC Security"
+description: "Modern applications frequently use **GraphQL** and **gRPC** instead of traditional REST APIs. While they provide high performance, they introduce uniq..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Api Security", "03 Graphql And Grpc Security.Md"]
+---
+
 # 03. GraphQL & gRPC Security
 
 Modern applications frequently use **GraphQL** and **gRPC** instead of traditional REST APIs. While they provide high performance, they introduce unique attack vectors if not configured securely.

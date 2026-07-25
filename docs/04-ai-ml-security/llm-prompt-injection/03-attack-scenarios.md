@@ -1,3 +1,9 @@
+---
+title: "03. Practical Attack Scenarios"
+description: "This chapter provides **end-to-end, runnable Proof-of-Concept (PoC) code** demonstrating real-world prompt injection attacks against LLM applications."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "04 Ai Ml Security", "Llm Prompt Injection", "03 Attack Scenarios.Md"]
+---
+
 # 03. Practical Attack Scenarios
 
 This chapter provides **end-to-end, runnable Proof-of-Concept (PoC) code** demonstrating real-world prompt injection attacks against LLM applications.

@@ -1,6 +1,15 @@
+---
+title: "01 - Introduction to CTFs 🚩"
+description: "Capture The Flag (CTF) competitions are educational cybersecurity exercises where participants solve challenges to uncover hidden strings called 'flag..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Ctf Guide", "01 Introduction.Md"]
+---
+
 # 01 - Introduction to CTFs 🚩
 
 Capture The Flag (CTF) competitions are educational cybersecurity exercises where participants solve challenges to uncover hidden strings called "flags" (e.g., `flag{h4ckth3pl4n3t}`). They are the training grounds for offensive security professionals.
+
+> [!TIP]
+> **Industry Best Practice:** Always align this domain with standard frameworks like OWASP, NIST, or CIS benchmarks for optimal security posture.
 
 ## ⚔️ CTF Formats
 

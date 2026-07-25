@@ -1,3 +1,9 @@
+---
+title: "04 - Firewall, IDS/IPS, & VPN Hardening"
+description: "Suricata is a high-performance Network IDS, IPS, and Network Security Monitoring engine."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Network Attacks", "04 Firewall Ids Ips And Vpn Hardening.Md"]
+---
+
 # 04 - Firewall, IDS/IPS, & VPN Hardening
 
 ## Stateful Firewalls vs WAFs

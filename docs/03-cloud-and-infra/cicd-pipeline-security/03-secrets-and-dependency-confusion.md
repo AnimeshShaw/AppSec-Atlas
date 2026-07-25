@@ -1,3 +1,9 @@
+---
+title: "03. Secrets, Dependencies & Artifact Signing"
+description: "Preventing secret leaks, blocking malicious dependencies, and verifying software builds are key operational requirements for software supply chain def..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Cicd Pipeline Security", "03 Secrets And Dependency Confusion.Md"]
+---
+
 # 03. Secrets, Dependencies & Artifact Signing
 
 Preventing secret leaks, blocking malicious dependencies, and verifying software builds are key operational requirements for software supply chain defense.

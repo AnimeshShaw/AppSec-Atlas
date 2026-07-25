@@ -1,3 +1,9 @@
+---
+title: "05 - Cloud Incident Response"
+description: "Incident Response (IR) in the cloud differs heavily from on-premises environments. You rarely have physical access to machines, and IP addresses are e..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Cloud Security", "05 Cloud Incident Response.Md"]
+---
+
 # 05 - Cloud Incident Response
 
 Incident Response (IR) in the cloud differs heavily from on-premises environments. You rarely have physical access to machines, and IP addresses are ephemeral.

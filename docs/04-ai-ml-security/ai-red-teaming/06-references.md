@@ -1,3 +1,9 @@
+---
+title: "06. References & Standards"
+description: "Authoritative references, benchmarks, and frameworks for AI Red Teaming."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "04 Ai Ml Security", "Ai Red Teaming", "06 References.Md"]
+---
+
 # 06. References & Standards
 
 Authoritative references, benchmarks, and frameworks for AI Red Teaming.

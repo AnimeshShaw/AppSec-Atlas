@@ -1,3 +1,9 @@
+---
+title: "06 - Hands-on Lab"
+description: "1. Analyze a simulated malicious npm package that uses install scripts."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Supply Chain Security", "06 Hands On Lab.Md"]
+---
+
 # 06 - Hands-on Lab
 
 ## Objective

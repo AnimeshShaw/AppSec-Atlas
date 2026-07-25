@@ -1,3 +1,9 @@
+---
+title: "03. Kubernetes SecurityContext & Pod Standards"
+description: "Kubernetes `securityContext` settings dictate the privilege level, filesystem access, and capabilities granted to a Pod or Container."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Container Kubernetes", "03 Kubernetes Security Context.Md"]
+---
+
 # 03. Kubernetes SecurityContext & Pod Standards
 
 Kubernetes `securityContext` settings dictate the privilege level, filesystem access, and capabilities granted to a Pod or Container.

@@ -1,3 +1,9 @@
+---
+title: "04 - SOAR & Automated Response"
+description: "Security Orchestration, Automation, and Response (SOAR) takes the manual effort out of incident response. When a SIEM (or Sigma rule) triggers an aler..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Logging And Monitoring", "04 Soar And Automated Response.Md"]
+---
+
 # 04 - SOAR & Automated Response
 
 Security Orchestration, Automation, and Response (SOAR) takes the manual effort out of incident response. When a SIEM (or Sigma rule) triggers an alert, SOAR executes a predefined "Playbook".

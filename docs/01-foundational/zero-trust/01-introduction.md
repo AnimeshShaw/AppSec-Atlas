@@ -1,4 +1,13 @@
+---
+title: "Introduction to Zero Trust"
+description: "Traditional network security relied on the 'castle-and-moat' model, where once an attacker breached the perimeter, they had unfettered lateral movemen..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Zero Trust", "01 Introduction.Md"]
+---
+
 # Introduction to Zero Trust
+
+> [!TIP]
+> **Industry Best Practice:** Always align this domain with standard frameworks like OWASP, NIST, or CIS benchmarks for optimal security posture.
 
 ## The Demise of the Perimeter
 Traditional network security relied on the "castle-and-moat" model, where once an attacker breached the perimeter, they had unfettered lateral movement. Zero Trust assumes the network is already hostile.

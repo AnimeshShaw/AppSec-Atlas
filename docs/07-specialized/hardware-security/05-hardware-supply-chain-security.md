@@ -1,3 +1,9 @@
+---
+title: "05 - Hardware Supply Chain Security"
+description: "Compromise can happen long before the device reaches the consumer. Hardware supply chain security focuses on verifying the integrity and authenticity ..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Hardware Security", "05 Hardware Supply Chain Security.Md"]
+---
+
 # 05 - Hardware Supply Chain Security
 
 Compromise can happen long before the device reaches the consumer. Hardware supply chain security focuses on verifying the integrity and authenticity of the components and manufacturing process.

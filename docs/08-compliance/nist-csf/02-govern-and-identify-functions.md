@@ -1,3 +1,8 @@
+---
+title: "02 - Govern and Identify Functions"
+description: "Comprehensive guide and best practices for 02 - Govern and Identify Functions in the nist-csf section of AppSec Atlas. Learn how to secure your infrastructure."
+keywords: ['nist-csf', '02---govern-and-identify-functions', 'appsec', 'security', 'compliance']
+---
 # 02 - Govern and Identify Functions
 
 ## GOVERN (GV)

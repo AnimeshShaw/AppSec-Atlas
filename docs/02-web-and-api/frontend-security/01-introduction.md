@@ -1,6 +1,15 @@
+---
+title: "01. Introduction to Frontend Security"
+description: "The browser is a hostile environment. With the rise of Single Page Applications (SPAs), much of the business logic and state management has shifted to..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Frontend Security", "01 Introduction.Md"]
+---
+
 # 01. Introduction to Frontend Security
 
 The browser is a hostile environment. With the rise of Single Page Applications (SPAs), much of the business logic and state management has shifted to the client side. This chapter explores the client-side threat model and primary attack vectors.
+
+> [!TIP]
+> **Industry Best Practice:** Always align this domain with standard frameworks like OWASP, NIST, or CIS benchmarks for optimal security posture.
 
 ## 🕵️ Client-Side Threat Model
 

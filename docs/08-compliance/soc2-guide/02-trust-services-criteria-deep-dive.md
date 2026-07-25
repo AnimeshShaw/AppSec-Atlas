@@ -1,3 +1,8 @@
+---
+title: "02 - Trust Services Criteria Deep Dive"
+description: "Comprehensive guide and best practices for 02 - Trust Services Criteria Deep Dive in the soc2-guide section of AppSec Atlas. Learn how to secure your infrastruc"
+keywords: ['soc2-guide', '02---trust-services-criteria-deep-dive', 'appsec', 'security', 'compliance']
+---
 # 02 - Trust Services Criteria Deep Dive
 
 ## 🔍 The Common Criteria (CC1.0 - CC9.0)
@@ -47,3 +52,7 @@ The Security criteria, known as the Common Criteria (CC), applies to all SOC 2 a
 ### CC9 - Risk Mitigation
 - **Focus:** Business continuity and vendor management.
 - **Controls:** Annual disaster recovery tests, third-party vendor security questionnaires (SIG Lite or custom).
+
+
+> [!TIP]
+> **Pro Tip:** Always automate your security and compliance checks early in the pipeline to reduce manual overhead and ensure continuous compliance.

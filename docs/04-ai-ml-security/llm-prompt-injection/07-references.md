@@ -1,3 +1,9 @@
+---
+title: "07. References & Standards"
+description: "This document provides authoritative references, standards, academic papers, CVE records, and open-source tooling references for LLM Prompt Injection ..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "04 Ai Ml Security", "Llm Prompt Injection", "07 References.Md"]
+---
+
 # 07. References & Standards
 
 This document provides authoritative references, standards, academic papers, CVE records, and open-source tooling references for LLM Prompt Injection and AI Security.

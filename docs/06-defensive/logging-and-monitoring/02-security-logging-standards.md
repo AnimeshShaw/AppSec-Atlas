@@ -1,3 +1,9 @@
+---
+title: "02 - Security Logging Standards"
+description: "Unstructured text logs (e.g., `User admin logged in from 192.168.1.5 at 12:00 PM`) are notoriously difficult to parse, search, and write detection rul..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Logging And Monitoring", "02 Security Logging Standards.Md"]
+---
+
 # 02 - Security Logging Standards
 
 Unstructured text logs (e.g., `User admin logged in from 192.168.1.5 at 12:00 PM`) are notoriously difficult to parse, search, and write detection rules against. Security logging requires **Structured JSON Logging**.

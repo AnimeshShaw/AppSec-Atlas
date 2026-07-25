@@ -1,3 +1,9 @@
+---
+title: "02. Automated Security Frameworks (PyRIT & Garak)"
+description: "Automating security evaluations allows teams to continuously audit LLM applications inside CI/CD pipelines before deploying to production."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "04 Ai Ml Security", "Ai Red Teaming", "02 Red Teaming Frameworks.Md"]
+---
+
 # 02. Automated Security Frameworks (PyRIT & Garak)
 
 Automating security evaluations allows teams to continuously audit LLM applications inside CI/CD pipelines before deploying to production.

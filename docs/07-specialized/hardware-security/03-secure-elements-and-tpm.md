@@ -1,3 +1,9 @@
+---
+title: "03 - Secure Elements and TPM"
+description: "To protect cryptographic material from the physical attacks discussed previously, modern devices rely on dedicated, hardened microcontrollers."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Hardware Security", "03 Secure Elements And Tpm.Md"]
+---
+
 # 03 - Secure Elements and TPM
 
 To protect cryptographic material from the physical attacks discussed previously, modern devices rely on dedicated, hardened microcontrollers.

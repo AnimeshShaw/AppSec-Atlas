@@ -1,3 +1,9 @@
+---
+title: "05 - Web Security Scanners"
+description: "Dynamic Application Security Testing (DAST) tools are vital for identifying runtime vulnerabilities such as misconfigurations, exposed endpoints, and ..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Web Application Security", "05 Web Security Scanners.Md"]
+---
+
 # 05 - Web Security Scanners
 
 Dynamic Application Security Testing (DAST) tools are vital for identifying runtime vulnerabilities such as misconfigurations, exposed endpoints, and injection flaws.

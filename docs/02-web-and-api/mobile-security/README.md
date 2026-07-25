@@ -1,3 +1,9 @@
+---
+title: "Mobile Application Security Guide"
+description: "Welcome to the AppSec Atlas guide on **Mobile Application Security**. This comprehensive guide focuses on securing Android and iOS mobile applications..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Mobile Security", "Readme.Md"]
+---
+
 # Mobile Application Security Guide
 
 ## Overview

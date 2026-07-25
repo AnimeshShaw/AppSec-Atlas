@@ -1,4 +1,13 @@
+---
+title: "01 - Introduction to RAG Security"
+description: "RAG combines the reasoning capabilities of LLMs with the dynamic information retrieval abilities of Vector Databases."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "04 Ai Ml Security", "Rag Security", "01 Introduction.Md"]
+---
+
 # 01 - Introduction to RAG Security
+
+> [!TIP]
+> **Industry Best Practice:** Always align this domain with standard frameworks like OWASP, NIST, or CIS benchmarks for optimal security posture.
 
 ## Retrieval-Augmented Generation (RAG) Architecture
 RAG combines the reasoning capabilities of LLMs with the dynamic information retrieval abilities of Vector Databases. 

@@ -1,3 +1,9 @@
+---
+title: "06 - Hands-On Lab: MCP Exploitation & Mitigation"
+description: "You are testing a local MCP server that provides filesystem tools to an AI agent. The server is vulnerable to path traversal."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "04 Ai Ml Security", "Mcp Tool Security", "06 Hands On Lab.Md"]
+---
+
 # 06 - Hands-On Lab: MCP Exploitation & Mitigation
 
 ## Scenario

@@ -1,3 +1,9 @@
+---
+title: "07 - References & Resources"
+description: "To dive deeper into Mobile Application Security, refer to these industry-standard resources:"
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Mobile Security", "07 References.Md"]
+---
+
 # 07 - References & Resources
 
 To dive deeper into Mobile Application Security, refer to these industry-standard resources:

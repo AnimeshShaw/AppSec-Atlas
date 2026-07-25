@@ -1,3 +1,9 @@
+---
+title: "AppSec Atlas Security Guide"
+description: "This guide is planned but not yet written. Want to help build AppSec Atlas?"
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "04 Ai Ml Security", "Agentic Ai Security", "Readme.Md"]
+---
+
 ﻿# Agentic Ai Security
 
 > **Status:** 📋 Coming Soon

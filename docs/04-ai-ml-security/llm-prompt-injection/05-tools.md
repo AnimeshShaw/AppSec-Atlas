@@ -1,3 +1,9 @@
+---
+title: "05. Security Testing & Red Teaming Tools"
+description: "Automated red teaming and security testing are critical to discovering prompt injection vulnerabilities before deploying LLM applications to productio..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "04 Ai Ml Security", "Llm Prompt Injection", "05 Tools.Md"]
+---
+
 # 05. Security Testing & Red Teaming Tools
 
 Automated red teaming and security testing are critical to discovering prompt injection vulnerabilities before deploying LLM applications to production.

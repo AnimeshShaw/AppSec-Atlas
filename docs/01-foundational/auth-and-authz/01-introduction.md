@@ -1,6 +1,15 @@
+---
+title: "01 - Introduction to Authentication & Authorization"
+description: "Identity management is central to application security. It is fundamentally split into two distinct processes: **Authentication (AuthN)** and **Author..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Auth And Authz", "01 Introduction.Md"]
+---
+
 # 01 - Introduction to Authentication & Authorization
 
 Identity management is central to application security. It is fundamentally split into two distinct processes: **Authentication (AuthN)** and **Authorization (AuthZ)**.
+
+> [!TIP]
+> **Industry Best Practice:** Always align this domain with standard frameworks like OWASP, NIST, or CIS benchmarks for optimal security posture.
 
 ## Authentication (AuthN): Who are you?
 Authentication is the process of verifying a user's identity. It asks the question: *Are you who you say you are?*

@@ -1,4 +1,13 @@
+---
+title: "01 - Introduction"
+description: "The software supply chain encompasses everything that touches your software before it reaches production: source code, dependencies, build tools, CI/C..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Supply Chain Security", "01 Introduction.Md"]
+---
+
 # 01 - Introduction
+
+> [!TIP]
+> **Industry Best Practice:** Always align this domain with standard frameworks like OWASP, NIST, or CIS benchmarks for optimal security posture.
 
 ## Software Supply Chain Threat Landscape
 The software supply chain encompasses everything that touches your software before it reaches production: source code, dependencies, build tools, CI/CD pipelines, and hosting infrastructure. Attackers increasingly target the supply chain because compromising one widely used component can breach thousands of downstream organizations (e.g., SolarWinds, Log4j).

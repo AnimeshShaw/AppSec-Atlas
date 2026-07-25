@@ -1,4 +1,13 @@
+---
+title: "01 - Introduction to Cloud Security"
+description: "In the cloud, security is shared between the Cloud Service Provider (CSP) and the customer. Understanding this model is the first step in building a s..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Cloud Security", "01 Introduction.Md"]
+---
+
 # 01 - Introduction to Cloud Security
+
+> [!TIP]
+> **Industry Best Practice:** Always align this domain with standard frameworks like OWASP, NIST, or CIS benchmarks for optimal security posture.
 
 ## The Shared Responsibility Model
 

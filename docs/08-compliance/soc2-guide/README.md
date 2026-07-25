@@ -1,3 +1,8 @@
+---
+title: "SOC 2 Compliance Guide"
+description: "Comprehensive guide and best practices for SOC 2 Compliance Guide in the soc2-guide section of AppSec Atlas. Learn how to secure your infrastructure."
+keywords: ['soc2-guide', 'soc-2-compliance-guide', 'appsec', 'security', 'compliance']
+---
 # SOC 2 Compliance Guide
 
 ## 📖 Overview

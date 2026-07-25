@@ -1,3 +1,9 @@
+---
+title: "06 - Hands-on Lab: Logging, Detection, & Response"
+description: "In this self-contained lab, we will build a vulnerable Flask application that logs authentication events in structured JSON (ECS format). We will then..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Logging And Monitoring", "06 Hands On Lab.Md"]
+---
+
 # 06 - Hands-on Lab: Logging, Detection, & Response
 
 In this self-contained lab, we will build a vulnerable Flask application that logs authentication events in structured JSON (ECS format). We will then write a Python script to simulate a SIEM evaluating a Sigma-like rule, triggering an automated SOAR response.

@@ -1,8 +1,17 @@
+---
+title: "01. Overview & PTES / OWASP WSTG Standards"
+description: "Professional penetration testing follows structured methodology frameworks to ensure thorough coverage and legal compliance."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Penetration Testing", "01 Introduction.Md"]
+---
+
 # 01. Overview & PTES / OWASP WSTG Standards
 
 Professional penetration testing follows structured methodology frameworks to ensure thorough coverage and legal compliance.
 
 ---
+
+> [!TIP]
+> **Industry Best Practice:** Always align this domain with standard frameworks like OWASP, NIST, or CIS benchmarks for optimal security posture.
 
 ## 1. The PTES Framework Lifecycle
 

@@ -1,3 +1,9 @@
+---
+title: "07 - References & Resources"
+description: "Comprehensive security guide and practical technical implementation handbook."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Social Engineering", "07 References.Md"]
+---
+
 # 07 - References & Resources
 
 ## Protocols & RFCs

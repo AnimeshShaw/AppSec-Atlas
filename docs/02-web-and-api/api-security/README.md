@@ -1,3 +1,9 @@
+---
+title: "API Security Guide"
+description: "API Security focuses on securing application programming interfaces (REST, GraphQL, gRPC) against OWASP API Security Top 10 risks. As APIs serve as th..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Api Security", "Readme.Md"]
+---
+
 # API Security Guide
 
 > **Section:** 🌐 Web & API Security  

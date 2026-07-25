@@ -1,3 +1,9 @@
+---
+title: "02 - Tool Poisoning & Shadow Tools"
+description: "A **Tool Poisoning** attack occurs when an attacker manipulates the definition or behavior of a tool. In the context of MCP, a malicious server might ..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "04 Ai Ml Security", "Mcp Tool Security", "02 Mcp Tool Poisoning And Shadow Tools.Md"]
+---
+
 # 02 - Tool Poisoning & Shadow Tools
 
 ## Core Concepts

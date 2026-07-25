@@ -1,3 +1,9 @@
+---
+title: "05. Secret Scanning and Rotation"
+description: "To prevent developers from accidentally pushing hardcoded credentials, implement secret scanning as pre-commit hooks and CI pipeline checks."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Secrets Management", "05 Secret Scanning And Rotation.Md"]
+---
+
 # 05. Secret Scanning and Rotation
 
 ## 1. Automated Secret Detection in CI/CD

@@ -1,3 +1,9 @@
+---
+title: "Serverless Security Guide"
+description: "Welcome to the **Serverless Security Guide**. Serverless architectures (AWS Lambda, Azure Functions, Google Cloud Functions) eliminate traditional inf..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Serverless Security", "Readme.Md"]
+---
+
 # Serverless Security Guide
 
 Welcome to the **Serverless Security Guide**. Serverless architectures (AWS Lambda, Azure Functions, Google Cloud Functions) eliminate traditional infrastructure management but introduce new security challenges, primarily around event-driven architectures, ephemeral execution environments, and complex permission models.

@@ -1,3 +1,9 @@
+---
+title: "03 - Credential Harvesting and MFA Bypass"
+description: "While Multi-Factor Authentication (MFA) was once considered the silver bullet against credential theft, modern attackers have developed sophisticated ..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Social Engineering", "03 Credential Harvesting And Mfa Bypass.Md"]
+---
+
 # 03 - Credential Harvesting and MFA Bypass
 
 While Multi-Factor Authentication (MFA) was once considered the silver bullet against credential theft, modern attackers have developed sophisticated methods to bypass legacy MFA solutions (SMS, Voice, TOTP apps).

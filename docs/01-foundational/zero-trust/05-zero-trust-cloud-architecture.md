@@ -1,3 +1,9 @@
+---
+title: "Zero Trust Cloud Architecture"
+description: "Implement Zero Trust natively using cloud services:"
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Zero Trust", "05 Zero Trust Cloud Architecture.Md"]
+---
+
 # Zero Trust Cloud Architecture
 
 ## Cloud Service Providers

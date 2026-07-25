@@ -1,3 +1,9 @@
+---
+title: "02 - XSS and CSRF Masterclass"
+description: "XSS occurs when an application includes untrusted data in a web page without proper validation or escaping."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Web Application Security", "02 Xss And Csrf Masterclass.Md"]
+---
+
 # 02 - XSS and CSRF Masterclass
 
 ## Cross-Site Scripting (XSS)

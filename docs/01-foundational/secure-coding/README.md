@@ -1,3 +1,9 @@
+---
+title: "Secure Coding Practices Guide"
+description: "Welcome to the Secure Coding Practices Guide. This module forms the bedrock of application security. Instead of focusing solely on exploiting vulnerab..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Secure Coding", "Readme.Md"]
+---
+
 # Secure Coding Practices Guide
 
 ## Overview

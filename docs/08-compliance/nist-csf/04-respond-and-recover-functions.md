@@ -1,3 +1,8 @@
+---
+title: "04 - Respond and Recover Functions"
+description: "Comprehensive guide and best practices for 04 - Respond and Recover Functions in the nist-csf section of AppSec Atlas. Learn how to secure your infrastructure."
+keywords: ['nist-csf', '04---respond-and-recover-functions', 'appsec', 'security', 'compliance']
+---
 # 04 - Respond and Recover Functions
 
 ## RESPOND (RS)

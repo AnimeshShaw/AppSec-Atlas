@@ -1,5 +1,13 @@
+---
+title: "Container & Kubernetes Security Guide"
+description: "Master container lifecycle and Kubernetes security. Learn Dockerfile hardening, K8s SecurityContext, NetworkPolicies, RBAC, and Falco runtime detection."
+keywords: [container security, kubernetes security, dockerfile hardening, k8s security context, network policies, rbac, falco, linux isolation, cloud security]
+sidebar_position: 1
+---
+
 # Container & Kubernetes Security Guide
 
+> [!NOTE]
 > **Section:** ☁️ Cloud & Infrastructure Security  
 > **Level:** Intermediate to Advanced  
 > **Time to Complete:** ~80 minutes  

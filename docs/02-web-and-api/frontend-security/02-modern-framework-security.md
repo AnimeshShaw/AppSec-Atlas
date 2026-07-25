@@ -1,3 +1,9 @@
+---
+title: "02. Modern Framework Security"
+description: "Modern JavaScript frameworks like React, Vue, and Angular provide built-in protections against common vulnerabilities, particularly XSS. However, they..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Frontend Security", "02 Modern Framework Security.Md"]
+---
+
 # 02. Modern Framework Security
 
 Modern JavaScript frameworks like React, Vue, and Angular provide built-in protections against common vulnerabilities, particularly XSS. However, they are not bulletproof.

@@ -1,3 +1,8 @@
+---
+title: "05 - DevSecOps Metrics and Maturity"
+description: "Comprehensive guide and best practices for 05 - DevSecOps Metrics and Maturity in the devsecops-handbook section of AppSec Atlas. Learn how to secure your infra"
+keywords: ['devsecops-handbook', '05---devsecops-metrics-and-maturity', 'appsec', 'security', 'compliance']
+---
 # 05 - DevSecOps Metrics and Maturity
 
 To prove the ROI of a DevSecOps program, you must measure it. This chapter covers the frameworks used to assess maturity and the key performance indicators (KPIs) you should track.
@@ -39,3 +44,7 @@ While SAMM is prescriptive (telling you what you *should* do), BSIMM is descript
 Metrics aren't just technical. Measure culture by tracking:
 - **Security Champion Engagement:** How many champions attend the monthly syncs?
 - **Voluntary Training Completion:** How many developers complete secure coding training before it becomes mandatory?
+
+
+> [!TIP]
+> **Pro Tip:** Always automate your security and compliance checks early in the pipeline to reduce manual overhead and ensure continuous compliance.

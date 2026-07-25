@@ -1,3 +1,9 @@
+---
+title: "05. A04 & A05: Insecure Design & Security Misconfiguration"
+description: "This chapter covers design-level flaws (missing business logic limits) and environment misconfigurations (overly permissive headers, default credentia..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Owasp Top 10", "05 A04 Insecure Design And Misconfig.Md"]
+---
+
 # 05. A04 & A05: Insecure Design & Security Misconfiguration
 
 This chapter covers design-level flaws (missing business logic limits) and environment misconfigurations (overly permissive headers, default credentials, verbose stack traces).

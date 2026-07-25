@@ -1,3 +1,9 @@
+---
+title: "07. References & Further Reading"
+description: "To continue your journey into IoT and Hardware Security, consult the following industry standards, frameworks, and tooling documentation."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Iot Security", "07 References.Md"]
+---
+
 # 07. References & Further Reading
 
 To continue your journey into IoT and Hardware Security, consult the following industry standards, frameworks, and tooling documentation.

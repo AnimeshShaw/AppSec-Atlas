@@ -1,3 +1,9 @@
+---
+title: "03 - JWT Security Masterclass"
+description: "JSON Web Tokens (JWT) are widely used for stateless authentication. However, improper implementation leads to severe vulnerabilities."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Auth And Authz", "03 Jwt Security Masterclass.Md"]
+---
+
 # 03 - JWT Security Masterclass
 
 JSON Web Tokens (JWT) are widely used for stateless authentication. However, improper implementation leads to severe vulnerabilities.

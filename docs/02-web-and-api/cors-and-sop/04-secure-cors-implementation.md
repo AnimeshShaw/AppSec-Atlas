@@ -1,3 +1,9 @@
+---
+title: "04 - Secure CORS Implementation"
+description: "To implement CORS securely, you must enforce a strict server-side origin allowlist. Do not trust user input (the `Origin` header) without validating i..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Cors And Sop", "04 Secure Cors Implementation.Md"]
+---
+
 # 04 - Secure CORS Implementation
 
 To implement CORS securely, you must enforce a strict server-side origin allowlist. Do not trust user input (the `Origin` header) without validating it against a predefined list of authorized domains.

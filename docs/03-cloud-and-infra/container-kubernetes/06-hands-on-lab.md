@@ -1,3 +1,9 @@
+---
+title: "06. Hands-On Vulnerability Lab"
+description: "In this hands-on lab, you will audit a **vulnerable Kubernetes Deployment manifest**, analyze how a privilege escalation vulnerability permits contain..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Container Kubernetes", "06 Hands On Lab.Md"]
+---
+
 # 06. Hands-On Vulnerability Lab
 
 In this hands-on lab, you will audit a **vulnerable Kubernetes Deployment manifest**, analyze how a privilege escalation vulnerability permits container escapes, and refactor the manifest into a hardened, production-grade deployment.

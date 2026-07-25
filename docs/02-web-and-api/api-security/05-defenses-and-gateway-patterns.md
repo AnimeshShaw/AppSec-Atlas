@@ -1,3 +1,9 @@
+---
+title: "05. API Gateway & Defense Patterns"
+description: "Enforcing security controls at the **API Gateway tier** (Nginx, Kong, Envoy, AWS API Gateway) ensures consistent protection across all downstream micr..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Api Security", "05 Defenses And Gateway Patterns.Md"]
+---
+
 # 05. API Gateway & Defense Patterns
 
 Enforcing security controls at the **API Gateway tier** (Nginx, Kong, Envoy, AWS API Gateway) ensures consistent protection across all downstream microservices.

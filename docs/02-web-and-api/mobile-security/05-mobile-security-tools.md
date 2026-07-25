@@ -1,3 +1,9 @@
+---
+title: "05 - Mobile Security Tools"
+description: "A robust mobile security testing toolkit involves automated scanners and dynamic instrumentation frameworks."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Mobile Security", "05 Mobile Security Tools.Md"]
+---
+
 # 05 - Mobile Security Tools
 
 A robust mobile security testing toolkit involves automated scanners and dynamic instrumentation frameworks.

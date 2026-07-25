@@ -1,3 +1,9 @@
+---
+title: "Identity and Device Trust"
+description: "Zero Trust relies on strong identity verification (AuthN) and contextual access management (AuthZ)."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Zero Trust", "02 Identity And Device Trust.Md"]
+---
+
 # Identity and Device Trust
 
 Zero Trust relies on strong identity verification (AuthN) and contextual access management (AuthZ).

@@ -1,3 +1,9 @@
+---
+title: "04 - Authorization Models"
+description: "Authorization ensures that an authenticated user has the right to access a resource or perform an action."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Auth And Authz", "04 Authorization Models.Md"]
+---
+
 # 04 - Authorization Models
 
 Authorization ensures that an authenticated user has the right to access a resource or perform an action.

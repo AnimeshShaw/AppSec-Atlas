@@ -1,3 +1,9 @@
+---
+title: "03 - Network Security & SSL Pinning"
+description: "Mobile apps communicate extensively with backend APIs. If an attacker controls the Wi-Fi network (or the device itself), they can perform Man-in-the-M..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Mobile Security", "03 Network Security And Ssl Pinning.Md"]
+---
+
 # 03 - Network Security & SSL Pinning
 
 Mobile apps communicate extensively with backend APIs. If an attacker controls the Wi-Fi network (or the device itself), they can perform Man-in-the-Middle (MitM) attacks by installing a rogue root CA certificate on the device.

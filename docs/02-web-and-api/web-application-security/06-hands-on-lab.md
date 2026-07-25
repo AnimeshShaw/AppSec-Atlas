@@ -1,3 +1,9 @@
+---
+title: "06 - Hands-on Lab: Web Vulnerabilities"
+description: "This lab provides a self-contained Python Flask application containing Stored XSS and Unrestricted File Upload vulnerabilities, an exploit script, and..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Web Application Security", "06 Hands On Lab.Md"]
+---
+
 # 06 - Hands-on Lab: Web Vulnerabilities
 
 This lab provides a self-contained Python Flask application containing Stored XSS and Unrestricted File Upload vulnerabilities, an exploit script, and a secure remediation guide.

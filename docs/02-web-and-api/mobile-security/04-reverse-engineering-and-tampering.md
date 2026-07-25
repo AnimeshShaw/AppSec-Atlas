@@ -1,3 +1,9 @@
+---
+title: "04 - Reverse Engineering and Tampering"
+description: "Attackers analyze mobile applications to steal intellectual property, bypass premium features, or discover backend API secrets."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Mobile Security", "04 Reverse Engineering And Tampering.Md"]
+---
+
 # 04 - Reverse Engineering and Tampering
 
 Attackers analyze mobile applications to steal intellectual property, bypass premium features, or discover backend API secrets.

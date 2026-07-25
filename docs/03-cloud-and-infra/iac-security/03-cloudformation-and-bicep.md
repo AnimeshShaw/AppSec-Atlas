@@ -1,3 +1,9 @@
+---
+title: "03 - CloudFormation and Bicep Hardening"
+description: "While Terraform is cloud-agnostic, AWS CloudFormation and Azure Bicep (and ARM templates) are native IaC solutions. They require specific security con..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Iac Security", "03 Cloudformation And Bicep.Md"]
+---
+
 # 03 - CloudFormation and Bicep Hardening
 
 While Terraform is cloud-agnostic, AWS CloudFormation and Azure Bicep (and ARM templates) are native IaC solutions. They require specific security considerations.

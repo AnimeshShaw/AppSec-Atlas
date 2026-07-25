@@ -1,3 +1,9 @@
+---
+title: "06 - Hands-on Lab: Forensic Log Parser"
+description: "In this lab, we build a Python script to verify evidence integrity (SHA-256) and parse an artifact (mock auth.log) for malicious activity."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Digital Forensics", "06 Hands On Lab.Md"]
+---
+
 # 06 - Hands-on Lab: Forensic Log Parser
 
 In this lab, we build a Python script to verify evidence integrity (SHA-256) and parse an artifact (mock auth.log) for malicious activity.

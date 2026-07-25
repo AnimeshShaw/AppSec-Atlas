@@ -1,3 +1,9 @@
+---
+title: "06 - Hands-on Lab: Secure Architecture Refactoring"
+description: "In this lab, we will look at a vulnerable, monolithic python script and refactor it using the Circuit Breaker and Envelope Encryption design patterns."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Security Design Patterns", "06 Hands On Lab.Md"]
+---
+
 # 06 - Hands-on Lab: Secure Architecture Refactoring
 
 In this lab, we will look at a vulnerable, monolithic python script and refactor it using the Circuit Breaker and Envelope Encryption design patterns.

@@ -1,3 +1,9 @@
+---
+title: "Chapter 6: Hands-On Lab: Reentrancy Attack & Remediation"
+description: "This lab provides a self-contained Python script using `web3.py` and the `py-solc-x` compiler to simulate a local blockchain environment, deploy a vul..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Blockchain Security", "06 Hands On Lab.Md"]
+---
+
 # Chapter 6: Hands-On Lab: Reentrancy Attack & Remediation
 
 This lab provides a self-contained Python script using `web3.py` and the `py-solc-x` compiler to simulate a local blockchain environment, deploy a vulnerable contract, exploit it, and then deploy a secure version.

@@ -1,3 +1,9 @@
+---
+title: "07 - References"
+description: "Comprehensive security guide and practical technical implementation handbook."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Network Attacks", "07 References.Md"]
+---
+
 # 07 - References
 
 - **RFC 8446 (TLS 1.3):** [https://datatracker.ietf.org/doc/html/rfc8446](https://datatracker.ietf.org/doc/html/rfc8446)

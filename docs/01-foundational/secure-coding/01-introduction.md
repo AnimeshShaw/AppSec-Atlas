@@ -1,4 +1,13 @@
+---
+title: "Chapter 1: Introduction to Secure Coding"
+description: "Secure coding is the practice of writing software that resists vulnerabilities, attacks, and unexpected behavior. It is a fundamental part of the DevS..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Secure Coding", "01 Introduction.Md"]
+---
+
 # Chapter 1: Introduction to Secure Coding
+
+> [!TIP]
+> **Industry Best Practice:** Always align this domain with standard frameworks like OWASP, NIST, or CIS benchmarks for optimal security posture.
 
 ## Theory and Architecture
 Secure coding is the practice of writing software that resists vulnerabilities, attacks, and unexpected behavior. It is a fundamental part of the DevSecOps lifecycle. 

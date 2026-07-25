@@ -1,3 +1,9 @@
+---
+title: "06. Hands-On Vulnerability Lab"
+description: "In this self-contained lab, you will audit a **vulnerable LLM Customer Support Assistant**, execute a prompt injection attack to leak secret discount ..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "04 Ai Ml Security", "Llm Prompt Injection", "06 Labs.Md"]
+---
+
 # 06. Hands-On Vulnerability Lab
 
 In this self-contained lab, you will audit a **vulnerable LLM Customer Support Assistant**, execute a prompt injection attack to leak secret discount codes and execute unauthorized actions, and then implement the fix to secure the application.

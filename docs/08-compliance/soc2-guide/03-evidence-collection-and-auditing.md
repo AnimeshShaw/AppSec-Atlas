@@ -1,3 +1,8 @@
+---
+title: "03 - Evidence Collection and Auditing"
+description: "Comprehensive guide and best practices for 03 - Evidence Collection and Auditing in the soc2-guide section of AppSec Atlas. Learn how to secure your infrastruct"
+keywords: ['soc2-guide', '03---evidence-collection-and-auditing', 'appsec', 'security', 'compliance']
+---
 # 03 - Evidence Collection and Auditing
 
 To pass a SOC 2 audit, you need **evidence** that your controls are working. Manual screenshots are painful. Automate this.
@@ -108,3 +113,7 @@ Auditors want to see that critical alerts exist and are routed correctly. Take a
 - Unusually high number of failed logins (Security)
 
 *Tip:* Export your Terraform Datadog monitor definitions as text evidence.
+
+
+> [!TIP]
+> **Pro Tip:** Always automate your security and compliance checks early in the pipeline to reduce manual overhead and ensure continuous compliance.

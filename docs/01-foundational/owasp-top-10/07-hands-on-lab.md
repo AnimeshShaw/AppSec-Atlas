@@ -1,3 +1,9 @@
+---
+title: "07. Hands-On Vulnerability Lab"
+description: "In this lab, you will audit a **vulnerable Flask e-commerce API**, exploit an IDOR vulnerability to view another user's private credit card data, and ..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Owasp Top 10", "07 Hands On Lab.Md"]
+---
+
 # 07. Hands-On Vulnerability Lab
 
 In this lab, you will audit a **vulnerable Flask e-commerce API**, exploit an IDOR vulnerability to view another user's private credit card data, and then apply the secure fix.

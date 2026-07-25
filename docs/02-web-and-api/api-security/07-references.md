@@ -1,3 +1,9 @@
+---
+title: "07. References & Testing Tools"
+description: "Authoritative references, testing frameworks, and tooling for API Security."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Api Security", "07 References.Md"]
+---
+
 # 07. References & Testing Tools
 
 Authoritative references, testing frameworks, and tooling for API Security.

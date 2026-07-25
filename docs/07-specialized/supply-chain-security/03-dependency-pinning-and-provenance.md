@@ -1,3 +1,9 @@
+---
+title: "03 - Dependency Pinning and Provenance"
+description: "A critical practice in securing your software supply chain is ensuring that builds are reproducible. If `npm install` installs different sub-dependenc..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Supply Chain Security", "03 Dependency Pinning And Provenance.Md"]
+---
+
 # 03 - Dependency Pinning and Provenance
 
 ## Lockfile Hardening

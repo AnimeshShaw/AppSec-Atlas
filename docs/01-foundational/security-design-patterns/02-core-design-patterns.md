@@ -1,3 +1,9 @@
+---
+title: "02 - Core Design Patterns"
+description: "Implementing security requires specific, repeatable patterns. This section covers critical design patterns for resilience, access control, and isolati..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Security Design Patterns", "02 Core Design Patterns.Md"]
+---
+
 # 02 - Core Design Patterns
 
 Implementing security requires specific, repeatable patterns. This section covers critical design patterns for resilience, access control, and isolation.

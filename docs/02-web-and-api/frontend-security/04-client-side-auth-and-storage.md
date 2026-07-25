@@ -1,3 +1,9 @@
+---
+title: "04. Client-Side Authentication and Storage"
+description: "Securing user sessions in SPAs is challenging. The recommended pattern has shifted from implicit flows to OAuth2 PKCE and secure token handling."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Frontend Security", "04 Client Side Auth And Storage.Md"]
+---
+
 # 04. Client-Side Authentication and Storage
 
 Securing user sessions in SPAs is challenging. The recommended pattern has shifted from implicit flows to OAuth2 PKCE and secure token handling.

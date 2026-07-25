@@ -1,6 +1,15 @@
+---
+title: "01 - Introduction to Logging & SIEM"
+description: "In modern application security, **visibility is survival**. If an attacker breaches your system and you have no logs, you have no way to detect the in..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Logging And Monitoring", "01 Introduction.Md"]
+---
+
 # 01 - Introduction to Logging & SIEM
 
 In modern application security, **visibility is survival**. If an attacker breaches your system and you have no logs, you have no way to detect the intrusion, understand the impact, or evict the threat actor. 
+
+> [!TIP]
+> **Industry Best Practice:** Always align this domain with standard frameworks like OWASP, NIST, or CIS benchmarks for optimal security posture.
 
 ## 🏗️ Centralized Logging Architecture
 

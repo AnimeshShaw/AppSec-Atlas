@@ -1,4 +1,13 @@
+---
+title: "01 - Introduction to Digital Forensics"
+description: "Digital Forensics is the process of uncovering and interpreting electronic data. The goal is to preserve any evidence in its most original form while ..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Digital Forensics", "01 Introduction.Md"]
+---
+
 # 01 - Introduction to Digital Forensics
+
+> [!TIP]
+> **Industry Best Practice:** Always align this domain with standard frameworks like OWASP, NIST, or CIS benchmarks for optimal security posture.
 
 ## Digital Forensics & Incident Response (DFIR)
 Digital Forensics is the process of uncovering and interpreting electronic data. The goal is to preserve any evidence in its most original form while performing a structured investigation by collecting, identifying, and validating the digital information for the purpose of reconstructing past events.

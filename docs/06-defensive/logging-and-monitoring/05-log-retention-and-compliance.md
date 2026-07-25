@@ -1,3 +1,9 @@
+---
+title: "05 - Log Retention & Compliance"
+description: "Storing logs securely and for the correct amount of time is not just a security best practice; it is a legal and regulatory requirement."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Logging And Monitoring", "05 Log Retention And Compliance.Md"]
+---
+
 # 05 - Log Retention & Compliance
 
 Storing logs securely and for the correct amount of time is not just a security best practice; it is a legal and regulatory requirement.

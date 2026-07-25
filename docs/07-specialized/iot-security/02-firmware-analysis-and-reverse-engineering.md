@@ -1,3 +1,9 @@
+---
+title: "02. Firmware Analysis & Reverse Engineering"
+description: "Firmware is the lifeblood of an IoT device—it contains the operating system, device drivers, web servers, and configuration files. Attackers analyze f..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Iot Security", "02 Firmware Analysis And Reverse Engineering.Md"]
+---
+
 # 02. Firmware Analysis & Reverse Engineering
 
 Firmware is the lifeblood of an IoT device—it contains the operating system, device drivers, web servers, and configuration files. Attackers analyze firmware to find zero-day vulnerabilities, hidden backdoors, and hardcoded secrets.

@@ -1,3 +1,9 @@
+---
+title: "02 - Phishing Analysis and Email Security"
+description: "Defending against phishing requires a deep understanding of how emails are delivered, verified, and parsed by Mail Transfer Agents (MTAs). This sectio..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Social Engineering", "02 Phishing Analysis And Email Security.Md"]
+---
+
 # 02 - Phishing Analysis and Email Security
 
 Defending against phishing requires a deep understanding of how emails are delivered, verified, and parsed by Mail Transfer Agents (MTAs). This section covers email authentication protocols and how to dissect email headers to spot spoofed messages.

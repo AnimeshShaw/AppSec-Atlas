@@ -1,6 +1,15 @@
+---
+title: "01 - Introduction: The Psychology and Mechanics of Social Engineering"
+description: "Social engineering is the art of manipulating people into performing actions or divulging confidential information. While technical attacks focus on s..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Social Engineering", "01 Introduction.Md"]
+---
+
 # 01 - Introduction: The Psychology and Mechanics of Social Engineering
 
 Social engineering is the art of manipulating people into performing actions or divulging confidential information. While technical attacks focus on software flaws, social engineering exploits the "human operating system."
+
+> [!TIP]
+> **Industry Best Practice:** Always align this domain with standard frameworks like OWASP, NIST, or CIS benchmarks for optimal security posture.
 
 ## The Psychology of Social Engineering
 

@@ -1,4 +1,13 @@
+---
+title: "01 - Introduction to SOC Operations"
+description: "A **Security Operations Center (SOC)** is a centralized function within an organization employing people, processes, and technology to continuously mo..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Soc Operations", "01 Introduction.Md"]
+---
+
 # 01 - Introduction to SOC Operations
+
+> [!TIP]
+> **Industry Best Practice:** Always align this domain with standard frameworks like OWASP, NIST, or CIS benchmarks for optimal security posture.
 
 ## Theory & Architecture
 

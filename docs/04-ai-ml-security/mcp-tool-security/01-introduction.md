@@ -1,4 +1,13 @@
+---
+title: "01 - Introduction to MCP & Tool-Use Security"
+description: "The Model Context Protocol (MCP) is an open standard designed to facilitate secure, standardized communication between AI models (Clients) and externa..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "04 Ai Ml Security", "Mcp Tool Security", "01 Introduction.Md"]
+---
+
 # 01 - Introduction to MCP & Tool-Use Security
+
+> [!TIP]
+> **Industry Best Practice:** Always align this domain with standard frameworks like OWASP, NIST, or CIS benchmarks for optimal security posture.
 
 ## Theory and Architecture
 The Model Context Protocol (MCP) is an open standard designed to facilitate secure, standardized communication between AI models (Clients) and external data sources or tools (Servers). It uses JSON-RPC over stdio or HTTP/SSE.

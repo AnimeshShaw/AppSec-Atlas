@@ -1,3 +1,9 @@
+---
+title: "06 - Hands-on Lab"
+description: "from flask import Flask, request"
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Network Attacks", "06 Hands On Lab.Md"]
+---
+
 # 06 - Hands-on Lab
 
 ## Vulnerable vs Secure Implementation

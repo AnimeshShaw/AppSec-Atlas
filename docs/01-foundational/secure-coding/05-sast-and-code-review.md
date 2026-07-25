@@ -1,3 +1,9 @@
+---
+title: "Chapter 5: SAST & Code Review"
+description: "SAST tools analyze source code for vulnerabilities without executing it. They integrate into the CI/CD pipeline to block insecure code before it merge..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Secure Coding", "05 Sast And Code Review.Md"]
+---
+
 # Chapter 5: SAST & Code Review
 
 ## Static Application Security Testing (SAST)

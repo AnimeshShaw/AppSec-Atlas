@@ -1,3 +1,9 @@
+---
+title: "AppSec Atlas Security Guide"
+description: "Choose the path that matches your role and goals. Each path orders the guides for maximum learning efficiency."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "00 Getting Started", "Learning Paths.Md"]
+---
+
 ﻿# Learning Paths
 
 Choose the path that matches your role and goals. Each path orders the guides for maximum learning efficiency.

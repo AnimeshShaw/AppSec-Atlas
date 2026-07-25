@@ -1,3 +1,9 @@
+---
+title: "03 - Least Privilege & Permission Scopes"
+description: "To prevent an LLM from abusing tools, we must apply the Principle of Least Privilege. This involves:"
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "04 Ai Ml Security", "Mcp Tool Security", "03 Least Privilege And Permission Scopes.Md"]
+---
+
 # 03 - Least Privilege & Permission Scopes
 
 ## Defenses and Mitigations

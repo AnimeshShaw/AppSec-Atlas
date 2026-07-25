@@ -1,3 +1,9 @@
+---
+title: "06 - Hands-on Lab: Server-Side Template Injection (SSTI) 🧪"
+description: "In this lab, you will deploy a vulnerable Python Flask application locally, exploit it to extract the flag, and then apply the proper security remedia..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Ctf Guide", "06 Hands On Lab.Md"]
+---
+
 # 06 - Hands-on Lab: Server-Side Template Injection (SSTI) 🧪
 
 In this lab, you will deploy a vulnerable Python Flask application locally, exploit it to extract the flag, and then apply the proper security remediation.

@@ -1,3 +1,9 @@
+---
+title: "Browser Extension Security Guide"
+description: "Browser extensions have significant access to user data, often more than web applications themselves. This guide covers the security architecture of m..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Browser Extension Security", "Readme.Md"]
+---
+
 # Browser Extension Security Guide
 
 ## Overview

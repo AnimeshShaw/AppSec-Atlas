@@ -1,3 +1,9 @@
+---
+title: "02 - Modern Authentication"
+description: "Modern authentication goes beyond simple username and password, relying on standardized protocols and multi-factor verification."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Auth And Authz", "02 Modern Authentication.Md"]
+---
+
 # 02 - Modern Authentication
 
 Modern authentication goes beyond simple username and password, relying on standardized protocols and multi-factor verification.

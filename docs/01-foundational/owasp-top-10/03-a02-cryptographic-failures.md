@@ -1,3 +1,9 @@
+---
+title: "03. A02: Cryptographic Failures"
+description: "Cryptographic Failures (formerly known as *Sensitive Data Exposure*) occur when applications store or transmit sensitive data (passwords, credit cards..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Owasp Top 10", "03 A02 Cryptographic Failures.Md"]
+---
+
 # 03. A02: Cryptographic Failures
 
 Cryptographic Failures (formerly known as *Sensitive Data Exposure*) occur when applications store or transmit sensitive data (passwords, credit cards, PII, API tokens) in plaintext or use weak cryptographic algorithms.

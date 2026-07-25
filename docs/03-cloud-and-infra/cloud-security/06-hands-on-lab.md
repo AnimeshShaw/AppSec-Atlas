@@ -1,3 +1,9 @@
+---
+title: "06 - Hands-on Lab: Leaked Keys & S3 Exposure"
+description: "In this self-contained lab, you will play the role of an attacker who discovers leaked AWS credentials, uses them to map the environment, and discover..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Cloud Security", "06 Hands On Lab.Md"]
+---
+
 # 06 - Hands-on Lab: Leaked Keys & S3 Exposure
 
 In this self-contained lab, you will play the role of an attacker who discovers leaked AWS credentials, uses them to map the environment, and discovers sensitive data in an improperly secured S3 bucket. Finally, you will switch to the defender role to remediate the vulnerability.

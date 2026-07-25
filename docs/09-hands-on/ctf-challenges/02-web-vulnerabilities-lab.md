@@ -1,3 +1,9 @@
+---
+title: "Web Vulnerabilities Lab"
+description: "query = f'SELECT * FROM users WHERE username = '{username}''"
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "09 Hands On", "Ctf Challenges", "02 Web Vulnerabilities Lab.Md"]
+---
+
 # Web Vulnerabilities Lab
 
 ## 1. SQL Injection (SQLi)

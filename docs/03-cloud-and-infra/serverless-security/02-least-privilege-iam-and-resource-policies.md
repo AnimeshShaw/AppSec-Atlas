@@ -1,3 +1,9 @@
+---
+title: "02 - Least Privilege IAM and Resource Policies"
+description: "In serverless architectures, Identity and Access Management (IAM) is the new perimeter. The most critical defense mechanism is assigning a dedicated, ..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Serverless Security", "02 Least Privilege Iam And Resource Policies.Md"]
+---
+
 # 02 - Least Privilege IAM and Resource Policies
 
 In serverless architectures, Identity and Access Management (IAM) is the new perimeter. The most critical defense mechanism is assigning a dedicated, least-privilege IAM role to *each individual function*.

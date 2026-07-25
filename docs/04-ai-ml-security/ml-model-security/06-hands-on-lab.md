@@ -1,3 +1,9 @@
+---
+title: "06. Hands-On Audit Lab"
+description: "In this lab, you will audit a **PyTorch classifier model**, measure its prediction sensitivity to input noise, and implement a robust Gaussian noise d..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "04 Ai Ml Security", "Ml Model Security", "06 Hands On Lab.Md"]
+---
+
 # 06. Hands-On Audit Lab
 
 In this lab, you will audit a **PyTorch classifier model**, measure its prediction sensitivity to input noise, and implement a robust Gaussian noise data augmentation fix.

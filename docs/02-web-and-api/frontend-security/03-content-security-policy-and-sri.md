@@ -1,3 +1,9 @@
+---
+title: "03. Content Security Policy (CSP) and SRI"
+description: "Defense-in-depth is crucial for frontend security. CSP and SRI are essential tools to mitigate XSS and supply chain attacks."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Frontend Security", "03 Content Security Policy And Sri.Md"]
+---
+
 # 03. Content Security Policy (CSP) and SRI
 
 Defense-in-depth is crucial for frontend security. CSP and SRI are essential tools to mitigate XSS and supply chain attacks.

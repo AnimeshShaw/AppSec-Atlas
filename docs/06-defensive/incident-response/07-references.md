@@ -1,3 +1,9 @@
+---
+title: "07 - References and Further Reading"
+description: "To deepen your understanding of Incident Response, refer to the following industry standards, frameworks, and tool documentation."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Incident Response", "07 References.Md"]
+---
+
 # 07 - References and Further Reading
 
 To deepen your understanding of Incident Response, refer to the following industry standards, frameworks, and tool documentation.

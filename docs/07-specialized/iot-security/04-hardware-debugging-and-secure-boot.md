@@ -1,3 +1,9 @@
+---
+title: "04. Hardware Debugging & Secure Boot"
+description: "Physical access to an IoT device is often 'game over' if the hardware is not appropriately hardened. Attackers will disassemble the device, locate deb..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Iot Security", "04 Hardware Debugging And Secure Boot.Md"]
+---
+
 # 04. Hardware Debugging & Secure Boot
 
 Physical access to an IoT device is often "game over" if the hardware is not appropriately hardened. Attackers will disassemble the device, locate debugging interfaces on the PCB (Printed Circuit Board), and attempt to take control.

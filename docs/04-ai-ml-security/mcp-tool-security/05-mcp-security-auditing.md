@@ -1,3 +1,9 @@
+---
+title: "05. MCP Security Auditing & Telemetry"
+description: "Auditing Model Context Protocol (MCP) tool invocations ensures that AI agents operating with external tool access produce traceable audit logs for all..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "04 Ai Ml Security", "Mcp Tool Security", "05 Mcp Security Auditing.Md"]
+---
+
 # 05. MCP Security Auditing & Telemetry
 
 Auditing Model Context Protocol (MCP) tool invocations ensures that AI agents operating with external tool access produce traceable audit logs for all tool calls and parameter bindings.

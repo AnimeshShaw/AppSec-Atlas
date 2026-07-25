@@ -1,3 +1,9 @@
+---
+title: "05 - CTF Tooling and Environment Setup 🛠️"
+description: "A well-configured environment is half the battle in a CTF. You need a dedicated Linux VM equipped with offensive tooling."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Ctf Guide", "05 Ctf Tooling And Environment.Md"]
+---
+
 # 05 - CTF Tooling and Environment Setup 🛠️
 
 A well-configured environment is half the battle in a CTF. You need a dedicated Linux VM equipped with offensive tooling.

@@ -1,3 +1,9 @@
+---
+title: "05. Frontend Security Scanners"
+description: "Automated security tooling is essential for catching vulnerabilities early in the software development lifecycle (SDLC)."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Frontend Security", "05 Frontend Security Scanners.Md"]
+---
+
 # 05. Frontend Security Scanners
 
 Automated security tooling is essential for catching vulnerabilities early in the software development lifecycle (SDLC).

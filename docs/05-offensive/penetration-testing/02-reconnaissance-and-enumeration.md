@@ -1,3 +1,9 @@
+---
+title: "02. Reconnaissance & Target Mapping"
+description: "Reconnaissance is the initial phase of mapping an organization's external attack surface."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Penetration Testing", "02 Reconnaissance And Enumeration.Md"]
+---
+
 # 02. Reconnaissance & Target Mapping
 
 Reconnaissance is the initial phase of mapping an organization's external attack surface.

@@ -1,8 +1,17 @@
+---
+title: "01. Overview & Threat Landscape"
+description: "The Open Web Application Security Project (OWASP) Top 10 is the globally recognized standard awareness document for developers and application securit..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Owasp Top 10", "01 Introduction.Md"]
+---
+
 # 01. Overview & Threat Landscape
 
 The Open Web Application Security Project (OWASP) Top 10 is the globally recognized standard awareness document for developers and application security engineers.
 
 ---
+
+> [!TIP]
+> **Industry Best Practice:** Always align this domain with standard frameworks like OWASP, NIST, or CIS benchmarks for optimal security posture.
 
 ## 1. The OWASP Top 10 Risk Matrix
 

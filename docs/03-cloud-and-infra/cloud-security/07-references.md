@@ -1,3 +1,9 @@
+---
+title: "07 - References and Further Reading"
+description: "To continue expanding your knowledge on Cloud Security, consult the following industry-standard frameworks and official documentation."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Cloud Security", "07 References.Md"]
+---
+
 # 07 - References and Further Reading
 
 To continue expanding your knowledge on Cloud Security, consult the following industry-standard frameworks and official documentation.

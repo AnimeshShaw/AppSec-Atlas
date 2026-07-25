@@ -1,8 +1,17 @@
+---
+title: "01. Overview & Supply Chain Threat Landscape"
+description: "CI/CD pipelines have become the primary target for modern cyber attacks. Instead of attacking a heavily defended production server directly, attackers..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Cicd Pipeline Security", "01 Introduction.Md"]
+---
+
 # 01. Overview & Supply Chain Threat Landscape
 
 CI/CD pipelines have become the primary target for modern cyber attacks. Instead of attacking a heavily defended production server directly, attackers compromise the build system to inject malicious code into software updates that get signed and distributed automatically.
 
 ---
+
+> [!TIP]
+> **Industry Best Practice:** Always align this domain with standard frameworks like OWASP, NIST, or CIS benchmarks for optimal security posture.
 
 ## 1. Real-World Case Studies
 

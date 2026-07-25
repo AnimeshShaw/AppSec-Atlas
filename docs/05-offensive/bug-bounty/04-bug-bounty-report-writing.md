@@ -1,3 +1,9 @@
+---
+title: "04. Report Writing & Triage Communication"
+description: "Writing clear, professional reports accelerates triaging and resolution times."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Bug Bounty", "04 Bug Bounty Report Writing.Md"]
+---
+
 # 04. Report Writing & Triage Communication
 
 Writing clear, professional reports accelerates triaging and resolution times.

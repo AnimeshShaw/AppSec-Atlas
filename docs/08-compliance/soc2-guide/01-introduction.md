@@ -1,3 +1,8 @@
+---
+title: "01 - Introduction to SOC 2"
+description: "Comprehensive guide and best practices for 01 - Introduction to SOC 2 in the soc2-guide section of AppSec Atlas. Learn how to secure your infrastructure."
+keywords: ['soc2-guide', '01---introduction-to-soc-2', 'appsec', 'security', 'compliance']
+---
 # 01 - Introduction to SOC 2
 
 ## 🧠 Theory and Core Concepts
@@ -62,3 +67,7 @@ Organizations fail SOC 2 audits (receive "qualified" or "adverse" opinions) prim
 - **Change management gaps:** Code merged directly to `main` without PR approvals or testing.
 - **Missing evidence:** Failing to take screenshots/logs of quarterly access reviews.
 - **Misconfigured infrastructure:** Publicly accessible S3 buckets or unencrypted databases.
+
+
+> [!TIP]
+> **Pro Tip:** Always automate your security and compliance checks early in the pipeline to reduce manual overhead and ensure continuous compliance.

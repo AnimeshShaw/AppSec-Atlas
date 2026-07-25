@@ -1,3 +1,9 @@
+---
+title: "Chapter 2: Input Validation & Sanitization"
+description: "Pydantic ensures data validation and settings management using Python type annotations."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Secure Coding", "02 Input Validation Sanitization.Md"]
+---
+
 # Chapter 2: Input Validation & Sanitization
 
 ## Strict Input Allowlisting vs Blocklisting

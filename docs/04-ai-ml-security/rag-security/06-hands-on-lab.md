@@ -1,3 +1,9 @@
+---
+title: "06 - Hands-on Lab: RAG Indirect Injection & Remediation"
+description: "Exploit a vulnerable LangChain RAG application using a poisoned PDF, then secure it using metadata filtering and guardrails."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "04 Ai Ml Security", "Rag Security", "06 Hands On Lab.Md"]
+---
+
 # 06 - Hands-on Lab: RAG Indirect Injection & Remediation
 
 ## Objective

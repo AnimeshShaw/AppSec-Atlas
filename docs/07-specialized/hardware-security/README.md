@@ -1,3 +1,9 @@
+---
+title: "Hardware Security Basics"
+description: "Welcome to the **Hardware Security Basics** guide. This module dives into the physical layers of security, exploring how hardware architectures can be..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Hardware Security", "Readme.Md"]
+---
+
 # Hardware Security Basics
 
 Welcome to the **Hardware Security Basics** guide. This module dives into the physical layers of security, exploring how hardware architectures can be compromised, and how to defend them against direct physical attacks, side-channels, and supply-chain threats.

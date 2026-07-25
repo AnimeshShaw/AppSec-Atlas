@@ -1,3 +1,9 @@
+---
+title: "CI/CD Pipeline Security Guide"
+description: "CI/CD Pipeline Security focuses on securing continuous integration and deployment pipelines against supply chain attacks, pipeline poisoning, secret l..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Cicd Pipeline Security", "Readme.Md"]
+---
+
 # CI/CD Pipeline Security Guide
 
 > **Section:** ☁️ Cloud & Infrastructure Security  

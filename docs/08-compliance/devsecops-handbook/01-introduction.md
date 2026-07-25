@@ -1,3 +1,8 @@
+---
+title: "01 - Introduction to DevSecOps"
+description: "Comprehensive guide and best practices for 01 - Introduction to DevSecOps in the devsecops-handbook section of AppSec Atlas. Learn how to secure your infrastruc"
+keywords: ['devsecops-handbook', '01---introduction-to-devsecops', 'appsec', 'security', 'compliance']
+---
 # 01 - Introduction to DevSecOps
 
 ## The Shift-Left Philosophy
@@ -30,3 +35,7 @@ Security should not disrupt agile workflows; it should enhance them.
 - **Daily Stand-ups**: Discuss any blockers related to security remediation.
 - **Code Review**: Require security checks in the PR pipeline. Break the build only for high-confidence, critical vulnerabilities.
 - **Retrospectives**: Analyze escaped vulnerabilities. "How did this XSS make it to production? Was our SAST tool missing a rule?"
+
+
+> [!TIP]
+> **Pro Tip:** Always automate your security and compliance checks early in the pipeline to reduce manual overhead and ensure continuous compliance.

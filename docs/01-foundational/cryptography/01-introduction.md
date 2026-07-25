@@ -1,6 +1,15 @@
+---
+title: "01 - Introduction to Cryptography"
+description: "Cryptography is the mathematical foundation of secure communication. In application security, developers use cryptography to ensure Confidentiality, I..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Cryptography", "01 Introduction.Md"]
+---
+
 # 01 - Introduction to Cryptography
 
 Cryptography is the mathematical foundation of secure communication. In application security, developers use cryptography to ensure Confidentiality, Integrity, Authentication, and Non-repudiation (CIA+N).
+
+> [!TIP]
+> **Industry Best Practice:** Always align this domain with standard frameworks like OWASP, NIST, or CIS benchmarks for optimal security posture.
 
 ## The Big Three: Encoding vs Hashing vs Encryption
 

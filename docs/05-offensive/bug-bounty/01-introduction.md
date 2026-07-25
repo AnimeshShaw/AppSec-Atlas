@@ -1,8 +1,17 @@
+---
+title: "01. Overview & Bug Bounty Ecosystem"
+description: "Bug Bounty programs allow ethical security researchers to report security vulnerabilities to organizations in exchange for recognition or financial re..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Bug Bounty", "01 Introduction.Md"]
+---
+
 # 01. Overview & Bug Bounty Ecosystem
 
 Bug Bounty programs allow ethical security researchers to report security vulnerabilities to organizations in exchange for recognition or financial rewards.
 
 ---
+
+> [!TIP]
+> **Industry Best Practice:** Always align this domain with standard frameworks like OWASP, NIST, or CIS benchmarks for optimal security posture.
 
 ## 1. Vulnerability Rating Taxonomy (VRT)
 

@@ -1,3 +1,9 @@
+---
+title: "03 - Content Script and DOM Injection"
+description: "Content scripts interact directly with the DOM of the web page. If a content script unsafely handles data from the web page (or from background script..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Browser Extension Security", "03 Content Script And Dom Injection.Md"]
+---
+
 # 03 - Content Script and DOM Injection
 
 ## DOM XSS in Content Scripts

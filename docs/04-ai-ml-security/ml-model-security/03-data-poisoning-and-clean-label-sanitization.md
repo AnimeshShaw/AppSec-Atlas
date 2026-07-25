@@ -1,3 +1,9 @@
+---
+title: "03. Data Poisoning & Dataset Sanitization"
+description: "Data poisoning occurs when an attacker manipulates a fraction of training data to cause the trained model to misclassify specific inputs or behave inc..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "04 Ai Ml Security", "Ml Model Security", "03 Data Poisoning And Clean Label Sanitization.Md"]
+---
+
 # 03. Data Poisoning & Dataset Sanitization
 
 Data poisoning occurs when an attacker manipulates a fraction of training data to cause the trained model to misclassify specific inputs or behave incorrectly under trigger conditions.

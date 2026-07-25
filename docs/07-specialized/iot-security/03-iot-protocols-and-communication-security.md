@@ -1,3 +1,9 @@
+---
+title: "03. IoT Protocols & Communication Security"
+description: "IoT devices communicate over various specialized protocols designed for low bandwidth and low power consumption. Securing these protocols is critical ..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Iot Security", "03 Iot Protocols And Communication Security.Md"]
+---
+
 # 03. IoT Protocols & Communication Security
 
 IoT devices communicate over various specialized protocols designed for low bandwidth and low power consumption. Securing these protocols is critical to prevent eavesdropping, data manipulation, and unauthorized device control.

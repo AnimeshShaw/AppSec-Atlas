@@ -1,3 +1,9 @@
+---
+title: "06 - Hands-On Lab: IaC Vulnerability and Remediation"
+description: "In this lab, you will analyze a vulnerable Terraform manifest, scan it with Checkov, analyze the exploit report, and apply the secure remediation."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Iac Security", "06 Hands On Lab.Md"]
+---
+
 # 06 - Hands-On Lab: IaC Vulnerability and Remediation
 
 In this lab, you will analyze a vulnerable Terraform manifest, scan it with Checkov, analyze the exploit report, and apply the secure remediation.

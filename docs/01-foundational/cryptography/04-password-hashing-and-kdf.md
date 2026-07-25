@@ -1,3 +1,9 @@
+---
+title: "04 - Password Hashing and Key Derivation"
+description: "Hashing a password with standard hash functions like SHA-256 is insufficient. Attackers use Graphics Processing Units (GPUs) or ASICs to compute billi..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Cryptography", "04 Password Hashing And Kdf.Md"]
+---
+
 # 04 - Password Hashing and Key Derivation
 
 Hashing a password with standard hash functions like SHA-256 is insufficient. Attackers use Graphics Processing Units (GPUs) or ASICs to compute billions of SHA-256 hashes per second, allowing them to crack passwords easily using dictionary attacks or rainbow tables.

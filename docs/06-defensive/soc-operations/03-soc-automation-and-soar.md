@@ -1,3 +1,9 @@
+---
+title: "03 - SOC Automation and SOAR"
+description: "SOAR platforms aim to reduce the manual workload on Tier 1 analysts by automating repetitive tasks, enriching alerts with threat intelligence, and exe..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Soc Operations", "03 Soc Automation And Soar.Md"]
+---
+
 # 03 - SOC Automation and SOAR
 
 ## Security Orchestration, Automation, and Response (SOAR)

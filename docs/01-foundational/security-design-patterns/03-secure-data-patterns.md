@@ -1,3 +1,9 @@
+---
+title: "03 - Secure Data Patterns"
+description: "Protecting data at rest and in transit requires robust patterns that go beyond simple encryption."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Security Design Patterns", "03 Secure Data Patterns.Md"]
+---
+
 # 03 - Secure Data Patterns
 
 Protecting data at rest and in transit requires robust patterns that go beyond simple encryption.

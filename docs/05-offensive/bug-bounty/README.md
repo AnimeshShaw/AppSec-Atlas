@@ -1,3 +1,9 @@
+---
+title: "Bug Bounty Field Guide"
+description: "The Bug Bounty Field Guide provides practical methodology for ethical security researchers and application security engineers participating in vulnera..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Bug Bounty", "Readme.Md"]
+---
+
 # Bug Bounty Field Guide
 
 > **Section:** 🔴 Offensive Security  

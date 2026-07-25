@@ -1,3 +1,9 @@
+---
+title: "02 - Manifest V3 Security and Permissions"
+description: "MV3 introduces several major security enhancements over MV2:"
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Browser Extension Security", "02 Manifest V3 Security And Permissions.Md"]
+---
+
 # 02 - Manifest V3 Security and Permissions
 
 ## Migrating from Manifest V2 to V3: Security Benefits

@@ -1,3 +1,9 @@
+---
+title: "03 - Windows and Linux Artifact Analysis"
+description: "A hierarchical database that stores low-level settings."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Digital Forensics", "03 Windows And Linux Artifact Analysis.Md"]
+---
+
 # 03 - Windows and Linux Artifact Analysis
 
 ## Windows Artifacts

@@ -1,3 +1,9 @@
+---
+title: "07 - References and Resources"
+description: "To dive deeper into cryptographic standards, best practices, and implementation guidelines, refer to the following authoritative resources."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Cryptography", "07 References.Md"]
+---
+
 # 07 - References and Resources
 
 To dive deeper into cryptographic standards, best practices, and implementation guidelines, refer to the following authoritative resources.

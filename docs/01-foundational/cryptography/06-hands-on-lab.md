@@ -1,3 +1,9 @@
+---
+title: "06 - Hands-On Lab: Exploiting and Fixing Broken Crypto"
+description: "In this lab, we will analyze an application that uses insecure cryptographic practices, see why it's broken, and then fix it."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Cryptography", "06 Hands On Lab.Md"]
+---
+
 # 06 - Hands-On Lab: Exploiting and Fixing Broken Crypto
 
 In this lab, we will analyze an application that uses insecure cryptographic practices, see why it's broken, and then fix it.

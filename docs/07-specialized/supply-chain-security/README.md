@@ -1,3 +1,9 @@
+---
+title: "Supply Chain Security Guide"
+description: "Welcome to the AppSec Atlas **Supply Chain Security Guide**. In modern software development, a large portion of the application code originates from t..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Supply Chain Security", "Readme.Md"]
+---
+
 # Supply Chain Security Guide
 
 ## Overview

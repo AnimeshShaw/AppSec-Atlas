@@ -1,4 +1,13 @@
+---
+title: "Introduction to Privacy Engineering"
+description: "Privacy by Design is a framework that requires privacy to be considered at every stage of the engineering process. Coined by Dr. Ann Cavoukian, it is ..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Privacy Engineering", "01 Introduction.Md"]
+---
+
 # Introduction to Privacy Engineering
+
+> [!TIP]
+> **Industry Best Practice:** Always align this domain with standard frameworks like OWASP, NIST, or CIS benchmarks for optimal security posture.
 
 ## Privacy by Design (PbD)
 Privacy by Design is a framework that requires privacy to be considered at every stage of the engineering process. Coined by Dr. Ann Cavoukian, it is built on 7 foundational principles:

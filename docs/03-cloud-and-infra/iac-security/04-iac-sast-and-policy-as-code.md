@@ -1,3 +1,9 @@
+---
+title: "04 - IaC SAST and Policy as Code"
+description: "To prevent vulnerable infrastructure from reaching production, you must implement automated security scanning in your CI/CD pipelines."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Iac Security", "04 Iac Sast And Policy As Code.Md"]
+---
+
 # 04 - IaC SAST and Policy as Code
 
 To prevent vulnerable infrastructure from reaching production, you must implement automated security scanning in your CI/CD pipelines.

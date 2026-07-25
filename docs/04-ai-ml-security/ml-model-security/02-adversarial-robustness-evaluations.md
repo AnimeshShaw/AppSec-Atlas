@@ -1,3 +1,9 @@
+---
+title: "02. Adversarial Input Robustness & Sensitivity"
+description: "Evaluating how a neural network's loss function changes relative to small input perturbations helps measure model robustness."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "04 Ai Ml Security", "Ml Model Security", "02 Adversarial Robustness Evaluations.Md"]
+---
+
 # 02. Adversarial Input Robustness & Sensitivity
 
 Evaluating how a neural network's loss function changes relative to small input perturbations helps measure model robustness.

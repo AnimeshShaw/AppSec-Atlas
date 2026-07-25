@@ -1,3 +1,9 @@
+---
+title: "OWASP Top 10 Deep Dive"
+description: "The **OWASP Top 10** represents the standard awareness document for developers and web application security. It represents a broad consensus on the mo..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Owasp Top 10", "Readme.Md"]
+---
+
 # OWASP Top 10 Deep Dive
 
 > **Section:** 🏗️ Foundational Security  

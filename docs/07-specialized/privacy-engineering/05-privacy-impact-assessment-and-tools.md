@@ -1,3 +1,9 @@
+---
+title: "Privacy Impact Assessments and Tools"
+description: "A Data Protection Impact Assessment (DPIA) is a process designed to help systematically analyze, identify, and minimize the data protection risks of a..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Privacy Engineering", "05 Privacy Impact Assessment And Tools.Md"]
+---
+
 # Privacy Impact Assessments and Tools
 
 ## Privacy Impact Assessment (PIA / DPIA)

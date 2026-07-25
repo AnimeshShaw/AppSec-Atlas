@@ -1,3 +1,9 @@
+---
+title: "05 - Secure Software Publishing"
+description: "Once your software is built securely, you must ensure it remains secure when delivered to your users."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Supply Chain Security", "05 Secure Software Publishing.Md"]
+---
+
 # 05 - Secure Software Publishing
 
 Once your software is built securely, you must ensure it remains secure when delivered to your users.

@@ -1,3 +1,9 @@
+---
+title: "02. Core Mechanics & Architecture"
+description: "To defend against prompt injection, you must understand how LLMs process tokens, how attention mechanisms operate, and why system instructions get ove..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "04 Ai Ml Security", "Llm Prompt Injection", "02 Core Concepts.Md"]
+---
+
 # 02. Core Mechanics & Architecture
 
 To defend against prompt injection, you must understand how LLMs process tokens, how attention mechanisms operate, and why system instructions get overridden.

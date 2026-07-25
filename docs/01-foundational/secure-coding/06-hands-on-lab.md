@@ -1,3 +1,9 @@
+---
+title: "Chapter 6: Hands-On Lab"
+description: "In this self-contained lab, we will spin up a vulnerable Python/Flask server, exploit it, and then apply secure coding principles to fix it."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Secure Coding", "06 Hands On Lab.Md"]
+---
+
 # Chapter 6: Hands-On Lab
 
 ## Vulnerable File Upload + Path Traversal Exploit

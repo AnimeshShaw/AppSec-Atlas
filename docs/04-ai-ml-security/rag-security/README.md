@@ -1,3 +1,9 @@
+---
+title: "Retrieval-Augmented Generation (RAG) Security Guide"
+description: "Welcome to the AppSec Atlas guide on Retrieval-Augmented Generation (RAG) Security."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "04 Ai Ml Security", "Rag Security", "Readme.Md"]
+---
+
 # Retrieval-Augmented Generation (RAG) Security Guide
 
 Welcome to the AppSec Atlas guide on Retrieval-Augmented Generation (RAG) Security.

@@ -1,3 +1,9 @@
+---
+title: "Network Microsegmentation"
+description: "Microsegmentation divides the network into granular security zones, restricting east-west lateral movement."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Zero Trust", "03 Network Microsegmentation.Md"]
+---
+
 # Network Microsegmentation
 
 Microsegmentation divides the network into granular security zones, restricting east-west lateral movement.

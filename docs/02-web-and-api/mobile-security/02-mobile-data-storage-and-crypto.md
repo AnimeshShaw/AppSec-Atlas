@@ -1,3 +1,9 @@
+---
+title: "02 - Mobile Data Storage and Cryptography"
+description: "One of the most common vulnerabilities is storing sensitive data (tokens, PII, passwords) unencrypted in locations accessible to other apps or physica..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Mobile Security", "02 Mobile Data Storage And Crypto.Md"]
+---
+
 # 02 - Mobile Data Storage and Cryptography
 
 One of the most common vulnerabilities is storing sensitive data (tokens, PII, passwords) unencrypted in locations accessible to other apps or physical extraction (e.g., rooted/jailbroken devices).

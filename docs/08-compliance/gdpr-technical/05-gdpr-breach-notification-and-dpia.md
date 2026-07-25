@@ -1,3 +1,8 @@
+---
+title: "Breach Notification and DPIA"
+description: "Comprehensive guide and best practices for Breach Notification and DPIA in the gdpr-technical section of AppSec Atlas. Learn how to secure your infrastructure."
+keywords: ['gdpr-technical', 'breach-notification-and-dpia', 'appsec', 'security', 'compliance']
+---
 # Breach Notification and DPIA
 
 ## Article 33/34: Data Breach Notification

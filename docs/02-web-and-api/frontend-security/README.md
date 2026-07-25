@@ -1,3 +1,9 @@
+---
+title: "Frontend Security Playbook"
+description: "Welcome to the **Frontend Security Playbook**, part of the AppSec Atlas. This guide focuses on securing modern Single Page Applications (SPAs) and cli..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Frontend Security", "Readme.Md"]
+---
+
 # Frontend Security Playbook
 
 Welcome to the **Frontend Security Playbook**, part of the AppSec Atlas. This guide focuses on securing modern Single Page Applications (SPAs) and client-side web architectures against common and advanced threats.

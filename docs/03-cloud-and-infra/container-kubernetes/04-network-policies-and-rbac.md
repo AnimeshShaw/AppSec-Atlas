@@ -1,3 +1,9 @@
+---
+title: "04. NetworkPolicies & RBAC Hardening"
+description: "By default, Kubernetes network traffic between all Pods across all namespaces is **unrestricted**. Furthermore, overly permissive RBAC roles permit co..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Container Kubernetes", "04 Network Policies And Rbac.Md"]
+---
+
 # 04. NetworkPolicies & RBAC Hardening
 
 By default, Kubernetes network traffic between all Pods across all namespaces is **unrestricted**. Furthermore, overly permissive RBAC roles permit compromised Pods to query or modify the Kubernetes API server.

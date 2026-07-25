@@ -1,3 +1,9 @@
+---
+title: "05 - CORS Auditing Tools"
+description: "Auditing CORS configurations involves sending HTTP requests with various `Origin` payloads to observe how the server's `Access-Control-Allow-Origin` (..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Cors And Sop", "05 Cors Auditing Tools.Md"]
+---
+
 # 05 - CORS Auditing Tools
 
 Auditing CORS configurations involves sending HTTP requests with various `Origin` payloads to observe how the server's `Access-Control-Allow-Origin` (ACAO) header responds. 

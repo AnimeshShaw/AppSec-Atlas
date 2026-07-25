@@ -1,3 +1,9 @@
+---
+title: "05 - Drift Detection and Compliance"
+description: "Even with strict CI/CD pipelines, 'click-ops' (manual changes made in the cloud console) can cause the actual infrastructure to drift from the IaC def..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Iac Security", "05 Drift Detection And Compliance.Md"]
+---
+
 # 05 - Drift Detection and Compliance
 
 Even with strict CI/CD pipelines, "click-ops" (manual changes made in the cloud console) can cause the actual infrastructure to drift from the IaC definitions. This creates massive security blind spots.

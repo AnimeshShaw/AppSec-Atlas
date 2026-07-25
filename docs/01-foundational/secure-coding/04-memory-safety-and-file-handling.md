@@ -1,3 +1,9 @@
+---
+title: "Chapter 4: Memory Safety & File Handling"
+description: "File uploads are a common attack vector (Remote Code Execution via web shells, XSS via SVG uploads)."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Secure Coding", "04 Memory Safety And File Handling.Md"]
+---
+
 # Chapter 4: Memory Safety & File Handling
 
 ## Secure File Uploads

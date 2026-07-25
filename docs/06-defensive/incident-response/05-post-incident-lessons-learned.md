@@ -1,3 +1,9 @@
+---
+title: "05 - Post-Incident Activity and Lessons Learned"
+description: "The post-incident phase is arguably the most important for improving an organization's security posture over time. Failing to learn from an incident g..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Incident Response", "05 Post Incident Lessons Learned.Md"]
+---
+
 # 05 - Post-Incident Activity and Lessons Learned
 
 The post-incident phase is arguably the most important for improving an organization's security posture over time. Failing to learn from an incident guarantees it will happen again.

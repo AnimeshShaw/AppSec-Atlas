@@ -1,3 +1,9 @@
+---
+title: "03 - Web and Cloud Incident Playbooks"
+description: "This section outlines specific step-by-step procedures for common web and cloud incidents."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Incident Response", "03 Web And Cloud Incident Playbooks.Md"]
+---
+
 # 03 - Web and Cloud Incident Playbooks
 
 This section outlines specific step-by-step procedures for common web and cloud incidents.

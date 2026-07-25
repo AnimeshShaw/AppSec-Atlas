@@ -1,3 +1,9 @@
+---
+title: "05 - Authentication & Authorization Security Tools"
+description: "Production-grade authorization requires robust tooling. Avoid writing custom crypto and auth servers; leverage established tools."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Auth And Authz", "05 Auth Security Tools.Md"]
+---
+
 # 05 - Authentication & Authorization Security Tools
 
 Production-grade authorization requires robust tooling. Avoid writing custom crypto and auth servers; leverage established tools.

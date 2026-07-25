@@ -1,3 +1,9 @@
+---
+title: "03 - Detection Engineering & Sigma Rules"
+description: "Detection Engineering is the practice of identifying threats by writing rules that analyze log data. To avoid vendor lock-in (e.g., writing rules only..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Logging And Monitoring", "03 Detection Engineering And Sigma Rules.Md"]
+---
+
 # 03 - Detection Engineering & Sigma Rules
 
 Detection Engineering is the practice of identifying threats by writing rules that analyze log data. To avoid vendor lock-in (e.g., writing rules only in Splunk SPL or Elastic KQL), the industry standard is **Sigma**.

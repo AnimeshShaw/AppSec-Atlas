@@ -1,3 +1,8 @@
+---
+title: "Cross-Border Data Transfers and Consent"
+description: "Comprehensive guide and best practices for Cross-Border Data Transfers and Consent in the gdpr-technical section of AppSec Atlas. Learn how to secure your infra"
+keywords: ['gdpr-technical', 'cross-border-data-transfers-and-consent', 'appsec', 'security', 'compliance']
+---
 # Cross-Border Data Transfers and Consent
 
 ## Cross-Border Data Transfers
@@ -70,3 +75,7 @@ app.post('/api/v1/consent/revoke', async (req, res) => {
     res.json({ message: "Consent revoked successfully." });
 });
 ```
+
+
+> [!TIP]
+> **Pro Tip:** Always automate your security and compliance checks early in the pipeline to reduce manual overhead and ensure continuous compliance.

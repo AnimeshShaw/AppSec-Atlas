@@ -1,3 +1,9 @@
+---
+title: "05 - Extension Security Auditing Tools"
+description: "When analyzing a third-party extension or testing your own, the right tools make a huge difference."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Browser Extension Security", "05 Extension Security Auditing Tools.Md"]
+---
+
 # 05 - Extension Security Auditing Tools
 
 When analyzing a third-party extension or testing your own, the right tools make a huge difference.

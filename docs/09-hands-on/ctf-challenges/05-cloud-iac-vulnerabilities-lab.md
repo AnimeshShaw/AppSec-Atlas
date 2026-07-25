@@ -1,3 +1,9 @@
+---
+title: "Cloud & IaC Vulnerabilities Lab"
+description: "RUN apt-get update && apt-get install -y curl"
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "09 Hands On", "Ctf Challenges", "05 Cloud Iac Vulnerabilities Lab.Md"]
+---
+
 # Cloud & IaC Vulnerabilities Lab
 
 ## 1. Privileged Docker Container

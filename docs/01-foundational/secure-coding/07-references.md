@@ -1,3 +1,9 @@
+---
+title: "Chapter 7: References & Resources"
+description: "Comprehensive security guide and practical technical implementation handbook."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Secure Coding", "07 References.Md"]
+---
+
 # Chapter 7: References & Resources
 
 ## Industry Standards & Frameworks

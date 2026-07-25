@@ -1,3 +1,9 @@
+---
+title: "02. BOLA & BFLA Masterclass"
+description: "Broken Object Level Authorization (**BOLA / API1**) and Broken Function Level Authorization (**BFLA / API5**) constitute over 40% of all API security ..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Api Security", "02 Bola And Bfla.Md"]
+---
+
 # 02. BOLA & BFLA Masterclass
 
 Broken Object Level Authorization (**BOLA / API1**) and Broken Function Level Authorization (**BFLA / API5**) constitute over 40% of all API security vulnerabilities in production.

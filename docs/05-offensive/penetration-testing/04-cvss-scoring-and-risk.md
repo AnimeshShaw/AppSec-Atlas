@@ -1,3 +1,9 @@
+---
+title: "04. CVSS v4.0 & Risk Scoring"
+description: "Common Vulnerability Scoring System (CVSS) v4.0 provides a standardized metric for rating vulnerability severity based on technical impact and environ..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Penetration Testing", "04 Cvss Scoring And Risk.Md"]
+---
+
 # 04. CVSS v4.0 & Risk Scoring
 
 Common Vulnerability Scoring System (CVSS) v4.0 provides a standardized metric for rating vulnerability severity based on technical impact and environmental context.

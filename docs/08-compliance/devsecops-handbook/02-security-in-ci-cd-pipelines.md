@@ -1,3 +1,8 @@
+---
+title: "02 - Security in CI/CD Pipelines"
+description: "Comprehensive guide and best practices for 02 - Security in CI/CD Pipelines in the devsecops-handbook section of AppSec Atlas. Learn how to secure your infrastr"
+keywords: ['devsecops-handbook', '02---security-in-ci/cd-pipelines', 'appsec', 'security', 'compliance']
+---
 # 02 - Security in CI/CD Pipelines
 
 A mature DevSecOps pipeline automates various security checks. This chapter covers the core scanners and provides a complete GitHub Actions example.
@@ -96,3 +101,7 @@ jobs:
           vuln-type: 'os,library'
           severity: 'CRITICAL,HIGH'
 ```
+
+
+> [!TIP]
+> **Pro Tip:** Always automate your security and compliance checks early in the pipeline to reduce manual overhead and ensure continuous compliance.

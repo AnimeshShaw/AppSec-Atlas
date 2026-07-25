@@ -1,3 +1,9 @@
+---
+title: "05 - Network Segmentation & Zero Trust"
+description: "VLANs group devices at Layer 2, separating them regardless of physical switch topology."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Network Attacks", "05 Network Segmentation And Zero Trust.Md"]
+---
+
 # 05 - Network Segmentation & Zero Trust
 
 ## VLAN Isolation

@@ -1,3 +1,9 @@
+---
+title: "Digital Forensics Basics Guide"
+description: "Welcome to the Digital Forensics Basics Guide. This module is part of AppSec Atlas's comprehensive security curriculum, dedicated to mastering the art..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Digital Forensics", "Readme.Md"]
+---
+
 # Digital Forensics Basics Guide
 
 ## Overview

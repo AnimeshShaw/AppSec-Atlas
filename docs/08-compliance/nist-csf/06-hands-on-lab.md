@@ -1,3 +1,8 @@
+---
+title: "06 - Hands-on Lab: Compliance Assessment Tool"
+description: "Comprehensive guide and best practices for 06 - Hands-on Lab: Compliance Assessment Tool in the nist-csf section of AppSec Atlas. Learn how to secure your infra"
+keywords: ['nist-csf', '06---hands-on-lab:-compliance-assessment-tool', 'appsec', 'security', 'compliance']
+---
 # 06 - Hands-on Lab: Compliance Assessment Tool
 
 In this lab, you will build a Python tool that acts as a mock Cloud Security Posture Management (CSPM) scanner. It will read a JSON representation of infrastructure, map it to NIST CSF 2.0 controls, report unmapped/non-compliant infrastructure, and provide remediation steps.
@@ -98,3 +103,7 @@ python nist_assessor.py
 ❌ FAIL | PR.AA-01 | Resource: dev_test
     -> Remediation: Enforce MFA for the IAM user.
 ```
+
+
+> [!TIP]
+> **Pro Tip:** Always automate your security and compliance checks early in the pipeline to reduce manual overhead and ensure continuous compliance.

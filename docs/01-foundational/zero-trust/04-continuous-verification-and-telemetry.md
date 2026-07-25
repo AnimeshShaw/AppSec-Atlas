@@ -1,3 +1,9 @@
+---
+title: "Continuous Verification and Telemetry"
+description: "Zero Trust is not a one-time check. Trust must be continuously evaluated during a session."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Zero Trust", "04 Continuous Verification And Telemetry.Md"]
+---
+
 # Continuous Verification and Telemetry
 
 Zero Trust is not a one-time check. Trust must be continuously evaluated during a session.

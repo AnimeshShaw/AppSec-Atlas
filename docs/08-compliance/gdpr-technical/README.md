@@ -1,3 +1,8 @@
+---
+title: "GDPR Technical Implementation Guide"
+description: "Comprehensive guide and best practices for GDPR Technical Implementation Guide in the gdpr-technical section of AppSec Atlas. Learn how to secure your infrastru"
+keywords: ['gdpr-technical', 'gdpr-technical-implementation-guide', 'appsec', 'security', 'compliance']
+---
 # GDPR Technical Implementation Guide
 
 Welcome to the **GDPR Technical Implementation Guide**. This guide translates the legal requirements of the General Data Protection Regulation (GDPR) into concrete, technical implementation strategies for software engineers and architects.

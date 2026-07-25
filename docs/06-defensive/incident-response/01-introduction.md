@@ -1,4 +1,13 @@
+---
+title: "01 - Introduction to Incident Response"
+description: "Effective incident response requires a structured approach. The most widely adopted framework is defined in **NIST Special Publication 800-61 Revision..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Incident Response", "01 Introduction.Md"]
+---
+
 # 01 - Introduction to Incident Response
+
+> [!TIP]
+> **Industry Best Practice:** Always align this domain with standard frameworks like OWASP, NIST, or CIS benchmarks for optimal security posture.
 
 ## The Incident Response Lifecycle
 

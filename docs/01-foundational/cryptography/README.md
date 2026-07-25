@@ -1,3 +1,9 @@
+---
+title: "Cryptography for Developers"
+description: "Welcome to the Cryptography for Developers guide. This section provides the foundational knowledge and practical skills required to securely implement..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Cryptography", "Readme.Md"]
+---
+
 # Cryptography for Developers
 
 Welcome to the Cryptography for Developers guide. This section provides the foundational knowledge and practical skills required to securely implement cryptography in modern applications.

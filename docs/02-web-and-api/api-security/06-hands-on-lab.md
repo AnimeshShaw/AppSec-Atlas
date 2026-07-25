@@ -1,3 +1,9 @@
+---
+title: "06. Hands-On Vulnerability Lab"
+description: "In this hands-on lab, you will audit a **vulnerable REST API**, exploit a **BOLA (Broken Object Level Authorization)** vulnerability to access another..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Api Security", "06 Hands On Lab.Md"]
+---
+
 # 06. Hands-On Vulnerability Lab
 
 In this hands-on lab, you will audit a **vulnerable REST API**, exploit a **BOLA (Broken Object Level Authorization)** vulnerability to access another user's private data, exploit a **Mass Assignment** vulnerability to grant yourself Administrator privileges, and then implement the secure fix.

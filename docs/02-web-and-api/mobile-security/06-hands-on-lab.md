@@ -1,3 +1,9 @@
+---
+title: "06 - Hands-On Lab: Dynamic Instrumentation with Frida"
+description: "In this lab, we will simulate a scenario where a vulnerable Android app has implemented flawed root detection and lacks SSL pinning. We will use Frida..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Mobile Security", "06 Hands On Lab.Md"]
+---
+
 # 06 - Hands-On Lab: Dynamic Instrumentation with Frida
 
 In this lab, we will simulate a scenario where a vulnerable Android app has implemented flawed root detection and lacks SSL pinning. We will use Frida to bypass the root detection and intercept its traffic.

@@ -1,3 +1,9 @@
+---
+title: "AppSec Atlas Security Guide"
+description: "AppSec Atlas is a comprehensive, community-driven security knowledge base covering 45 guides across 9 security domains. Whether you're a developer wan..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "00 Getting Started", "Index.Md"]
+---
+
 ﻿# Welcome to AppSec Atlas
 
 AppSec Atlas is a comprehensive, community-driven security knowledge base covering 45 guides across 9 security domains. Whether you're a developer wanting to write more secure code, a security engineer deepening your expertise, or a complete beginner â€” there is a path here for you.

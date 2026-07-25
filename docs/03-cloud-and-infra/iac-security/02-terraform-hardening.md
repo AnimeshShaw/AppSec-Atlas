@@ -1,3 +1,9 @@
+---
+title: "02 - Terraform Hardening"
+description: "Terraform is a powerful tool, but its defaults and common practices can sometimes lead to security vulnerabilities. This chapter covers essential tech..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Iac Security", "02 Terraform Hardening.Md"]
+---
+
 # 02 - Terraform Hardening
 
 Terraform is a powerful tool, but its defaults and common practices can sometimes lead to security vulnerabilities. This chapter covers essential techniques for securing your Terraform deployments.

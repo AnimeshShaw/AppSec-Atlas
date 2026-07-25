@@ -1,3 +1,9 @@
+---
+title: "04 - Threat Hunting Methodology"
+description: "Threat hunting is the proactive, iterative process of searching through networks and datasets to detect and isolate advanced threats that evade existi..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Soc Operations", "04 Threat Hunting Methodology.Md"]
+---
+
 # 04 - Threat Hunting Methodology
 
 ## What is Threat Hunting?

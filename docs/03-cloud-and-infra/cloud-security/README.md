@@ -1,3 +1,9 @@
+---
+title: "Cloud Security Fundamentals Guide"
+description: "Welcome to the AppSec Atlas **Cloud Security Fundamentals Guide**. As organizations transition from on-premises data centers to cloud environments, th..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Cloud Security", "Readme.Md"]
+---
+
 # Cloud Security Fundamentals Guide
 
 ## Overview

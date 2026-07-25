@@ -1,3 +1,9 @@
+---
+title: "06 - Hands-On Lab: Exploiting and Fixing CORS"
+description: "This self-contained lab sets up a vulnerable Flask API and provides an exploit script to demonstrate how an attacker can steal sensitive data using CO..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Cors And Sop", "06 Hands On Lab.Md"]
+---
+
 # 06 - Hands-On Lab: Exploiting and Fixing CORS
 
 This self-contained lab sets up a vulnerable Flask API and provides an exploit script to demonstrate how an attacker can steal sensitive data using CORS origin reflection.

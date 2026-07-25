@@ -1,3 +1,9 @@
+---
+title: "03 - SSRF and File Upload Security"
+description: "SSRF occurs when a web application fetches a remote resource without validating the user-supplied URL. Attackers can force the application to send cra..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Web Application Security", "03 Ssrf And File Upload Security.Md"]
+---
+
 # 03 - SSRF and File Upload Security
 
 ## Server-Side Request Forgery (SSRF)

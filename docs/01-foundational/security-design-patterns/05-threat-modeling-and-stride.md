@@ -1,3 +1,9 @@
+---
+title: "05 - Threat Modeling and STRIDE"
+description: "Threat modeling is a systematic process for identifying and mitigating potential security threats in an application's architecture before writing code..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Security Design Patterns", "05 Threat Modeling And Stride.Md"]
+---
+
 # 05 - Threat Modeling and STRIDE
 
 Threat modeling is a systematic process for identifying and mitigating potential security threats in an application's architecture before writing code.

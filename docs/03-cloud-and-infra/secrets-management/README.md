@@ -1,9 +1,12 @@
+---
+title: "Secrets Management Guide"
+description: "A comprehensive guide to managing secrets in modern applications, covering HashiCorp Vault, cloud secrets managers, Kubernetes hardening, and secret rotation."
+keywords: ["secrets management", "vault", "appsec", "kubernetes secrets", "secret rotation"]
+---
 # Secrets Management Guide
 
-Welcome to the AppSec Atlas Secrets Management Guide! 
-
-## Overview
-Secret management is one of the most critical aspects of application security and infrastructure. In modern systems, passwords, API keys, TLS certificates, and tokens are sprawled across source code, CI/CD pipelines, and configuration files. This guide aims to teach you how to centralize, rotate, and securely inject secrets into applications without leaving footprints.
+> [!NOTE]
+> Secret management is one of the most critical aspects of application security and infrastructure. In modern systems, passwords, API keys, TLS certificates, and tokens are sprawled across source code, CI/CD pipelines, and configuration files. This guide aims to teach you how to centralize, rotate, and securely inject secrets into applications without leaving footprints.
 
 ## Prerequisites
 - Basic understanding of cloud infrastructure (AWS/GCP/Azure) and Kubernetes.

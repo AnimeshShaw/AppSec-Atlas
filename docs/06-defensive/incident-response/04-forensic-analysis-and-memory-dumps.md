@@ -1,3 +1,9 @@
+---
+title: "04 - Forensic Analysis and Memory Dumps"
+description: "Forensic analysis involves examining digital media in a forensically sound manner to identify, preserve, recover, analyze, and present facts and opini..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Incident Response", "04 Forensic Analysis And Memory Dumps.Md"]
+---
+
 # 04 - Forensic Analysis and Memory Dumps
 
 Forensic analysis involves examining digital media in a forensically sound manner to identify, preserve, recover, analyze, and present facts and opinions about the digital information.

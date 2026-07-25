@@ -1,3 +1,9 @@
+---
+title: "03 - Event Data Injection and Sanitization"
+description: "Serverless functions consume events from various sources (HTTP, S3, SQS, DynamoDB). Because the structure of the `event` object changes depending on t..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Serverless Security", "03 Event Data Injection And Sanitization.Md"]
+---
+
 # 03 - Event Data Injection and Sanitization
 
 Serverless functions consume events from various sources (HTTP, S3, SQS, DynamoDB). Because the structure of the `event` object changes depending on the trigger, it's easy for developers to blindly trust the incoming data, leading to injection vulnerabilities.

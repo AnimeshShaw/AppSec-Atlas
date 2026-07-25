@@ -1,3 +1,9 @@
+---
+title: "Infrastructure as Code (IaC) Security Guide"
+description: "Welcome to the **Infrastructure as Code (IaC) Security Guide**. This guide provides comprehensive, production-ready strategies for securing your infra..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Iac Security", "Readme.Md"]
+---
+
 # Infrastructure as Code (IaC) Security Guide
 
 Welcome to the **Infrastructure as Code (IaC) Security Guide**. This guide provides comprehensive, production-ready strategies for securing your infrastructure automation, focusing on Terraform, CloudFormation, Bicep, and Policy as Code.

@@ -1,3 +1,9 @@
+---
+title: "Differential Privacy and Anonymization"
+description: "Traditional anonymization techniques often fail against modern re-identification attacks. Privacy engineering relies on mathematical frameworks to pro..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Privacy Engineering", "02 Differential Privacy And Anonymization.Md"]
+---
+
 # Differential Privacy and Anonymization
 
 Traditional anonymization techniques often fail against modern re-identification attacks. Privacy engineering relies on mathematical frameworks to protect data.

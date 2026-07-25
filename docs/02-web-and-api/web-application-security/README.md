@@ -1,3 +1,9 @@
+---
+title: "Web Application Security Handbook"
+description: "Welcome to the **Web Application Security Handbook**. This guide provides an in-depth exploration of core web vulnerabilities, defense mechanisms, and..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Web Application Security", "Readme.Md"]
+---
+
 # Web Application Security Handbook
 
 Welcome to the **Web Application Security Handbook**. This guide provides an in-depth exploration of core web vulnerabilities, defense mechanisms, and secure coding practices for modern web applications.

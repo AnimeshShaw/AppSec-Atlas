@@ -1,3 +1,9 @@
+---
+title: "04. Pipeline Security Gates & Branch Protection"
+description: "Enforcing automated security gates inside your CI/CD pipeline ensures vulnerable code is blocked before reaching the `main` branch or production."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Cicd Pipeline Security", "04 Defenses And Pipeline Rules.Md"]
+---
+
 # 04. Pipeline Security Gates & Branch Protection
 
 Enforcing automated security gates inside your CI/CD pipeline ensures vulnerable code is blocked before reaching the `main` branch or production.

@@ -1,3 +1,9 @@
+---
+title: "Incident Response Playbook"
+description: "Welcome to the Incident Response Playbook. This guide provides a comprehensive framework for preparing for, detecting, analyzing, and recovering from ..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Incident Response", "Readme.Md"]
+---
+
 # Incident Response Playbook
 
 ## Overview

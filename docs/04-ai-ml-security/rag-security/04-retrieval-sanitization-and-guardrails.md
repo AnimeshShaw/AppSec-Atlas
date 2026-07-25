@@ -1,3 +1,9 @@
+---
+title: "04 - Retrieval Sanitization & Guardrails"
+description: "Even with access control, a user might retrieve a document that contains an indirect prompt injection. To mitigate this, retrieved chunks must be sani..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "04 Ai Ml Security", "Rag Security", "04 Retrieval Sanitization And Guardrails.Md"]
+---
+
 # 04 - Retrieval Sanitization & Guardrails
 
 ## The Need for Sanitization

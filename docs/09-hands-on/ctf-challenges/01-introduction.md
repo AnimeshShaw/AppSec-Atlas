@@ -1,4 +1,13 @@
+---
+title: "Introduction & Setup"
+description: "To safely practice the vulnerabilities detailed in this module, we will utilize a containerized environment powered by Docker and Docker Compose. This..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "09 Hands On", "Ctf Challenges", "01 Introduction.Md"]
+---
+
 # Introduction & Setup
+
+> [!TIP]
+> **Industry Best Practice:** Always align this domain with standard frameworks like OWASP, NIST, or CIS benchmarks for optimal security posture.
 
 ## Hands-On Vulnerable Lab Environment Setup
 To safely practice the vulnerabilities detailed in this module, we will utilize a containerized environment powered by Docker and Docker Compose. This ensures that the vulnerable applications are isolated from your host machine and network.

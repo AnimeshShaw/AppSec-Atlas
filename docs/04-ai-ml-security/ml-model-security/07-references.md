@@ -1,3 +1,9 @@
+---
+title: "07. References & Standards"
+description: "Authoritative benchmarks, security standards, and open-source toolkits for Machine Learning Security."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "04 Ai Ml Security", "Ml Model Security", "07 References.Md"]
+---
+
 # 07. References & Standards
 
 Authoritative benchmarks, security standards, and open-source toolkits for Machine Learning Security.

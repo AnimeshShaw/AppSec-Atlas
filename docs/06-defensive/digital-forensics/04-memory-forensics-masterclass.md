@@ -1,3 +1,9 @@
+---
+title: "04 - Memory Forensics Masterclass"
+description: "Memory forensics involves the analysis of a computer's volatile memory (RAM). It is crucial for detecting advanced threats like rootkits, fileless mal..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Digital Forensics", "04 Memory Forensics Masterclass.Md"]
+---
+
 # 04 - Memory Forensics Masterclass
 
 Memory forensics involves the analysis of a computer's volatile memory (RAM). It is crucial for detecting advanced threats like rootkits, fileless malware, and injected code.

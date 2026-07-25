@@ -1,3 +1,9 @@
+---
+title: "08. References & Tooling"
+description: "Authoritative references, benchmarks, and security tools for OWASP Top 10 auditing."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Owasp Top 10", "08 References.Md"]
+---
+
 # 08. References & Tooling
 
 Authoritative references, benchmarks, and security tools for OWASP Top 10 auditing.

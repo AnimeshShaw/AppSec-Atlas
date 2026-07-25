@@ -1,3 +1,9 @@
+---
+title: "02 - Physical Tampering & Side-Channel Analysis"
+description: "When standard logical attacks fail, attackers turn to physics. Side-channel analysis (SCA) and Fault Injection (FI) exploit the physical properties of..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Hardware Security", "02 Physical Tampering And Side Channel.Md"]
+---
+
 # 02 - Physical Tampering & Side-Channel Analysis
 
 When standard logical attacks fail, attackers turn to physics. Side-channel analysis (SCA) and Fault Injection (FI) exploit the physical properties of a device while it performs computations.

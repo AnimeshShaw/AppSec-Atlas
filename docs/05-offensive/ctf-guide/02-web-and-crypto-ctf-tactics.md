@@ -1,3 +1,9 @@
+---
+title: "02 - Web and Crypto CTF Tactics 🕸️🔐"
+description: "This chapter dives deep into the two most accessible yet conceptually profound CTF categories: Web Exploitation and Cryptography."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Ctf Guide", "02 Web And Crypto Ctf Tactics.Md"]
+---
+
 # 02 - Web and Crypto CTF Tactics 🕸️🔐
 
 This chapter dives deep into the two most accessible yet conceptually profound CTF categories: Web Exploitation and Cryptography.

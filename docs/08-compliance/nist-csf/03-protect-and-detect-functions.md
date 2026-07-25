@@ -1,3 +1,8 @@
+---
+title: "03 - Protect and Detect Functions"
+description: "Comprehensive guide and best practices for 03 - Protect and Detect Functions in the nist-csf section of AppSec Atlas. Learn how to secure your infrastructure."
+keywords: ['nist-csf', '03---protect-and-detect-functions', 'appsec', 'security', 'compliance']
+---
 # 03 - Protect and Detect Functions
 
 ## PROTECT (PR)
@@ -42,3 +47,7 @@ spec:
   - Ingress
   - Egress
 ```
+
+
+> [!TIP]
+> **Pro Tip:** Always automate your security and compliance checks early in the pipeline to reduce manual overhead and ensure continuous compliance.

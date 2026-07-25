@@ -1,3 +1,8 @@
+---
+title: "Introduction to Secrets Management"
+description: "Understand the secrets lifecycle, the risks of hardcoded credentials, and the threat of secret sprawl across source code, CI/CD, and configurations."
+keywords: ["secret sprawl", "hardcoded secrets", "secrets lifecycle", "appsec"]
+---
 # 01. Introduction to Secrets Management
 
 ## The Threat Landscape: Secret Sprawl
@@ -14,10 +19,13 @@ Secrets can be inadvertently exposed in:
 - Kubernetes ConfigMaps or standard, unencrypted Kubernetes Secrets.
 
 ## The Risks of Hardcoding Secrets
-Hardcoding secrets in source code is a critical vulnerability (CWE-798: Use of Hard-coded Credentials). 
+
+> [!WARNING]
+> Hardcoding secrets in source code is a critical vulnerability (CWE-798: Use of Hard-coded Credentials).
+
 - **Easy Extraction**: Attackers who gain access to the source code (via LFI, SSRF, open source, or insider threat) immediately obtain valid credentials.
-- **Difficult to Rotate**: If a secret is compromised, rotating it requires a full code deployment.
-- **No Auditing**: It's impossible to track which component or user actually used the secret.
+- **Difficult to Rotate**: If a secret is compromised, rotating it requires a full code deployment and coordinating across environments.
+- **No Auditing**: It's impossible to track which component or user actually used the secret, making incident response exceedingly difficult.
 
 ## The Secrets Lifecycle
 Proper secret management involves handling secrets throughout their entire lifecycle:
@@ -29,8 +37,11 @@ Secrets should be strong, random, and ideally generated dynamically.
 ### 2. Storage & Distribution
 Secrets must be stored in a centralized, encrypted, and access-controlled system (e.g., HashiCorp Vault, AWS Secrets Manager). They should be delivered to the application securely, typically via:
 - Memory injection at runtime.
-- Secure environment variables.
-- Volume mounts (tmpfs).
+- Secure environment variables (provided by orchestrators like Kubernetes).
+- Volume mounts (tmpfs, backed by memory).
+
+> [!TIP]
+> Avoid passing secrets via command-line arguments (e.g., `--password=SECRET`), as they can be easily captured by other users on the same machine using `ps` or viewed in shell histories.
 
 ### 3. Usage & Auditing
 Every time a secret is accessed, the action must be authenticated, authorized, and logged. Audit logs should contain:

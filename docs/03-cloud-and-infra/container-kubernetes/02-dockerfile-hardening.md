@@ -1,3 +1,9 @@
+---
+title: "02. Hardened Dockerfiles & Image Security"
+description: "A secure container image follows the principle of least privilege: minimal packages, no root user, read-only filesystem, and no secrets."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Container Kubernetes", "02 Dockerfile Hardening.Md"]
+---
+
 # 02. Hardened Dockerfiles & Image Security
 
 A secure container image follows the principle of least privilege: minimal packages, no root user, read-only filesystem, and no secrets.

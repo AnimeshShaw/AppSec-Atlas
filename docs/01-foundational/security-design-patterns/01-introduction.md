@@ -1,6 +1,15 @@
+---
+title: "01 - Introduction to Architectural Security Design Principles"
+description: "Security is most effective when it is woven into the fundamental fabric of an application's architecture. Retrofitting security onto a flawed design i..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Security Design Patterns", "01 Introduction.Md"]
+---
+
 # 01 - Introduction to Architectural Security Design Principles
 
 Security is most effective when it is woven into the fundamental fabric of an application's architecture. Retrofitting security onto a flawed design is often complex, expensive, and error-prone. This chapter covers the foundational principles of secure design that should guide all architectural decisions.
+
+> [!TIP]
+> **Industry Best Practice:** Always align this domain with standard frameworks like OWASP, NIST, or CIS benchmarks for optimal security posture.
 
 ## 1. Secure by Default
 Systems should be designed so that the default configuration is the most secure one. Users should not need to explicitly configure security settings to be protected.

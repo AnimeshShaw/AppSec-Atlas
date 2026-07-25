@@ -1,3 +1,9 @@
+---
+title: "07 - References and Resources"
+description: "To further your knowledge in Web Application Security, refer to these industry-standard guidelines and interactive platforms."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Web Application Security", "07 References.Md"]
+---
+
 # 07 - References and Resources
 
 To further your knowledge in Web Application Security, refer to these industry-standard guidelines and interactive platforms.

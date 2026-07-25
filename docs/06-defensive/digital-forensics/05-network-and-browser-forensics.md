@@ -1,3 +1,9 @@
+---
+title: "05 - Network and Browser Forensics"
+description: "Network packets contain absolute proof of communication. Analysis typically involves Wireshark or `tshark`."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Digital Forensics", "05 Network And Browser Forensics.Md"]
+---
+
 # 05 - Network and Browser Forensics
 
 ## PCAP Analysis

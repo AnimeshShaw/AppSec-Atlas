@@ -1,3 +1,9 @@
+---
+title: "07 - References and Further Reading"
+description: "To dive deeper into the world of hardware security, explore the following industry standards, tools, and documentation:"
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Hardware Security", "07 References.Md"]
+---
+
 # 07 - References and Further Reading
 
 To dive deeper into the world of hardware security, explore the following industry standards, tools, and documentation:

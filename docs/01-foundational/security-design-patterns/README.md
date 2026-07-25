@@ -1,3 +1,9 @@
+---
+title: "Security Design Patterns"
+description: "Welcome to the AppSec Atlas Security Design Patterns Guide! This guide explores foundational security principles and structural design patterns that h..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Security Design Patterns", "Readme.Md"]
+---
+
 # Security Design Patterns
 
 ## Overview

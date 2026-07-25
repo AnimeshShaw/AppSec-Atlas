@@ -1,3 +1,9 @@
+---
+title: "02. A01: Broken Access Control & IDOR"
+description: "Broken Access Control is the **#1 most prevalent web application vulnerability**. It occurs when an application fails to properly enforce permissions,..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Owasp Top 10", "02 A01 Broken Access Control.Md"]
+---
+
 # 02. A01: Broken Access Control & IDOR
 
 Broken Access Control is the **#1 most prevalent web application vulnerability**. It occurs when an application fails to properly enforce permissions, allowing users to access resources, perform actions, or view data belonging to other users or administrators.

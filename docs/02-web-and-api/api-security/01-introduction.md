@@ -1,8 +1,17 @@
+---
+title: "01. Overview & OWASP API Top 10"
+description: "APIs (Application Programming Interfaces) are the primary attack surface of modern applications. Unlike traditional web applications that render HTML ..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "02 Web And Api", "Api Security", "01 Introduction.Md"]
+---
+
 # 01. Overview & OWASP API Top 10
 
 APIs (Application Programming Interfaces) are the primary attack surface of modern applications. Unlike traditional web applications that render HTML on the server, APIs expose raw data objects and system functions directly to client applications.
 
 ---
+
+> [!TIP]
+> **Industry Best Practice:** Always align this domain with standard frameworks like OWASP, NIST, or CIS benchmarks for optimal security posture.
 
 ## 1. OWASP API Security Top 10 Matrix
 

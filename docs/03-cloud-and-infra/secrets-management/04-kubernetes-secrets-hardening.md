@@ -1,3 +1,9 @@
+---
+title: "04. Kubernetes Secrets Hardening"
+description: "By default, Kubernetes `Secret` objects are NOT encrypted; they are merely base64 encoded and stored in plaintext in the `etcd` backend."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Secrets Management", "04 Kubernetes Secrets Hardening.Md"]
+---
+
 # 04. Kubernetes Secrets Hardening
 
 By default, Kubernetes `Secret` objects are NOT encrypted; they are merely base64 encoded and stored in plaintext in the `etcd` backend. 

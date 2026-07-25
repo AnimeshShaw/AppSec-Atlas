@@ -1,6 +1,15 @@
+---
+title: "01 - Introduction to Serverless Security"
+description: "Serverless computing changes the traditional security paradigm. While the cloud provider manages OS hardening, patching, and network infrastructure, y..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Serverless Security", "01 Introduction.Md"]
+---
+
 # 01 - Introduction to Serverless Security
 
 Serverless computing changes the traditional security paradigm. While the cloud provider manages OS hardening, patching, and network infrastructure, you are entirely responsible for the application logic, identity policies, and event data processing.
+
+> [!TIP]
+> **Industry Best Practice:** Always align this domain with standard frameworks like OWASP, NIST, or CIS benchmarks for optimal security posture.
 
 ## 🏗️ The Serverless Threat Model
 

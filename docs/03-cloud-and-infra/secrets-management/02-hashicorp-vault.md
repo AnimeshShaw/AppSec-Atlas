@@ -1,6 +1,12 @@
+---
+title: "HashiCorp Vault Deep Dive"
+description: "Learn how to use HashiCorp Vault for secure secret storage, AppRole authentication, dynamic database credentials, and transit encryption as a service."
+keywords: ["hashicorp vault", "approle", "dynamic secrets", "transit engine", "encryption"]
+---
 # 02. HashiCorp Vault
 
-HashiCorp Vault is the industry standard for secret management, encryption as a service, and privileged access management.
+> [!IMPORTANT]
+> HashiCorp Vault is the industry standard for secret management, encryption as a service, and privileged access management. It follows a default-deny policy.
 
 ## Architecture & Concepts
 Vault provides a unified interface to any secret, while providing tight access control and recording a detailed audit log.
@@ -39,7 +45,10 @@ vault write -f auth/approle/role/myapp/secret-id
 ```
 
 ## Key/Value (KV) v2 Secrets Engine
-The KV engine is used to store static secrets. v2 supports versioning.
+The KV engine is used to store static secrets. v2 supports versioning, allowing rollback to previous secret values and preventing accidental overwrites from destroying data.
+
+> [!TIP]
+> Always prefer KV v2 over KV v1 unless backward compatibility strictly requires it.
 
 ```bash
 # Enable KV v2
@@ -79,7 +88,10 @@ vault read database/creds/my-role
 ```
 
 ## Transit Engine (Encryption as a Service)
-The Transit engine allows Vault to handle cryptographic functions (encryption/decryption) without exposing the underlying keys to the application. This is ideal for Envelope Encryption.
+The Transit engine allows Vault to handle cryptographic functions (encryption/decryption) without exposing the underlying keys to the application. This is ideal for Envelope Encryption, where applications encrypt data locally using a data key, and Vault encrypts that data key.
+
+> [!WARNING]
+> Do not send large payloads (like entire files) directly to Vault for encryption, as it introduces massive network overhead. Use Vault Transit for encrypting Data Encryption Keys (DEKs), not the data itself.
 
 ```bash
 vault secrets enable transit

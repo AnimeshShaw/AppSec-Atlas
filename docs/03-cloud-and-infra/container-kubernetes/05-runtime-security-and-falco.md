@@ -1,3 +1,9 @@
+---
+title: "05. Runtime Threat Detection with Falco"
+description: "Falco is an open-source CNCF project that provides real-time threat detection for Linux containers and Kubernetes by parsing Linux kernel system calls..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Container Kubernetes", "05 Runtime Security And Falco.Md"]
+---
+
 # 05. Runtime Threat Detection with Falco
 
 Falco is an open-source CNCF project that provides real-time threat detection for Linux containers and Kubernetes by parsing Linux kernel system calls using **eBPF (Extended Berkeley Packet Filter)**.

@@ -1,3 +1,9 @@
+---
+title: "02 - Symmetric Encryption"
+description: "Symmetric encryption uses a single key to encrypt and decrypt data. It is the workhorse of cryptography, used for bulk data encryption because of its ..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Cryptography", "02 Symmetric Encryption.Md"]
+---
+
 # 02 - Symmetric Encryption
 
 Symmetric encryption uses a single key to encrypt and decrypt data. It is the workhorse of cryptography, used for bulk data encryption because of its speed and efficiency.

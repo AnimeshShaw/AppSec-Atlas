@@ -1,6 +1,15 @@
+---
+title: "01 - Introduction to IaC Security"
+description: "Infrastructure as Code (IaC) is the process of managing and provisioning computing infrastructure through machine-readable definition files, rather th..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "03 Cloud And Infra", "Iac Security", "01 Introduction.Md"]
+---
+
 # 01 - Introduction to IaC Security
 
 Infrastructure as Code (IaC) is the process of managing and provisioning computing infrastructure through machine-readable definition files, rather than physical hardware configuration or interactive configuration tools.
+
+> [!TIP]
+> **Industry Best Practice:** Always align this domain with standard frameworks like OWASP, NIST, or CIS benchmarks for optimal security posture.
 
 ## 🌪️ The Threat Landscape
 

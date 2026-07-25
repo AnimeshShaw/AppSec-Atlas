@@ -1,3 +1,9 @@
+---
+title: "04 - Microservice Security Patterns"
+description: "Securing distributed architectures requires specialized patterns to handle authentication, authorization, and communication securely across boundaries..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Security Design Patterns", "04 Microservice Security Patterns.Md"]
+---
+
 # 04 - Microservice Security Patterns
 
 Securing distributed architectures requires specialized patterns to handle authentication, authorization, and communication securely across boundaries.

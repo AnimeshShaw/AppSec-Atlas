@@ -1,3 +1,8 @@
+---
+title: "06 - Hands-On Lab: Automated SOC 2 Evidence Collector"
+description: "Comprehensive guide and best practices for 06 - Hands-On Lab: Automated SOC 2 Evidence Collector in the soc2-guide section of AppSec Atlas. Learn how to secure "
+keywords: ['soc2-guide', '06---hands-on-lab:-automated-soc-2-evidence-collector', 'appsec', 'security', 'compliance']
+---
 # 06 - Hands-On Lab: Automated SOC 2 Evidence Collector
 
 In this lab, we build a self-contained Python tool that simulates what Vanta/Drata do under the hood. 
@@ -95,3 +100,7 @@ if __name__ == "__main__":
 If the script outputs `[FAIL]`, you must remediate:
 1. **S3 Encryption:** Go to AWS Console -> S3 -> Bucket -> Properties -> Default Encryption -> Enable (SSE-S3 or SSE-KMS).
 2. **IAM MFA:** Go to IAM -> Users -> Security Credentials -> Assign MFA device. 
+
+
+> [!TIP]
+> **Pro Tip:** Always automate your security and compliance checks early in the pipeline to reduce manual overhead and ensure continuous compliance.

@@ -1,3 +1,9 @@
+---
+title: "IoT & Hardware Security Guide"
+description: "Welcome to the AppSec Atlas guide on IoT & Hardware Security! As physical devices become increasingly connected, securing the Internet of Things (IoT)..."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Iot Security", "Readme.Md"]
+---
+
 # IoT & Hardware Security Guide
 
 Welcome to the AppSec Atlas guide on IoT & Hardware Security! As physical devices become increasingly connected, securing the Internet of Things (IoT) is a critical domain spanning hardware, firmware, network protocols, and cloud applications.

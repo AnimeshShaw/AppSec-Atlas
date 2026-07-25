@@ -1,3 +1,9 @@
+---
+title: "06. Defenses & Secure Coding Cheatsheet"
+description: "Use this quick-reference matrix and static analysis rule set during code reviews and security audits."
+keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Owasp Top 10", "06 Defenses Cheatsheet.Md"]
+---
+
 # 06. Defenses & Secure Coding Cheatsheet
 
 Use this quick-reference matrix and static analysis rule set during code reviews and security audits.
