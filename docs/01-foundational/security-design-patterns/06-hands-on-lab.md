@@ -134,7 +134,7 @@ class RateLimitExceededException(Exception):
     pass
 
 class TokenBucketRateLimiter:
-    def __init__(self, capacity: int = 5, refill_rate: float = 1.0):
+    def __init__(self, capacity: int = 10, refill_rate: float = 1.0):
         self.capacity = capacity
         self.refill_rate = refill_rate
         self.tokens = capacity
@@ -195,10 +195,10 @@ class AuditLedger:
 # 5. CORE SECURE SERVICE IMPLEMENTATION
 # ==========================================
 class SecurePaymentService:
-    def __init__(self, hmac_secret: bytes):
+    def __init__(self, hmac_secret: bytes, rate_limit_capacity: int = 10):
         self.hmac_secret = hmac_secret
         self.circuit_breaker = CircuitBreaker(failure_threshold=3, reset_timeout=2.0)
-        self.rate_limiter = TokenBucketRateLimiter(capacity=3, refill_rate=0.5)
+        self.rate_limiter = TokenBucketRateLimiter(capacity=rate_limit_capacity, refill_rate=0.5)
         self.kms = KMS()
         self.audit_ledger = AuditLedger()
         self.database = []
@@ -276,7 +276,7 @@ class TestSecurePaymentArchitecture(unittest.TestCase):
 
     def setUp(self):
         self.secret = b"super_secret_hmac_key_123"
-        self.service = SecurePaymentService(hmac_secret=self.secret)
+        self.service = SecurePaymentService(hmac_secret=self.secret, rate_limit_capacity=10)
 
     def _generate_sig(self, user_id: str, amount: float, card_data: str) -> str:
         payload = f"{user_id}:{amount}:{card_data}".encode('utf-8')
@@ -295,14 +295,15 @@ class TestSecurePaymentArchitecture(unittest.TestCase):
             self.service.process_payment_secure("user1", 10.0, "4532-0000-1111-2222", sig)
 
     def test_03_rate_limiting_enforced(self):
+        restricted_service = SecurePaymentService(hmac_secret=self.secret, rate_limit_capacity=3)
         sig = self._generate_sig("user1", 50.0, "4532-0000-1111-2222")
         # Capacity is 3 requests
         for _ in range(3):
-            self.service.process_payment_secure("user1", 50.0, "4532-0000-1111-2222", sig)
+            restricted_service.process_payment_secure("user1", 50.0, "4532-0000-1111-2222", sig)
         
         # 4th request must trigger 429 Rate Limit
         with self.assertRaises(RateLimitExceededException):
-            self.service.process_payment_secure("user1", 50.0, "4532-0000-1111-2222", sig)
+            restricted_service.process_payment_secure("user1", 50.0, "4532-0000-1111-2222", sig)
 
     def test_04_circuit_breaker_trips_on_failures(self):
         sig = self._generate_sig("user2", 200.0, "4532-0000-1111-2222")
@@ -342,7 +343,7 @@ Expected output:
 ```text
 .....
 ----------------------------------------------------------------------
-Ran 5 tests in 0.012s
+Ran 5 tests in 0.005s
 
 OK
 ```
