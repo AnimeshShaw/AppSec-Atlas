@@ -47,7 +47,7 @@ AppSec Atlas is the **only** open-source security knowledge base that covers the
 
 | Guide | Status | Level |
 |-------|--------|-------|
-| [OWASP Top 10 Deep Dive](docs/01-foundational/owasp-top-10/) | 🚧 In Progress | Beginner |
+| [OWASP Top 10 Deep Dive](docs/01-foundational/owasp-top-10/) | ✅ Available | Beginner |
 | [Secure Coding Practices](docs/01-foundational/secure-coding/) | 📋 Planned | Beginner |
 | [Cryptography for Developers](docs/01-foundational/cryptography/) | 📋 Planned | Intermediate |
 | [Authentication & Authorization Masterclass](docs/01-foundational/auth-and-authz/) | 📋 Planned | Intermediate |
