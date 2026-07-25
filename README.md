@@ -83,7 +83,7 @@ AppSec Atlas is the **only** open-source security knowledge base that covers the
 | Guide | Status | Level |
 |-------|--------|-------|
 | [Agentic AI Security Guide](docs/04-ai-ml-security/agentic-ai-security/) | ✅ Available | Advanced |
-| [LLM Security & Prompt Injection](docs/04-ai-ml-security/llm-prompt-injection/) | 🚧 In Progress | Intermediate |
+| [LLM Security & Prompt Injection](docs/04-ai-ml-security/llm-prompt-injection/) | ✅ Available | Intermediate |
 | [ML Model Security & Adversarial Attacks](docs/04-ai-ml-security/ml-model-security/) | 📋 Planned | Advanced |
 | [RAG Security Guide](docs/04-ai-ml-security/rag-security/) | 📋 Planned | Advanced |
 | [AI Red Teaming Playbook](docs/04-ai-ml-security/ai-red-teaming/) | 📋 Planned | Advanced |
