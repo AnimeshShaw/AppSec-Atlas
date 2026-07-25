@@ -8,7 +8,7 @@ Thank you to every person who has contributed to AppSec Atlas. You are the reaso
 
 | Name | GitHub | Role |
 |------|--------|------|
-| *(Founder)* | *(your handle)* | Creator & Maintainer |
+| Animesh Shaw | [@AnimeshShaw](https://github.com/AnimeshShaw) | Creator & Lead Maintainer |
 
 ---
 

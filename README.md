@@ -8,15 +8,16 @@
 
 **Map the entire security landscape. One repo. Zero excuses.**
 
-[![Stars](https://img.shields.io/github/stars/appsec-atlas/appsec-atlas?style=for-the-badge&color=3B82F6&labelColor=0A0F1E)](https://github.com/appsec-atlas/appsec-atlas/stargazers)
-[![Contributors](https://img.shields.io/github/contributors/appsec-atlas/appsec-atlas?style=for-the-badge&color=10B981&labelColor=0A0F1E)](https://github.com/appsec-atlas/appsec-atlas/graphs/contributors)
+[![Stars](https://img.shields.io/github/stars/AnimeshShaw/AppSec-Atlas?style=for-the-badge&color=3B82F6&labelColor=0A0F1E)](https://github.com/AnimeshShaw/AppSec-Atlas/stargazers)
+[![Contributors](https://img.shields.io/github/contributors/AnimeshShaw/AppSec-Atlas?style=for-the-badge&color=10B981&labelColor=0A0F1E)](https://github.com/AnimeshShaw/AppSec-Atlas/graphs/contributors)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-EF4444?style=for-the-badge&labelColor=0A0F1E)](LICENSE)
 [![Website](https://img.shields.io/badge/Website-appsecatlas.com-8B5CF6?style=for-the-badge&labelColor=0A0F1E)](https://appsecatlas.com)
-[![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&labelColor=0A0F1E)](https://discord.gg/appsecatlas)
+[![Last Commit](https://img.shields.io/github/last-commit/AnimeshShaw/AppSec-Atlas?style=for-the-badge&color=F59E0B&labelColor=0A0F1E)](https://github.com/AnimeshShaw/AppSec-Atlas/commits/main)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-10B981?style=for-the-badge&labelColor=0A0F1E)](CONTRIBUTING.md)
 
 <br/>
 
-[🌐 Website](https://appsecatlas.com) · [📚 Browse Guides](#-guides) · [🗺️ Learning Paths](#%EF%B8%8F-learning-paths) · [🤝 Contribute](CONTRIBUTING.md) · [💬 Discord](https://discord.gg/appsecatlas) · [💝 Sponsor](https://github.com/sponsors/appsec-atlas)
+[🌐 Website](https://appsecatlas.com) · [📚 Browse Guides](#-guides) · [🗺️ Learning Paths](#%EF%B8%8F-learning-paths) · [🤝 Contribute](CONTRIBUTING.md) · [💬 Discord](https://discord.gg/appsecatlas) · [💝 Sponsor](https://github.com/sponsors/AnimeshShaw)
 
 </div>
 
@@ -182,7 +183,7 @@ AppSec Atlas is built by the community, for the community. Every contribution ma
 - 🌍 Translate guides to other languages
 - ⭐ Star the repo and spread the word
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md) to get started. First-time contributors: look for issues labeled [`good first issue`](https://github.com/appsec-atlas/appsec-atlas/issues?q=label%3A%22good+first+issue%22).
+Read [CONTRIBUTING.md](CONTRIBUTING.md) to get started. First-time contributors: look for issues labeled [`good first issue`](https://github.com/AnimeshShaw/AppSec-Atlas/issues?q=label%3A%22good+first+issue%22).
 
 ---
 
@@ -191,7 +192,7 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) to get started. First-time contributors:
 AppSec Atlas is 100% free and open-source. If it helps you, consider supporting it:
 
 - ⭐ **Star this repo** — it helps more people discover the Atlas
-- 💝 **[GitHub Sponsors](https://github.com/sponsors/appsec-atlas)** — sustain ongoing development
+- 💝 **[GitHub Sponsors](https://github.com/sponsors/AnimeshShaw)** — sustain ongoing development
 - ☕ **[Ko-fi](https://ko-fi.com/appsecatlas)** — buy the team a coffee
 - 🏢 **[Corporate Sponsorship](https://appsecatlas.com/sponsor)** — logo in README + more
 

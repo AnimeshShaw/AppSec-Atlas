@@ -23,7 +23,7 @@ By participating in this project, you agree to abide by our [Code of Conduct](CO
 ## Ways to Contribute
 
 ### 1. Write a New Guide
-- Check the [open issues](https://github.com/appsec-atlas/appsec-atlas/issues) for guides marked `content-request`
+- Check the [open issues](https://github.com/AnimeshShaw/AppSec-Atlas/issues) for guides marked `content-request`
 - Use the [guide template](community/templates/guide-template.md) as your starting point
 - Follow the [Guide Standards](#guide-standards) below
 
@@ -35,7 +35,7 @@ By participating in this project, you agree to abide by our [Code of Conduct](CO
 
 ### 3. Fix Typos & Errors
 - Even small fixes are valuable! No contribution is too small.
-- Look for issues labeled [`good first issue`](https://github.com/appsec-atlas/appsec-atlas/issues?q=label%3A%22good+first+issue%22)
+- Look for issues labeled [`good first issue`](https://github.com/AnimeshShaw/AppSec-Atlas/issues?q=label%3A%22good+first+issue%22)
 
 ### 4. Add Lab Exercises
 - Docker-based vulnerable apps
@@ -58,7 +58,7 @@ By participating in this project, you agree to abide by our [Code of Conduct](CO
 ### 1. Fork and Clone
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/appsec-atlas.git
+git clone https://github.com/AnimeshShaw/AppSec-Atlas.git
 cd appsec-atlas
 ```
 
@@ -182,7 +182,7 @@ All contributors are credited in:
 
 ## Questions?
 
-- 💬 Open a [GitHub Discussion](https://github.com/appsec-atlas/appsec-atlas/discussions)
+- 💬 Open a [GitHub Discussion](https://github.com/AnimeshShaw/AppSec-Atlas/discussions)
 - 🎮 Join our [Discord](https://discord.gg/appsecatlas)
 - 📧 Email: contribute@appsecatlas.com
 

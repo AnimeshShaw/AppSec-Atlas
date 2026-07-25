@@ -39,7 +39,7 @@ See [CONTRIBUTING.md](../../CONTRIBUTING.md) for full details. In short:
 2. Use the [guide template](../../community/templates/guide-template.md)
 3. Open a PR
 
-First-time contributor? Look for issues labeled [`good first issue`](https://github.com/appsec-atlas/appsec-atlas/issues?q=label%3A%22good+first+issue%22).
+First-time contributor? Look for issues labeled [`good first issue`](https://github.com/AnimeshShaw/AppSec-Atlas/issues?q=label%3A%22good+first+issue%22).
 
 ## Community
 
