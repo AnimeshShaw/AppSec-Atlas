@@ -97,18 +97,18 @@ AppSec Atlas is the **only** open-source security knowledge base that covers the
 | [Penetration Testing Methodology](docs/05-offensive/penetration-testing/) | ✅ Available | Intermediate |
 | [Social Engineering & Phishing](docs/05-offensive/social-engineering/) | ✅ Available | Beginner |
 | [Network Security & Attack Techniques](docs/05-offensive/network-attacks/) | ✅ Available | Intermediate |
-| [Bug Bounty Hunting Guide](docs/05-offensive/bug-bounty/) | 📋 Planned | Intermediate |
-| [CTF Learning Guide](docs/05-offensive/ctf-guide/) | 📋 Planned | Beginner |
+| [Bug Bounty Hunting Guide](docs/05-offensive/bug-bounty/) | ✅ Available | Intermediate |
+| [CTF Learning Guide](docs/05-offensive/ctf-guide/) | ✅ Available | Beginner |
 
-### 🔵 [Section 6: Defensive Security](docs/06-defensive/)
-> Blue team operations, incident response, and threat detection
+### 🛡️ [Section 6: Defensive Security & SOC](docs/06-defensive/)
+> Blue team playbooks, incident response, and security operations
 
 | Guide | Status | Level |
 |-------|--------|-------|
 | [Incident Response Playbook](docs/06-defensive/incident-response/) | ✅ Available | Intermediate |
 | [Security Logging & Monitoring](docs/06-defensive/logging-and-monitoring/) | ✅ Available | Intermediate |
-| [Digital Forensics Basics](docs/06-defensive/digital-forensics/) | 📋 Planned | Intermediate |
-| [Vulnerability Management Guide](docs/06-defensive/vulnerability-management/) | 📋 Planned | Intermediate |
+| [Digital Forensics Basics](docs/06-defensive/digital-forensics/) | ✅ Available | Intermediate |
+| [Vulnerability Management Guide](docs/06-defensive/vulnerability-management/) | ✅ Available | Intermediate |
 | [SOC Operations Guide](docs/06-defensive/soc-operations/) | 📋 Planned | Advanced |
 
 ### 🔐 [Section 7: Specialized Domains](docs/07-specialized/)
