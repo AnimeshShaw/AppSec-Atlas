@@ -114,7 +114,7 @@ Spectral signatures analyze the singular values of feature activations. Poisoned
 2. Compute the mean feature vector `\hat{\mu}_c` and centered feature matrix `M`.
 3. Compute top right singular vector `v` of matrix `M` using Singular Value Decomposition (SVD).
 4. Score each sample: `s_i = (f(x_i) - \hat{\mu}_c \cdot v)^2`.
-5. Remove samples with outlier outlier scores $s_i > \tau$.
+5. Remove samples with outlier scores `s_i > \tau`.
 
 ```mermaid
 flowchart LR
@@ -127,7 +127,7 @@ flowchart LR
 ```
 
 ### B. Activation Clustering (Chen et al.)
-Activation Clustering isolates backdoor attacks by analyzing feature activations of the last hidden layer for each class using Independent Component Analysis (ICA) followed by $K$-Means clustering ($K=2$). Clean classes exhibit a single dense cluster, whereas backdoor-poisoned classes split into two distinct clusters: clean samples and trigger-bearing samples.
+Activation Clustering isolates backdoor attacks by analyzing feature activations of the last hidden layer for each class using Independent Component Analysis (ICA) followed by K-Means clustering (K=2). Clean classes exhibit a single dense cluster, whereas backdoor-poisoned classes split into two distinct clusters: clean samples and trigger-bearing samples.
 
 ---
 
