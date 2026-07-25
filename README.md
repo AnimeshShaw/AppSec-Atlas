@@ -60,7 +60,7 @@ AppSec Atlas is the **only** open-source security knowledge base that covers the
 | Guide | Status | Level |
 |-------|--------|-------|
 | [Web Application Security Handbook](docs/02-web-and-api/web-application-security/) | 📋 Planned | Intermediate |
-| [API Security Guide](docs/02-web-and-api/api-security/) | 🚧 In Progress | Intermediate |
+| [API Security Guide](docs/02-web-and-api/api-security/) | ✅ Available | Intermediate |
 | [Frontend Security Playbook](docs/02-web-and-api/frontend-security/) | 📋 Planned | Intermediate |
 | [Mobile App Security Guide](docs/02-web-and-api/mobile-security/) | 📋 Planned | Intermediate |
 | [CORS & Same-Origin Policy Explained](docs/02-web-and-api/cors-and-sop/) | 📋 Planned | Beginner |
