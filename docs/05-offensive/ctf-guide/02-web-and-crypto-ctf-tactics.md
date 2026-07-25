@@ -84,7 +84,7 @@ print(f"Flag: {flag.decode()}")
 ```
 
 ### 2. RSA - Weak Keys
-RSA relies on the difficulty of factoring a large number `$N$` into its prime components `$p$` and `$q$`. If `$N$` is too small, or poorly generated, we can break it.
+RSA relies on the difficulty of factoring a large number `$N`$` into its prime components `$`p`$` and `$`q`$`. If `$`N$` is too small, or poorly generated, we can break it.
 
 **Common RSA Attacks in CTFs:**
 - **Small N:** Factor N using [factordb.com](http://factordb.com/).

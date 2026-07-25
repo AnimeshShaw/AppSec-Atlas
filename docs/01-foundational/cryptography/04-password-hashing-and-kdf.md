@@ -18,10 +18,10 @@ To securely store passwords or derive encryption keys from passphrases, applicat
 
 | KDF Algorithm | Memory Hardness | GPU / ASIC Resistance | Side-Channel Resistance | OWASP / NIST Recommendation | Recommended Work Factor |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Argon2id** | **High** (Configurable RAM) | **Maximum** | **Maximum** (Hybrid mode) | **#1 Primary Choice** (OWASP 2023) | `$m=64\text{ MB}$`, `$t=3$`, `$p=4$` |
-| **bcrypt** | Low (`$\approx 4\text{ KB}$`) | Moderate | High | **#2 Acceptable Legacy** | Work factor / Cost `$\ge 12$` (Target `$\approx 250\text{ms}$`) |
-| **scrypt** | High (Configurable RAM) | High | Vulnerable to Cache-Timing | Acceptable | `$N=2^{17}, r=8, p=1$` (`$128\text{ MB}$`) |
-| **PBKDF2-HMAC-SHA256** | **None** (`$0\text{ KB}$` RAM) | **Poor** (ASIC vulnerable) | High | Legacy / FIPS 140-2 Mandates Only | `$\ge 600,000$` Iterations (NIST SP 800-63B) |
+| **Argon2id** | **High** (Configurable RAM) | **Maximum** | **Maximum** (Hybrid mode) | **#1 Primary Choice** (OWASP 2023) | `$m=64\text{ MB}`$`, `$`t=3`$`, `$`p=4$` |
+| **bcrypt** | Low (`$\approx 4\text{ KB}`$`) | Moderate | High | **#2 Acceptable Legacy** | Work factor / Cost `$`\ge 12`$` (Target `$`\approx 250\text{ms}$`) |
+| **scrypt** | High (Configurable RAM) | High | Vulnerable to Cache-Timing | Acceptable | `$N=2^{17}, r=8, p=1`$` (`$`128\text{ MB}$`) |
+| **PBKDF2-HMAC-SHA256** | **None** (`$0\text{ KB}`$` RAM) | **Poor** (ASIC vulnerable) | High | Legacy / FIPS 140-2 Mandates Only | `$`\ge 600,000$` Iterations (NIST SP 800-63B) |
 | **MD5 / SHA-1 / SHA-256** | None | **Zero Resistance** | N/A | ❌ **FORBIDDEN** | N/A |
 
 ---
@@ -53,7 +53,7 @@ To securely store passwords or derive encryption keys from passphrases, applicat
 
 Argon2 won the International Password Hashing Competition (PHC) and is specified in RFC 9106. Argon2id combines Argon2i (resistant to side-channel timing attacks) and Argon2d (resistant to GPU cracking).
 
-- **Memory Cost (`$m$`)**: RAM allocated per hash calculation (e.g., `$65536\text{ KiB} = 64\text{ MB}$`). Higher memory forces GPU crackers to run out of VRAM.
+- **Memory Cost (`$m`$`)**: RAM allocated per hash calculation (e.g., `$`65536\text{ KiB} = 64\text{ MB}$`). Higher memory forces GPU crackers to run out of VRAM.
 - **Time Cost (`$t$`)**: Number of iterations over memory.
 - **Parallelism (`$p$`)**: Number of concurrent threads utilized (matches CPU core count).
 - **Target Hash Latency**: Tune parameters so that user login authentication takes **250 ms to 500 ms** on your production infrastructure.
@@ -191,7 +191,7 @@ func HashPassword(password string, p *Argon2Params) (string, error) {
 	b64Salt := base64.RawStdEncoding.EncodeToString(salt)
 	b64Hash := base64.RawStdEncoding.EncodeToString(hash)
 
-	encoded := fmt.Sprintf("`$argon2id$`v=%d`$m=%d,t=%d,p=%d$`%s$%s",
+	encoded := fmt.Sprintf("`$argon2id`$`v=%d`$`m=%d,t=%d,p=%d`$`%s$`%s",
 		argon2.Version, p.Memory, p.Iterations, p.Parallelism, b64Salt, b64Hash)
 
 	return encoded, nil

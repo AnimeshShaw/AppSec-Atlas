@@ -46,7 +46,7 @@ rule Suspicious_VBA_Macro {
         $shell = "WScript.Shell" nocase ascii wide
         $http = "MSXML2.XMLHTTP" nocase ascii wide
     condition:
-        `$auto and ($`shell or $http)
+        `$auto and (`$`shell or $`http)
 }
 ```
 

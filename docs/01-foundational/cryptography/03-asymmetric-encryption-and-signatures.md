@@ -18,7 +18,7 @@ Asymmetric algorithms rely on hard mathematical problems. While RSA relies on th
 
 | Feature | RSA (RSA-3072 / RSA-4096) | ECC (NIST P-256 / secp256r1) | Edwards-curve ECC (Ed25519) |
 | :--- | :--- | :--- | :--- |
-| **Mathematical Basis** | Prime Factorization (`$N = p \cdot q$`) | Discrete Log over Elliptic Curves | Twisted Edwards Curves (`$ax^2 + y^2 = 1 + dx^2y^2$`) |
+| **Mathematical Basis** | Prime Factorization (`$N = p \cdot q`$`) | Discrete Log over Elliptic Curves | Twisted Edwards Curves (`$`ax^2 + y^2 = 1 + dx^2y^2$`) |
 | **Key Size for 128-bit Security** | **3072 bits** (384 bytes) | **256 bits** (32 bytes) | **256 bits** (32 bytes) |
 | **Key Size for 256-bit Security** | **15360 bits** (1,920 bytes!) | **521 bits** (66 bytes) | **512 bits** (Ed448) |
 | **Performance Overhead** | Very Slow (Key generation & signing) | Fast | **Extremely Fast** |
@@ -45,7 +45,7 @@ Standard ECDSA (ANSI X9.62) generates a secret random nonce `$k$` for every sign
 `s = k^-1(H(m) + r * d) mod n`
 
 > [!CAUTION]
-> **Sony PS3 Private Key Recovery:** In 2010, Sony implemented ECDSA for PS3 firmware signing but reused the exact same nonce `$k$` across multiple signatures! If an attacker obtains two signatures `$(r, s_1)$` and `$(r, s_2)$` generated with the same nonce `$k$`, simple modular arithmetic recovers the secret private key `$d$` instantly:
+> **Sony PS3 Private Key Recovery:** In 2010, Sony implemented ECDSA for PS3 firmware signing but reused the exact same nonce `$k`$` across multiple signatures! If an attacker obtains two signatures `$`(r, s_1)`$` and `$`(r, s_2)`$` generated with the same nonce `$`k`$`, simple modular arithmetic recovers the secret private key `$`d$` instantly:
 > `k = (H(m_1) - H(m_2)) / (s_1 - s_2) mod n  =>  d = (s_1 * k - H(m_1)) / r mod n`
 
 ### Why Ed25519 is Superior

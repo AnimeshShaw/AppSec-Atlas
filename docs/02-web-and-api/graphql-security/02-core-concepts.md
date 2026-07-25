@@ -108,11 +108,11 @@ query RecursiveDoS {
 ```
 
 #### Mathematical Resource Exhaustion Formula:
-If an object returning a list of `$b$` items (branching factor) is nested to depth `$d$`, the total number of database or resolver executions `$N$` grows exponentially according to:
+If an object returning a list of `$b`$` items (branching factor) is nested to depth `$`d`$`, the total number of database or resolver executions `$`N$` grows exponentially according to:
 
 `N = (b^(d+1) - b) / (b - 1)`
 
-> **Example:** If branching factor `$b = 10$` items (e.g., 10 posts per user) and depth `$d = 8$`:
+> **Example:** If branching factor `$b = 10`$` items (e.g., 10 posts per user) and depth `$`d = 8$`:
 > `N = (10^9 - 10) / 9 = 111,111,110 execution nodes!`
 > A single 30-line HTTP request forces the backend server to execute over 111 million database lookups, exhausting CPU, memory, and database connection pools instantly.
 

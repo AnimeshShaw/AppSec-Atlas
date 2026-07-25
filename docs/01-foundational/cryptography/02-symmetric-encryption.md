@@ -92,11 +92,11 @@ CBC mode chains blocks by XORing each plaintext block with the previous cipherte
 C_i = E_K(P_i \oplus C_{i-1})
 ```
 
-- **Bit-Flipping Attack**: Flipping bit `$b$` in ciphertext block `$C_{i-1}$` directly flips bit `$b$` in decrypted plaintext `$P_i$`. An attacker can tamper with values like `"admin=0"` to `"admin=1"`.
+- **Bit-Flipping Attack**: Flipping bit `$b`$` in ciphertext block `$`C_{i-1}`$` directly flips bit `$`b`$` in decrypted plaintext `$`P_i$`. An attacker can tamper with values like `"admin=0"` to `"admin=1"`.
 - **Padding Oracle Attack**: If the server returns different error codes or timing responses when decryption fails PKCS#7 padding validation versus application errors, an attacker can decrypt ciphertext byte-by-byte without knowing the key (e.g., POODLE, Lucky Thirteen).
 
 ### 3. AES-GCM / ChaCha20 Nonce Reuse Catastrophe
-GCM and ChaCha20 are counter-based stream ciphers. The cipher generates a pseudo-random keystream `$S$` based on `$(Key, Nonce)$` and XORs it with plaintext `$P$`:
+GCM and ChaCha20 are counter-based stream ciphers. The cipher generates a pseudo-random keystream `$S`$` based on `$`(Key, Nonce)`$` and XORs it with plaintext `$`P$`:
 ```math
 C_1 = P_1 \oplus S
 ```
@@ -106,13 +106,13 @@ If the **same Nonce** is reused with the **same Key** for a second message `$P_2
 C_2 = P_2 \oplus S
 ```
 
-An adversary possessing `$C_1$` and `$C_2$` simply XORs the ciphertexts:
+An adversary possessing `$C_1`$` and `$`C_2$` simply XORs the ciphertexts:
 ```math
 C_1 \oplus C_2 = (P_1 \oplus S) \oplus (P_2 \oplus S) = P_1 \oplus P_2
 ```
 
 > [!WARNING]
-> Reusing a Nonce in GCM mode allows an attacker to compute `$P_1 \oplus P_2$` to recover both plaintexts, and exposes the internal GHASH subkey `$H$`, allowing the attacker to forge valid authentication tags for arbitrary messages!
+> Reusing a Nonce in GCM mode allows an attacker to compute `$P_1 \oplus P_2`$` to recover both plaintexts, and exposes the internal GHASH subkey `$`H$`, allowing the attacker to forge valid authentication tags for arbitrary messages!
 
 ---
 

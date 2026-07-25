@@ -42,7 +42,7 @@ rules:
               ...
       - pattern-not:
           pattern: |
-              def `$TOOL_NAME(..., $`PARAM: $MODEL_TYPE, ...):
+              def `$TOOL_NAME(..., `$`PARAM: $`MODEL_TYPE, ...):
                   ...
     metadata:
       owasp: "LLM05: Supply Chain & Tool Risks"

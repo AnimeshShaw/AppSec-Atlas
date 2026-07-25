@@ -58,7 +58,7 @@ def create_lab_environment():
         s3.put_object(
             Bucket=bucket_name,
             Key="customer_database_dump.sql",
-            Body=b"CREATE TABLE users (id INT, username VARCHAR(50), password_hash VARCHAR(255));\nINSERT INTO users VALUES (1, 'admin', '`$2b$`12$eImiTXuWVxfM37uY4JANjO');\n"
+            Body=b"CREATE TABLE users (id INT, username VARCHAR(50), password_hash VARCHAR(255));\nINSERT INTO users VALUES (1, 'admin', '`$2b`$`12$`eImiTXuWVxfM37uY4JANjO');\n"
         )
         print("[+] Confidential data uploaded to S3 bucket.")
         

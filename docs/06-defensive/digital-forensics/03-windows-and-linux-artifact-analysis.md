@@ -37,7 +37,7 @@ Stored in `%SystemRoot%\System32\Winevt\Logs\`.
 
 ```bash
 # Find failed SSH logins in auth.log
-grep "Failed password" /var/log/auth.log | awk '{print `$1, $`2, `$3, $`9, $11}'
+grep "Failed password" /var/log/auth.log | awk '{print `$1, `$`2, `$`3, `$`9, $`11}'
 
 # Find unique IPs attempting brute force
 grep "Failed password" /var/log/auth.log | awk '{print $11}' | sort | uniq -c | sort -nr

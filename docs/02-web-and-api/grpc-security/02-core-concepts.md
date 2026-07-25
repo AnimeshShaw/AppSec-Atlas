@@ -67,7 +67,7 @@ custom-trace-bin: A1B2C3D4E5==
 ```
 
 ### Attack Vector A: Downstream Context Leakage & Privileged Identity Forgery
-In microservice chains (Service A `$\rightarrow$` Service B `$\rightarrow$` Service C), context propagation mistakes are common:
+In microservice chains (Service A `$\rightarrow`$` Service B `$`\rightarrow$` Service C), context propagation mistakes are common:
 
 ```mermaid
 flowchart LR
