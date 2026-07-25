@@ -94,7 +94,7 @@ AppSec Atlas is the **only** open-source security knowledge base that covers the
 
 | Guide | Status | Level |
 |-------|--------|-------|
-| [Penetration Testing Methodology](docs/05-offensive/penetration-testing/) | 📋 Planned | Intermediate |
+| [Penetration Testing Methodology](docs/05-offensive/penetration-testing/) | ✅ Available | Intermediate |
 | [Social Engineering & Phishing](docs/05-offensive/social-engineering/) | 📋 Planned | Beginner |
 | [Network Security & Attack Techniques](docs/05-offensive/network-attacks/) | 📋 Planned | Intermediate |
 | [Bug Bounty Hunting Guide](docs/05-offensive/bug-bounty/) | 📋 Planned | Intermediate |
@@ -105,8 +105,8 @@ AppSec Atlas is the **only** open-source security knowledge base that covers the
 
 | Guide | Status | Level |
 |-------|--------|-------|
-| [Incident Response Playbook](docs/06-defensive/incident-response/) | 📋 Planned | Intermediate |
-| [Security Logging & Monitoring](docs/06-defensive/logging-and-monitoring/) | 📋 Planned | Intermediate |
+| [Incident Response Playbook](docs/06-defensive/incident-response/) | ✅ Available | Intermediate |
+| [Security Logging & Monitoring](docs/06-defensive/logging-and-monitoring/) | ✅ Available | Intermediate |
 | [Digital Forensics Basics](docs/06-defensive/digital-forensics/) | 📋 Planned | Intermediate |
 | [Vulnerability Management Guide](docs/06-defensive/vulnerability-management/) | 📋 Planned | Intermediate |
 | [SOC Operations Guide](docs/06-defensive/soc-operations/) | 📋 Planned | Advanced |
@@ -131,7 +131,7 @@ AppSec Atlas is the **only** open-source security knowledge base that covers the
 | [NIST Cybersecurity Framework Guide](docs/08-compliance/nist-csf/) | 📋 Planned | Intermediate |
 | [SOC 2 Compliance Guide](docs/08-compliance/soc2-guide/) | 📋 Planned | Intermediate |
 | [GDPR Technical Implementation](docs/08-compliance/gdpr-technical/) | 📋 Planned | Intermediate |
-| [DevSecOps Handbook](docs/08-compliance/devsecops-handbook/) | 📋 Planned | Intermediate |
+| [DevSecOps Handbook](docs/08-compliance/devsecops-handbook/) | ✅ Available | Intermediate |
 
 ### 🧪 [Section 9: Hands-On Labs](docs/09-hands-on/)
 > Practice makes perfect — build your skills with real exercises
