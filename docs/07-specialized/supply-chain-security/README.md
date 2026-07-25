@@ -1,20 +1,28 @@
-﻿# Supply Chain Security
+# Supply Chain Security Guide
 
-> **Status:** 📋 Coming Soon
-> **Contributions welcome!** See [CONTRIBUTING.md](../../../../CONTRIBUTING.md)
+## Overview
+Welcome to the AppSec Atlas **Supply Chain Security Guide**. In modern software development, a large portion of the application code originates from third-party dependencies, open-source libraries, and external services. This chapter covers how to secure the software supply chain against attacks, ensure the integrity of the build process, and manage the vulnerabilities introduced by dependencies.
 
-This guide is planned but not yet written. Want to help build AppSec Atlas?
+## Prerequisites
+Before diving into this guide, you should have a basic understanding of:
+- Software development lifecycles (SDLC) and CI/CD pipelines.
+- Package managers (e.g., npm, pip, Maven, Cargo).
+- Basic cryptography concepts (e.g., digital signatures, hashing).
 
-## How to Contribute This Guide
+## Learning Objectives
+By completing this guide, you will be able to:
+- Understand the Software Supply Chain threat landscape.
+- Generate and analyze Software Bill of Materials (SBOMs).
+- Implement the Supply-chain Levels for Software Artifacts (SLSA) framework principles.
+- Use dependency pinning and lockfile hardening.
+- Detect and prevent the integration of malicious packages or typosquatting attacks.
+- Secure the software publishing process.
 
-1. Check the [guide template](../../../../community/templates/guide-template.md)
-2. Open an issue saying you want to write this guide
-3. Fork, write, and submit a PR
-
-## Planned Content
-
-See the [Master Strategy](https://github.com/appsec-atlas/appsec-atlas/blob/main/MASTER_STRATEGY.md) for the full specification of what this guide will cover.
-
----
-
-*[Back to AppSec Atlas](../../../../README.md)*
+## Navigation
+- [01 Introduction](01-introduction.md)
+- [02 SBOM Generation & Vulnerability Management](02-sbom-generation-and-vulnerability-management.md)
+- [03 Dependency Pinning & Provenance](03-dependency-pinning-and-provenance.md)
+- [04 Open Source Malware & Typosquatting](04-open-source-malware-and-typosquatting.md)
+- [05 Secure Software Publishing](05-secure-software-publishing.md)
+- [06 Hands-on Lab](06-hands-on-lab.md)
+- [07 References](07-references.md)

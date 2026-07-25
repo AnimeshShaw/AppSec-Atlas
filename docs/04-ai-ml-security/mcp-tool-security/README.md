@@ -1,20 +1,27 @@
-﻿# Mcp Tool Security
+# Model Context Protocol (MCP) & Tool-Use Security
 
-> **Status:** 📋 Coming Soon
-> **Contributions welcome!** See [CONTRIBUTING.md](../../../../CONTRIBUTING.md)
+Welcome to the MCP & Tool-Use Security guide. This module covers the security implications of integrating AI assistants with external tools via the Model Context Protocol (MCP) and custom tool execution environments.
 
-This guide is planned but not yet written. Want to help build AppSec Atlas?
+## Overview
+Large Language Models (LLMs) are increasingly integrated with tools, enabling them to execute code, fetch data, and perform actions on behalf of the user. While powerful, this capability introduces significant security risks, primarily around unauthorized actions, tool poisoning, and data exfiltration. The Model Context Protocol (MCP) standardizes this communication, making it crucial to secure the MCP client-server architecture.
 
-## How to Contribute This Guide
+## Prerequisites
+- Understanding of LLM architecture and prompt injection.
+- Familiarity with JSON-RPC (the protocol underlying MCP).
+- Basic knowledge of Python and Docker for lab exercises.
 
-1. Check the [guide template](../../../../community/templates/guide-template.md)
-2. Open an issue saying you want to write this guide
-3. Fork, write, and submit a PR
+## Learning Objectives
+- Understand the MCP architecture and threat landscape.
+- Identify and mitigate tool poisoning and shadow tool registration attacks.
+- Implement least privilege, permission scopes, and Human-In-The-Loop (HITL) approval patterns.
+- Secure MCP server execution using sandboxing technologies like Docker and gVisor.
+- Implement robust logging and auditing for MCP JSON-RPC messages.
 
-## Planned Content
-
-See the [Master Strategy](https://github.com/appsec-atlas/appsec-atlas/blob/main/MASTER_STRATEGY.md) for the full specification of what this guide will cover.
-
----
-
-*[Back to AppSec Atlas](../../../../README.md)*
+## Navigation
+1. [Introduction to MCP Security](01-introduction.md)
+2. [Tool Poisoning & Shadow Tools](02-mcp-tool-poisoning-and-shadow-tools.md)
+3. [Least Privilege & Permission Scopes](03-least-privilege-and-permission-scopes.md)
+4. [MCP Sandbox Isolation](04-mcp-sandbox-isolation.md)
+5. [MCP Security Auditing](05-mcp-security-auditing.md)
+6. [Hands-On Lab: MCP Exploitation & Mitigation](06-hands-on-lab.md)
+7. [References & Resources](07-references.md)

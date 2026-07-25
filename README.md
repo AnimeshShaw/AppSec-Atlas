@@ -59,7 +59,7 @@ AppSec Atlas is the **only** open-source security knowledge base that covers the
 
 | Guide | Status | Level |
 |-------|--------|-------|
-| [Web Application Security Handbook](docs/02-web-and-api/web-application-security/) | 📋 Planned | Intermediate |
+| [Web Application Security Handbook](docs/02-web-and-api/web-application-security/) | ✅ Available | Intermediate |
 | [API Security Guide](docs/02-web-and-api/api-security/) | ✅ Available | Intermediate |
 | [Frontend Security Playbook](docs/02-web-and-api/frontend-security/) | 📋 Planned | Intermediate |
 | [Mobile App Security Guide](docs/02-web-and-api/mobile-security/) | 📋 Planned | Intermediate |
@@ -70,7 +70,7 @@ AppSec Atlas is the **only** open-source security knowledge base that covers the
 
 | Guide | Status | Level |
 |-------|--------|-------|
-| [Cloud Security Fundamentals](docs/03-cloud-and-infra/cloud-security/) | 📋 Planned | Intermediate |
+| [Cloud Security Fundamentals](docs/03-cloud-and-infra/cloud-security/) | ✅ Available | Intermediate |
 | [Container & Kubernetes Security](docs/03-cloud-and-infra/container-kubernetes/) | ✅ Available | Intermediate |
 | [Infrastructure as Code Security](docs/03-cloud-and-infra/iac-security/) | ✅ Available | Intermediate |
 | [Serverless Security Guide](docs/03-cloud-and-infra/serverless-security/) | 📋 Planned | Intermediate |
@@ -87,7 +87,7 @@ AppSec Atlas is the **only** open-source security knowledge base that covers the
 | [ML Model Security & Adversarial Attacks](docs/04-ai-ml-security/ml-model-security/) | 📋 Planned | Advanced |
 | [RAG Security Guide](docs/04-ai-ml-security/rag-security/) | ✅ Available | Advanced |
 | [AI Red Teaming Playbook](docs/04-ai-ml-security/ai-red-teaming/) | ✅ Available | Advanced |
-| [MCP & Tool-Use Security](docs/04-ai-ml-security/mcp-tool-security/) | 📋 Planned | Advanced |
+| [MCP & Tool-Use Security](docs/04-ai-ml-security/mcp-tool-security/) | ✅ Available | Advanced |
 
 ### 🔴 [Section 5: Offensive Security](docs/05-offensive/)
 > Red team techniques, penetration testing, and ethical hacking
@@ -116,7 +116,7 @@ AppSec Atlas is the **only** open-source security knowledge base that covers the
 
 | Guide | Status | Level |
 |-------|--------|-------|
-| [Supply Chain Security Guide](docs/07-specialized/supply-chain-security/) | 📋 Planned | Advanced |
+| [Software Supply Chain Security](docs/07-specialized/supply-chain-security/) | ✅ Available | Advanced |
 | [Blockchain & Smart Contract Security](docs/07-specialized/blockchain-security/) | 📋 Planned | Advanced |
 | [IoT Security Guide](docs/07-specialized/iot-security/) | 📋 Planned | Intermediate |
 | [Privacy Engineering Guide](docs/07-specialized/privacy-engineering/) | 📋 Planned | Intermediate |

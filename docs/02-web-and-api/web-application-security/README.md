@@ -1,20 +1,30 @@
-﻿# Web Application Security
+# Web Application Security Handbook
 
-> **Status:** 📋 Coming Soon
-> **Contributions welcome!** See [CONTRIBUTING.md](https://github.com/AnimeshShaw/AppSec-Atlas/blob/main/CONTRIBUTING.md)
+Welcome to the **Web Application Security Handbook**. This guide provides an in-depth exploration of core web vulnerabilities, defense mechanisms, and secure coding practices for modern web applications.
 
-This guide is planned but not yet written. Want to help build AppSec Atlas?
+## Overview
+Web applications are the backbone of modern business operations, but they are also a primary target for attackers. This handbook covers the essential aspects of web security, from HTTP headers to complex injection flaws and session management.
 
-## How to Contribute This Guide
+## Prerequisites
+- Basic understanding of HTTP/HTTPS protocols.
+- Familiarity with web application architecture (Client-Server model).
+- Basic programming knowledge in Python (Flask/FastAPI) and Node.js (Express).
+- A local testing environment (e.g., Docker, Python virtual environments).
 
-1. Check the [guide template](https://github.com/AnimeshShaw/AppSec-Atlas/blob/main/community/templates/guide-template.md)
-2. Open an issue saying you want to write this guide
-3. Fork, write, and submit a PR
+## Learning Objectives
+By completing this handbook, you will be able to:
+1. Understand and implement secure HTTP headers.
+2. Identify, exploit, and remediate XSS and CSRF vulnerabilities.
+3. Secure file uploads and prevent SSRF and Path Traversal attacks.
+4. Implement robust session management and authentication mechanisms.
+5. Utilize automated DAST tools like OWASP ZAP and Burp Suite.
+6. Build and test security implementations through hands-on labs.
 
-## Planned Content
-
-See the [Master Strategy](https://github.com/appsec-atlas/appsec-atlas/blob/main/MASTER_STRATEGY.md) for the full specification of what this guide will cover.
-
----
-
-*[Back to AppSec Atlas](https://github.com/AnimeshShaw/AppSec-Atlas/blob/main/README.md)*
+## Navigation
+1. [01 - Introduction & Architecture](./01-introduction.md)
+2. [02 - XSS & CSRF Masterclass](./02-xss-and-csrf-masterclass.md)
+3. [03 - SSRF & File Upload Security](./03-ssrf-and-file-upload-security.md)
+4. [04 - Session Management & Auth](./04-session-management-and-auth.md)
+5. [05 - Web Security Scanners](./05-web-security-scanners.md)
+6. [06 - Hands-on Lab](./06-hands-on-lab.md)
+7. [07 - References & Resources](./07-references.md)

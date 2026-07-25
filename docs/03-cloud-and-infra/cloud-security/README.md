@@ -1,20 +1,29 @@
-﻿# Cloud Security
+# Cloud Security Fundamentals Guide
 
-> **Status:** 📋 Coming Soon
-> **Contributions welcome!** See [CONTRIBUTING.md](../../../../CONTRIBUTING.md)
+## Overview
+Welcome to the AppSec Atlas **Cloud Security Fundamentals Guide**. As organizations transition from on-premises data centers to cloud environments, the security paradigms shift drastically. Misconfigurations in identity management, storage permissions, and networking are now the leading causes of cloud breaches. This guide provides a comprehensive deep dive into securing infrastructure across AWS, Azure, and Google Cloud Platform (GCP).
 
-This guide is planned but not yet written. Want to help build AppSec Atlas?
+## Prerequisites
+To get the most out of this guide, you should have:
+- Basic understanding of networking concepts (VPCs, subnets, firewalls).
+- Familiarity with the Linux command line.
+- Basic knowledge of Identity and Access Management (IAM).
+- Access to an AWS, Azure, or GCP free tier account for practical labs.
 
-## How to Contribute This Guide
+## Learning Objectives
+By the end of this module, you will be able to:
+- Understand the **Shared Responsibility Model** across IaaS, PaaS, and SaaS.
+- Implement **Least Privilege** IAM policies in AWS, Azure, and GCP.
+- Secure cloud storage components against public exposure.
+- Deploy and enforce network controls like VPC Service Controls and Security Groups.
+- Set up automated **Cloud Security Posture Management (CSPM)** using tools like Prowler and Scout Suite.
+- Perform foundational **Cloud Incident Response** and forensic artifact collection.
 
-1. Check the [guide template](../../../../community/templates/guide-template.md)
-2. Open an issue saying you want to write this guide
-3. Fork, write, and submit a PR
-
-## Planned Content
-
-See the [Master Strategy](https://github.com/appsec-atlas/appsec-atlas/blob/main/MASTER_STRATEGY.md) for the full specification of what this guide will cover.
-
----
-
-*[Back to AppSec Atlas](../../../../README.md)*
+## Navigation
+- [01 Introduction & Threat Landscape](./01-introduction.md)
+- [02 AWS Security Hardening](./02-aws-security-hardening.md)
+- [03 Azure & GCP Security](./03-azure-and-gcp-security.md)
+- [04 Cloud Logging & CSPM](./04-cloud-logging-and-cspm.md)
+- [05 Cloud Incident Response](./05-cloud-incident-response.md)
+- [06 Hands-on Lab: Leaked Keys & S3 Exposure](./06-hands-on-lab.md)
+- [07 References](./07-references.md)
