@@ -1,20 +1,24 @@
-﻿# Nist Csf
+# NIST Cybersecurity Framework (CSF) 2.0 Guide
 
-> **Status:** 📋 Coming Soon
-> **Contributions welcome!** See [CONTRIBUTING.md](../../../../CONTRIBUTING.md)
+## Overview
+Welcome to the AppSec Atlas guide on the **NIST Cybersecurity Framework (CSF) 2.0**. This comprehensive guide will walk you through the core functions of the framework, from governance and identification to response and recovery. It provides actionable strategies, automation patterns, and compliance mapping using modern security engineering practices.
 
-This guide is planned but not yet written. Want to help build AppSec Atlas?
+## Prerequisites
+- Basic understanding of cybersecurity principles and risk management.
+- Familiarity with cloud infrastructure (AWS/Azure) and Policy-as-Code (e.g., Open Policy Agent).
+- Python programming for the hands-on lab.
 
-## How to Contribute This Guide
+## Learning Objectives
+- **Understand** the NIST CSF 2.0 structure, including the newly introduced GOVERN function.
+- **Implement** asset management and risk assessment strategies.
+- **Automate** compliance using Open Policy Agent (OPA) and cloud security posture management (CSPM) tools.
+- **Develop** a continuous compliance assessment tool using Python.
 
-1. Check the [guide template](../../../../community/templates/guide-template.md)
-2. Open an issue saying you want to write this guide
-3. Fork, write, and submit a PR
-
-## Planned Content
-
-See the [Master Strategy](https://github.com/appsec-atlas/appsec-atlas/blob/main/MASTER_STRATEGY.md) for the full specification of what this guide will cover.
-
----
-
-*[Back to AppSec Atlas](../../../../README.md)*
+## Navigation
+1. [Introduction to NIST CSF 2.0](./01-introduction.md)
+2. [Govern & Identify Functions](./02-govern-and-identify-functions.md)
+3. [Protect & Detect Functions](./03-protect-and-detect-functions.md)
+4. [Respond & Recover Functions](./04-respond-and-recover-functions.md)
+5. [Compliance Automation (OPA & Cloud)](./05-nist-csf-compliance-automation.md)
+6. [Hands-On Lab: Compliance Assessment Tool](./06-hands-on-lab.md)
+7. [References & Further Reading](./07-references.md)

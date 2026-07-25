@@ -1,20 +1,25 @@
-﻿# Browser Extension Security
+# Browser Extension Security Guide
 
-> **Status:** 📋 Coming Soon
-> **Contributions welcome!** See [CONTRIBUTING.md](../../../../CONTRIBUTING.md)
+## Overview
+Browser extensions have significant access to user data, often more than web applications themselves. This guide covers the security architecture of modern browser extensions, specifically focusing on Chrome's Manifest V3. You'll learn the primary attack vectors, such as DOM XSS in content scripts and insecure message passing, and how to defend against them.
 
-This guide is planned but not yet written. Want to help build AppSec Atlas?
+## Prerequisites
+- Basic understanding of JavaScript, HTML, and CSS.
+- Familiarity with browser security concepts (CSP, CORS).
+- Node.js and a Chromium-based browser (Chrome, Edge, or Brave) for labs.
 
-## How to Contribute This Guide
+## Learning Objectives
+- Understand the Manifest V3 architecture and its security improvements over V2.
+- Identify and mitigate DOM XSS vulnerabilities in content scripts.
+- Secure extension message passing mechanisms.
+- Safely store sensitive data and intercept web requests.
+- Audit extensions using open-source tools.
 
-1. Check the [guide template](../../../../community/templates/guide-template.md)
-2. Open an issue saying you want to write this guide
-3. Fork, write, and submit a PR
-
-## Planned Content
-
-See the [Master Strategy](https://github.com/appsec-atlas/appsec-atlas/blob/main/MASTER_STRATEGY.md) for the full specification of what this guide will cover.
-
----
-
-*[Back to AppSec Atlas](../../../../README.md)*
+## Navigation
+- [01 Introduction](01-introduction.md)
+- [02 Manifest V3 Security & Permissions](02-manifest-v3-security-and-permissions.md)
+- [03 Content Script & DOM Injection](03-content-script-and-dom-injection.md)
+- [04 Data Storage & Web Requests](04-extension-data-storage-and-web-requests.md)
+- [05 Security Auditing Tools](05-extension-security-auditing-tools.md)
+- [06 Hands-on Lab](06-hands-on-lab.md)
+- [07 References](07-references.md)

@@ -120,17 +120,17 @@ AppSec Atlas is the **only** open-source security knowledge base that covers the
 | [Blockchain & Smart Contract Security](docs/07-specialized/blockchain-security/) | ✅ Available | Advanced |
 | [IoT Security Guide](docs/07-specialized/iot-security/) | ✅ Available | Intermediate |
 | [Privacy Engineering Guide](docs/07-specialized/privacy-engineering/) | ✅ Available | Intermediate |
-| [Hardware Security Basics](docs/07-specialized/hardware-security/) | 📋 Planned | Advanced |
-| [Browser Extension Security](docs/07-specialized/browser-extension-security/) | 📋 Planned | Intermediate |
+| [Hardware Security Basics](docs/07-specialized/hardware-security/) | ✅ Available | Advanced |
+| [Browser Extension Security](docs/07-specialized/browser-extension-security/) | ✅ Available | Intermediate |
 
 ### 📋 [Section 8: Compliance & Governance](docs/08-compliance/)
 > Frameworks, standards, and regulatory compliance
 
 | Guide | Status | Level |
 |-------|--------|-------|
-| [NIST Cybersecurity Framework Guide](docs/08-compliance/nist-csf/) | 📋 Planned | Intermediate |
-| [SOC 2 Compliance Guide](docs/08-compliance/soc2-guide/) | 📋 Planned | Intermediate |
-| [GDPR Technical Implementation](docs/08-compliance/gdpr-technical/) | 📋 Planned | Intermediate |
+| [NIST Cybersecurity Framework Guide](docs/08-compliance/nist-csf/) | ✅ Available | Intermediate |
+| [SOC 2 Compliance Guide](docs/08-compliance/soc2-guide/) | ✅ Available | Intermediate |
+| [GDPR Technical Implementation](docs/08-compliance/gdpr-technical/) | ✅ Available | Intermediate |
 | [DevSecOps Handbook](docs/08-compliance/devsecops-handbook/) | ✅ Available | Intermediate |
 
 ### 🧪 [Section 9: Hands-On Labs](docs/09-hands-on/)
@@ -138,9 +138,9 @@ AppSec Atlas is the **only** open-source security knowledge base that covers the
 
 | Guide | Status | Level |
 |-------|--------|-------|
-| [CTF Challenge Set](docs/09-hands-on/ctf-challenges/) | 📋 Planned | All Levels |
-| [Vulnerable App Lab](docs/09-hands-on/vulnerable-app-lab/) | 📋 Planned | All Levels |
-| [Security Code Review Guide](docs/09-hands-on/code-review-guide/) | 📋 Planned | Intermediate |
+| [CTF Challenge Set](docs/09-hands-on/ctf-challenges/) | ✅ Available | All Levels |
+| [Vulnerable App Lab](docs/09-hands-on/vulnerable-app-lab/) | ✅ Available | All Levels |
+| [Security Code Review Guide](docs/09-hands-on/code-review-guide/) | ✅ Available | Intermediate |
 
 ---
 
