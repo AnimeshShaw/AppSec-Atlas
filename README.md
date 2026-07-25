@@ -109,17 +109,17 @@ AppSec Atlas is the **only** open-source security knowledge base that covers the
 | [Security Logging & Monitoring](docs/06-defensive/logging-and-monitoring/) | ✅ Available | Intermediate |
 | [Digital Forensics Basics](docs/06-defensive/digital-forensics/) | ✅ Available | Intermediate |
 | [Vulnerability Management Guide](docs/06-defensive/vulnerability-management/) | ✅ Available | Intermediate |
-| [SOC Operations Guide](docs/06-defensive/soc-operations/) | 📋 Planned | Advanced |
+| [SOC Operations Guide](docs/06-defensive/soc-operations/) | ✅ Available | Advanced |
 
-### 🔐 [Section 7: Specialized Domains](docs/07-specialized/)
-> Niche but critical security domains
+### 🔐 [Section 7: Specialized Security Domains](docs/07-specialized/)
+> Hardware, IoT, Blockchain, and Supply Chain security
 
 | Guide | Status | Level |
 |-------|--------|-------|
 | [Software Supply Chain Security](docs/07-specialized/supply-chain-security/) | ✅ Available | Advanced |
-| [Blockchain & Smart Contract Security](docs/07-specialized/blockchain-security/) | 📋 Planned | Advanced |
-| [IoT Security Guide](docs/07-specialized/iot-security/) | 📋 Planned | Intermediate |
-| [Privacy Engineering Guide](docs/07-specialized/privacy-engineering/) | 📋 Planned | Intermediate |
+| [Blockchain & Smart Contract Security](docs/07-specialized/blockchain-security/) | ✅ Available | Advanced |
+| [IoT Security Guide](docs/07-specialized/iot-security/) | ✅ Available | Intermediate |
+| [Privacy Engineering Guide](docs/07-specialized/privacy-engineering/) | ✅ Available | Intermediate |
 | [Hardware Security Basics](docs/07-specialized/hardware-security/) | 📋 Planned | Advanced |
 | [Browser Extension Security](docs/07-specialized/browser-extension-security/) | 📋 Planned | Intermediate |
 

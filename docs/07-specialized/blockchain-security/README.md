@@ -1,20 +1,30 @@
-﻿# Blockchain Security
+# Blockchain & Smart Contract Security Guide
 
-> **Status:** 📋 Coming Soon
-> **Contributions welcome!** See [CONTRIBUTING.md](../../../../CONTRIBUTING.md)
+## Overview
+Welcome to the Blockchain & Smart Contract Security Guide. This module dives deep into the complex world of Web3 security, exploring the unique threat vectors and vulnerabilities in smart contracts, Decentralized Finance (DeFi), cross-chain bridges, and oracles.
 
-This guide is planned but not yet written. Want to help build AppSec Atlas?
+Unlike traditional web applications, smart contracts on public blockchains are immutable and handle financial assets directly. A single bug can lead to catastrophic losses. This guide equips you with the knowledge to identify, exploit, and remediate critical smart contract vulnerabilities.
 
-## How to Contribute This Guide
+## Prerequisites
+Before starting this guide, you should have:
+- Basic understanding of cryptography (hashes, public key infrastructure).
+- Familiarity with the Solidity programming language.
+- Understanding of the Ethereum Virtual Machine (EVM) and blockchain consensus mechanisms.
+- Experience with command-line tools and basic Python or Node.js.
 
-1. Check the [guide template](../../../../community/templates/guide-template.md)
-2. Open an issue saying you want to write this guide
-3. Fork, write, and submit a PR
+## Learning Objectives
+By completing this guide, you will be able to:
+1. Explain the architecture of the EVM and the smart contract lifecycle.
+2. Identify and exploit common smart contract vulnerabilities like Reentrancy, Integer Overflow/Underflow, and Access Control flaws.
+3. Utilize automated auditing tools and property-based fuzzers to discover vulnerabilities.
+4. Implement defensive design patterns and utilize OpenZeppelin standards for secure contract development.
+5. Understand the risks associated with cross-chain bridges, flash loans, and price oracles.
 
-## Planned Content
-
-See the [Master Strategy](https://github.com/appsec-atlas/appsec-atlas/blob/main/MASTER_STRATEGY.md) for the full specification of what this guide will cover.
-
----
-
-*[Back to AppSec Atlas](../../../../README.md)*
+## Navigation
+1. [Introduction to Blockchain Security](./01-introduction.md)
+2. [Smart Contract Vulnerabilities](./02-smart-contract-vulnerabilities.md)
+3. [Smart Contract Auditing Tools](./03-smart-contract-auditing-tools.md)
+4. [Defensive Design & OpenZeppelin](./04-defensive-design-and-openzeppelin.md)
+5. [Web3 Bridge & Oracle Security](./05-web3-bridge-and-oracle-security.md)
+6. [Hands-On Lab: Reentrancy](./06-hands-on-lab.md)
+7. [References & Further Reading](./07-references.md)
