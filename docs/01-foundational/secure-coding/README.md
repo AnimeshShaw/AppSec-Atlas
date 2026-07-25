@@ -1,20 +1,27 @@
-﻿# Secure Coding
+# Secure Coding Practices Guide
 
-> **Status:** 📋 Coming Soon
-> **Contributions welcome!** See [CONTRIBUTING.md](https://github.com/AnimeshShaw/AppSec-Atlas/blob/main/CONTRIBUTING.md)
+## Overview
+Welcome to the Secure Coding Practices Guide. This module forms the bedrock of application security. Instead of focusing solely on exploiting vulnerabilities, this guide emphasizes the proactive measures developers must take to write resilient, hardened code from day one.
 
-This guide is planned but not yet written. Want to help build AppSec Atlas?
+## Prerequisites
+- Basic understanding of web application architecture.
+- Familiarity with at least one programming language (Python, Node.js, Go, or Java).
+- Basic understanding of HTTP and REST APIs.
 
-## How to Contribute This Guide
+## Learning Objectives
+By the end of this guide, you will be able to:
+- Understand and apply core secure coding principles (Defense in Depth, Fail Securely, etc.).
+- Implement strict input validation and sanitization using modern libraries.
+- Prevent Cross-Site Scripting (XSS) through context-aware output encoding.
+- Securely handle file uploads and prevent path traversal attacks.
+- Integrate Static Application Security Testing (SAST) tools like Semgrep into your CI/CD pipeline.
+- Conduct effective security code reviews.
 
-1. Check the [guide template](https://github.com/AnimeshShaw/AppSec-Atlas/blob/main/community/templates/guide-template.md)
-2. Open an issue saying you want to write this guide
-3. Fork, write, and submit a PR
-
-## Planned Content
-
-See the [Master Strategy](https://github.com/appsec-atlas/appsec-atlas/blob/main/MASTER_STRATEGY.md) for the full specification of what this guide will cover.
-
----
-
-*[Back to AppSec Atlas](https://github.com/AnimeshShaw/AppSec-Atlas/blob/main/README.md)*
+## Navigation
+1. [Introduction to Secure Coding](01-introduction.md)
+2. [Input Validation & Sanitization](02-input-validation-sanitization.md)
+3. [Output Encoding & XSS Prevention](03-output-encoding-xss-prevention.md)
+4. [Memory Safety & File Handling](04-memory-safety-and-file-handling.md)
+5. [SAST & Code Review](05-sast-and-code-review.md)
+6. [Hands-On Lab: File Upload & Path Traversal](06-hands-on-lab.md)
+7. [References & Resources](07-references.md)

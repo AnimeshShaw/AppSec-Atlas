@@ -48,9 +48,9 @@ AppSec Atlas is the **only** open-source security knowledge base that covers the
 | Guide | Status | Level |
 |-------|--------|-------|
 | [OWASP Top 10 Deep Dive](docs/01-foundational/owasp-top-10/) | ✅ Available | Beginner |
-| [Secure Coding Practices](docs/01-foundational/secure-coding/) | 📋 Planned | Beginner |
-| [Cryptography for Developers](docs/01-foundational/cryptography/) | 📋 Planned | Intermediate |
-| [Authentication & Authorization Masterclass](docs/01-foundational/auth-and-authz/) | 📋 Planned | Intermediate |
+| [Secure Coding Practices](docs/01-foundational/secure-coding/) | ✅ Available | Beginner |
+| [Cryptography for Developers](docs/01-foundational/cryptography/) | ✅ Available | Intermediate |
+| [Authentication & Authorization Masterclass](docs/01-foundational/auth-and-authz/) | ✅ Available | Intermediate |
 | [Zero Trust Architecture Guide](docs/01-foundational/zero-trust/) | 📋 Planned | Advanced |
 | [Security Design Patterns](docs/01-foundational/security-design-patterns/) | 📋 Planned | Intermediate |
 
@@ -75,7 +75,7 @@ AppSec Atlas is the **only** open-source security knowledge base that covers the
 | [Infrastructure as Code Security](docs/03-cloud-and-infra/iac-security/) | 📋 Planned | Intermediate |
 | [Serverless Security Guide](docs/03-cloud-and-infra/serverless-security/) | 📋 Planned | Intermediate |
 | [CI/CD Pipeline Security](docs/03-cloud-and-infra/cicd-pipeline-security/) | ✅ Available | Intermediate |
-| [Secrets Management Guide](docs/03-cloud-and-infra/secrets-management/) | 📋 Planned | Intermediate |
+| [Secrets Management Guide](docs/03-cloud-and-infra/secrets-management/) | ✅ Available | Intermediate |
 
 ### 🤖 [Section 4: AI/ML Security](docs/04-ai-ml-security/) ⭐ *Our Flagship*
 > The most comprehensive open-source AI security resource — from LLMs to agentic systems

@@ -1,20 +1,25 @@
-﻿# Cryptography
+# Cryptography for Developers
 
-> **Status:** 📋 Coming Soon
-> **Contributions welcome!** See [CONTRIBUTING.md](https://github.com/AnimeshShaw/AppSec-Atlas/blob/main/CONTRIBUTING.md)
+Welcome to the Cryptography for Developers guide. This section provides the foundational knowledge and practical skills required to securely implement cryptography in modern applications.
 
-This guide is planned but not yet written. Want to help build AppSec Atlas?
+## Prerequisites
+- Basic understanding of programming (Python, Node.js, Go).
+- Familiarity with common web application architectures.
+- Understanding of binary data and character encoding (Hex, Base64).
 
-## How to Contribute This Guide
+## Learning Objectives
+- Differentiate between encryption, hashing, and encoding.
+- Understand and implement symmetric and asymmetric cryptography correctly.
+- Learn why certain algorithms or modes (like AES-ECB) are broken.
+- Implement robust password hashing (Argon2, bcrypt).
+- Understand Post-Quantum Cryptography (PQC) and its implications.
+- Fix common cryptographic vulnerabilities in code.
 
-1. Check the [guide template](https://github.com/AnimeshShaw/AppSec-Atlas/blob/main/community/templates/guide-template.md)
-2. Open an issue saying you want to write this guide
-3. Fork, write, and submit a PR
-
-## Planned Content
-
-See the [Master Strategy](https://github.com/appsec-atlas/appsec-atlas/blob/main/MASTER_STRATEGY.md) for the full specification of what this guide will cover.
-
----
-
-*[Back to AppSec Atlas](https://github.com/AnimeshShaw/AppSec-Atlas/blob/main/README.md)*
+## Navigation
+1. [Introduction to Cryptography](01-introduction.md)
+2. [Symmetric Encryption](02-symmetric-encryption.md)
+3. [Asymmetric Encryption & Signatures](03-asymmetric-encryption-and-signatures.md)
+4. [Password Hashing and KDFs](04-password-hashing-and-kdf.md)
+5. [Post-Quantum Cryptography](05-post-quantum-cryptography.md)
+6. [Hands-On Lab](06-hands-on-lab.md)
+7. [References & Resources](07-references.md)
