@@ -16,7 +16,7 @@ Suricata is a high-performance Network IDS, IPS, and Network Security Monitoring
 ### Suricata Rule Syntax
 ```suricata
 # Alert on plaintext HTTP credentials
-alert http $HOME_NET any -> $EXTERNAL_NET any (msg:"Cleartext password transmitted"; content:"password="; nocase; classtype:policy-violation; sid:100001; rev:1;)
+alert http `$HOME_NET any -> $`EXTERNAL_NET any (msg:"Cleartext password transmitted"; content:"password="; nocase; classtype:policy-violation; sid:100001; rev:1;)
 
 # IPS Inline Blocking for known malicious IP
 drop ip 198.51.100.0/24 any -> $HOME_NET any (msg:"Drop traffic from bad subnet"; sid:100002; rev:1;)

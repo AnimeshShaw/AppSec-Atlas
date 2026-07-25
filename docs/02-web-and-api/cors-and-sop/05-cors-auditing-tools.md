@@ -220,11 +220,11 @@ rules:
     patterns:
       - pattern-either:
           - pattern: |
-              $RES.header('Access-Control-Allow-Origin', $REQ.headers.origin);
+              `$RES.header('Access-Control-Allow-Origin', $`REQ.headers.origin);
           - pattern: |
-              $RES.setHeader('Access-Control-Allow-Origin', $REQ.headers.origin);
+              `$RES.setHeader('Access-Control-Allow-Origin', $`REQ.headers.origin);
           - pattern: |
-              $RES.set('Access-Control-Allow-Origin', $REQ.get('Origin'));
+              `$RES.set('Access-Control-Allow-Origin', $`REQ.get('Origin'));
     metadata:
       cwe: "CWE-942: Permissive Cross-Domain Policy"
       owasp: "A01:2021 - Broken Access Control"

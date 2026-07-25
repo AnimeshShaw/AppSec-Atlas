@@ -28,9 +28,9 @@ rules:
     languages: [javascript]
     severity: WARNING
     pattern: |
-      chrome.runtime.onMessageExternal.addListener(function($REQ, $SENDER, $RES) {
+      chrome.runtime.onMessageExternal.addListener(function(`$REQ, $`SENDER, $RES) {
         ...
-        // Missing check for $SENDER.origin or $SENDER.url
+        // Missing check for `$SENDER.origin or $`SENDER.url
       })
 ```
 

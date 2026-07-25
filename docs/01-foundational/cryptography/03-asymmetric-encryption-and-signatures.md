@@ -18,11 +18,11 @@ Asymmetric algorithms rely on hard mathematical problems. While RSA relies on th
 
 | Feature | RSA (RSA-3072 / RSA-4096) | ECC (NIST P-256 / secp256r1) | Edwards-curve ECC (Ed25519) |
 | :--- | :--- | :--- | :--- |
-| **Mathematical Basis** | Prime Factorization ($N = p \cdot q$) | Discrete Log over Elliptic Curves | Twisted Edwards Curves ($ax^2 + y^2 = 1 + dx^2y^2$) |
+| **Mathematical Basis** | Prime Factorization (`$N = p \cdot q$`) | Discrete Log over Elliptic Curves | Twisted Edwards Curves (`$ax^2 + y^2 = 1 + dx^2y^2$`) |
 | **Key Size for 128-bit Security** | **3072 bits** (384 bytes) | **256 bits** (32 bytes) | **256 bits** (32 bytes) |
 | **Key Size for 256-bit Security** | **15360 bits** (1,920 bytes!) | **521 bits** (66 bytes) | **512 bits** (Ed448) |
 | **Performance Overhead** | Very Slow (Key generation & signing) | Fast | **Extremely Fast** |
-| **Signature Randomness** | Requires RNG for RSA-PSS | **Requires CSPRNG $k$** (Vulnerable to RNG failure) | **Deterministic** (Immune to RNG failures) |
+| **Signature Randomness** | Requires RNG for RSA-PSS | **Requires CSPRNG `$k$`** (Vulnerable to RNG failure) | **Deterministic** (Immune to RNG failures) |
 | **Modern Recommendation** | Legacy Compatibility Only | Standard Corporate Infrastructure | **Gold Standard for Apps & API Signing** |
 
 ---
@@ -40,18 +40,20 @@ A digital signature provides **Authentication**, **Integrity**, and **Non-repudi
 ```
 
 ### The ECDSA Nonce Leak Catastrophe (Sony PlayStation 3 Attack)
-Standard ECDSA (ANSI X9.62) generates a secret random nonce $k$ for every signature:
+Standard ECDSA (ANSI X9.62) generates a secret random nonce `$k$` for every signature:
 `r = (k * G)_x mod n`
 `s = k^-1(H(m) + r * d) mod n`
 
 > [!CAUTION]
-> **Sony PS3 Private Key Recovery:** In 2010, Sony implemented ECDSA for PS3 firmware signing but reused the exact same nonce $k$ across multiple signatures! If an attacker obtains two signatures $(r, s_1)$ and $(r, s_2)$ generated with the same nonce $k$, simple modular arithmetic recovers the secret private key $d$ instantly:
+> **Sony PS3 Private Key Recovery:** In 2010, Sony implemented ECDSA for PS3 firmware signing but reused the exact same nonce `$k$` across multiple signatures! If an attacker obtains two signatures `$(r, s_1)$` and `$(r, s_2)$` generated with the same nonce `$k$`, simple modular arithmetic recovers the secret private key `$d$` instantly:
 > `k = (H(m_1) - H(m_2)) / (s_1 - s_2) mod n  =>  d = (s_1 * k - H(m_1)) / r mod n`
 
 ### Why Ed25519 is Superior
 Ed25519 (EdDSA RFC 8032) eliminates this vulnerability entirely by deriving the per-message nonce deterministically:
-$$k = \text{SHA-512}(\text{PrivateKeyPrefix} \parallel \text{Message})$$
-Because $k$ is deterministically generated from the private key and the message, Ed25519 is **completely immune to bad random number generators** and nonce-reuse attacks.
+```math
+k = \text{SHA-512}(\text{PrivateKeyPrefix} \parallel \text{Message})
+```
+Because `$k$` is deterministically generated from the private key and the message, Ed25519 is **completely immune to bad random number generators** and nonce-reuse attacks.
 
 ---
 
@@ -212,5 +214,5 @@ public class Ed25519SignerJava {
 ## 💣 Key Asymmetric Attacks to Mitigate
 
 1. **Bleichenbacher's RSA Padding Oracle Attack (Million Message Attack)**: Exploits PKCS#1 v1.5 padding error messages in RSA decryption to act as an oracle, decrypting ciphertexts byte-by-byte. **Mitigation**: Migrate to RSA-OAEP for encryption and RSA-PSS for signatures, or adopt ECC (Ed25519).
-2. **Invalid Curve Attacks**: Adversaries send custom public keys containing points not residing on the agreed elliptic curve $E$. If the application fails to validate point membership, the scalar multiplication leaks private key bits. **Mitigation**: Use libraries that validate public key points automatically (such as `X25519` and `Ed25519`).
+2. **Invalid Curve Attacks**: Adversaries send custom public keys containing points not residing on the agreed elliptic curve `$E$`. If the application fails to validate point membership, the scalar multiplication leaks private key bits. **Mitigation**: Use libraries that validate public key points automatically (such as `X25519` and `Ed25519`).
 

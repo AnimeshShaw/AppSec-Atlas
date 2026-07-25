@@ -20,7 +20,7 @@ LFI occurs when an application includes a file based on user input without prope
 **Vulnerable Code (PHP):**
 ```php
 <?php
-  $page = $_GET['page'];
+  `$page = $`_GET['page'];
   include($page);
 ?>
 ```
@@ -57,7 +57,7 @@ JWTs are often used for authentication. In CTFs, they are frequently misconfigur
 Crypto challenges test your understanding of math and encryption algorithms.
 
 ### 1. The XOR Cipher
-XOR ($\oplus$) is the foundation of many cryptographic systems.
+XOR (`$\oplus$`) is the foundation of many cryptographic systems.
 Properties:
 - `A ⊕ 0 = A`
 - `A ⊕ A = 0`
@@ -84,7 +84,7 @@ print(f"Flag: {flag.decode()}")
 ```
 
 ### 2. RSA - Weak Keys
-RSA relies on the difficulty of factoring a large number $N$ into its prime components $p$ and $q$. If $N$ is too small, or poorly generated, we can break it.
+RSA relies on the difficulty of factoring a large number `$N$` into its prime components `$p$` and `$q$`. If `$N$` is too small, or poorly generated, we can break it.
 
 **Common RSA Attacks in CTFs:**
 - **Small N:** Factor N using [factordb.com](http://factordb.com/).

@@ -317,7 +317,7 @@ To manage CORS securely at the API gateway level without relying on backend code
 ```nginx
 http {
     # Define an explicit origin allowlist map
-    map $http_origin $cors_allowed_origin {
+    map `$http_origin $`cors_allowed_origin {
         default "";
         "https://app.example.com"      $http_origin;
         "https://dashboard.example.com" $http_origin;
@@ -366,7 +366,7 @@ http {
     Header always set Vary "Origin"
 
     # Match allowed origin explicitly
-    SetEnvIf Origin "^https://(app|portal)\.example\.com$" CORS_ALLOWED_ORIGIN=$0
+    SetEnvIf Origin "^https://(app|portal)\.example\.com`$" CORS_ALLOWED_ORIGIN=$`0
     Header always set Access-Control-Allow-Origin "%{CORS_ALLOWED_ORIGIN}e" env=CORS_ALLOWED_ORIGIN
     Header always set Access-Control-Allow-Credentials "true" env=CORS_ALLOWED_ORIGIN
 </IfModule>

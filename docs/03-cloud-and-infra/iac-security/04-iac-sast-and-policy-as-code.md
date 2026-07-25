@@ -322,7 +322,7 @@ jobs:
         run: |
           VIOLATIONS=$(opa eval --format json --data ./policies/ --input ./terraform/tfplan.json "data.terraform.security.s3.deny" | jq '.result[0].expressions[0].value')
           echo "OPA Violations: $VIOLATIONS"
-          if [ "$VIOLATIONS" != "[]" ] && [ "$VIOLATIONS" != "null" ]; then
+          if [ "`$VIOLATIONS" != "[]" ] && [ "$`VIOLATIONS" != "null" ]; then
             echo "::error::OPA Rego Policy Violations Detected!"
             exit 1
           fi

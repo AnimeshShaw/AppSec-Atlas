@@ -69,7 +69,7 @@ class BankingServiceServicer:
             ACCOUNTS_DB[recipient_id]["balance"] += amount
             return {
                 "success": True, 
-                "message": f"Transferred ${amount}. New balance: ${ACCOUNTS_DB[sender_id]['balance']}"
+                "message": f"Transferred `${amount}. New balance: $`{ACCOUNTS_DB[sender_id]['balance']}"
             }
         context.abort(grpc.StatusCode.INVALID_ARGUMENT, "Invalid account IDs")
 

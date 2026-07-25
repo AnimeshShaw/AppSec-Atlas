@@ -26,7 +26,7 @@ Quantum computing leverages quantum mechanical phenomena—such as superposition
 ```
 
 ### 1. Shor's Algorithm: Exponential Speedup
-Shor's algorithm solves the Order-Finding Problem over finite abelian groups in polynomial time $O((\log N)^3)$ using the Quantum Fourier Transform (QFT).
+Shor's algorithm solves the Order-Finding Problem over finite abelian groups in polynomial time `$O((\log N)^3)$` using the Quantum Fourier Transform (QFT).
 - **Impact**: Completely breaks all widely deployed public-key algorithms relying on Prime Factorization or Discrete Logarithms:
   - **RSA** (All key sizes)
   - **ECDSA** (secp256r1, secp256k1)
@@ -35,12 +35,12 @@ Shor's algorithm solves the Order-Finding Problem over finite abelian groups in 
 - **Timeline**: US National Security Memorandum 10 (NSM-10) mandates full migration of critical federal systems to post-quantum standards prior to **2035**.
 
 ### 2. Grover's Algorithm: Quadratic Speedup
-Grover's algorithm searches an unsorted database of $N$ items in $O(\sqrt{N})$ quantum operations rather than $O(N)$ classical evaluations.
+Grover's algorithm searches an unsorted database of `$N$` items in `$O(\sqrt{N})$` quantum operations rather than `$O(N)$` classical evaluations.
 - **Impact**: Effectively halves the bit-security of symmetric ciphers and hash collision resistance:
-  - **AES-128**: Reduced to $2^{64}$ operations $\implies$ **Insecure**.
-  - **AES-256**: Reduced to $2^{128}$ operations $\implies$ **Completely Secure**.
-  - **SHA-256**: Collision resistance reduced to $2^{128}$ operations $\implies$ **Secure**.
-  - **SHA-384 / SHA-512**: $\implies$ **Quantum Safe**.
+  - **AES-128**: Reduced to `$2^{64}$` operations `$\implies$` **Insecure**.
+  - **AES-256**: Reduced to `$2^{128}$` operations `$\implies$` **Completely Secure**.
+  - **SHA-256**: Collision resistance reduced to `$2^{128}$` operations `$\implies$` **Secure**.
+  - **SHA-384 / SHA-512**: `$\implies$` **Quantum Safe**.
 
 ---
 

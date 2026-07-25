@@ -155,7 +155,7 @@ rules:
     message: |
       Strawberry GraphQL router created without security extensions or custom permission classes.
     pattern: |
-      strawberry.Schema(query=$Q, mutation=$M)
+      strawberry.Schema(query=`$Q, mutation=$`M)
     metadata:
       cwe: "CWE-285: Improper Authorization"
       owasp: "API1:2023 Broken Object Level Authorization"

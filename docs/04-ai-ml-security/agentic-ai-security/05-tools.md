@@ -38,11 +38,11 @@ rules:
     message: "Agent tool definition uses unconstrained string argument instead of Pydantic model validation."
     patterns:
       - pattern: |
-          def $TOOL_NAME(..., $PARAM: str, ...):
+          def `$TOOL_NAME(..., $`PARAM: str, ...):
               ...
       - pattern-not:
           pattern: |
-              def $TOOL_NAME(..., $PARAM: $MODEL_TYPE, ...):
+              def `$TOOL_NAME(..., $`PARAM: $MODEL_TYPE, ...):
                   ...
     metadata:
       owasp: "LLM05: Supply Chain & Tool Risks"

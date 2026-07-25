@@ -9,9 +9,9 @@ keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensiv
 ## File System Artifacts
 
 ### NTFS (Windows)
-- **$MFT (Master File Table):** The core of NTFS. Every file and directory on an NTFS volume has at least one entry in the $MFT.
+- **`$MFT (Master File Table):** The core of NTFS. Every file and directory on an NTFS volume has at least one entry in the $`MFT.
 - **LogFile ($LogFile):** A journal that records metadata changes to the volume, useful for recovering deleted file information.
-- **USN Journal ($Extend\$UsnJrnl):** Maintains a record of changes made to files on the volume (e.g., creations, deletions, modifications).
+- **USN Journal (`$Extend\$`UsnJrnl):** Maintains a record of changes made to files on the volume (e.g., creations, deletions, modifications).
 
 ### EXT4 (Linux)
 - **Inodes:** Data structures that store metadata about files, directories, and other file system objects.

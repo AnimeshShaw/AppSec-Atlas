@@ -219,7 +219,7 @@ export const handler = async (event: APIGatewayProxyEvent): Promise<APIGatewayPr
         const client = new Client({ connectionString: process.env.DATABASE_URL });
         await client.connect();
 
-        const safeQuery = 'SELECT id, email, created_at FROM users WHERE email = $1 LIMIT $2';
+        const safeQuery = 'SELECT id, email, created_at FROM users WHERE email = `$1 LIMIT $`2';
         const result = await client.query(safeQuery, [email, limit]);
         await client.end();
 

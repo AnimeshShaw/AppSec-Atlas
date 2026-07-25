@@ -69,7 +69,7 @@ type RefundInput = z.infer<typeof RefundSchema>;
 function processRefundSafe(rawInput: unknown): { status: string } {
   // Validate raw agent JSON output against Zod schema
   const parsed = RefundSchema.parse(rawInput);
-  console.log(`[SECURE ACTION] Processing refund: $${parsed.amount}`);
+  console.log(`[SECURE ACTION] Processing refund: `$$`{parsed.amount}`);
   return { status: 'SUCCESS' };
 }
 ```

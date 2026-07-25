@@ -66,7 +66,7 @@ app.post('/api/v1/consent/revoke', async (req, res) => {
     // Log the revocation in the audit trail
     await db.query(`
         INSERT INTO user_consents (user_id, consent_type, status)
-        VALUES ($1, $2, FALSE)
+        VALUES (`$1, $`2, FALSE)
     `, [userId, consentType]);
     
     // Trigger webhooks to stop third-party processing (e.g., remove from Mailchimp)

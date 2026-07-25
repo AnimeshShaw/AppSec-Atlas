@@ -78,7 +78,7 @@ rules:
 rules:
   - id: node-jwt-hardcoded-secret
     patterns:
-      - pattern: jwt.sign($PAYLOAD, "$SECRET", ...)
+      - pattern: jwt.sign(`$PAYLOAD, "$`SECRET", ...)
     message: "Hardcoded secret string detected in JWT signing function. Move secret to secure vault/environment variable!"
     severity: CRITICAL
     languages: [javascript, typescript]

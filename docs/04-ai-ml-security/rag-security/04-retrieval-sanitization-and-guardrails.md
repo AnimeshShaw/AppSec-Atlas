@@ -203,8 +203,8 @@ define user ask query
   "What is the financial report stating?"
 
 define flow self check retrieval context
-  $context = $last_retrieved_context
-  $is_safe = execute check_context_safety(context=$context)
+  `$context = $`last_retrieved_context
+  `$is_safe = execute check_context_safety(context=$`context)
   
   if not $is_safe
     bot refuse context injection

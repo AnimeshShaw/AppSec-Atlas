@@ -65,7 +65,7 @@ rules:
     message: "Potential DOM XSS: Unsanitized input passed to dangerouslySetInnerHTML."
     severity: ERROR
     pattern-either:
-      - pattern: <$EL dangerouslySetInnerHTML={{__html: $VAR}} />
+      - pattern: <`$EL dangerouslySetInnerHTML={{__html: $`VAR}} />
     pattern-not-inside:
       - pattern: <$EL dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(...)}} />
 
@@ -82,7 +82,7 @@ rules:
     languages: [typescript, javascript]
     message: "DOM XSS Sink: Direct assignment to innerHTML without sanitization."
     severity: WARNING
-    pattern: $EL.innerHTML = $VAL
+    pattern: `$EL.innerHTML = $`VAL
     pattern-not: $EL.innerHTML = DOMPurify.sanitize(...)
 ```
 

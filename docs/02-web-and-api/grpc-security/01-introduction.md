@@ -49,7 +49,9 @@ gRPC defaults to Protocol Buffers for structured data serialization. Protobuf en
 
 A Protobuf field tag on the wire is encoded as a variable-length integer (varint) combining the **Field Number** and the **Wire Type**:
 
-$$\text{Header Byte} = (\text{Field Number} \ll 3) \mid \text{Wire Type}$$
+```text
+Header Byte = (Field Number << 3) | Wire Type
+```
 
 | Wire Type | Type Name | Meaning / Examples |
 | :--- | :--- | :--- |

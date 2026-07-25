@@ -152,7 +152,7 @@ An attacker exploits a Remote Code Execution (RCE) vulnerability in a public-fac
 
 ## 6. Key Takeaways
 
-1. **Location $\neq$ Trust**: An internal IP address is an unreliable indicator of security posture.
+1. **Location `$\neq$` Trust**: An internal IP address is an unreliable indicator of security posture.
 2. **Decouple Access from Topography**: Zero Trust separates logical access control from physical/virtual network topology using Control Plane engines (PE/PA) and Data Plane proxies (PEP).
 3. **Continuous Execution**: Verification must occur at every layer—Identity, Device, Network, Application, and Data—on every transaction.
 

@@ -179,7 +179,7 @@ rules:
 ```yaml
 rules:
   - id: python-jwt-missing-algorithms
-    pattern: jwt.decode($TOKEN, $KEY)
+    pattern: jwt.decode(`$TOKEN, $`KEY)
     message: "WARNING: PyJWT decode called without specifying allowed 'algorithms'. This may expose the application to algorithm confusion attacks."
     severity: WARNING
     languages: [python]

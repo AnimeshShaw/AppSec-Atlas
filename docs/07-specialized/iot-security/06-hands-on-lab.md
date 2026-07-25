@@ -39,7 +39,7 @@ def create_simulated_firmware(filename):
     # Create a vulnerable shadow file
     os.makedirs(os.path.join(temp_dir, "etc"), exist_ok=True)
     with open(os.path.join(temp_dir, "etc", "shadow"), "w") as f:
-        f.write("root:$6$vulnerablehash$qQ1...:18000:0:99999:7:::\n")
+        f.write("root:`$6$`vulnerablehash$qQ1...:18000:0:99999:7:::\n")
         f.write("admin:Password123:18000:0:99999:7:::\n") # Hardcoded plaintext password!
 
     # Package it into a "firmware.bin"

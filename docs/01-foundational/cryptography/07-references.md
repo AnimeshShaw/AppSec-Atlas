@@ -37,7 +37,7 @@ Analyzing historical vulnerabilities highlights why protocol design and low-leve
 | **CVE-2014-3566** | **POODLE** | Padding Oracle Attack | SSL 3.0 fallback permitted adversaries to exploit CBC mode padding validation errors to decrypt HTTPS session cookies byte-by-byte. |
 | **CVE-2020-0601** | **CurveBall** | Cert Validation Bypass | Windows `Crypt32.dll` failed to verify generator point parameters in ECC certificates, allowing attackers to forge arbitrary TLS certificate chains. |
 | **CVE-2022-0778** | **OpenSSL DoS** | Infinite Loop | Parsing invalid explicit prime curve parameters in `BN_mod_sqrt()` triggered an infinite loop, allowing remote Denial of Service. |
-| **2010 PS3 Leak** | **Sony PS3 Exploit** | Nonce Reuse | ECDSA signature implementation reused a fixed nonce $k$, allowing full algebraic derivation of Sony's master private key. |
+| **2010 PS3 Leak** | **Sony PS3 Exploit** | Nonce Reuse | ECDSA signature implementation reused a fixed nonce `$k$`, allowing full algebraic derivation of Sony's master private key. |
 
 ---
 

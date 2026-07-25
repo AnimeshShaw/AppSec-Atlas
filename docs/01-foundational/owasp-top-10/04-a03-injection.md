@@ -85,7 +85,7 @@ app.get('/api/users/search', async (req, res) => {
 
 ##### ✅ Secure Code (Node.js)
 ```javascript
-// SECURE: Positional parameters ($1, $2)
+// SECURE: Positional parameters (`$1, $`2)
 app.get('/api/users/search', async (req, res) => {
   const name = req.query.name;
   const sql = "SELECT * FROM users WHERE name = $1";

@@ -21,7 +21,7 @@ Cloud-native secret managers offer tightly integrated, serverless secrets vaulti
 | **IAM Integration** | AWS IAM Roles / Policies | AWS IAM Roles / Policies | GCP IAM / Service Accounts | Azure RBAC / Managed Identity | AppRole, K8s, OIDC, Cloud IAM |
 | **Native Auto-Rotation** | Built-in Lambda templates (RDS, Redshift) | Manual / Custom EventBridge Lambda | Cloud Run / Cloud Functions PubSub triggers | Azure Event Grid + Logic Apps / Functions | Native Database/AWS/PKI Secret Engines |
 | **Multi-Cloud Support** | AWS-centric (Requires IAM Roles Anywhere) | AWS-centric | GCP-centric (Requires Workload Identity Fed) | Azure-centric (Requires Workload Identity Fed) | Native multi-cloud & hybrid cloud support |
-| **Cost Model** | \$0.40/secret/month + \$0.05 per 10k API calls | Free (Standard) / \$0.05/advanced secret/mo | \$0.06/secret/month + \$0.03 per 10k API calls | \$0.03 per 10k operations | Infrastructure footprint or HCP licensing |
+| **Cost Model** | \`$0.40/secret/month + \$`0.05 per 10k API calls | Free (Standard) / \`$0.05/advanced secret/mo | \$`0.06/secret/month + \`$0.03 per 10k API calls | \$`0.03 per 10k operations | Infrastructure footprint or HCP licensing |
 
 ---
 

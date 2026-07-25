@@ -170,7 +170,7 @@ const server = new ApolloServer({
     createComplexityLimitRule(MAX_QUERY_COMPLEXITY, {
       onCost: (cost) => console.log(`[GraphQL Cost] Query complexity cost: ${cost}`),
       formatErrorMessage: (cost) =>
-        `Query complexity score of ${cost} exceeds maximum allowed threshold of ${MAX_QUERY_COMPLEXITY}.`,
+        `Query complexity score of `${cost} exceeds maximum allowed threshold of $`{MAX_QUERY_COMPLEXITY}.`,
     }),
   ],
 });
@@ -292,7 +292,7 @@ public class UserController {
 
 ### Scenario 1: Node.js (DataLoader Implementation)
 
-#### ❌ Vulnerable: $1 + N$ Database Query Storm
+#### ❌ Vulnerable: `$1 + N$` Database Query Storm
 ```typescript
 // VULNERABLE: Resolving author individually for every post in a list
 const resolvers = {

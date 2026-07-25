@@ -110,7 +110,7 @@ except Exception as e:
 app.post('/register', (req, res) => {
     const { username, email, age } = req.body;
     // Trusting types blindly allows prototype pollution & injection
-    db.query(`INSERT INTO users VALUES ('${username}', '${email}', ${age})`); 
+    db.query(`INSERT INTO users VALUES ('`${username}', '$`{email}', ${age})`); 
 });
 ```
 

@@ -220,7 +220,7 @@ jobs:
       digests: ${{ steps.hash.outputs.digests }}
     steps:
       - id: hash
-        run: echo "digests=$(sha256sum binary-artifact | base64 -w0)" >> "$GITHUB_OUTPUT"
+        run: echo "digests=`$(sha256sum binary-artifact | base64 -w0)" >> "$`GITHUB_OUTPUT"
 
   provenance:
     needs: [build]

@@ -54,7 +54,7 @@ eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJzdWIiOiJ1c3JfMTAyOTM4Iiwicm9sZSI6ImFkbWlu
 
 ---
 
-### B. RSA-to-HMAC Algorithm Confusion Attack (RS256 $\rightarrow$ HS256)
+### B. RSA-to-HMAC Algorithm Confusion Attack (RS256 `$\rightarrow$` HS256)
 
 When an application expects an asymmetric RS256 token (signed with a private key and verified with a public key), an attacker can change the algorithm header to **`HS256`** (symmetric HMAC).
 

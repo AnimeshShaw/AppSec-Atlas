@@ -157,7 +157,7 @@ stateDiagram-v2
 ## 2. Token Bucket Rate Limiting Pattern
 
 ### 🛠️ Mechanics & Architecture
-Rate limiting restricts the frequency of requests a client can make within a given time window. The **Token Bucket Algorithm** maintains a fixed-capacity bucket populated with tokens at a steady rate $R$ tokens/sec up to capacity $C$. Each request consumes 1 token.
+Rate limiting restricts the frequency of requests a client can make within a given time window. The **Token Bucket Algorithm** maintains a fixed-capacity bucket populated with tokens at a steady rate `$R$` tokens/sec up to capacity `$C$`. Each request consumes 1 token.
 
 ```
        +------------------------------------+

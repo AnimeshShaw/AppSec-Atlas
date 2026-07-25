@@ -36,7 +36,7 @@ Why are deep neural networks (DNNs) susceptible to adversarial manipulation?
 ### A. Linear Behavior in High Dimensions
 Deep networks were long assumed to suffer from non-linear overfitting. However, breakthrough research (Goodfellow et al.) demonstrated that modern deep networks behave surprisingly **linearly in high-dimensional input spaces**. 
 
-If an input sample `x` has dimension `d` (e.g., a $256 \times 256 \times 3$ image with $d = 196,608$ features), a tiny perturbation vector `\eta` with maximum amplitude `\epsilon` across each dimension accumulates linearly across weight vector `w`:
+If an input sample `x` has dimension `d` (e.g., a `$256 \times 256 \times 3$` image with `$d = 196,608$` features), a tiny perturbation vector `\eta` with maximum amplitude `\epsilon` across each dimension accumulates linearly across weight vector `w`:
 
 ```
 w^T x_adv = w^T (x + \eta) = w^T x + w^T \eta

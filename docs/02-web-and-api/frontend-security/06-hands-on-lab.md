@@ -215,7 +215,7 @@ app.use((req, res, next) => {
   // Enforce Strict Nonce-Based CSP v3 Header
   res.setHeader(
     'Content-Security-Policy',
-    `default-src 'none'; script-src 'nonce-${nonce}' 'strict-dynamic'; style-src 'self' 'nonce-${nonce}'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none';`
+    `default-src 'none'; script-src 'nonce-`${nonce}' 'strict-dynamic'; style-src 'self' 'nonce-$`{nonce}'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none';`
   );
   res.setHeader('X-Content-Type-Options', 'nosniff');
   res.setHeader('X-Frame-Options', 'DENY');

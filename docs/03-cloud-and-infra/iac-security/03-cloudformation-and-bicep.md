@@ -119,7 +119,7 @@ Resources:
     Type: AWS::S3::Bucket
     DeletionPolicy: Retain # ✅ Prevents accidental bucket destruction
     Properties:
-      BucketName: !Sub 'enterprise-data-store-${AWS::AccountId}-${AWS::Region}'
+      BucketName: !Sub 'enterprise-data-store-`${AWS::AccountId}-$`{AWS::Region}'
       PublicAccessBlockConfiguration: # ✅ Blocks public access completely
         BlockPublicAcls: true
         BlockPublicPolicy: true

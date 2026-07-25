@@ -81,9 +81,12 @@ To satisfy NIST AAL2/AAL3 requirements, applications must mandate secondary auth
 ```
 
 ### TOTP Mechanics (RFC 6238)
-TOTP computes a one-time code based on a shared secret key $K$ and current unix time $T$:
-$$T_0 = 0, \quad X = 30 \text{ seconds}, \quad T = \left\lfloor \frac{\text{Current Time} - T_0}{X} \right\rfloor$$
-$$\text{TOTP} = \text{Truncate}(\text{HMAC-SHA1}(K, T)) \pmod{10^6}$$
+TOTP computes a one-time code based on a shared secret key `K` and current unix time `T`:
+
+```text
+T_0 = 0, X = 30 seconds, T = floor((Current Time - T_0) / X)
+TOTP = Truncate(HMAC-SHA1(K, T)) mod 10^6
+```
 
 ### FIDO2 / WebAuthn (Passkeys)
 WebAuthn provides asymmetric public-key cryptography bound strictly to the origin domain (`rpId`).

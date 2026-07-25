@@ -86,7 +86,7 @@ Resources:
 Outputs:
   BackupApiUrl:
     Description: "API Gateway Endpoint URL"
-    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/backup"
+    Value: !Sub "https://`${ServerlessRestApi}.execute-api.$`{AWS::Region}.amazonaws.com/Prod/backup"
 ```
 
 ---

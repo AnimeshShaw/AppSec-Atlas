@@ -32,11 +32,11 @@ Selecting the right rate-limiting algorithm requires balancing memory consumptio
 
 | Algorithm | Mechanism | Burst Handling | Memory Overhead | Precision | Recommended Use Case |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Token Bucket** | Tokens added to bucket at constant rate. Request consumes 1 token. | Excellent (up to max capacity) | Low ($O(1)$ per key) | High | General API Gateway rate limiting (Kong, Envoy). |
-| **Leaky Bucket** | Requests enter FIFO queue and process at a fixed constant rate. | Smooths out bursts into steady stream | Medium ($O(N)$ queue size) | High | Background job processing, payment gateway calls. |
-| **Fixed Window** | Counts requests in fixed time frames (e.g., 00:00-00:01). | Poor (2x burst traffic at boundary) | Very Low ($O(1)$ integer counter) | Low | Basic IP throttling for public static assets. |
-| **Sliding Window Log**| Stores timestamp logs of every request in sorted set (`ZSET`). | Perfect (Eliminates boundary spikes) | High ($O(N)$ request logs stored) | Maximum | High-security financial APIs, login endpoints. |
-| **Sliding Window Counter**| Combines previous and current window counts via weighted ratio. | Good (Smooths boundary spikes) | Low ($O(1)$ per key) | High | Enterprise distributed API rate limiters. |
+| **Token Bucket** | Tokens added to bucket at constant rate. Request consumes 1 token. | Excellent (up to max capacity) | Low (`$O(1)$` per key) | High | General API Gateway rate limiting (Kong, Envoy). |
+| **Leaky Bucket** | Requests enter FIFO queue and process at a fixed constant rate. | Smooths out bursts into steady stream | Medium (`$O(N)$` queue size) | High | Background job processing, payment gateway calls. |
+| **Fixed Window** | Counts requests in fixed time frames (e.g., 00:00-00:01). | Poor (2x burst traffic at boundary) | Very Low (`$O(1)$` integer counter) | Low | Basic IP throttling for public static assets. |
+| **Sliding Window Log**| Stores timestamp logs of every request in sorted set (`ZSET`). | Perfect (Eliminates boundary spikes) | High (`$O(N)$` request logs stored) | Maximum | High-security financial APIs, login endpoints. |
+| **Sliding Window Counter**| Combines previous and current window counts via weighted ratio. | Good (Smooths boundary spikes) | Low (`$O(1)$` per key) | High | Enterprise distributed API rate limiters. |
 
 ---
 

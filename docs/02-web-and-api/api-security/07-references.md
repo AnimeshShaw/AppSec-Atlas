@@ -44,7 +44,7 @@ Static Application Security Testing (SAST) rules can catch BOLA, BFLA, and Mass 
 rules:
   - id: python-flask-possible-bola
     patterns:
-      - pattern: $MODEL.query.get($ID)
+      - pattern: `$MODEL.query.get($`ID)
       - pattern-not-inside: |
           $MODEL.query.filter_by(..., user_id=..., ...)
     message: "Potential BOLA: Database object fetched using raw ID parameter without explicit user_id filter."
@@ -57,8 +57,8 @@ rules:
 rules:
   - id: nodejs-jwt-missing-algorithm-restriction
     patterns:
-      - pattern: jwt.verify($TOKEN, $SECRET)
-      - pattern-not: jwt.verify($TOKEN, $SECRET, { algorithms: [...] })
+      - pattern: jwt.verify(`$TOKEN, $`SECRET)
+      - pattern-not: jwt.verify(`$TOKEN, $`SECRET, { algorithms: [...] })
     message: "JWT verification lacks explicit algorithm allowlist, making it vulnerable to alg:none or HS256/RS256 key confusion."
     severity: ERROR
     languages: [javascript, typescript]

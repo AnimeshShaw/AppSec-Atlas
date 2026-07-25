@@ -17,7 +17,9 @@ To block structural DoS attacks without breaking valid client queries, productio
 ### The Query Cost Algorithm
 Each field in the schema is assigned a base complexity score (default = 1 point). List fields multiply the cost of their child selections based on pagination parameters (`first`, `limit`, `last`).
 
-$$\text{Cost}(\text{Node}) = \text{BaseWeight} + \left( \text{PaginationLimit} \times \sum \text{Cost}(\text{ChildNodes}) \right)$$
+```math
+\text{Cost}(\text{Node}) = \text{BaseWeight} + \left( \text{PaginationLimit} \times \sum \text{Cost}(\text{ChildNodes}) \right)
+```
 
 ```
                                 [ Query Root ]
@@ -177,7 +179,7 @@ export async function rateLimitGraphQLMiddleware(req, res, next) {
   if (currentTokens < queryCost) {
     return res.status(429).json({
       errors: [{
-        message: `Rate limit exceeded. Query cost (${queryCost} pts) exceeds available tokens (${Math.floor(currentTokens)} pts).`,
+        message: `Rate limit exceeded. Query cost (`${queryCost} pts) exceeds available tokens ($`{Math.floor(currentTokens)} pts).`,
         extensions: { code: 'RATE_LIMITED', retryAfterSeconds: Math.ceil((queryCost - currentTokens) / REFILL_RATE_PER_SEC) }
       }]
     });

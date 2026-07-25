@@ -131,7 +131,7 @@ const FileReadSchema = z.object({
 
 export class SecureFileToolNode {
   private async askUserApproval(action: string, target: string): Promise<boolean> {
-    console.log(`[HITL INTERCEPT] Action: ${action} on Target: ${target}`);
+    console.log(`[HITL INTERCEPT] Action: `${action} on Target: $`{target}`);
     // Async approval logic (e.g. WebSocket emit to UI)
     return true;
   }

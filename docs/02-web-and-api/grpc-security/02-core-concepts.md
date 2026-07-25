@@ -67,7 +67,7 @@ custom-trace-bin: A1B2C3D4E5==
 ```
 
 ### Attack Vector A: Downstream Context Leakage & Privileged Identity Forgery
-In microservice chains (Service A $\rightarrow$ Service B $\rightarrow$ Service C), context propagation mistakes are common:
+In microservice chains (Service A `$\rightarrow$` Service B `$\rightarrow$` Service C), context propagation mistakes are common:
 
 ```mermaid
 flowchart LR
@@ -179,10 +179,10 @@ sequenceDiagram
 ### B. Unbounded Streaming RPC Memory Exhaustion
 gRPC supports four invocation paradigms:
 
-1. **Unary RPC:** Single Request $\rightarrow$ Single Response.
-2. **Server Streaming RPC:** Single Request $\rightarrow$ Stream of Responses.
-3. **Client Streaming RPC:** Stream of Requests $\rightarrow$ Single Response.
-4. **Bidirectional Streaming RPC:** Stream of Requests $\leftrightarrow$ Stream of Responses.
+1. **Unary RPC:** Single Request `$\rightarrow$` Single Response.
+2. **Server Streaming RPC:** Single Request `$\rightarrow$` Stream of Responses.
+3. **Client Streaming RPC:** Stream of Requests `$\rightarrow$` Single Response.
+4. **Bidirectional Streaming RPC:** Stream of Requests `$\leftrightarrow$` Stream of Responses.
 
 ```
 Client Streaming Attack:

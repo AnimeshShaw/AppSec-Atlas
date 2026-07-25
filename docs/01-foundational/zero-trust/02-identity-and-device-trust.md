@@ -349,7 +349,7 @@ public class ZeroTrustAuthenticationFilter extends OncePerRequestFilter {
 
 | Edge Case / Nuance | Threat / Risk | Production Mitigation Strategy |
 | :--- | :--- | :--- |
-| **Clock Drift Across Services** | Valid JWT tokens rejected due to `nbf` (Not Before) or `exp` mismatch. | Enforce Network Time Protocol (NTP) synchronization across nodes; set JWT leeway tolerance ($30-60\text{ seconds}$). |
+| **Clock Drift Across Services** | Valid JWT tokens rejected due to `nbf` (Not Before) or `exp` mismatch. | Enforce Network Time Protocol (NTP) synchronization across nodes; set JWT leeway tolerance (`$30-60\text{ seconds}$`). |
 | **Stolen Bearer Tokens** | Replay of stolen JWT tokens from non-trusted machines. | Implement **DPoP (RFC 9449)** or **mTLS Token Binding (RFC 8705)** to bind tokens to client private keys. |
 | **BYOD / Unmanaged Devices** | Contractors using personal laptops needing limited app access. | Route BYOD connections through isolated **Virtual Desktop Infrastructure (VDI)** or browser-isolated proxies (RBI). |
 | **CRL / OCSP Performance Bottlenecks** | Latency spikes when verifying mTLS certificate revocation status. | Use **Short-Lived Certificates** (e.g., SPIRE 1-hour SVIDs) to render revocation checks redundant. |

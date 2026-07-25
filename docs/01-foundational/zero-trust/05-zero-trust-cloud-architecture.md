@@ -141,7 +141,7 @@ resource "aws_verifiedaccess_endpoint" "finance_app_endpoint" {
 ## 4. Cloud ZTA Nuances & Multi-Cloud Edge Cases
 
 ### 1. Cross-Cloud Identity Synchronization Delay
-When federating identity across Okta, AWS IAM Identity Center, and Azure Entra ID, SCIM provisioning delays ($5-15\text{ minutes}$) can allow recently terminated employees to retain access to cross-cloud resources.
+When federating identity across Okta, AWS IAM Identity Center, and Azure Entra ID, SCIM provisioning delays (`$5-15\text{ minutes}$`) can allow recently terminated employees to retain access to cross-cloud resources.
 * **Mitigation**: Enforce **Direct OIDC JWT Validation** at the API Gateway layer rather than relying solely on synced cloud IAM user objects.
 
 ### 2. Cloud Metadata Service (IMDSv2) Exfiltration

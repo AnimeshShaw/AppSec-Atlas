@@ -50,7 +50,9 @@ Access decisions are computed dynamically by evaluating boolean logic across fou
 ### C. Relationship-Based Access Control (ReBAC)
 Based on Google's **Zanzibar** whitepaper (powering Google Drive/Cloud IAM), ReBAC models access as a directed graph of relationship tuples:
 
-$$\text{tuple} = \langle \text{object} \rangle \# \langle \text{relation} \rangle @ \langle \text{user} \rangle$$
+```math
+\text{tuple} = \langle \text{object} \rangle \# \langle \text{relation} \rangle @ \langle \text{user} \rangle
+```
 
 *Example tuples:*
 - `doc:roadmap.pdf#owner@user:alice`
@@ -67,7 +69,7 @@ ReBAC resolves permissions dynamically by traversing relation graphs (e.g., "Bob
 | :--- | :--- | :--- | :--- |
 | **Granularity Level** | Coarse-grained (Group level) | Fine-grained (Contextual) | Ultra Fine-grained (Object graph) |
 | **Complexity** | Low | High (Complex rule engines) | High (Graph traversal stores) |
-| **Performance Overhead** | $O(1)$ constant key lookup | $O(N)$ rule evaluation cost | $O(D)$ graph depth traversal |
+| **Performance Overhead** | `$O(1)$` constant key lookup | `$O(N)$` rule evaluation cost | `$O(D)$` graph depth traversal |
 | **Instance Ownership** | Poor (Requires role per object) | Excellent (Evaluates `user.id == doc.owner_id`) | Native (`doc#owner@user`) |
 | **Industry Adoption** | Enterprise IT, Traditional Web | High-security financial/health systems | Modern SaaS platforms (Authzed, OpenFGA) |
 
