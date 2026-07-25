@@ -73,7 +73,7 @@ AppSec Atlas is the **only** open-source security knowledge base that covers the
 | [Cloud Security Fundamentals](docs/03-cloud-and-infra/cloud-security/) | ✅ Available | Intermediate |
 | [Container & Kubernetes Security](docs/03-cloud-and-infra/container-kubernetes/) | ✅ Available | Intermediate |
 | [Infrastructure as Code Security](docs/03-cloud-and-infra/iac-security/) | ✅ Available | Intermediate |
-| [Serverless Security Guide](docs/03-cloud-and-infra/serverless-security/) | 📋 Planned | Intermediate |
+| [Serverless Security Guide](docs/03-cloud-and-infra/serverless-security/) | ✅ Available | Intermediate |
 | [CI/CD Pipeline Security](docs/03-cloud-and-infra/cicd-pipeline-security/) | ✅ Available | Intermediate |
 | [Secrets Management Guide](docs/03-cloud-and-infra/secrets-management/) | ✅ Available | Intermediate |
 
@@ -84,7 +84,7 @@ AppSec Atlas is the **only** open-source security knowledge base that covers the
 |-------|--------|-------|
 | [Agentic AI Security Guide](docs/04-ai-ml-security/agentic-ai-security/) | ✅ Available | Advanced |
 | [LLM Security & Prompt Injection](docs/04-ai-ml-security/llm-prompt-injection/) | ✅ Available | Intermediate |
-| [ML Model Security & Adversarial Attacks](docs/04-ai-ml-security/ml-model-security/) | 📋 Planned | Advanced |
+| [ML Model Security & Adversarial Attacks](docs/04-ai-ml-security/ml-model-security/) | ✅ Available | Advanced |
 | [RAG Security Guide](docs/04-ai-ml-security/rag-security/) | ✅ Available | Advanced |
 | [AI Red Teaming Playbook](docs/04-ai-ml-security/ai-red-teaming/) | ✅ Available | Advanced |
 | [MCP & Tool-Use Security](docs/04-ai-ml-security/mcp-tool-security/) | ✅ Available | Advanced |
@@ -95,8 +95,8 @@ AppSec Atlas is the **only** open-source security knowledge base that covers the
 | Guide | Status | Level |
 |-------|--------|-------|
 | [Penetration Testing Methodology](docs/05-offensive/penetration-testing/) | ✅ Available | Intermediate |
-| [Social Engineering & Phishing](docs/05-offensive/social-engineering/) | 📋 Planned | Beginner |
-| [Network Security & Attack Techniques](docs/05-offensive/network-attacks/) | 📋 Planned | Intermediate |
+| [Social Engineering & Phishing](docs/05-offensive/social-engineering/) | ✅ Available | Beginner |
+| [Network Security & Attack Techniques](docs/05-offensive/network-attacks/) | ✅ Available | Intermediate |
 | [Bug Bounty Hunting Guide](docs/05-offensive/bug-bounty/) | 📋 Planned | Intermediate |
 | [CTF Learning Guide](docs/05-offensive/ctf-guide/) | 📋 Planned | Beginner |
 
