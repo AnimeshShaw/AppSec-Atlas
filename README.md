@@ -11,7 +11,7 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-EF4444?style=for-the-badge&labelColor=0A0F1E)](LICENSE)
 [![Guides](https://img.shields.io/badge/Guides-45%20Modules-10B981?style=for-the-badge&labelColor=0A0F1E)](#-guides)
 [![Website](https://img.shields.io/badge/Website-appsecatlas.com-8B5CF6?style=for-the-badge&labelColor=0A0F1E)](https://appsecatlas.com)
-[![GitHub Stars](https://img.shields.io/github/stars/AnimeshShaw/AppSec-Atlas?style=for-the-badge&color=3B82F6&labelColor=0A0F1E)](https://github.com/AnimeshShaw/AppSec-Atlas/stargazers)
+[![GitHub Stars](https://img.shields.io/badge/Stars-AppSec%20Atlas-3B82F6?style=for-the-badge&logo=github)](https://github.com/AnimeshShaw/AppSec-Atlas/stargazers)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-10B981?style=for-the-badge&labelColor=0A0F1E)](CONTRIBUTING.md)
 
 <br/>
