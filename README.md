@@ -52,7 +52,7 @@ AppSec Atlas is the **only** open-source security knowledge base that covers the
 | [Cryptography for Developers](docs/01-foundational/cryptography/) | ✅ Available | Intermediate |
 | [Authentication & Authorization Masterclass](docs/01-foundational/auth-and-authz/) | ✅ Available | Intermediate |
 | [Zero Trust Architecture Guide](docs/01-foundational/zero-trust/) | ✅ Available | Advanced |
-| [Security Design Patterns](docs/01-foundational/security-design-patterns/) | 📋 Planned | Intermediate |
+| [Security Design Patterns](docs/01-foundational/security-design-patterns/) | ✅ Available | Intermediate |
 
 ### 🌐 [Section 2: Web & API Security](docs/02-web-and-api/)
 > From classic web vulnerabilities to modern API attack surfaces
@@ -61,9 +61,9 @@ AppSec Atlas is the **only** open-source security knowledge base that covers the
 |-------|--------|-------|
 | [Web Application Security Handbook](docs/02-web-and-api/web-application-security/) | ✅ Available | Intermediate |
 | [API Security Guide](docs/02-web-and-api/api-security/) | ✅ Available | Intermediate |
-| [Frontend Security Playbook](docs/02-web-and-api/frontend-security/) | 📋 Planned | Intermediate |
-| [Mobile App Security Guide](docs/02-web-and-api/mobile-security/) | 📋 Planned | Intermediate |
-| [CORS & Same-Origin Policy Explained](docs/02-web-and-api/cors-and-sop/) | 📋 Planned | Beginner |
+| [Frontend Security Playbook](docs/02-web-and-api/frontend-security/) | ✅ Available | Intermediate |
+| [Mobile App Security Guide](docs/02-web-and-api/mobile-security/) | ✅ Available | Intermediate |
+| [CORS & Same-Origin Policy Explained](docs/02-web-and-api/cors-and-sop/) | ✅ Available | Beginner |
 
 ### ☁️ [Section 3: Cloud & Infrastructure Security](docs/03-cloud-and-infra/)
 > Securing modern cloud-native and infrastructure environments

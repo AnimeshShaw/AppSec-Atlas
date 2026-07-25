@@ -1,20 +1,27 @@
-﻿# Frontend Security
+# Frontend Security Playbook
 
-> **Status:** 📋 Coming Soon
-> **Contributions welcome!** See [CONTRIBUTING.md](https://github.com/AnimeshShaw/AppSec-Atlas/blob/main/CONTRIBUTING.md)
+Welcome to the **Frontend Security Playbook**, part of the AppSec Atlas. This guide focuses on securing modern Single Page Applications (SPAs) and client-side web architectures against common and advanced threats.
 
-This guide is planned but not yet written. Want to help build AppSec Atlas?
+## 🌟 Overview
+Modern frontend applications carry significant logic and state, shifting the attack surface from the server to the browser. This playbook covers how to properly model client-side threats, secure data at rest in the browser, safely handle third-party scripts, and apply robust Content Security Policies (CSP).
 
-## How to Contribute This Guide
+## 🎯 Learning Objectives
+- Understand the modern client-side threat landscape and DOM-based vulnerabilities.
+- Master security mechanisms built into modern frameworks like React, Vue, and Angular.
+- Deploy strict Content Security Policies (CSP v3) and Subresource Integrity (SRI).
+- Securely store authentication tokens in the browser and handle OAuth2 flows.
+- Automate frontend security scanning in CI/CD pipelines.
 
-1. Check the [guide template](https://github.com/AnimeshShaw/AppSec-Atlas/blob/main/community/templates/guide-template.md)
-2. Open an issue saying you want to write this guide
-3. Fork, write, and submit a PR
+## 🛠️ Prerequisites
+- Understanding of HTML, CSS, and JavaScript.
+- Familiarity with modern JavaScript frameworks (React, Vue, or Angular).
+- Basic understanding of browser storage mechanisms and HTTP headers.
 
-## Planned Content
-
-See the [Master Strategy](https://github.com/appsec-atlas/appsec-atlas/blob/main/MASTER_STRATEGY.md) for the full specification of what this guide will cover.
-
----
-
-*[Back to AppSec Atlas](https://github.com/AnimeshShaw/AppSec-Atlas/blob/main/README.md)*
+## 🧭 Navigation
+- [01. Introduction to Frontend Security](01-introduction.md)
+- [02. Modern Framework Security](02-modern-framework-security.md)
+- [03. Content Security Policy (CSP) and SRI](03-content-security-policy-and-sri.md)
+- [04. Client-Side Authentication and Storage](04-client-side-auth-and-storage.md)
+- [05. Frontend Security Scanners](05-frontend-security-scanners.md)
+- [06. Hands-On Lab: Exploiting and Securing a React App](06-hands-on-lab.md)
+- [07. References and Resources](07-references.md)
