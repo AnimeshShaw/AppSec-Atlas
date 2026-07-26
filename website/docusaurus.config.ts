@@ -9,6 +9,13 @@ const config: Config = {
 
   future: {
     v4: true,
+    faster: {
+      swcJsLoader: true,
+      swcJsMinimizer: true,
+      swcHtmlMinimizer: true,
+      lightningCssMinimizer: true,
+      mdxCrossCompilerCache: true,
+    },
   },
 
   markdown: {
@@ -46,8 +53,35 @@ const config: Config = {
     {
       tagName: 'link',
       attributes: {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap',
+        rel: 'preload',
+        href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@700;800&display=swap',
+        as: 'style',
+        onload: "this.onload=null;this.rel='stylesheet'",
+      },
+    },
+    {
+      tagName: 'noscript',
+      attributes: {},
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'author',
+        content: 'Animesh Shaw',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        property: 'og:type',
+        content: 'website',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        property: 'og:site_name',
+        content: 'AppSec Atlas',
       },
     },
     // SEO: Meta description
@@ -200,7 +234,8 @@ const config: Config = {
           position: 'left',
           label: '📚 Guides',
         },
-        {to: '/blog', label: '📰 Blog', position: 'left'},
+        // Blog hidden until content is published
+        // {to: '/blog', label: '📰 Blog', position: 'left'},
         {
           href: 'https://github.com/AnimeshShaw/AppSec-Atlas',
           label: '⭐ GitHub',

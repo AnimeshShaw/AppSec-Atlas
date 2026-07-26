@@ -56,7 +56,12 @@ export default function HomepageRoadmap(): ReactNode {
 
       <div className={styles.grid}>
         {PATHS.map((path, i) => (
-          <div key={i} className={`glass-card ${styles.pathCard}`}>
+          <Link
+            key={i}
+            to={path.link}
+            className={`glass-card ${styles.pathCard}`}
+            aria-label={`${path.role} learning path`}
+          >
             <div>
               <div className={styles.pathHeader}>
                 <span className={styles.pathIcon} aria-hidden="true">{path.icon}</span>
@@ -73,10 +78,10 @@ export default function HomepageRoadmap(): ReactNode {
               </div>
             </div>
 
-            <Link className={styles.pathBtn} to={path.link}>
+            <span className={styles.pathBtn}>
               {path.btnText}
-            </Link>
-          </div>
+            </span>
+          </Link>
         ))}
       </div>
     </section>

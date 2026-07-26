@@ -126,3 +126,44 @@
 .domainCard:hover .arrowLink {
   gap: 0.65rem;
 }
+
+/* ─── Mobile Breakpoints ────────────────────────── */
+@media (max-width: 768px) {
+  .section {
+    padding: 3rem 1rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .domainCard {
+    padding: 1.25rem;
+  }
+
+  .domainTitle {
+    font-size: 1.15rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ─── Reduced Motion ────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .arrowLink {
+    transition: none;
+  }
+
+  .domainCard:hover .arrowLink {
+    gap: 0.4rem;
+  }
+}

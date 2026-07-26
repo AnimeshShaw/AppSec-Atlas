@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import {useLocation} from '@docusaurus/router';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import Head from '@docusaurus/Head';
 
-// Share button component injected at the bottom of every doc article
 export default function DocItemFooter(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   const location = useLocation();
@@ -11,13 +11,39 @@ export default function DocItemFooter(): JSX.Element {
   const pageUrl = `${siteConfig.url}${location.pathname}`;
   const pageTitle = typeof document !== 'undefined' ? document.title : 'AppSec Atlas';
 
+  // TechArticle JSON-LD for each doc page — improves Google rich snippets
+  const techArticleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'TechArticle',
+    headline: pageTitle.replace(' | AppSec Atlas', '').replace(' — AppSec Atlas', ''),
+    url: pageUrl,
+    inLanguage: 'en',
+    isAccessibleForFree: true,
+    publisher: {
+      '@type': 'Organization',
+      name: 'AppSec Atlas',
+      logo: {
+        '@type': 'ImageObject',
+        url: `${siteConfig.url}/img/logo.png`,
+      },
+    },
+    author: {
+      '@type': 'Person',
+      name: 'Animesh Shaw',
+      url: 'https://github.com/AnimeshShaw',
+    },
+    about: {
+      '@type': 'Thing',
+      name: 'Application Security',
+    },
+  };
+
   const handleCopy = async () => {
     try {
       await navigator.clipboard.writeText(pageUrl);
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch {
-      // Fallback for older browsers
       const el = document.createElement('textarea');
       el.value = pageUrl;
       document.body.appendChild(el);
@@ -53,30 +79,38 @@ export default function DocItemFooter(): JSX.Element {
   ];
 
   return (
-    <div className="atlas-share-bar">
-      <span className="atlas-share-label">Share this guide</span>
-      <div className="atlas-share-buttons">
-        {shareLinks.map(({label, href, color}) => (
-          <a
-            key={label}
-            href={href}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="atlas-share-btn"
-            style={{'--share-color': color} as React.CSSProperties}
-            aria-label={`Share on ${label}`}
+    <>
+      <Head>
+        <script type="application/ld+json">
+          {JSON.stringify(techArticleSchema)}
+        </script>
+      </Head>
+
+      <div className="atlas-share-bar">
+        <span className="atlas-share-label">Share this guide</span>
+        <div className="atlas-share-buttons">
+          {shareLinks.map(({label, href, color}) => (
+            <a
+              key={label}
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="atlas-share-btn"
+              style={{'--share-color': color} as React.CSSProperties}
+              aria-label={`Share on ${label}`}
+            >
+              {label}
+            </a>
+          ))}
+          <button
+            onClick={handleCopy}
+            className="atlas-share-btn atlas-share-copy"
+            aria-label="Copy link to clipboard"
           >
-            {label}
-          </a>
-        ))}
-        <button
-          onClick={handleCopy}
-          className="atlas-share-btn atlas-share-copy"
-          aria-label="Copy link to clipboard"
-        >
-          {copied ? '✓ Copied!' : '🔗 Copy Link'}
-        </button>
+            {copied ? '✓ Copied!' : '🔗 Copy Link'}
+          </button>
+        </div>
       </div>
-    </div>
+    </>
   );
 }

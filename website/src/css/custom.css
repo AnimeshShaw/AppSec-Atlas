@@ -313,3 +313,66 @@ p, li, td {
 .atlas-share-copy:hover {
   color: var(--ifm-color-primary) !important;
 }
+
+/* ─── Global Reduced Motion ─────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .atlas-share-btn {
+    transition: none;
+  }
+}
+
+/* ─── Doc Page: Mobile Improvements ────────────── */
+@media (max-width: 768px) {
+  .atlas-share-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .atlas-share-buttons {
+    width: 100%;
+  }
+
+  .atlas-share-btn {
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+  }
+
+  /* Table of contents hidden on small screens */
+  .table-of-contents {
+    display: none;
+  }
+}
+
+/* ─── Smooth focus ring for keyboard nav ─────────── */
+:focus-visible {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* ─── Improve doc sidebar on dark mode ───────────── */
+[data-theme='dark'] .menu__link--active {
+  background: rgba(56, 189, 248, 0.1);
+  border-radius: 6px;
+}
+
+/* ─── Responsive footer ──────────────────────────── */
+@media (max-width: 640px) {
+  .footer__links {
+    flex-direction: column;
+  }
+
+  .footer__col {
+    margin-bottom: 1.5rem;
+  }
+}

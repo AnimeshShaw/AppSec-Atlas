@@ -195,3 +195,78 @@
 .function { color: #38bdf8; }
 .string { color: #34d399; }
 .decorator { color: #f472b6; }
+
+/* ─── Mobile Breakpoints ────────────────────────── */
+@media (max-width: 768px) {
+  .heroSection {
+    padding: 3.5rem 1rem 3rem;
+  }
+
+  .heroTitle {
+    font-size: clamp(2rem, 8vw, 2.8rem);
+    text-align: center;
+  }
+
+  .heroSubtitle {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .statsBar {
+    gap: 1.25rem;
+  }
+
+  .statValue {
+    font-size: 1.5rem;
+  }
+
+  .ctaGroup {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .primaryBtn,
+  .secondaryBtn {
+    width: 100%;
+    max-width: 320px;
+    justify-content: center;
+  }
+
+  .terminalWrapper {
+    margin: 0 -0.5rem;
+    border-radius: 10px;
+  }
+
+  .terminalBody {
+    font-size: 0.78rem;
+    padding: 1rem;
+  }
+
+  .topBadge {
+    font-size: 0.75rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .statsBar {
+    gap: 1rem;
+  }
+
+  .statItem {
+    min-width: 80px;
+  }
+}
+
+/* ─── Reduced Motion ────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .primaryBtn,
+  .secondaryBtn {
+    transition: none;
+  }
+
+  .primaryBtn:hover,
+  .secondaryBtn:hover {
+    transform: none;
+  }
+}

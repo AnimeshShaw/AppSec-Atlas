@@ -119,3 +119,53 @@
   border-color: rgba(56, 189, 248, 0.4);
   color: #38bdf8 !important;
 }
+
+/* Card is now the link — handle hover at card level */
+.pathCard {
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.pathCard:hover .pathBtn {
+  background: rgba(56, 189, 248, 0.15);
+  border-color: rgba(56, 189, 248, 0.4);
+  color: #38bdf8 !important;
+}
+
+/* Mobile Breakpoints */
+@media (max-width: 768px) {
+  .section {
+    padding: 3rem 1rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .title {
+    font-size: 1.75rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .pathCard {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .pathRole {
+    font-size: 1.1rem;
+  }
+}
+
+/* Respect prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  .pathCard {
+    transition: none;
+  }
+}

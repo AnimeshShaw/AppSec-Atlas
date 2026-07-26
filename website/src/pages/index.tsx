@@ -91,7 +91,7 @@ export default function Home(): ReactNode {
 
               <Link
                 className="button button--secondary button--lg"
-                href="https://discord.gg/appsecatlas"
+                href="https://discord.gg/NHvrkJ5Hg3"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
