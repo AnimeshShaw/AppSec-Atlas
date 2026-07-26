@@ -1,0 +1,15 @@
+# AppSec Atlas — robots.txt
+# https://www.appsecatlas.com
+
+# Allow all crawlers full access
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.appsecatlas.com/sitemap.xml
+
+# Disallow build artifacts and internal paths
+User-agent: *
+Disallow: /404
+Disallow: /.docusaurus/
+Disallow: /build/

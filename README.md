@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="website/static/img/logo.svg" alt="AppSec Atlas Logo" width="120" />
+<img src="website/static/img/logo.png" alt="AppSec Atlas Logo" width="120" />
 
 # 🗺️ AppSec Atlas
 
@@ -10,17 +10,19 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-EF4444?style=for-the-badge&labelColor=0A0F1E)](LICENSE)
 [![Guides](https://img.shields.io/badge/Guides-45%20Modules-10B981?style=for-the-badge&labelColor=0A0F1E)](#-guides)
-[![Website](https://img.shields.io/badge/Website-appsecatlas.com-8B5CF6?style=for-the-badge&labelColor=0A0F1E)](https://appsecatlas.com)
-[![GitHub Stars](https://img.shields.io/badge/Stars-AppSec%20Atlas-3B82F6?style=for-the-badge&logo=github)](https://github.com/AnimeshShaw/AppSec-Atlas/stargazers)
+[![Website](https://img.shields.io/badge/🌐%20Live-appsecatlas.com-8B5CF6?style=for-the-badge&labelColor=0A0F1E)](https://www.appsecatlas.com)
+[![GitHub Stars](https://img.shields.io/github/stars/AnimeshShaw/AppSec-Atlas?style=for-the-badge&logo=github&color=3B82F6&labelColor=0A0F1E)](https://github.com/AnimeshShaw/AppSec-Atlas/stargazers)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-10B981?style=for-the-badge&labelColor=0A0F1E)](CONTRIBUTING.md)
 
 <br/>
 
-[🌐 Website](https://appsecatlas.com) · [📚 Browse Guides](#-guides) · [🗺️ Learning Paths](#-learning-paths) · [🤝 Contribute](CONTRIBUTING.md) · [💬 Discord](https://discord.gg/NHvrkJ5Hg3) · [💖 Sponsor](https://github.com/sponsors/AnimeshShaw) · [☕ Ko-fi](https://ko-fi.com/animeshshaw)
+[🌐 Live Site](https://www.appsecatlas.com) · [📚 Browse Guides](#-guides) · [🗺️ Learning Paths](#-learning-paths) · [🤝 Contribute](CONTRIBUTING.md) · [💬 Discord](https://discord.gg/NHvrkJ5Hg3) · [💖 Sponsor](https://github.com/sponsors/AnimeshShaw) · [☕ Ko-fi](https://ko-fi.com/animeshshaw)
 
 </div>
 
 ---
+
+> 🚀 **AppSec Atlas is now live at [appsecatlas.com](https://www.appsecatlas.com)!** — Star ⭐ the repo to help others discover it.
 
 ## 🌟 Why AppSec Atlas?
 

@@ -218,3 +218,98 @@ p, li, td {
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(148, 163, 184, 0.5);
 }
+
+/* SEO Keyword Tag Cloud in Footer */
+.footer__bottom {
+  flex-direction: column;
+  gap: 12px;
+}
+
+.atlas-seo-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+  padding: 12px 0 4px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  margin-top: 8px;
+}
+
+.atlas-seo-tags a {
+  font-size: 0.68rem;
+  color: rgba(148, 163, 184, 0.6);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 4px;
+  padding: 2px 7px;
+  text-decoration: none;
+  transition: color 0.2s, background 0.2s;
+  letter-spacing: 0.01em;
+}
+
+.atlas-seo-tags a:hover {
+  color: rgba(148, 163, 184, 0.9);
+  background: rgba(255, 255, 255, 0.08);
+  text-decoration: none;
+}
+
+/* ─── Share Bar (bottom of every article) ─────────────────────────── */
+.atlas-share-bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 2.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--atlas-card-border);
+}
+
+.atlas-share-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--atlas-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+}
+
+.atlas-share-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.atlas-share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-size: 0.78rem;
+  font-weight: 500;
+  text-decoration: none !important;
+  color: var(--atlas-text-secondary) !important;
+  background: var(--atlas-card-bg);
+  border: 1px solid var(--atlas-card-border);
+  cursor: pointer;
+  transition: all 0.18s ease;
+  white-space: nowrap;
+}
+
+.atlas-share-btn:hover {
+  border-color: var(--share-color, var(--ifm-color-primary));
+  color: var(--share-color, var(--ifm-color-primary)) !important;
+  background: var(--atlas-card-bg-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  text-decoration: none !important;
+}
+
+.atlas-share-copy {
+  background: transparent;
+  font-family: inherit;
+}
+
+.atlas-share-copy:hover {
+  color: var(--ifm-color-primary) !important;
+}

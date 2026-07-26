@@ -1,0 +1,83 @@
+# AppSec Atlas
+> The World's Most Comprehensive Open-Source Application Security Knowledge Base
+
+AppSec Atlas is a free, open-source security knowledge base covering the full spectrum of modern application security — from foundational principles to cutting-edge AI/ML security research.
+
+- Website: https://www.appsecatlas.com
+- GitHub: https://github.com/AnimeshShaw/AppSec-Atlas
+- Discord: https://discord.gg/NHvrkJ5Hg3
+- License: CC BY 4.0
+
+## Guide Categories
+
+### Foundational Security
+- Getting Started: https://www.appsecatlas.com/docs/getting-started
+- OWASP Top 10: https://www.appsecatlas.com/docs/foundational/owasp-top-10
+- Cryptography & PKI: https://www.appsecatlas.com/docs/foundational/cryptography
+- Authentication & Authorization: https://www.appsecatlas.com/docs/foundational/auth-and-authz
+- Secure Coding Practices: https://www.appsecatlas.com/docs/foundational/secure-coding
+- Security Design Patterns: https://www.appsecatlas.com/docs/foundational/security-design-patterns
+- Zero Trust Architecture: https://www.appsecatlas.com/docs/foundational/zero-trust
+
+### Web & API Security
+- Web Application Security: https://www.appsecatlas.com/docs/web-and-api/web-application-security
+- API Security (REST/GraphQL/gRPC): https://www.appsecatlas.com/docs/web-and-api/api-security
+- Frontend Security: https://www.appsecatlas.com/docs/web-and-api/frontend-security
+- Mobile Security (iOS/Android): https://www.appsecatlas.com/docs/web-and-api/mobile-security
+- CORS & Same-Origin Policy: https://www.appsecatlas.com/docs/web-and-api/cors-and-sop
+- GraphQL Security: https://www.appsecatlas.com/docs/web-and-api/graphql-security
+- gRPC Security: https://www.appsecatlas.com/docs/web-and-api/grpc-security
+
+### Cloud & Infrastructure Security
+- Cloud Security (AWS/GCP/Azure): https://www.appsecatlas.com/docs/cloud-and-infra/cloud-security
+- Container & Kubernetes Security: https://www.appsecatlas.com/docs/cloud-and-infra/container-kubernetes
+- CI/CD Pipeline Security: https://www.appsecatlas.com/docs/cloud-and-infra/cicd-pipeline-security
+- Secrets Management: https://www.appsecatlas.com/docs/cloud-and-infra/secrets-management
+- Infrastructure as Code Security: https://www.appsecatlas.com/docs/cloud-and-infra/iac-security
+- Serverless Security: https://www.appsecatlas.com/docs/cloud-and-infra/serverless-security
+
+### AI & ML Security
+- LLM Prompt Injection: https://www.appsecatlas.com/docs/ai-ml-security/llm-prompt-injection
+- Agentic AI Security: https://www.appsecatlas.com/docs/ai-ml-security/agentic-ai-security
+- ML Model Security: https://www.appsecatlas.com/docs/ai-ml-security/ml-model-security
+- RAG Security: https://www.appsecatlas.com/docs/ai-ml-security/rag-security
+- AI Red Teaming: https://www.appsecatlas.com/docs/ai-ml-security/ai-red-teaming
+- MCP Tool Security: https://www.appsecatlas.com/docs/ai-ml-security/mcp-tool-security
+
+### Offensive Security
+- Penetration Testing: https://www.appsecatlas.com/docs/offensive/penetration-testing
+- Bug Bounty Hunting: https://www.appsecatlas.com/docs/offensive/bug-bounty
+- Social Engineering: https://www.appsecatlas.com/docs/offensive/social-engineering
+- Network Attacks: https://www.appsecatlas.com/docs/offensive/network-attacks
+- CTF Guide: https://www.appsecatlas.com/docs/offensive/ctf-guide
+
+### Defensive Security
+- Incident Response: https://www.appsecatlas.com/docs/defensive/incident-response
+- Digital Forensics (DFIR): https://www.appsecatlas.com/docs/defensive/digital-forensics
+- Logging & Monitoring: https://www.appsecatlas.com/docs/defensive/logging-and-monitoring
+- SOC Operations: https://www.appsecatlas.com/docs/defensive/soc-operations
+- Vulnerability Management: https://www.appsecatlas.com/docs/defensive/vulnerability-management
+
+### Specialized Topics
+- IoT Security: https://www.appsecatlas.com/docs/specialized/iot-security
+- Blockchain Security: https://www.appsecatlas.com/docs/specialized/blockchain-security
+- Browser Extension Security: https://www.appsecatlas.com/docs/specialized/browser-extension-security
+- Hardware Security: https://www.appsecatlas.com/docs/specialized/hardware-security
+- Supply Chain Security: https://www.appsecatlas.com/docs/specialized/supply-chain-security
+- Privacy Engineering: https://www.appsecatlas.com/docs/specialized/privacy-engineering
+
+### Compliance & Governance
+- GDPR Technical Guide: https://www.appsecatlas.com/docs/compliance/gdpr-technical
+- SOC 2 Guide: https://www.appsecatlas.com/docs/compliance/soc2-guide
+- NIST CSF: https://www.appsecatlas.com/docs/compliance/nist-csf
+- DevSecOps Handbook: https://www.appsecatlas.com/docs/compliance/devsecops-handbook
+
+### Hands-On Labs
+- Code Review Guide: https://www.appsecatlas.com/docs/hands-on/code-review-guide
+- CTF Challenges: https://www.appsecatlas.com/docs/hands-on/ctf-challenges
+- Vulnerable App Lab: https://www.appsecatlas.com/docs/hands-on/vulnerable-app-lab
+
+## Author
+
+Animesh Shaw — https://github.com/AnimeshShaw
+Support this project: https://github.com/sponsors/AnimeshShaw | https://ko-fi.com/animeshshaw

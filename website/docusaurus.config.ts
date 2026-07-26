@@ -4,8 +4,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'AppSec Atlas',
-  tagline: 'The World\'s Most Comprehensive Open-Source Security Knowledge Base',
-  favicon: 'img/logo.svg',
+  tagline: 'The World\'s Most Comprehensive Open-Source Application Security Knowledge Base',
+  favicon: 'img/favicon.png',
 
   future: {
     v4: true,
@@ -13,6 +13,9 @@ const config: Config = {
 
   markdown: {
     mermaid: true,
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
   },
   themes: ['@docusaurus/theme-mermaid'],
 
@@ -23,7 +26,6 @@ const config: Config = {
   projectName: 'AppSec-Atlas',
 
   onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
 
   headTags: [
     {
@@ -46,6 +48,58 @@ const config: Config = {
       attributes: {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap',
+      },
+    },
+    // SEO: Meta description
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'description',
+        content: 'AppSec Atlas — Free, open-source application security knowledge base covering OWASP, web security, API security, cloud security, AI/ML security, DevSecOps, cryptography, penetration testing, and more.',
+      },
+    },
+    // SEO: Keywords
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'keywords',
+        content: 'application security, appsec, web security, API security, OWASP Top 10, penetration testing, DevSecOps, cloud security, Kubernetes security, secrets management, LLM security, AI security, prompt injection, agentic AI security, cryptography, post-quantum cryptography, zero trust, JWT security, OAuth security, XSS, CSRF, SSRF, SQL injection, container security, CI/CD security, bug bounty, red teaming, incident response, compliance, GDPR, SOC 2, NIST, mobile security, IoT security, secure coding, threat modeling, STRIDE',
+      },
+    },
+    // SEO: Open Graph
+    {
+      tagName: 'meta',
+      attributes: {
+        property: 'og:title',
+        content: 'AppSec Atlas — Open-Source Application Security Knowledge Base',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        property: 'og:description',
+        content: 'Master application security with 45+ in-depth modules covering OWASP, AI/ML security, cloud security, DevSecOps, and more. Free and open-source.',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        property: 'og:image',
+        content: 'https://appsecatlas.com/img/logo.png',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        property: 'og:url',
+        content: 'https://appsecatlas.com',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'twitter:card',
+        content: 'summary_large_image',
       },
     },
   ],
@@ -105,6 +159,18 @@ const config: Config = {
           },
           editUrl: 'https://github.com/AnimeshShaw/AppSec-Atlas/tree/main/',
         },
+        sitemap: {
+          lastmod: 'date',
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+          createSitemapItems: async (params) => {
+            const {defaultCreateSitemapItems, ...rest} = params;
+            const items = await defaultCreateSitemapItems(rest);
+            return items.filter((item) => !item.url.includes('/page/'));
+          },
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -116,7 +182,7 @@ const config: Config = {
     mermaid: {
       theme: {light: 'neutral', dark: 'dark'},
     },
-    image: 'img/logo.svg',
+    image: 'img/logo.png',
     colorMode: {
       defaultMode: 'dark',
       respectPrefersColorScheme: true,
@@ -125,7 +191,7 @@ const config: Config = {
       title: 'AppSec Atlas',
       logo: {
         alt: 'AppSec Atlas Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {
@@ -156,83 +222,51 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Knowledge Base',
+          title: 'Foundational Security',
           items: [
-            {
-              label: 'Getting Started',
-              to: '/docs/getting-started',
-            },
-            {
-              label: 'AI / ML Security',
-              to: '/docs/ai-ml-security/agentic-ai-security',
-            },
-            {
-              label: 'LLM Prompt Injection',
-              to: '/docs/ai-ml-security/llm-prompt-injection',
-            },
+            { label: 'Getting Started', to: '/docs/getting-started' },
+            { label: 'OWASP Top 10', to: '/docs/foundational/owasp-top-10' },
+            { label: 'Cryptography', to: '/docs/foundational/cryptography' },
+            { label: 'Auth & Authorization', to: '/docs/foundational/auth-and-authz' },
+            { label: 'Secure Coding', to: '/docs/foundational/secure-coding' },
+            { label: 'Zero Trust', to: '/docs/foundational/zero-trust' },
+          ],
+        },
+        {
+          title: 'Web, API & Cloud',
+          items: [
+            { label: 'Web App Security', to: '/docs/web-and-api/web-application-security' },
+            { label: 'API Security', to: '/docs/web-and-api/api-security' },
+            { label: 'Frontend Security', to: '/docs/web-and-api/frontend-security' },
+            { label: 'Cloud Security', to: '/docs/cloud-and-infra/cloud-security' },
+            { label: 'Container & Kubernetes', to: '/docs/cloud-and-infra/container-kubernetes' },
+            { label: 'CI/CD Pipeline Security', to: '/docs/cloud-and-infra/cicd-pipeline-security' },
+          ],
+        },
+        {
+          title: 'AI & Offensive Security',
+          items: [
+            { label: 'LLM Prompt Injection', to: '/docs/ai-ml-security/llm-prompt-injection' },
+            { label: 'Agentic AI Security', to: '/docs/ai-ml-security/agentic-ai-security' },
+            { label: 'ML Model Security', to: '/docs/ai-ml-security/ml-model-security' },
+            { label: 'Penetration Testing', to: '/docs/offensive/penetration-testing' },
+            { label: 'Bug Bounty Guide', to: '/docs/offensive/bug-bounty' },
+            { label: 'Red Teaming', to: '/docs/ai-ml-security/ai-red-teaming' },
           ],
         },
         {
           title: 'Community & Support',
           items: [
-            {
-              label: 'GitHub',
-              href: 'https://github.com/AnimeshShaw/AppSec-Atlas',
-            },
-            {
-              label: 'Discord Community',
-              href: 'https://discord.gg/NHvrkJ5Hg3',
-            },
-            {
-              label: '💖 GitHub Sponsors',
-              href: 'https://github.com/sponsors/AnimeshShaw',
-            },
-            {
-              label: '☕ Buy Me a Coffee (Ko-fi)',
-              href: 'https://ko-fi.com/animeshshaw',
-            },
-          ],
-        },
-        {
-          title: 'Ecosystem & Tools',
-          items: [
-            {
-              label: '🔐 DevCipher Platform',
-              href: 'https://devcipher.dev/',
-            },
-            {
-              label: '🤖 Agentic AI Security',
-              href: 'https://github.com/AnimeshShaw/agentic-ai-security-guide',
-            },
-            {
-              label: '🛡️ Threat Modelling Basics',
-              href: 'https://github.com/AnimeshShaw/threat-modelling-basics',
-            },
-            {
-              label: '⚛️ Quantum-Safe Py',
-              href: 'https://github.com/AnimeshShaw/quantum-safe-py',
-            },
-            {
-              label: '🔍 Quantum Safe Auditor',
-              href: 'https://github.com/AnimeshShaw/quantum-safe-auditor',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'Contribute',
-              href: 'https://github.com/AnimeshShaw/AppSec-Atlas/blob/main/CONTRIBUTING.md',
-            },
+            { label: 'GitHub', href: 'https://github.com/AnimeshShaw/AppSec-Atlas' },
+            { label: 'Discord Community', href: 'https://discord.gg/NHvrkJ5Hg3' },
+            { label: 'Contribute', href: 'https://github.com/AnimeshShaw/AppSec-Atlas/blob/main/CONTRIBUTING.md' },
+            { label: '💖 GitHub Sponsors', href: 'https://github.com/sponsors/AnimeshShaw' },
+            { label: '☕ Ko-fi', href: 'https://ko-fi.com/animeshshaw' },
+            { label: '🔐 DevCipher Platform', href: 'https://devcipher.dev/' },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Animesh Shaw & AppSec Atlas Contributors. Licensed under CC BY 4.0.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Animesh Shaw & AppSec Atlas Contributors. Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>.`,
     },
     prism: {
       theme: prismThemes.github,
