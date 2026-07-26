@@ -76,29 +76,45 @@ export default function Home(): ReactNode {
                 flexWrap: 'wrap',
               }}>
               <Link
-                className="button button--primary button--lg"
                 href="https://github.com/AnimeshShaw/AppSec-Atlas"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '0.5rem',
+                  padding: '0.9rem 2rem',
                   borderRadius: '12px',
                   fontWeight: 700,
+                  fontSize: '1rem',
+                  color: '#ffffff',
                   background: 'var(--atlas-accent-gradient)',
                   border: 'none',
+                  textDecoration: 'none',
+                  boxShadow: '0 8px 20px -4px rgba(2,132,199,0.4)',
+                  transition: 'transform 0.2s, box-shadow 0.2s',
                 }}>
-                ⭐ Star & Fork on GitHub
+                ⭐ Star &amp; Fork on GitHub
               </Link>
 
               <Link
-                className="button button--secondary button--lg"
                 href="https://discord.gg/NHvrkJ5Hg3"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '0.5rem',
+                  padding: '0.9rem 2rem',
                   borderRadius: '12px',
                   fontWeight: 600,
+                  fontSize: '1rem',
+                  color: 'var(--ifm-font-color-base)',
                   background: 'rgba(255, 255, 255, 0.05)',
-                  borderColor: 'var(--atlas-card-border)',
+                  border: '1px solid var(--atlas-card-border)',
+                  backdropFilter: 'blur(12px)',
+                  textDecoration: 'none',
+                  transition: 'background 0.2s, border-color 0.2s',
                 }}>
                 💬 Join Discord Community
               </Link>

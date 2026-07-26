@@ -33,7 +33,7 @@ Use the [main README](https://github.com/AnimeshShaw/AppSec-Atlas/blob/main/READ
 Visit [appsecatlas.com](https://appsecatlas.com) and use the Algolia-powered search to find specific topics instantly.
 
 ### Option 4: Start with a Checklist
-If you need quick-reference material, our [checklists](../../checklists/) are designed for immediate use.
+If you need quick-reference material, our [checklists](https://github.com/AnimeshShaw/AppSec-Atlas/tree/main/checklists) are designed for immediate use.
 
 ## Understanding Guide Levels
 
@@ -47,9 +47,9 @@ If you need quick-reference material, our [checklists](../../checklists/) are de
 
 | Icon | Meaning |
 |------|---------|
-| âœ… Available | Complete and ready to use |
-| ðŸš§ In Progress | Being actively written |
-| ðŸ“‹ Planned | On the roadmap, contributions welcome |
+| ✅ Available | Complete and ready to use |
+| 🚧 In Progress | Being actively written |
+| 📋 Planned | On the roadmap, contributions welcome |
 
 ## How to Contribute
 
@@ -62,6 +62,6 @@ First-time contributor? Look for issues labeled [`good first issue`](https://git
 
 ## Community
 
-- ðŸ’¬ [Discord](https://discord.gg/appsecatlas) â€” Ask questions, discuss security topics, meet contributors
+- 💬 [Discord](https://discord.gg/NHvrkJ5Hg3) — Ask questions, discuss security topics, meet contributors
 - ðŸ¦ [Twitter/X @appsecatlas](https://twitter.com/appsecatlas) â€” Updates and announcements
 - ðŸ“§ [Newsletter](https://appsecatlas.com/newsletter) â€” Monthly digest of new guides and security news

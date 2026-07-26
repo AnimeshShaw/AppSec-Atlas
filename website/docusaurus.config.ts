@@ -173,6 +173,22 @@ const config: Config = {
         },
       },
     ],
+    // Local full-text search — no Algolia required
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: true,
+        language: ['en'],
+        indexDocs: true,
+        indexPages: true,
+        docsRouteBasePath: '/docs',
+        searchBarShortcutHint: false,
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+      },
+    ],
+    // Image optimization — WebP conversion + lazy loading
+    '@docusaurus/plugin-ideal-image',
   ],
 
   presets: [
@@ -234,8 +250,7 @@ const config: Config = {
           position: 'left',
           label: '📚 Guides',
         },
-        // Blog hidden until content is published
-        // {to: '/blog', label: '📰 Blog', position: 'left'},
+        {to: '/blog', label: '📰 Blog', position: 'left'},
         {
           href: 'https://github.com/AnimeshShaw/AppSec-Atlas',
           label: '⭐ GitHub',
