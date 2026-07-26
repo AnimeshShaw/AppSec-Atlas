@@ -73,8 +73,8 @@ This chapter provides an exhaustive index of academic research papers, technical
 ## 4. Adversarial Datasets & Benchmark Suites
 
 - **[HarmBench](https://github.com/centerforaisafety/HarmBench)** — Standardized benchmark suite for automated LLM red teaming and safety evaluation.
-- **[AdvGLUE (Adversarial GLUE)](https://advglue.dataset.org/)** — Multi-task adversarial benchmark evaluating model robustness against textual perturbations.
-- **[Do-Not-Answer Dataset](https://github.com/LibrAI/do-not-answer)** — Open-source dataset of prompts designed to measure model refusal performance across harmful categories.
+- **[AdvGLUE (Adversarial GLUE)](https://github.com/advglue/advglue)** — Multi-task adversarial benchmark evaluating model robustness against textual perturbations.
+- **[Do-Not-Answer Dataset](https://github.com/Libr-AI/do-not-answer)** — Open-source dataset of prompts designed to measure model refusal performance across harmful categories.
 
 ---
 

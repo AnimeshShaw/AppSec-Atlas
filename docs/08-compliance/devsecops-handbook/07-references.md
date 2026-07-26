@@ -26,7 +26,7 @@ To further your understanding of DevSecOps, compliance, and security maturity, c
   - [DoD Enterprise DevSecOps Strategy Guide](https://dodcio.defense.gov/Portals/0/Documents/DoD%20Enterprise%20DevSecOps%20Reference%20Design%20v1.0_Public%20Release.pdf)
   - A highly comprehensive guide used by the US Department of Defense to build secure, hardened CI/CD pipelines.
 - **CNCF DevSecOps Whitepaper:**
-  - [Cloud Native Computing Foundation (CNCF)](https://github.com/cncf/tag-security/blob/main/security-whitepaper/CNCF_cloud-native-security-whitepaper.md)
+  - [Cloud Native Computing Foundation (CNCF)](https://github.com/cncf/tag-security/tree/main/security-whitepaper)
   - Details security lifecycle practices specifically for cloud-native applications and Kubernetes environments.
 
 ## Vulnerability Scoring

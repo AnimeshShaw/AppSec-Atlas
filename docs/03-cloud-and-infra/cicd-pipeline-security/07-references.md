@@ -36,7 +36,7 @@ Authoritative resources, security specifications, open-source audit tools, and C
 | **OWASP Top 10 for CI/CD** | OWASP Foundation | CI/CD pipeline risk classification | [owasp.org/www-project-top-10-ci-cd-security-risks](https://owasp.org/www-project-top-10-ci-cd-security-risks/) |
 | **NIST SP 800-218 (SSDF)** | NIST | Secure Software Development Framework | [csrc.nist.gov/publications/detail/sp/800-218](https://csrc.nist.gov/publications/detail/sp/800-218/final) |
 | **CIS GitHub Actions Benchmark** | Center for Internet Security | Hardening benchmark for GitHub Actions | [cisecurity.org/benchmarks](https://www.cisecurity.org/benchmarks) |
-| **CISA Open Source Strategy** | US CISA | Supply chain defense strategy | [cisa.gov/resources-tools/resources/open-source-software-security-roadmap](https://www.cisa.gov/resources-tools/resources/open-source-software-security-roadmap) |
+| **CISA Open Source Strategy** | US CISA | Supply chain defense strategy | [cisa.gov/resources-tools/services/open-source-software-security-roadmap](https://www.cisa.gov/resources-tools/services/open-source-software-security-roadmap) |
 
 ---
 
@@ -71,7 +71,7 @@ Authoritative resources, security specifications, open-source audit tools, and C
 | **SolarWinds SUNBURST** | 2020 | MSBuild compilation plugin injection & signed DLL backdoor | [CISA Alert AA20-352A](https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-352a) |
 | **Codecov Uploader** | 2021 | GCS script tamper & environment variable exfiltration | [Codecov Security Update](https://about.codecov.io/security-update/) |
 | **CVE-2024-3094 (XZ Utils)** | 2024 | M4 macro build injection & SSH authentication bypass | [NIST NVD CVE-2024-3094](https://nvd.nist.gov/vuln/detail/CVE-2024-3094) |
-| **CircleCI Breach** | 2023 | Engineer malware compromise & runner secret theft | [CircleCI Security Report](https://circleci.com/blog/january-4-2023-security-incident-incident-report/) |
+| **CircleCI Breach** | 2023 | Engineer malware compromise & runner secret theft | [CircleCI Security Report](https://circleci.com/blog/jan-4-2023-security-alert/) |
 | **Alex Birsan Dependency Confusion** | 2021 | Public vs private registry version priority exploitation | [Medium Research Post](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610) |
 
 ---
@@ -79,7 +79,7 @@ Authoritative resources, security specifications, open-source audit tools, and C
 ## 4. Documentation & Further Reading
 
 - **[GitHub Actions Security Hardening Guide](https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions)** — Official security guidance for GitHub Actions workflows.
-- **[Sigstore Official Documentation](https://docs.sigstore.dev/)** — Architecture guide for Cosign, Fulcio, and Rekor keyless signing.
+- **[Sigstore Official Documentation](https://docs.sigstore.dev)** — Architecture guide for Cosign, Fulcio, and Rekor keyless signing.
 - **[OpenSSF Supply Chain Security](https://openssf.org/)** — Open Source Security Foundation initiatives and security tooling standards.
 
 ---

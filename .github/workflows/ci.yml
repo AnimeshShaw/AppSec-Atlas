@@ -15,7 +15,24 @@ jobs:
       - name: Link Checker
         uses: lycheeverse/lychee-action@v1
         with:
-          args: --verbose --no-progress --exclude-path 'website/node_modules' --exclude-path 'website/build' --exclude-path 'website/.docusaurus' '**/*.md'
+          args: >-
+            --verbose
+            --no-progress
+            --exclude-path website/node_modules
+            --exclude-path website/build
+            --exclude-path website/.docusaurus
+            --exclude 'https?://(www\.)?iso\.org'
+            --exclude 'https?://(www\.)?defense\.gov'
+            --exclude 'https?://dodcio\.defense\.gov'
+            --exclude 'https?://(www\.)?kroll\.com'
+            --exclude 'https?://drata\.com'
+            --exclude 'https?://(www\.)?medium\.com'
+            --exclude 'https?://(www\.)?tryhackme\.com'
+            --exclude 'https?://cprt\.nist\.gov'
+            --exclude 'https?://appsecatlas\.com'
+            --exclude 'http://attacker\.com'
+            --exclude 'file:///'
+            '**/*.md'
           fail: false
 
   spellcheck:

@@ -74,5 +74,5 @@ This chapter provides a curated index of industry security standards, protocol s
 
 * **gRPC Official Authentication Guide:** [https://grpc.io/docs/guides/auth/](https://grpc.io/docs/guides/auth/)
 * **Envoy Proxy gRPC Filter Documentation:** [https://www.envoyproxy.io/docs/envoy/latest/configuration/http/http_filters/grpc_web_filter](https://www.envoyproxy.io/docs/envoy/latest/configuration/http/http_filters/grpc_web_filter)
-* **Buf Schema Validation (`buf validate`):** [https://buf.build/docs/validate/rules/](https://buf.build/docs/validate/rules/)
+* **Buf Schema Validation (`buf validate`):** [https://buf.build/docs/protovalidate/](https://buf.build/docs/protovalidate/)
 * **CNCF Cloud Native Security Whitepaper:** [https://github.com/cncf/tag-security](https://github.com/cncf/tag-security)

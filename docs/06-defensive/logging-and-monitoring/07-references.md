@@ -31,7 +31,7 @@ Expand your knowledge on logging, SIEM, detection engineering, and automated res
 - **Elastic Common Schema (ECS):** The open-source specification for structuring log data.
   - [ECS Reference](https://www.elastic.co/guide/en/ecs/current/index.html)
 - **Common Event Format (CEF):** Micro Focus ArcSight's logging standard.
-  - [CEF Implementation Guide](https://www.microfocus.com/documentation/arcsight/arcsight-smartconnectors/CEF-configuration-guide/)
+  - [CEF Implementation Guide](https://www.microfocus.com/documentation/arcsight/)
 
 ## 🔍 Detection Engineering & Sigma
 

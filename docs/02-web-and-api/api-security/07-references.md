@@ -43,7 +43,7 @@ This chapter provides an organized reference catalog of official security standa
 | **[Kiterunner](https://github.com/assetnote/kiterunner)** | API Discovery | Context-aware API route and parameter discovery engine.<br/>`kr scan https://api.target.local -w routes-large.kite` |
 | **[Schemathesis](https://github.com/schemathesis/schemathesis)** | Property-Based Contract Testing | Property-based API testing tool that reads OpenAPI specs to generate malformed payloads.<br/>`schemathesis run https://api.target.local/openapi.json` |
 | **[GraphQLmap](https://github.com/swisskyrepo/GraphQLmap)** | GraphQL Audit | CLI engine for auditing and exploiting GraphQL endpoints.<br/>`python graphqlmap.py -u https://target.local/graphql` |
-| **[Astra](https://github.com/flipkart/astra)** | Automated API Scanner | Automated security testing framework for REST APIs integrated into CI/CD pipelines. |
+| **[Astra](https://github.com/flipkart-incubator/Astra)** | Automated API Scanner | Automated security testing framework for REST APIs integrated into CI/CD pipelines. |
 | **[OWASP ZAP API Scan](https://www.zaproxy.org/)** | DAST Scanner | Dynamic scanner configured for OpenAPI/GraphQL endpoints.<br/>`zap-api-scan.py -t https://api.target.local/openapi.json -f openapi` |
 | **[Spectral](https://github.com/stoplightio/spectral)** | OpenAPI Linter | Static linter for OpenAPI/AsyncAPI specifications enforcing security rules. |
 

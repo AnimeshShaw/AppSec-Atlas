@@ -34,7 +34,7 @@ Browser extensions are just ZIP files. You can download the `.crx` file and unzi
 
 ## 2. Extension-Mind
 An automated tool designed to scan Chrome extensions for malicious patterns, overly broad permissions, and known vulnerabilities.
-- **Repository:** https://github.com/tarnish-project/tarnish (Tarnish was a popular tool, now often replaced by newer static analysis scripts).
+- **Repository:** https://github.com/nicowillis/tarnish (Tarnish was a popular tool, now often replaced by newer static analysis scripts).
 
 ## 3. Semgrep for Extensions
 Semgrep is an excellent tool for writing custom rules to find DOM XSS and insecure message passing in extension code.

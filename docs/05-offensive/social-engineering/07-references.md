@@ -26,7 +26,7 @@ slug: /offensive/social-engineering/references
 *   **DMARC:** [RFC 7489](https://datatracker.ietf.org/doc/html/rfc7489) - Domain-based Message Authentication, Reporting, and Conformance.
 
 ## Defense and Mitigation Guidance
-*   **CISA Phishing Guidance:** [Phishing Guidance: Stopping the Attack Cycle at Phase One](https://www.cisa.gov/stopransomware/phishing-guidance)
+*   **CISA Phishing Guidance:** [Phishing Guidance: Stopping the Attack Cycle at Phase One](https://www.cisa.gov/phishing-guidance)
 *   **NIST SP 800-177 Rev. 1:** [Trustworthy Email](https://csrc.nist.gov/publications/detail/sp/800-177/rev-1/final)
 *   **FIDO Alliance:** [How FIDO Works (Phishing-Resistant MFA)](https://fidoalliance.org/how-fido-works/)
 *   **WebAuthn API:** [W3C Web Authentication Specification](https://w3c.github.io/webauthn/)

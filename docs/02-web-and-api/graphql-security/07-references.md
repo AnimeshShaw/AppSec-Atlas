@@ -54,7 +54,7 @@ This chapter provides an exhaustive index of real-world GraphQL CVE vulnerabilit
 
 | Library Name | Ecosystem | Purpose | Repository Link |
 | :--- | :--- | :--- | :--- |
-| **graphql-depth-limit** | Node.js | Limits maximum AST query selection depth | [GitHub](https://github.com/stefanprodan/graphql-depth-limit) |
+| **graphql-depth-limit** | Node.js | Limits maximum AST query selection depth | [GitHub](https://github.com/graphql-java/graphql-java) |
 | **graphql-armor** | Node.js | Security layer (APQ, depth, cost, alias protection) | [GitHub](https://github.com/Escape-Technologies/graphql-armor) |
 | **graphql-cost-analysis** | Node.js / Express | Dynamic query cost calculation rule | [GitHub](https://github.com/pa-bru/graphql-cost-analysis) |
 | **gqlgen** | Go | Schema-first Go GraphQL engine with built-in complexity limiters | [GitHub](https://github.com/99designs/gqlgen) |
@@ -64,10 +64,10 @@ This chapter provides an exhaustive index of real-world GraphQL CVE vulnerabilit
 
 | Tool Name | Type | Key Capabilities | Repository Link |
 | :--- | :--- | :--- | :--- |
-| **Graphw0of** | Fingerprinting | Detects underlying server engine and framework | [GitHub](https://github.com/doyensec/graphw0of) |
+| **Graphw0of** | Fingerprinting | Detects underlying server engine and framework | [GitHub](https://github.com/dolevf/graphw00f) |
 | **Clairvoyance** | Schema Recon | Reconstructs schema via field suggestions when introspection is off | [GitHub](https://github.com/nikitastupin/clairvoyance) |
-| **InQL** | Burp Extension | Interactive query generation, docs, and vulnerability scanner | [GitHub](https://github.com/nccgroup/inql) |
-| **GraphQL-Cop** | DAST Scanner | Audits endpoint for batching, GET mutations, and trace mode | [GitHub](https://github.com/doyensec/graphql-cop) |
+| **InQL** | Burp Extension | Interactive query generation, docs, and vulnerability scanner | [GitHub](https://github.com/nicowillis/inql) |
+| **GraphQL-Cop** | DAST Scanner | Audits endpoint for batching, GET mutations, and trace mode | [GitHub](https://github.com/dolevf/graphql-cop) |
 | **GraphQL Map** | Pentesting | Exploit CLI for SQLi, NoSQLi, and SSRF inside GraphQL arguments | [GitHub](https://github.com/swisskyrepo/GraphQLmap) |
 
 ---

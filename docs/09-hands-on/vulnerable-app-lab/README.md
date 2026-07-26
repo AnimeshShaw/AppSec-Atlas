@@ -35,7 +35,7 @@ This guide is planned but not yet written. Want to help build AppSec Atlas?
 
 ## Planned Content
 
-See the [Master Strategy](https://github.com/appsec-atlas/appsec-atlas/blob/main/MASTER_STRATEGY.md) for the full specification of what this guide will cover.
+See the [Master Strategy](https://github.com/AnimeshShaw/AppSec-Atlas) for the full specification of what this guide will cover.
 
 ---
 

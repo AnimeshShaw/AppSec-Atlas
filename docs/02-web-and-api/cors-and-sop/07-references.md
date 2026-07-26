@@ -57,7 +57,7 @@ Refer to the following specifications, industry standards, academic research, CV
 
 6. **OWASP HTML5 Security Cheat Sheet — Cross-Origin Resource Sharing**
    - Defensive guidelines and framework rules for configuring secure CORS allowlists.
-   - Cheat Sheet Link: [OWASP CORS Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Origin_Resource_Sharing_Cheat_Sheet.html)
+   - Cheat Sheet Link: [OWASP CORS Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html)
 
 7. **OWASP Top 10:2021 — A01: Broken Access Control**
    - OWASP risk mapping classifying CORS origin reflection and credential exposure under Broken Access Control.

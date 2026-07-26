@@ -92,7 +92,7 @@ This reference module aggregates industry security standards, vulnerability data
 
 ### Microsoft Azure
 - [Securing Azure Functions Guide](https://learn.microsoft.com/en-us/azure/azure-functions/security-concepts)
-- [Azure Security Baseline for Azure Functions](https://learn.microsoft.com/en-us/security/benchmark/azure/baselines/azure-functions-security-baseline)
+- [Azure Security Baseline for Azure Functions](https://learn.microsoft.com/en-us/azure/security/benchmarks/security-baselines-overview)
 
 ### Google Cloud Platform (GCP)
 - [Securing Google Cloud Functions](https://cloud.google.com/functions/docs/securing)

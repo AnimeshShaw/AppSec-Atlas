@@ -35,7 +35,7 @@ To continue your journey into IoT and Hardware Security, consult the following i
 
 *   **NIST IoT Cybersecurity Program**
     *   Provides comprehensive guidance for manufacturers on securing IoT devices and integrating them into federal networks (NISTIR 8259 series).
-    *   [NIST IoT Cybersecurity](https://www.nist.gov/itl/applied-cybersecurity/iot-device-cybersecurity-requirement-catalogs)
+    *   [NIST IoT Cybersecurity](https://www.nist.gov/programs-projects/nist-cybersecurity-iot-program)
 
 ## 🛠️ Security Tooling & Firmware Analysis
 

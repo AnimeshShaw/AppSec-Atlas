@@ -42,4 +42,4 @@ Thank you to every person who has contributed to AppSec Atlas. You are the reaso
 
 ---
 
-**Want to be on this list?** Read [CONTRIBUTING.md](../../CONTRIBUTING.md) and submit your first PR!
+**Want to be on this list?** Read [CONTRIBUTING.md](../CONTRIBUTING.md) and submit your first PR!

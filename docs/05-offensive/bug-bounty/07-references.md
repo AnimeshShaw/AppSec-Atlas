@@ -28,7 +28,7 @@ Authoritative references, taxonomies, and learning platforms for Bug Bounty hunt
 ## 1. Standards & Taxonomies
 
 - **[Bugcrowd Vulnerability Rating Taxonomy (VRT)](https://bugcrowd.com/vulnerability-rating-taxonomy)** — Standardized vulnerability classification taxonomy.
-- **[HackerOne Vulnerability Taxonomy](https://docs.hackerone.com/en/articles/8499292-vulnerability-taxonomies)** — Common vulnerability scoring and severity guidelines.
+- **[HackerOne Vulnerability Taxonomy](https://docs.hackerone.com/en/organizations/vulnerability-taxonomies.html)** — Common vulnerability scoring and severity guidelines.
 - **[PortSwigger Web Security Academy](https://portswigger.net/web-security)** — Interactive web security learning labs.
 
 ---

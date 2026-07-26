@@ -13,7 +13,7 @@
 
 ## Checklist
 - [ ] I have read [CONTRIBUTING.md](../CONTRIBUTING.md)
-- [ ] My guide follows the [standard module structure](community/templates/guide-template.md)
+- [ ] My guide follows the [standard module structure](../community/templates/guide-template.md)
 - [ ] All code examples are tested and working
 - [ ] I have cited sources in `07-references.md`
 - [ ] No proprietary or copyrighted content included without permission

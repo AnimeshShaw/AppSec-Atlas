@@ -96,7 +96,7 @@ This directory provides an exhaustive compilation of official security standards
 * **XSS Prevention Cheat Sheet:**
   * [OWASP XSS Guidelines](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
 * **CSRF Prevention Cheat Sheet:**
-  * [OWASP CSRF Guidelines](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Request_Forgery_Prevention_Cheat_Sheet.html)
+  * [OWASP CSRF Guidelines](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html)
 * **SSRF Prevention Cheat Sheet:**
   * [OWASP SSRF Guidelines](https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html)
 * **File Upload Security Cheat Sheet:**

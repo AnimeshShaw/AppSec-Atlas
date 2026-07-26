@@ -29,7 +29,7 @@ Security engineers must possess a robust toolkit for fingerprinting, auditing, e
 
 ```bash
 # Installation
-git clone https://github.com/doyensec/graphw0of
+git clone https://github.com/dolevf/graphw00f
 cd graphw0of
 
 # Execution Syntax
@@ -67,7 +67,7 @@ cat reconstructed_schema.json
 
 ```bash
 # Installation
-git clone https://github.com/doyensec/graphql-cop
+git clone https://github.com/dolevf/graphql-cop
 cd graphql-cop
 pip install -r requirements.txt
 
@@ -222,7 +222,7 @@ jobs:
 
       - name: Execute GraphQL-Cop Auditor
         run: |
-          git clone https://github.com/doyensec/graphql-cop.py
+          git clone https://github.com/dolevf/graphql-cop.py
           cd graphql-cop.py
           pip install -r requirements.txt
           python3 graphql-cop.py -t http://localhost:4000/graphql -f json -o cop-report.json

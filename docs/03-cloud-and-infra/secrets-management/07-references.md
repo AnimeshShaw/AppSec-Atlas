@@ -99,7 +99,7 @@ Secrets management is explicitly mandated by regulatory standards and security b
 
 ### Multi-Language SDKs
 - **Python**: [`hvac`](https://hvac.readthedocs.io/), [`boto3`](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
-- **Node.js**: [`node-vault`](https://github.com/krishnasrinivas/node-vault), [`@google-cloud/secret-manager`](https://cloud.google.com/nodejs/docs/reference/secret-manager/latest)
+- **Node.js**: [`node-vault`](https://github.com/nodevault/node-vault), [`@google-cloud/secret-manager`](https://cloud.google.com/nodejs/docs/reference/secret-manager/latest)
 - **Go**: [`hashicorp/vault/api`](https://pkg.go.dev/github.com/hashicorp/vault/api), [`azsecrets`](https://pkg.go.dev/github.com/Azure/azure-sdk-for-go/sdk/security/keyvault/azsecrets)
 - **Java**: [`spring-vault-core`](https://spring.io/projects/spring-vault), [`azure-security-keyvault-secrets`](https://central.sonatype.com/artifact/com.azure/azure-security-keyvault-secrets)
 

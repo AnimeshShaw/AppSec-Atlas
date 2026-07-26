@@ -82,7 +82,7 @@ This chapter provides a curated list of academic literature, security standards,
 
 - **Pinecone Security & Multi-Tenancy Guide**
   - Best practices for namespace isolation and metadata filtering in Pinecone vector indexes.
-  - *Link:* [Pinecone Multi-Tenancy Docs](https://docs.pinecone.io/guides/data/organize-data)
+  - *Link:* [Pinecone Multi-Tenancy Docs](https://docs.pinecone.io/guides/data/namespaces)
 
 - **Qdrant Filtering & Security Architecture**
   - Setting up tenant payload indexes, ACL rules, and isolated vector collections in Qdrant.
@@ -94,7 +94,7 @@ This chapter provides a curated list of academic literature, security standards,
 
 - **Milvus Multi-Tenancy & Authorization Rules**
   - Designing partition-based and role-based multi-tenancy in enterprise Milvus deployments.
-  - *Link:* [Milvus Multi-Tenancy Architecture](https://milvus.io/docs/multi_tenancy.md)
+  - *Link:* [Milvus Multi-Tenancy Architecture](https://milvus.io/docs/multi_tenancy)
 
 ---
 

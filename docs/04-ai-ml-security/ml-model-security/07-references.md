@@ -71,7 +71,7 @@ This directory lists authoritative benchmarks, regulatory frameworks, foundation
 | **Adversarial Robustness Toolbox (ART)** | Linux Foundation | [GitHub](https://github.com/Trusted-AI/adversarial-robustness-toolbox) | Comprehensive python library for ML security evaluation and defense. |
 | **Microsoft Counterfit** | Microsoft Azure | [GitHub](https://github.com/Azure/counterfit) | Automation tool for black-box penetration testing of ML models. |
 | **Safetensors** | Hugging Face | [GitHub](https://github.com/huggingface/safetensors) | Safe, zero-copy tensor serialization format replacing unsafe pickle files. |
-| **Picklescan** | Hugging Face | [GitHub](https://github.com/huggingface/picklescan) | Security scanner for detecting dangerous opcodes in Python pickle artifacts. |
+| **Picklescan** | Hugging Face | [GitHub](https://github.com/mmaitre314/picklescan) | Security scanner for detecting dangerous opcodes in Python pickle artifacts. |
 | **Modelscan** | Protect AI | [GitHub](https://github.com/protectai/modelscan) | Open-source tool for scanning ML model artifacts for code execution risks. |
 | **Fickling** | Trail of Bits | [GitHub](https://github.com/trailofbits/fickling) | Decompiler and static analyzer for inspecting Python pickle bytecode. |
 | **PyTorch Opacus** | Meta AI | [GitHub](https://github.com/pytorch/opacus) | High-speed library for training PyTorch models with Differential Privacy (DP-SGD). |

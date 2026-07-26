@@ -39,8 +39,8 @@ This document provides an authoritative catalog of security standards, industry 
 * **[NIST AI RMF 1.0 (NIST SP 1270)](https://www.nist.gov/itl/ai-risk-management-framework)**: Standardized guidelines for managing risk, safety, transparency, and trustworthiness across machine learning deployments.
 
 ### C. MITRE ATLAS™ (Adversarial Threat Landscape for Artificial-Intelligence Systems)
-* **[AML.T0051 - LLM Prompt Injection](https://atlas.mitre.org/techniques/AML.T0051)**: Direct and indirect injection payload execution against LLM agents.
-* **[AML.T0054 - LLM Data Poisoning](https://atlas.mitre.org/techniques/AML.T0054)**: Injecting malicious instructions into training sets, RAG document vector stores, or fine-tuning datasets.
+* **[AML.T0051 - LLM Prompt Injection](https://atlas.mitre.org/techniques/AML.T0051/)**: Direct and indirect injection payload execution against LLM agents.
+* **[AML.T0054 - LLM Data Poisoning](https://atlas.mitre.org/techniques/AML.T0054/)**: Injecting malicious instructions into training sets, RAG document vector stores, or fine-tuning datasets.
 
 ---
 

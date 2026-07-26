@@ -49,7 +49,7 @@ Key controls mapped to Infrastructure as Code security implementation:
 
 ### OWASP & US Government Guidance
 - [OWASP Infrastructure as Code Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Infrastructure_as_Code_Security_Cheat_Sheet.html)
-- [OWASP Cloud Native Security Top 10](https://owasp.org/www-project-cloud-native-security-top-10/)
+- [OWASP Cloud Native Security Top 10](https://owasp.org/www-project-cloud-native-application-security-top-10/)
 - [NSA / CISA Cybersecurity Information Sheet: Mitigating Cloud Vulnerabilities](https://media.defense.gov/2020/Jan/22/2002237416/-1/-1/0/U_OO_105004_20.PDF)
 
 ---
@@ -92,7 +92,7 @@ Key controls mapped to Infrastructure as Code security implementation:
 ### HashiCorp Terraform
 - [Terraform Standard Module Structure & Security](https://developer.hashicorp.com/terraform/language/modules/develop/structure)
 - [Terraform Backend S3 Configuration](https://developer.hashicorp.com/terraform/language/settings/backends/s3)
-- [Terraform Cloud Workspaces & OIDC Identity Provider](https://developer.hashicorp.com/terraform/cloud-docs/workspaces/settings/dynamic-credentials)
+- [Terraform Cloud Workspaces & OIDC Identity Provider](https://developer.hashicorp.com/terraform/cloud-docs/workspaces/dynamic-provider-credentials)
 
 ### AWS CloudFormation
 - [AWS CloudFormation Security Best Practices](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/security-best-practices.html)
@@ -100,7 +100,7 @@ Key controls mapped to Infrastructure as Code security implementation:
 - [AWS CloudFormation Guard Rules Engine](https://github.com/aws-cloudformation/cloudformation-guard)
 
 ### Azure Bicep & ARM
-- [Azure Bicep Security Best Practices](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/security)
+- [Azure Bicep Security Best Practices](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview)
 - [Bicep @secure Parameter Decorator](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/parameters#secure-parameters)
 - [Azure Key Vault Integration in Bicep](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/key-vault-parameter)
 

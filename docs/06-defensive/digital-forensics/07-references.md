@@ -28,10 +28,10 @@ slug: /defensive/digital-forensics/references
 - **SQLite Documentation:** [https://www.sqlite.org/docs.html](https://www.sqlite.org/docs.html)
 
 ## Cheat Sheets
-- **SANS DFIR Cheat Sheets:** [https://www.sans.org/information-security-reputations/dfir-cheat-sheets/](https://www.sans.org/information-security-reputations/dfir-cheat-sheets/)
+- **SANS DFIR Cheat Sheets:** [https://www.sans.org/posters/](https://www.sans.org/posters/)
 - **FOR508 (Advanced Incident Response):** Memory forensics and timeline analysis resources.
 
 ## Tools
-- [FTK Imager (AccessData)](https://www.exterro.com/ftk-imager)
+- [FTK Imager (AccessData)](https://www.exterro.com/digital-forensics-software/ftk-imager)
 - [Autopsy Digital Forensics](https://www.autopsy.com/)
 - [WinPmem](https://github.com/Velocidex/c-aff4/releases)
