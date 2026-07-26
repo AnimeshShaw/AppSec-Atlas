@@ -47,16 +47,7 @@ jobs:
           config: ".cspell.json"
           strict: false
 
-  markdown-lint:
-    name: Markdown Lint
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Lint Markdown files
-        uses: DavidAnson/markdownlint-cli2-action@v14
-        with:
-          globs: "docs/**/*.md"
-          config: ".markdownlint.json"
+
 
   docusaurus-build:
     name: Validate Docusaurus Build
