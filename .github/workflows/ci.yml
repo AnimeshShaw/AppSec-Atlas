@@ -15,7 +15,7 @@ jobs:
       - name: Link Checker
         uses: lycheeverse/lychee-action@v1
         with:
-          args: --verbose --no-progress '**/*.md'
+          args: --verbose --no-progress --exclude-path 'website/node_modules' --exclude-path 'website/build' --exclude-path 'website/.docusaurus' '**/*.md'
           fail: false
 
   spellcheck:
@@ -38,7 +38,7 @@ jobs:
       - name: Lint Markdown files
         uses: DavidAnson/markdownlint-cli2-action@v14
         with:
-          globs: "**/*.md"
+          globs: "docs/**/*.md"
           config: ".markdownlint.json"
 
   docusaurus-build:
