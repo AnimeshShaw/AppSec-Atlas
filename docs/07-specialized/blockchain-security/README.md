@@ -1,8 +1,22 @@
 ---
-title: "Blockchain & Smart Contract Security Guide"
-description: "Welcome to the Blockchain & Smart Contract Security Guide. This module dives deep into the complex world of Web3 security, exploring the unique threat..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Blockchain Security", "Readme.Md"]
+title: Blockchain & Smart Contract Security Guide
+description: Welcome to the Blockchain & Smart Contract Security Guide. This module
+  dives deep into the complex world of Web3 security, exploring the unique threat...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '07'
+- Specialized
+- Blockchain
+- Security
+- Readme
+- Md
+slug: /specialized/blockchain-security
 ---
+
 
 # Blockchain & Smart Contract Security Guide
 

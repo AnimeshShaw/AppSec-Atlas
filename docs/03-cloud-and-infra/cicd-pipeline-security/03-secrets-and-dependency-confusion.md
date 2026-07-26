@@ -1,8 +1,26 @@
 ---
-title: "03. Secrets Management & Dependency Supply Chain"
-description: "Prevent pipeline secret leaks with TruffleHog and master mitigations for dependency confusion, typosquatting, and lockfile tampering across npm, PyPI, Go, and Maven."
-keywords: ["AppSec", "Cybersecurity", "CI/CD Secrets", "Dependency Confusion", "TruffleHog", "npm Security", "PyPI Security", "Lockfile Poisoning"]
+title: 03. Secrets Management & Dependency Supply Chain
+description: Prevent pipeline secret leaks with TruffleHog and master mitigations
+  for dependency confusion, typosquatting, and lockfile tampering across npm, PyPI,
+  Go, and Maven.
+keywords:
+- AppSec
+- Cybersecurity
+- CI
+- CD
+- Secrets
+- Dependency
+- Confusion
+- TruffleHog
+- npm
+- Security
+- PyPI
+- Security
+- Lockfile
+- Poisoning
+slug: /cloud-and-infra/cicd-pipeline-security/secrets-and-dependency-confusion
 ---
+
 
 # 03. Secrets Management & Dependency Supply Chain
 

@@ -1,8 +1,25 @@
 ---
-title: "07. Hands-On Vulnerability Lab"
-description: "Self-contained, runnable Python laboratory featuring a vulnerable Flask API, automated exploit suite (IDOR, SQLi, SSRF), and verified secure fixes."
-keywords: ["AppSec", "Hands-on Lab", "Flask", "Python", "IDOR Exploit", "SQLi Exploit", "SSRF Exploit", "Secure Coding Lab"]
+title: 07. Hands-On Vulnerability Lab
+description: Self-contained, runnable Python laboratory featuring a vulnerable Flask
+  API, automated exploit suite (IDOR, SQLi, SSRF), and verified secure fixes.
+keywords:
+- AppSec
+- Hands-on
+- Lab
+- Flask
+- Python
+- IDOR
+- Exploit
+- SQLi
+- Exploit
+- SSRF
+- Exploit
+- Secure
+- Coding
+- Lab
+slug: /foundational/owasp-top-10/hands-on-lab
 ---
+
 
 # 07. Hands-On Vulnerability Lab
 

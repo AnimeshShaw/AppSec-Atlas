@@ -1,8 +1,27 @@
 ---
-title: "03 - CloudFormation and Bicep Hardening Masterclass"
-description: "Master security hardening for AWS CloudFormation and Azure Bicep: dynamic secret references, NoEcho parameter protection, Stack policies, @secure decorators, Key Vault integration, and Managed Identities."
-keywords: ["AWS CloudFormation", "Azure Bicep", "ARM Templates", "CloudFormation Security", "Bicep Security", "Key Vault", "Secrets Manager", "NoEcho"]
+title: 03 - CloudFormation and Bicep Hardening Masterclass
+description: 'Master security hardening for AWS CloudFormation and Azure Bicep: dynamic
+  secret references, NoEcho parameter protection, Stack policies, @secure decorators,
+  Key Vault integration, and Managed Identities.'
+keywords:
+- AWS
+- CloudFormation
+- Azure
+- Bicep
+- ARM
+- Templates
+- CloudFormation
+- Security
+- Bicep
+- Security
+- Key
+- Vault
+- Secrets
+- Manager
+- NoEcho
+slug: /cloud-and-infra/iac-security/cloudformation-and-bicep
 ---
+
 
 # 03 - CloudFormation and Bicep Hardening Masterclass
 

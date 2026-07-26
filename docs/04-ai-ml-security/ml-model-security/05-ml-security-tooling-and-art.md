@@ -1,8 +1,26 @@
 ---
-title: "05. Automated ML Security Tooling & Evaluation Frameworks"
-description: "Comprehensive guide to automating ML security audits using the Linux Foundation Adversarial Robustness Toolbox (ART), Microsoft Counterfit, picklescan, modelscan, and CI/CD security pipelines."
-keywords: ["ART", "Adversarial Robustness Toolbox", "Microsoft Counterfit", "Picklescan", "Modelscan", "Fickling", "MLSecOps", "CI/CD ML Security"]
+title: 05. Automated ML Security Tooling & Evaluation Frameworks
+description: Comprehensive guide to automating ML security audits using the Linux
+  Foundation Adversarial Robustness Toolbox (ART), Microsoft Counterfit, picklescan,
+  modelscan, and CI/CD security pipelines.
+keywords:
+- ART
+- Adversarial
+- Robustness
+- Toolbox
+- Microsoft
+- Counterfit
+- Picklescan
+- Modelscan
+- Fickling
+- MLSecOps
+- CI
+- CD
+- ML
+- Security
+slug: /ai-ml-security/ml-model-security/ml-security-tooling-and-art
 ---
+
 
 # 05. Automated ML Security Tooling & Evaluation Frameworks
 

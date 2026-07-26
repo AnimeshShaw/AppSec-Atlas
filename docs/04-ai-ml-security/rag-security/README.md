@@ -1,8 +1,33 @@
 ---
-title: "Retrieval-Augmented Generation (RAG) Security Guide"
-description: "Master Retrieval-Augmented Generation (RAG) security: threat modeling, indirect prompt injection, vector database multi-tenancy, data poisoning, and retrieval guardrails."
-keywords: ["AppSec", "AI Security", "RAG Security", "Indirect Prompt Injection", "Vector Database Security", "Data Poisoning", "LangChain", "LlamaIndex", "Pinecone", "Qdrant", "OWASP LLM Top 10"]
+title: Retrieval-Augmented Generation (RAG) Security Guide
+description: 'Master Retrieval-Augmented Generation (RAG) security: threat modeling,
+  indirect prompt injection, vector database multi-tenancy, data poisoning, and retrieval
+  guardrails.'
+keywords:
+- AppSec
+- AI
+- Security
+- RAG
+- Security
+- Indirect
+- Prompt
+- Injection
+- Vector
+- Database
+- Security
+- Data
+- Poisoning
+- LangChain
+- LlamaIndex
+- Pinecone
+- Qdrant
+- OWASP
+- LLM
+- Top
+- '10'
+slug: /ai-ml-security/rag-security
 ---
+
 
 # Retrieval-Augmented Generation (RAG) Security Guide
 

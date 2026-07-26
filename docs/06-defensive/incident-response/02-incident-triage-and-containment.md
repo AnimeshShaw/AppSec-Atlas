@@ -1,8 +1,26 @@
 ---
-title: "02 - Incident Triage and Containment"
-description: "When an alert fires or an incident is reported, the immediate goals are to determine its validity, scope the impact, and stop the adversary from movin..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Incident Response", "02 Incident Triage And Containment.Md"]
+title: 02 - Incident Triage and Containment
+description: When an alert fires or an incident is reported, the immediate goals are
+  to determine its validity, scope the impact, and stop the adversary from movin...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '06'
+- Defensive
+- Incident
+- Response
+- '02'
+- Incident
+- Triage
+- And
+- Containment
+- Md
+slug: /defensive/incident-response/incident-triage-and-containment
 ---
+
 
 # 02 - Incident Triage and Containment
 

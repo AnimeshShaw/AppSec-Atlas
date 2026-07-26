@@ -1,8 +1,28 @@
 ---
-title: "04 - Extension Data Storage and Web Requests"
-description: "Extensions often need to store user preferences or authentication tokens."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Browser Extension Security", "04 Extension Data Storage And Web Requests.Md"]
+title: 04 - Extension Data Storage and Web Requests
+description: Extensions often need to store user preferences or authentication tokens.
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '07'
+- Specialized
+- Browser
+- Extension
+- Security
+- '04'
+- Extension
+- Data
+- Storage
+- And
+- Web
+- Requests
+- Md
+slug: /specialized/browser-extension-security/extension-data-storage-and-web-requests
 ---
+
 
 # 04 - Extension Data Storage and Web Requests
 

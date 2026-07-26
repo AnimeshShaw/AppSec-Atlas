@@ -1,8 +1,22 @@
 ---
-title: "Hardware Security Basics"
-description: "Welcome to the **Hardware Security Basics** guide. This module dives into the physical layers of security, exploring how hardware architectures can be..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Hardware Security", "Readme.Md"]
+title: Hardware Security Basics
+description: Welcome to the **Hardware Security Basics** guide. This module dives
+  into the physical layers of security, exploring how hardware architectures can be...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '07'
+- Specialized
+- Hardware
+- Security
+- Readme
+- Md
+slug: /specialized/hardware-security
 ---
+
 
 # Hardware Security Basics
 

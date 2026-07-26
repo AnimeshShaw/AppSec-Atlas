@@ -1,8 +1,24 @@
 ---
-title: "01 - Introduction to Logging & SIEM"
-description: "In modern application security, **visibility is survival**. If an attacker breaches your system and you have no logs, you have no way to detect the in..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Logging And Monitoring", "01 Introduction.Md"]
+title: 01 - Introduction to Logging & SIEM
+description: In modern application security, **visibility is survival**. If an attacker
+  breaches your system and you have no logs, you have no way to detect the in...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '06'
+- Defensive
+- Logging
+- And
+- Monitoring
+- '01'
+- Introduction
+- Md
+slug: /defensive/logging-and-monitoring/introduction
 ---
+
 
 # 01 - Introduction to Logging & SIEM
 

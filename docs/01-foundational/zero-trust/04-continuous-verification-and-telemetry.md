@@ -1,8 +1,25 @@
 ---
-title: "Continuous Verification and Telemetry"
-description: "Master continuous session evaluation, real-time risk engines, CAEP/SSF event protocols, instant token revocation, and OpenTelemetry logging pipelines."
-keywords: ["Continuous Verification", "CAEP", "OpenID SSF", "Risk Engine", "Session Revocation", "OpenTelemetry", "eBPF Telemetry", "SIEM", "SOAR"]
+title: Continuous Verification and Telemetry
+description: Master continuous session evaluation, real-time risk engines, CAEP/SSF
+  event protocols, instant token revocation, and OpenTelemetry logging pipelines.
+keywords:
+- Continuous
+- Verification
+- CAEP
+- OpenID
+- SSF
+- Risk
+- Engine
+- Session
+- Revocation
+- OpenTelemetry
+- eBPF
+- Telemetry
+- SIEM
+- SOAR
+slug: /foundational/zero-trust/continuous-verification-and-telemetry
 ---
+
 
 # Continuous Verification and Telemetry
 
@@ -213,7 +230,7 @@ func TelemetryMiddleware(next http.Handler) http.Handler {
 | Challenge / Edge Case | Failure Scenario | Operational Mitigation |
 | :--- | :--- | :--- |
 | **Network Switching False Positives** | Executive switches from office Wi-Fi to cellular 5G, triggering an IP anomaly alert and abrupt logouts. | Configure risk engine to require **Multi-Factor Anomaly Signals** (IP shift + EDR threat + device change) before hard revocation. |
-| **Redis Cache Outage** | PEP cannot verify token revocation status if distributed cache goes down. | Implement **Fail-Closed Fallback** with short local TTL memory caches (`$15-30\text{ seconds}$`). |
+| **Redis Cache Outage** | PEP cannot verify token revocation status if distributed cache goes down. | Implement **Fail-Closed Fallback** with short local TTL memory caches (`15-30 seconds`). |
 | **High-Volume Telemetry Bottleneck** | Logging every single microservice L7 call exhausts SIEM ingestion budgets. | Use eBPF sampling (e.g., Cilium Hubble) to log 100% of DENY events, but sample 5-10% of high-frequency ALLOW traffic. |
 
 > [!TIP]

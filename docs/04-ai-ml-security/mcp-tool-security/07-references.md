@@ -1,8 +1,31 @@
 ---
-title: "07 - MCP Security References & Standards"
-description: "Comprehensive references, specifications, OWASP benchmarks, CVE links, container sandboxing documentation, and academic research papers on Model Context Protocol security."
-keywords: ["MCP References", "Model Context Protocol Spec", "OWASP LLM Top 10", "JSON-RPC 2.0", "NIST AI RMF", "gVisor Documentation", "AppSec"]
+title: 07 - MCP Security References & Standards
+description: Comprehensive references, specifications, OWASP benchmarks, CVE links,
+  container sandboxing documentation, and academic research papers on Model Context
+  Protocol security.
+keywords:
+- MCP
+- References
+- Model
+- Context
+- Protocol
+- Spec
+- OWASP
+- LLM
+- Top
+- '10'
+- JSON-RPC
+- '2'
+- '0'
+- NIST
+- AI
+- RMF
+- gVisor
+- Documentation
+- AppSec
+slug: /ai-ml-security/mcp-tool-security/references
 ---
+
 
 # 07 - MCP Security References & Standards
 

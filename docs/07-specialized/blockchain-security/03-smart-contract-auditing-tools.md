@@ -1,8 +1,27 @@
 ---
-title: "Chapter 3: Smart Contract Auditing Tools"
-description: "Automated tools are essential for identifying low-hanging fruit and complex edge cases in smart contracts. They fall into several categories: static a..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Blockchain Security", "03 Smart Contract Auditing Tools.Md"]
+title: 'Chapter 3: Smart Contract Auditing Tools'
+description: 'Automated tools are essential for identifying low-hanging fruit and
+  complex edge cases in smart contracts. They fall into several categories: static
+  a...'
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '07'
+- Specialized
+- Blockchain
+- Security
+- '03'
+- Smart
+- Contract
+- Auditing
+- Tools
+- Md
+slug: /specialized/blockchain-security/smart-contract-auditing-tools
 ---
+
 
 # Chapter 3: Smart Contract Auditing Tools
 

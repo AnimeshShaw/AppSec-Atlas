@@ -1,8 +1,26 @@
 ---
-title: "06 - Hands-on Lab: Vulnerable MV3 Extension"
-description: "In this lab, you'll exploit a DOM XSS vulnerability in a Manifest V3 extension, then fix it."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Browser Extension Security", "06 Hands On Lab.Md"]
+title: '06 - Hands-on Lab: Vulnerable MV3 Extension'
+description: In this lab, you'll exploit a DOM XSS vulnerability in a Manifest V3
+  extension, then fix it.
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '07'
+- Specialized
+- Browser
+- Extension
+- Security
+- '06'
+- Hands
+- 'On'
+- Lab
+- Md
+slug: /specialized/browser-extension-security/hands-on-lab
 ---
+
 
 # 06 - Hands-on Lab: Vulnerable MV3 Extension
 

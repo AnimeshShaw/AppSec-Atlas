@@ -1,8 +1,31 @@
 ---
-title: "Cloud Security Fundamentals Guide"
-description: "Master multi-cloud security architecture across AWS, Azure, and GCP. Learn IAM least privilege, storage hardening, IMDSv2 enforcement, CSPM automation, and cloud incident response."
-keywords: ["Cloud Security", "AWS Security", "Azure Security", "GCP Security", "IAM Least Privilege", "S3 Hardening", "IMDSv2", "CSPM", "Cloud Incident Response", "AppSec"]
+title: Cloud Security Fundamentals Guide
+description: Master multi-cloud security architecture across AWS, Azure, and GCP.
+  Learn IAM least privilege, storage hardening, IMDSv2 enforcement, CSPM automation,
+  and cloud incident response.
+keywords:
+- Cloud
+- Security
+- AWS
+- Security
+- Azure
+- Security
+- GCP
+- Security
+- IAM
+- Least
+- Privilege
+- S3
+- Hardening
+- IMDSv2
+- CSPM
+- Cloud
+- Incident
+- Response
+- AppSec
+slug: /cloud-and-infra/cloud-security
 ---
+
 
 # Cloud Security Fundamentals Guide
 

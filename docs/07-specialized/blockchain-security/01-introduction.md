@@ -1,8 +1,23 @@
 ---
-title: "Chapter 1: Introduction to Blockchain & Smart Contract Security"
-description: "A blockchain is a decentralized, distributed ledger maintained by a network of nodes. Ethereum introduced the concept of a Turing-complete state machi..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Blockchain Security", "01 Introduction.Md"]
+title: 'Chapter 1: Introduction to Blockchain & Smart Contract Security'
+description: A blockchain is a decentralized, distributed ledger maintained by a network
+  of nodes. Ethereum introduced the concept of a Turing-complete state machi...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '07'
+- Specialized
+- Blockchain
+- Security
+- '01'
+- Introduction
+- Md
+slug: /specialized/blockchain-security/introduction
 ---
+
 
 # Chapter 1: Introduction to Blockchain & Smart Contract Security
 

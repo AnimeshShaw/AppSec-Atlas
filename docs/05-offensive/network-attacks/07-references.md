@@ -1,8 +1,22 @@
 ---
-title: "07 - References"
-description: "Comprehensive security guide and practical technical implementation handbook."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Network Attacks", "07 References.Md"]
+title: 07 - References
+description: Comprehensive security guide and practical technical implementation handbook.
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '05'
+- Offensive
+- Network
+- Attacks
+- '07'
+- References
+- Md
+slug: /offensive/network-attacks/references
 ---
+
 
 # 07 - References
 

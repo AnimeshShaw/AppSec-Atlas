@@ -1,8 +1,32 @@
 ---
-title: "06. Hands-On Lab: Exploiting & Securing a Modern React SPA"
-description: "Step-by-step hands-on vulnerability lab demonstrating DOM XSS token theft from LocalStorage, automated data exfiltration, and multi-layered remediation using DOMPurify, Strict CSP, and HttpOnly cookies."
-keywords: ["AppSec", "Cybersecurity", "Hands-On Lab", "DOM XSS Exploit", "Token Exfiltration", "LocalStorage Exploit", "DOMPurify", "Strict CSP", "HttpOnly Cookie Fix", "Python Verification Script"]
+title: '06. Hands-On Lab: Exploiting & Securing a Modern React SPA'
+description: Step-by-step hands-on vulnerability lab demonstrating DOM XSS token theft
+  from LocalStorage, automated data exfiltration, and multi-layered remediation using
+  DOMPurify, Strict CSP, and HttpOnly cookies.
+keywords:
+- AppSec
+- Cybersecurity
+- Hands-On
+- Lab
+- DOM
+- XSS
+- Exploit
+- Token
+- Exfiltration
+- LocalStorage
+- Exploit
+- DOMPurify
+- Strict
+- CSP
+- HttpOnly
+- Cookie
+- Fix
+- Python
+- Verification
+- Script
+slug: /web-and-api/frontend-security/hands-on-lab
 ---
+
 
 # 06. Hands-On Lab: Exploiting & Securing a Modern React SPA
 

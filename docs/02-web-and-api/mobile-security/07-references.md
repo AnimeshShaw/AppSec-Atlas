@@ -1,8 +1,24 @@
 ---
-title: "07 - References & Resources"
-description: "Comprehensive catalog of industry standards, OWASP MASVS 2.0 mapping, official Apple/Android security documentation, open-source tooling, and historical mobile vulnerability case studies."
-keywords: ["OWASP MASVS", "MASTG", "Android Security", "Apple Platform Security", "Stagefright", "Pegasus", "XcodeGhost", "AppSec"]
+title: 07 - References & Resources
+description: Comprehensive catalog of industry standards, OWASP MASVS 2.0 mapping,
+  official Apple/Android security documentation, open-source tooling, and historical
+  mobile vulnerability case studies.
+keywords:
+- OWASP
+- MASVS
+- MASTG
+- Android
+- Security
+- Apple
+- Platform
+- Security
+- Stagefright
+- Pegasus
+- XcodeGhost
+- AppSec
+slug: /web-and-api/mobile-security/references
 ---
+
 
 # 07 - References & Resources
 

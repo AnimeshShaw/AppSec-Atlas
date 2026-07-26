@@ -1,8 +1,23 @@
 ---
-title: "01 - Introduction to Hardware Security"
-description: "Hardware is the foundation upon which all software security relies. If the hardware can be physically manipulated to extract keys or bypass logic, all..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Hardware Security", "01 Introduction.Md"]
+title: 01 - Introduction to Hardware Security
+description: Hardware is the foundation upon which all software security relies. If
+  the hardware can be physically manipulated to extract keys or bypass logic, all...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '07'
+- Specialized
+- Hardware
+- Security
+- '01'
+- Introduction
+- Md
+slug: /specialized/hardware-security/introduction
 ---
+
 
 # 01 - Introduction to Hardware Security
 

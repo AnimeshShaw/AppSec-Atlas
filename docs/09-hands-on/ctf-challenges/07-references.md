@@ -1,8 +1,24 @@
 ---
-title: "References & Further Practice"
-description: "Once you have mastered the local CTF challenges, continue your practice with these industry-standard vulnerable applications:"
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "09 Hands On", "Ctf Challenges", "07 References.Md"]
+title: References & Further Practice
+description: 'Once you have mastered the local CTF challenges, continue your practice
+  with these industry-standard vulnerable applications:'
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- 09
+- Hands
+- 'On'
+- Ctf
+- Challenges
+- '07'
+- References
+- Md
+slug: /hands-on/ctf-challenges/references
 ---
+
 
 # References & Further Practice
 

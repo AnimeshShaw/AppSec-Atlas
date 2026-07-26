@@ -1,8 +1,24 @@
 ---
-title: "07 References"
-description: "Comprehensive security guide and practical technical implementation handbook."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "09 Hands On", "Code Review Guide", "07 References.Md"]
+title: 07 References
+description: Comprehensive security guide and practical technical implementation handbook.
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- 09
+- Hands
+- 'On'
+- Code
+- Review
+- Guide
+- '07'
+- References
+- Md
+slug: /hands-on/code-review-guide/references
 ---
+
 
 # 07 References
 

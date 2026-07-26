@@ -1,8 +1,32 @@
 ---
-title: "02. Modern Framework Security & DOM-Based Vulnerabilities"
-description: "Master security mechanisms, dangerous escape hatches, and mitigation techniques in React, Vue, Angular, Svelte, Client-Side Prototype Pollution, and the Trusted Types API."
-keywords: ["AppSec", "Cybersecurity", "React Security", "Vue Security", "Angular Security", "Svelte Security", "dangerouslySetInnerHTML", "v-html", "DomSanitizer", "Prototype Pollution", "Trusted Types API", "DOM XSS"]
+title: 02. Modern Framework Security & DOM-Based Vulnerabilities
+description: Master security mechanisms, dangerous escape hatches, and mitigation
+  techniques in React, Vue, Angular, Svelte, Client-Side Prototype Pollution, and
+  the Trusted Types API.
+keywords:
+- AppSec
+- Cybersecurity
+- React
+- Security
+- Vue
+- Security
+- Angular
+- Security
+- Svelte
+- Security
+- dangerouslySetInnerHTML
+- v-html
+- DomSanitizer
+- Prototype
+- Pollution
+- Trusted
+- Types
+- API
+- DOM
+- XSS
+slug: /web-and-api/frontend-security/modern-framework-security
 ---
+
 
 # 02. Modern Framework Security & DOM-Based Vulnerabilities
 

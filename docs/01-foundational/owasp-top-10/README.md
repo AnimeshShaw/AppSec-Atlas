@@ -1,8 +1,28 @@
 ---
-title: "OWASP Top 10 Deep Dive"
-description: "Comprehensive guide to the OWASP Top 10 web application security risks, detailing root causes, multi-language code vulnerabilities, automated SAST/DAST defenses, and hands-on labs."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "OWASP Top 10", "Web Security", "SAST", "DAST", "IDOR", "SQLi", "SSRF", "Cryptographic Failures"]
+title: OWASP Top 10 Deep Dive
+description: Comprehensive guide to the OWASP Top 10 web application security risks,
+  detailing root causes, multi-language code vulnerabilities, automated SAST/DAST
+  defenses, and hands-on labs.
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- OWASP
+- Top
+- '10'
+- Web
+- Security
+- SAST
+- DAST
+- IDOR
+- SQLi
+- SSRF
+- Cryptographic
+- Failures
+slug: /foundational/owasp-top-10
 ---
+
 
 # OWASP Top 10 Deep Dive
 

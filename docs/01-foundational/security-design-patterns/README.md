@@ -1,8 +1,32 @@
 ---
-title: "Security Design Patterns"
-description: "Master architectural security design principles, core resilience patterns, cryptographic data patterns, microservice security, threat modeling, and hands-on secure refactoring."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Architectural Patterns", "01 Foundational", "Security Design Patterns", "STRIDE", "Circuit Breaker", "Envelope Encryption", "Zero Trust", "mTLS", "SPIFFE"]
+title: Security Design Patterns
+description: Master architectural security design principles, core resilience patterns,
+  cryptographic data patterns, microservice security, threat modeling, and hands-on
+  secure refactoring.
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Architectural
+- Patterns
+- '01'
+- Foundational
+- Security
+- Design
+- Patterns
+- STRIDE
+- Circuit
+- Breaker
+- Envelope
+- Encryption
+- Zero
+- Trust
+- mTLS
+- SPIFFE
+slug: /foundational/security-design-patterns
 ---
+
 
 # 🛡️ Security Design Patterns & Architectural Resilience
 

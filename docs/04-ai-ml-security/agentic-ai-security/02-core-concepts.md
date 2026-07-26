@@ -1,8 +1,27 @@
 ---
-title: "02. Core Concepts & Attack Vectors"
-description: "Master the technical mechanics of Excessive Agency, Tool Hijacking, Indirect Injection in Agent Loops, Multi-Agent Cascades, and Memory Poisoning."
-keywords: ["AppSec", "Agentic AI", "Tool Hijacking", "Indirect Injection", "Multi-Agent Security", "Memory Poisoning", "Excessive Agency", "ReAct Attack Mechanics"]
+title: 02. Core Concepts & Attack Vectors
+description: Master the technical mechanics of Excessive Agency, Tool Hijacking, Indirect
+  Injection in Agent Loops, Multi-Agent Cascades, and Memory Poisoning.
+keywords:
+- AppSec
+- Agentic
+- AI
+- Tool
+- Hijacking
+- Indirect
+- Injection
+- Multi-Agent
+- Security
+- Memory
+- Poisoning
+- Excessive
+- Agency
+- ReAct
+- Attack
+- Mechanics
+slug: /ai-ml-security/agentic-ai-security/core-concepts
 ---
+
 
 # 02. Core Concepts & Attack Vectors
 

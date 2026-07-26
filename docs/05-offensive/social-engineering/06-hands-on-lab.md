@@ -1,8 +1,25 @@
 ---
-title: "06. Hands-On Vulnerability Lab"
-description: "In this hands-on lab, you will write a **Python Email Header & DMARC Audit Tool** to detect spoofed inbound emails, parse SPF/DKIM headers, and implem..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Social Engineering", "06 Hands On Lab.Md"]
+title: 06. Hands-On Vulnerability Lab
+description: In this hands-on lab, you will write a **Python Email Header & DMARC
+  Audit Tool** to detect spoofed inbound emails, parse SPF/DKIM headers, and implem...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '05'
+- Offensive
+- Social
+- Engineering
+- '06'
+- Hands
+- 'On'
+- Lab
+- Md
+slug: /offensive/social-engineering/hands-on-lab
 ---
+
 
 # 06. Hands-On Vulnerability Lab
 

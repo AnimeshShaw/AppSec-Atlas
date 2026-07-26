@@ -1,9 +1,30 @@
 ---
-title: "06. Hands-On Vulnerability Lab: Container Breakout & Hardening"
-description: "Hands-on vulnerability lab: Audit a vulnerable Kubernetes pod, execute a container breakout exploit to gain host root access, capture Falco alerts, and deploy a hardened remediation."
-keywords: ["container breakout lab", "kubernetes lab", "privilege escalation", "mknod mount exploit", "falco alert verification", "pod security context", "appsec"]
+title: '06. Hands-On Vulnerability Lab: Container Breakout & Hardening'
+description: 'Hands-on vulnerability lab: Audit a vulnerable Kubernetes pod, execute
+  a container breakout exploit to gain host root access, capture Falco alerts, and
+  deploy a hardened remediation.'
+keywords:
+- container
+- breakout
+- lab
+- kubernetes
+- lab
+- privilege
+- escalation
+- mknod
+- mount
+- exploit
+- falco
+- alert
+- verification
+- pod
+- security
+- context
+- appsec
 sidebar_position: 7
+slug: /cloud-and-infra/container-kubernetes/hands-on-lab
 ---
+
 
 # 06. Hands-On Vulnerability Lab: Container Breakout & Hardening
 

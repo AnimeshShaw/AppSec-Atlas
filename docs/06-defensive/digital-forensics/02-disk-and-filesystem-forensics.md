@@ -1,17 +1,34 @@
 ---
-title: "02 - Disk and Filesystem Forensics"
-description: "Creating a bit-for-bit copy of a storage medium."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Digital Forensics", "02 Disk And Filesystem Forensics.Md"]
+title: 02 - Disk and Filesystem Forensics
+description: Creating a bit-for-bit copy of a storage medium.
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '06'
+- Defensive
+- Digital
+- Forensics
+- '02'
+- Disk
+- And
+- Filesystem
+- Forensics
+- Md
+slug: /defensive/digital-forensics/disk-and-filesystem-forensics
 ---
+
 
 # 02 - Disk and Filesystem Forensics
 
 ## File System Artifacts
 
 ### NTFS (Windows)
-- **`$MFT (Master File Table):** The core of NTFS. Every file and directory on an NTFS volume has at least one entry in the $`MFT.
-- **LogFile ($LogFile):** A journal that records metadata changes to the volume, useful for recovering deleted file information.
-- **USN Journal (`$Extend\$`UsnJrnl):** Maintains a record of changes made to files on the volume (e.g., creations, deletions, modifications).
+- **`$MFT` (Master File Table):** The core of NTFS. Every file and directory on an NTFS volume has at least one entry in the `$MFT`.
+- **`$LogFile`:** A journal that records metadata changes to the volume, useful for recovering deleted file information.
+- **USN Journal (`$Extend\$UsnJrnl`):** Maintains a record of changes made to files on the volume (e.g., creations, deletions, modifications).
 
 ### EXT4 (Linux)
 - **Inodes:** Data structures that store metadata about files, directories, and other file system objects.

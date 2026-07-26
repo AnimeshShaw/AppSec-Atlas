@@ -1,8 +1,23 @@
 ---
-title: "01. Overview & PTES / OWASP WSTG Standards"
-description: "Professional penetration testing follows structured methodology frameworks to ensure thorough coverage and legal compliance."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Penetration Testing", "01 Introduction.Md"]
+title: 01. Overview & PTES / OWASP WSTG Standards
+description: Professional penetration testing follows structured methodology frameworks
+  to ensure thorough coverage and legal compliance.
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '05'
+- Offensive
+- Penetration
+- Testing
+- '01'
+- Introduction
+- Md
+slug: /offensive/penetration-testing/introduction
 ---
+
 
 # 01. Overview & PTES / OWASP WSTG Standards
 

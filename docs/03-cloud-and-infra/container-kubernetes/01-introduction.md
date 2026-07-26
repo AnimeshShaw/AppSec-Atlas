@@ -1,9 +1,27 @@
 ---
-title: "01. Linux Isolation Primitives & Container Threat Architecture"
-description: "Understand the core Linux kernel isolation primitives powering container security: Namespaces, cgroups, Capabilities, and Seccomp filtering, along with container escape vectors."
-keywords: ["linux namespaces", "cgroups", "linux capabilities", "seccomp", "container isolation", "kernel security", "cap_sys_admin", "container breakout", "appsec"]
+title: 01. Linux Isolation Primitives & Container Threat Architecture
+description: 'Understand the core Linux kernel isolation primitives powering container
+  security: Namespaces, cgroups, Capabilities, and Seccomp filtering, along with container
+  escape vectors.'
+keywords:
+- linux
+- namespaces
+- cgroups
+- linux
+- capabilities
+- seccomp
+- container
+- isolation
+- kernel
+- security
+- cap_sys_admin
+- container
+- breakout
+- appsec
 sidebar_position: 2
+slug: /cloud-and-infra/container-kubernetes/introduction
 ---
+
 
 # 01. Overview & Linux Isolation Primitives
 

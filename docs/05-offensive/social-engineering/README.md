@@ -1,8 +1,23 @@
 ---
-title: "Social Engineering & Phishing Defense"
-description: "Social Engineering remains the most successful initial access vector for modern adversaries. By manipulating human psychology rather than exploiting t..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Social Engineering", "Readme.Md"]
+title: Social Engineering & Phishing Defense
+description: Social Engineering remains the most successful initial access vector
+  for modern adversaries. By manipulating human psychology rather than exploiting
+  t...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '05'
+- Offensive
+- Social
+- Engineering
+- Readme
+- Md
+slug: /offensive/social-engineering
 ---
+
 
 # Social Engineering & Phishing Defense
 

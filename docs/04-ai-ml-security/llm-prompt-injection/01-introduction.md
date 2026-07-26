@@ -1,8 +1,26 @@
 ---
-title: "01. Introduction to Prompt Injection"
-description: "Deep dive into LLM Prompt Injection (OWASP LLM01:2025): Direct, Indirect, and Multimodal attack vectors, architecture vulnerabilities, and business impact."
-keywords: ["AppSec", "LLM Security", "Prompt Injection", "OWASP LLM01", "Direct Injection", "Indirect Injection", "Multimodal Injection", "AI Vulnerability"]
+title: 01. Introduction to Prompt Injection
+description: 'Deep dive into LLM Prompt Injection (OWASP LLM01:2025): Direct, Indirect,
+  and Multimodal attack vectors, architecture vulnerabilities, and business impact.'
+keywords:
+- AppSec
+- LLM
+- Security
+- Prompt
+- Injection
+- OWASP
+- LLM01
+- Direct
+- Injection
+- Indirect
+- Injection
+- Multimodal
+- Injection
+- AI
+- Vulnerability
+slug: /ai-ml-security/llm-prompt-injection/introduction
 ---
+
 
 # 01. Introduction to Prompt Injection
 

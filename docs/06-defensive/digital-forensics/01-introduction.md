@@ -1,8 +1,23 @@
 ---
-title: "01 - Introduction to Digital Forensics"
-description: "Digital Forensics is the process of uncovering and interpreting electronic data. The goal is to preserve any evidence in its most original form while ..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Digital Forensics", "01 Introduction.Md"]
+title: 01 - Introduction to Digital Forensics
+description: Digital Forensics is the process of uncovering and interpreting electronic
+  data. The goal is to preserve any evidence in its most original form while ...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '06'
+- Defensive
+- Digital
+- Forensics
+- '01'
+- Introduction
+- Md
+slug: /defensive/digital-forensics/introduction
 ---
+
 
 # 01 - Introduction to Digital Forensics
 

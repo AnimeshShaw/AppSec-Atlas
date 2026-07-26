@@ -1,7 +1,13 @@
 ---
-title: "02 - Trust Services Criteria Deep Dive"
-description: "Comprehensive guide and best practices for 02 - Trust Services Criteria Deep Dive in the soc2-guide section of AppSec Atlas. Learn how to secure your infrastruc"
-keywords: ['soc2-guide', '02---trust-services-criteria-deep-dive', 'appsec', 'security', 'compliance']
+title: 02 - Trust Services Criteria Deep Dive
+description: Comprehensive guide and best practices for 02 - Trust Services Criteria
+  Deep Dive in the soc2-guide section of AppSec Atlas. Learn how to secure your infrastruc
+keywords:
+- soc2-guide
+- '02'
+slug: /compliance/soc2-guide/trust-services-criteria-deep-dive
+---
+trust-services-criteria-deep-dive', 'appsec', 'security', 'compliance']
 ---
 # 02 - Trust Services Criteria Deep Dive
 

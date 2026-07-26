@@ -1,8 +1,31 @@
 ---
-title: "05 - Post-Quantum Cryptography (PQC)"
-description: "Master the Post-Quantum Cryptography transition: Shor's and Grover's algorithms, NIST FIPS 203/204/205 standards (ML-KEM, ML-DSA, SLH-DSA), Hybrid Key Exchange, and Cryptographic Agility frameworks."
-keywords: ["AppSec", "Cryptography", "Post-Quantum Cryptography", "PQC", "Shor's Algorithm", "Grover's Algorithm", "FIPS 203", "ML-KEM", "ML-DSA", "Kyber", "Dilithium", "Hybrid TLS"]
+title: 05 - Post-Quantum Cryptography (PQC)
+description: 'Master the Post-Quantum Cryptography transition: Shor''s and Grover''s
+  algorithms, NIST FIPS 203/204/205 standards (ML-KEM, ML-DSA, SLH-DSA), Hybrid Key
+  Exchange, and Cryptographic Agility frameworks.'
+keywords:
+- AppSec
+- Cryptography
+- Post-Quantum
+- Cryptography
+- PQC
+- Shor
+- s
+- Algorithm
+- Grover
+- s
+- Algorithm
+- FIPS
+- '203'
+- ML-KEM
+- ML-DSA
+- Kyber
+- Dilithium
+- Hybrid
+- TLS
+slug: /foundational/cryptography/post-quantum-cryptography
 ---
+
 
 # 05 - Post-Quantum Cryptography (PQC)
 
@@ -26,7 +49,7 @@ Quantum computing leverages quantum mechanical phenomena—such as superposition
 ```
 
 ### 1. Shor's Algorithm: Exponential Speedup
-Shor's algorithm solves the Order-Finding Problem over finite abelian groups in polynomial time `$O((\log N)^3)$` using the Quantum Fourier Transform (QFT).
+Shor's algorithm solves the Order-Finding Problem over finite abelian groups in polynomial time `O((\log N)^3)` using the Quantum Fourier Transform (QFT).
 - **Impact**: Completely breaks all widely deployed public-key algorithms relying on Prime Factorization or Discrete Logarithms:
   - **RSA** (All key sizes)
   - **ECDSA** (secp256r1, secp256k1)
@@ -35,12 +58,12 @@ Shor's algorithm solves the Order-Finding Problem over finite abelian groups in 
 - **Timeline**: US National Security Memorandum 10 (NSM-10) mandates full migration of critical federal systems to post-quantum standards prior to **2035**.
 
 ### 2. Grover's Algorithm: Quadratic Speedup
-Grover's algorithm searches an unsorted database of `$N`$` items in `$`O(\sqrt{N})`$` quantum operations rather than `$`O(N)$` classical evaluations.
+Grover's algorithm searches an unsorted database of N items in O(sqrt(N)) quantum operations rather than O(N) classical evaluations.
 - **Impact**: Effectively halves the bit-security of symmetric ciphers and hash collision resistance:
-  - **AES-128**: Reduced to `$2^{64}`$` operations `$`\implies$` **Insecure**.
-  - **AES-256**: Reduced to `$2^{128}`$` operations `$`\implies$` **Completely Secure**.
-  - **SHA-256**: Collision resistance reduced to `$2^{128}`$` operations `$`\implies$` **Secure**.
-  - **SHA-384 / SHA-512**: `$\implies$` **Quantum Safe**.
+  - **AES-128**: Reduced to 2^64 operations — **Insecure**.
+  - **AES-256**: Reduced to 2^128 operations — **Completely Secure**.
+  - **SHA-256**: Collision resistance reduced to 2^128 operations — **Secure**.
+  - **SHA-384 / SHA-512**: — **Quantum Safe**.
 
 ---
 
@@ -122,4 +145,14 @@ Organizations must transition from static cryptographic implementations to **Cry
    - Issue dual-signed digital certificates (ECDSA + ML-DSA).
 4. **Phase 4: Deprecate Legacy Primitives**
    - Disable RSA-2048, SHA-1, and standalone ECDH across all internal and external communication endpoints.
+
+---
+
+## 🛠️ Open-Source PQC Tools & Libraries
+
+Accelerate your post-quantum migration using our companion open-source tools:
+
+- ⚛️ **[Quantum-Safe Py](https://github.com/AnimeshShaw/quantum-safe-py)**: Pure Python implementation library for NIST Post-Quantum Cryptography standards (ML-KEM, ML-DSA, SLH-DSA / Kyber & Dilithium).
+- 🔍 **[Quantum Safe Auditor](https://github.com/AnimeshShaw/quantum-safe-auditor)**: Automated SAST auditing scanner for detecting quantum-vulnerable algorithms (RSA, ECC, SHA-1) across codebase repositories and generating CBOM reports.
+
 

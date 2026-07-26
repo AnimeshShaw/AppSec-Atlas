@@ -1,9 +1,27 @@
 ---
-title: "06 - Hands-On Lab: Vulnerable Lambda & Remediation"
-description: "Complete, self-contained hands-on vulnerability lab featuring a vulnerable AWS SAM application, automated Python exploit script, step-by-step remediation, and verification tests."
-keywords: ["Serverless Lab", "AWS SAM Lab", "Lambda Exploit", "Command Injection Lab", "IAM Remediation", "AppSec Hands-On"]
-sidebar_label: "06 - Hands-On Lab"
+title: '06 - Hands-On Lab: Vulnerable Lambda & Remediation'
+description: Complete, self-contained hands-on vulnerability lab featuring a vulnerable
+  AWS SAM application, automated Python exploit script, step-by-step remediation,
+  and verification tests.
+keywords:
+- Serverless
+- Lab
+- AWS
+- SAM
+- Lab
+- Lambda
+- Exploit
+- Command
+- Injection
+- Lab
+- IAM
+- Remediation
+- AppSec
+- Hands-On
+sidebar_label: 06 - Hands-On Lab
+slug: /cloud-and-infra/serverless-security/hands-on-lab
 ---
+
 
 # 06 - Hands-On Lab: Vulnerable Lambda & Remediation
 

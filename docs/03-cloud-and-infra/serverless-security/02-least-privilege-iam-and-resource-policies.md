@@ -1,9 +1,30 @@
 ---
-title: "02 - Least Privilege IAM and Resource Policies"
-description: "Deep technical guide to IAM roles, permission boundaries, resource-based policies, condition keys, cross-account security, and Infrastructure-as-Code patterns."
-keywords: ["IAM Least Privilege", "Resource Policies", "AWS Lambda IAM", "Permission Boundaries", "Cross-Account Access", "AWS SAM", "Terraform IAM", "Serverless Framework"]
-sidebar_label: "02 - Least Privilege IAM"
+title: 02 - Least Privilege IAM and Resource Policies
+description: Deep technical guide to IAM roles, permission boundaries, resource-based
+  policies, condition keys, cross-account security, and Infrastructure-as-Code patterns.
+keywords:
+- IAM
+- Least
+- Privilege
+- Resource
+- Policies
+- AWS
+- Lambda
+- IAM
+- Permission
+- Boundaries
+- Cross-Account
+- Access
+- AWS
+- SAM
+- Terraform
+- IAM
+- Serverless
+- Framework
+sidebar_label: 02 - Least Privilege IAM
+slug: /cloud-and-infra/serverless-security/least-privilege-iam-and-resource-policies
 ---
+
 
 # 02 - Least Privilege IAM and Resource Policies
 

@@ -1,8 +1,29 @@
 ---
-title: "06. Hands-On Audit Lab: PyTorch Model Security & Hardening"
-description: "Self-contained hands-on lab: audit a PyTorch fraud detection model, execute FGSM/PGD evasion attacks, clean-label data poisoning, and model extraction, and apply PGD adversarial training, spectral sanitization, and secure API hardening."
-keywords: ["PyTorch Lab", "Model Security Lab", "Adversarial Training Lab", "FGSM Exploit", "Data Poisoning Exploit", "FastAPI Hardening", "Safetensors Lab"]
+title: '06. Hands-On Audit Lab: PyTorch Model Security & Hardening'
+description: 'Self-contained hands-on lab: audit a PyTorch fraud detection model,
+  execute FGSM/PGD evasion attacks, clean-label data poisoning, and model extraction,
+  and apply PGD adversarial training, spectral sanitization, and secure API hardening.'
+keywords:
+- PyTorch
+- Lab
+- Model
+- Security
+- Lab
+- Adversarial
+- Training
+- Lab
+- FGSM
+- Exploit
+- Data
+- Poisoning
+- Exploit
+- FastAPI
+- Hardening
+- Safetensors
+- Lab
+slug: /ai-ml-security/ml-model-security/hands-on-lab
 ---
+
 
 # 06. Hands-On Audit Lab: PyTorch Model Security & Hardening
 

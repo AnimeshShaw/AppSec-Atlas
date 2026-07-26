@@ -1,8 +1,26 @@
 ---
-title: "05. Security Testing & Red Teaming Tools"
-description: "Automated AI red teaming frameworks, scanners, and guardrail evaluation tools: garak, PyRIT, promptfoo, Llama-Guard 3, and CI/CD security integration."
-keywords: ["AppSec", "AI Red Teaming", "garak Scanner", "PyRIT", "promptfoo", "Llama-Guard", "LLM Security Testing", "CI/CD Security"]
+title: 05. Security Testing & Red Teaming Tools
+description: 'Automated AI red teaming frameworks, scanners, and guardrail evaluation
+  tools: garak, PyRIT, promptfoo, Llama-Guard 3, and CI/CD security integration.'
+keywords:
+- AppSec
+- AI
+- Red
+- Teaming
+- garak
+- Scanner
+- PyRIT
+- promptfoo
+- Llama-Guard
+- LLM
+- Security
+- Testing
+- CI
+- CD
+- Security
+slug: /ai-ml-security/llm-prompt-injection/tools
 ---
+
 
 # 05. Security Testing & Red Teaming Tools
 

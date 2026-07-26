@@ -1,8 +1,25 @@
 ---
-title: "04 - MCP Sandbox Isolation & Container Security"
-description: "Production guide to isolating Model Context Protocol (MCP) servers using gVisor container runtimes, read-only filesystems, dropped Linux capabilities, seccomp profiles, and network microsegmentation."
-keywords: ["gVisor", "runsc", "Docker Security", "Sandbox Isolation", "Seccomp", "AppArmor", "Network Microsegmentation", "SSRF Defense", "AppSec"]
+title: 04 - MCP Sandbox Isolation & Container Security
+description: Production guide to isolating Model Context Protocol (MCP) servers using
+  gVisor container runtimes, read-only filesystems, dropped Linux capabilities, seccomp
+  profiles, and network microsegmentation.
+keywords:
+- gVisor
+- runsc
+- Docker
+- Security
+- Sandbox
+- Isolation
+- Seccomp
+- AppArmor
+- Network
+- Microsegmentation
+- SSRF
+- Defense
+- AppSec
+slug: /ai-ml-security/mcp-tool-security/mcp-sandbox-isolation
 ---
+
 
 # 04 - MCP Sandbox Isolation & Container Security
 

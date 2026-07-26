@@ -1,8 +1,26 @@
 ---
-title: "06 - Hands-On Lab: Dynamic Instrumentation & Security Remediation"
-description: "Step-by-step hands-on lab demonstrating dynamic vulnerability exploitation of a mobile application using Frida, followed by building a production-grade secure fix using Android KeyStore, BiometricPrompt, and server-side attestation."
-keywords: ["Frida Lab", "Mobile Security Lab", "Dynamic Instrumentation", "Android KeyStore", "Play Integrity API", "BiometricPrompt", "AppSec"]
+title: '06 - Hands-On Lab: Dynamic Instrumentation & Security Remediation'
+description: Step-by-step hands-on lab demonstrating dynamic vulnerability exploitation
+  of a mobile application using Frida, followed by building a production-grade secure
+  fix using Android KeyStore, BiometricPrompt, and server-side attestation.
+keywords:
+- Frida
+- Lab
+- Mobile
+- Security
+- Lab
+- Dynamic
+- Instrumentation
+- Android
+- KeyStore
+- Play
+- Integrity
+- API
+- BiometricPrompt
+- AppSec
+slug: /web-and-api/mobile-security/hands-on-lab
 ---
+
 
 # 06 - Hands-On Lab: Dynamic Instrumentation & Security Remediation
 

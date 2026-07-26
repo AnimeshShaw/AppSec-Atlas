@@ -1,7 +1,13 @@
 ---
-title: "01 - Introduction to SOC 2"
-description: "Comprehensive guide and best practices for 01 - Introduction to SOC 2 in the soc2-guide section of AppSec Atlas. Learn how to secure your infrastructure."
-keywords: ['soc2-guide', '01---introduction-to-soc-2', 'appsec', 'security', 'compliance']
+title: 01 - Introduction to SOC 2
+description: Comprehensive guide and best practices for 01 - Introduction to SOC 2
+  in the soc2-guide section of AppSec Atlas. Learn how to secure your infrastructure.
+keywords:
+- soc2-guide
+- '01'
+slug: /compliance/soc2-guide/introduction
+---
+introduction-to-soc-2', 'appsec', 'security', 'compliance']
 ---
 # 01 - Introduction to SOC 2
 

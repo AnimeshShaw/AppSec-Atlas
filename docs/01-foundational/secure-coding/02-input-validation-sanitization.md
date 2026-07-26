@@ -1,8 +1,23 @@
 ---
-title: "Chapter 2: Input Validation & Sanitization"
-description: "Master strict allowlisting, schema validation, canonicalization, and ReDoS prevention across Python, Node.js, Go, and Java."
-keywords: ["AppSec", "Input Validation", "Sanitization", "Pydantic", "Zod", "Go Validator", "Bean Validation", "Canonicalization", "ReDoS"]
+title: 'Chapter 2: Input Validation & Sanitization'
+description: Master strict allowlisting, schema validation, canonicalization, and
+  ReDoS prevention across Python, Node.js, Go, and Java.
+keywords:
+- AppSec
+- Input
+- Validation
+- Sanitization
+- Pydantic
+- Zod
+- Go
+- Validator
+- Bean
+- Validation
+- Canonicalization
+- ReDoS
+slug: /foundational/secure-coding/input-validation-sanitization
 ---
+
 
 # Chapter 2: Input Validation & Sanitization
 
@@ -110,7 +125,7 @@ except Exception as e:
 app.post('/register', (req, res) => {
     const { username, email, age } = req.body;
     // Trusting types blindly allows prototype pollution & injection
-    db.query(`INSERT INTO users VALUES ('`${username}', '`$`{email}', $`{age})`); 
+    db.query(`INSERT INTO users VALUES ('${username}', '$``{email}', ${age})`); 
 });
 ```
 

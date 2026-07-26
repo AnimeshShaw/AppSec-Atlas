@@ -1,19 +1,29 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+ai-security:
+  label: AI & ML Security
+  permalink: /ai-security
+  description: Deep dives into Prompt Injection, RAG Security, Agentic AI, MCP Safety, and LLM Guardrails.
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+appsec:
+  label: Application Security
+  permalink: /appsec
+  description: Vulnerability analysis, OWASP Top 10, secure coding patterns, and API security.
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+cloud-security:
+  label: Cloud Native & DevSecOps
+  permalink: /cloud-security
+  description: Container & Kubernetes security, Infrastructure as Code SAST, Secrets management, and CI/CD.
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+zero-trust:
+  label: Zero Trust Architecture
+  permalink: /zero-trust
+  description: SPIFFE/SPIRE workload attestation, PEP/PDP enforcement, and identity-centric networking.
+
+threat-research:
+  label: Threat Research
+  permalink: /threat-research
+  description: Adversarial stress testing, exploit mechanics, DFIR, and technical security analysis.
+
+red-teaming:
+  label: AI Red Teaming & Offensive Security
+  permalink: /red-teaming
+  description: Adversarial AI attacks, prompt injection exploits, and offensive security research.

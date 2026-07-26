@@ -1,8 +1,17 @@
 ---
-title: "Cross-Border Data Transfers and Consent"
-description: "Comprehensive guide and best practices for Cross-Border Data Transfers and Consent in the gdpr-technical section of AppSec Atlas. Learn how to secure your infra"
-keywords: ['gdpr-technical', 'cross-border-data-transfers-and-consent', 'appsec', 'security', 'compliance']
+title: Cross-Border Data Transfers and Consent
+description: Comprehensive guide and best practices for Cross-Border Data Transfers
+  and Consent in the gdpr-technical section of AppSec Atlas. Learn how to secure your
+  infra
+keywords:
+- gdpr-technical
+- cross-border-data-transfers-and-consent
+- appsec
+- security
+- compliance
+slug: /compliance/gdpr-technical/cross-border-data-transfers-and-consent
 ---
+
 # Cross-Border Data Transfers and Consent
 
 ## Cross-Border Data Transfers
@@ -66,7 +75,7 @@ app.post('/api/v1/consent/revoke', async (req, res) => {
     // Log the revocation in the audit trail
     await db.query(`
         INSERT INTO user_consents (user_id, consent_type, status)
-        VALUES (`$1, $`2, FALSE)
+        VALUES ($1, $2, FALSE)
     `, [userId, consentType]);
     
     // Trigger webhooks to stop third-party processing (e.g., remove from Mailchimp)

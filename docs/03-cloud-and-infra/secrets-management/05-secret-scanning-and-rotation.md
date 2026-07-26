@@ -1,10 +1,25 @@
 ---
-title: "05. Secret Detection, Prevention & Automated Rotation"
-description: "Implement pre-commit hooks, Gitleaks, and TruffleHog in CI/CD pipelines, execute git history purges, and build automated 4-state secret rotation workflows."
-keywords: ["gitleaks", "trufflehog", "secret scanning", "pre-commit", "secret rotation", "aws lambda rotation", "git-filter-repo", "appsec"]
-sidebar_label: "05. Scanning & Rotation"
+title: 05. Secret Detection, Prevention & Automated Rotation
+description: Implement pre-commit hooks, Gitleaks, and TruffleHog in CI/CD pipelines,
+  execute git history purges, and build automated 4-state secret rotation workflows.
+keywords:
+- gitleaks
+- trufflehog
+- secret
+- scanning
+- pre-commit
+- secret
+- rotation
+- aws
+- lambda
+- rotation
+- git-filter-repo
+- appsec
+sidebar_label: 05. Scanning & Rotation
 sidebar_position: 6
+slug: /cloud-and-infra/secrets-management/secret-scanning-and-rotation
 ---
+
 
 # 05. Secret Detection, Prevention & Automated Rotation
 

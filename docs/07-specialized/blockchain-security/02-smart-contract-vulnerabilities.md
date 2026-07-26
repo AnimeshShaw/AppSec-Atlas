@@ -1,8 +1,25 @@
 ---
-title: "Chapter 2: Smart Contract Vulnerabilities"
-description: "Reentrancy is arguably the most famous smart contract vulnerability, responsible for the 2016 DAO hack. It occurs when a contract calls an external un..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Blockchain Security", "02 Smart Contract Vulnerabilities.Md"]
+title: 'Chapter 2: Smart Contract Vulnerabilities'
+description: Reentrancy is arguably the most famous smart contract vulnerability,
+  responsible for the 2016 DAO hack. It occurs when a contract calls an external un...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '07'
+- Specialized
+- Blockchain
+- Security
+- '02'
+- Smart
+- Contract
+- Vulnerabilities
+- Md
+slug: /specialized/blockchain-security/smart-contract-vulnerabilities
 ---
+
 
 # Chapter 2: Smart Contract Vulnerabilities
 
@@ -62,7 +79,7 @@ contract Attacker {
 ## 2.2 Integer Overflow and Underflow
 Prior to Solidity 0.8.0, arithmetic operations would wrap around on overflow/underflow. An attacker could exploit this to drain funds or bypass checks.
 
-### Vulnerable Code Example (Solidity < 0.8.0)
+### Vulnerable Code Example (Solidity `< 0.8.0`)
 ```solidity
 pragma solidity ^0.7.6;
 

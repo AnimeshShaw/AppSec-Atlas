@@ -1,7 +1,13 @@
 ---
-title: "01 - Introduction to DevSecOps"
-description: "Comprehensive guide and best practices for 01 - Introduction to DevSecOps in the devsecops-handbook section of AppSec Atlas. Learn how to secure your infrastruc"
-keywords: ['devsecops-handbook', '01---introduction-to-devsecops', 'appsec', 'security', 'compliance']
+title: 01 - Introduction to DevSecOps
+description: Comprehensive guide and best practices for 01 - Introduction to DevSecOps
+  in the devsecops-handbook section of AppSec Atlas. Learn how to secure your infrastruc
+keywords:
+- devsecops-handbook
+- '01'
+slug: /compliance/devsecops-handbook/introduction
+---
+introduction-to-devsecops', 'appsec', 'security', 'compliance']
 ---
 # 01 - Introduction to DevSecOps
 

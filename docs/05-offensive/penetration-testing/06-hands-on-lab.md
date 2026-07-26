@@ -1,8 +1,25 @@
 ---
-title: "06. Hands-On Audit Lab"
-description: "In this hands-on lab, you will audit a **target Flask application**, run an automated Python audit script to discover security misconfigurations, calc..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Penetration Testing", "06 Hands On Lab.Md"]
+title: 06. Hands-On Audit Lab
+description: In this hands-on lab, you will audit a **target Flask application**,
+  run an automated Python audit script to discover security misconfigurations, calc...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '05'
+- Offensive
+- Penetration
+- Testing
+- '06'
+- Hands
+- 'On'
+- Lab
+- Md
+slug: /offensive/penetration-testing/hands-on-lab
 ---
+
 
 # 06. Hands-On Audit Lab
 

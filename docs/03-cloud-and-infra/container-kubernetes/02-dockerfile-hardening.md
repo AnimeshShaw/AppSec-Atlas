@@ -1,9 +1,27 @@
 ---
-title: "02. Hardened Dockerfiles & Image Security"
-description: "Master container image security: Multi-stage Dockerfiles, minimal distroless base images, non-root user execution, safe build secret handling, Trivy scanning, Hadolint linter, and Cosign image signing."
-keywords: ["dockerfile hardening", "multi-stage builds", "distroless", "non-root container", "trivy", "hadolint", "cosign", "container image security", "appsec"]
+title: 02. Hardened Dockerfiles & Image Security
+description: 'Master container image security: Multi-stage Dockerfiles, minimal distroless
+  base images, non-root user execution, safe build secret handling, Trivy scanning,
+  Hadolint linter, and Cosign image signing.'
+keywords:
+- dockerfile
+- hardening
+- multi-stage
+- builds
+- distroless
+- non-root
+- container
+- trivy
+- hadolint
+- cosign
+- container
+- image
+- security
+- appsec
 sidebar_position: 3
+slug: /cloud-and-infra/container-kubernetes/dockerfile-hardening
 ---
+
 
 # 02. Hardened Dockerfiles & Image Security
 

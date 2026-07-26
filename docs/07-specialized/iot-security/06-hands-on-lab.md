@@ -1,8 +1,25 @@
 ---
-title: "06. Hands-On Lab: Firmware Analyzer & Hardcoded Secret Detector"
-description: "In this lab, we will build a Python tool that simulates the process of extracting an IoT firmware image and statically analyzing it for hardcoded secr..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Iot Security", "06 Hands On Lab.Md"]
+title: '06. Hands-On Lab: Firmware Analyzer & Hardcoded Secret Detector'
+description: In this lab, we will build a Python tool that simulates the process of
+  extracting an IoT firmware image and statically analyzing it for hardcoded secr...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '07'
+- Specialized
+- Iot
+- Security
+- '06'
+- Hands
+- 'On'
+- Lab
+- Md
+slug: /specialized/iot-security/hands-on-lab
 ---
+
 
 # 06. Hands-On Lab: Firmware Analyzer & Hardcoded Secret Detector
 
@@ -39,7 +56,7 @@ def create_simulated_firmware(filename):
     # Create a vulnerable shadow file
     os.makedirs(os.path.join(temp_dir, "etc"), exist_ok=True)
     with open(os.path.join(temp_dir, "etc", "shadow"), "w") as f:
-        f.write("root:`$6`$`vulnerablehash$`qQ1...:18000:0:99999:7:::\n")
+        f.write("root:`$6$``vulnerablehash$`qQ1...:18000:0:99999:7:::\n")
         f.write("admin:Password123:18000:0:99999:7:::\n") # Hardcoded plaintext password!
 
     # Package it into a "firmware.bin"

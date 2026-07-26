@@ -1,8 +1,23 @@
 ---
-title: "05 - CORS Auditing & Security Tooling"
-description: "Audit CORS security using cURL, Burp Suite, CORStest, Nuclei, custom Python scanners, and Semgrep SAST rules for CI/CD pipelines."
-keywords: ["AppSec", "CORS Auditing", "cURL", "CORStest", "Nuclei", "Semgrep", "Security Testing", "Burp Suite", "SAST"]
+title: 05 - CORS Auditing & Security Tooling
+description: Audit CORS security using cURL, Burp Suite, CORStest, Nuclei, custom
+  Python scanners, and Semgrep SAST rules for CI/CD pipelines.
+keywords:
+- AppSec
+- CORS
+- Auditing
+- cURL
+- CORStest
+- Nuclei
+- Semgrep
+- Security
+- Testing
+- Burp
+- Suite
+- SAST
+slug: /web-and-api/cors-and-sop/cors-auditing-tools
 ---
+
 
 # 05 - CORS Auditing & Security Tooling
 

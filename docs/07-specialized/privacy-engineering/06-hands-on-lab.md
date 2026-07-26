@@ -1,8 +1,25 @@
 ---
-title: "Hands-On Lab: Implementing Anonymization and Differential Privacy"
-description: "In this lab, you will start with a raw PII dataset and apply both K-Anonymity and Differential Privacy."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Privacy Engineering", "06 Hands On Lab.Md"]
+title: 'Hands-On Lab: Implementing Anonymization and Differential Privacy'
+description: In this lab, you will start with a raw PII dataset and apply both K-Anonymity
+  and Differential Privacy.
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '07'
+- Specialized
+- Privacy
+- Engineering
+- '06'
+- Hands
+- 'On'
+- Lab
+- Md
+slug: /specialized/privacy-engineering/hands-on-lab
 ---
+
 
 # Hands-On Lab: Implementing Anonymization and Differential Privacy
 

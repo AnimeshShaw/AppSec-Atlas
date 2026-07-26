@@ -1,8 +1,24 @@
 ---
-title: "07 - References & Resources"
-description: "Expand your knowledge on logging, SIEM, detection engineering, and automated response with these industry-standard resources."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Logging And Monitoring", "07 References.Md"]
+title: 07 - References & Resources
+description: Expand your knowledge on logging, SIEM, detection engineering, and automated
+  response with these industry-standard resources.
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '06'
+- Defensive
+- Logging
+- And
+- Monitoring
+- '07'
+- References
+- Md
+slug: /defensive/logging-and-monitoring/references
 ---
+
 
 # 07 - References & Resources
 

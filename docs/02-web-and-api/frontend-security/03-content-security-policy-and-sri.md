@@ -1,8 +1,31 @@
 ---
-title: "03. Content Security Policy (CSP v3) & Subresource Integrity (SRI)"
-description: "Learn how to deploy strict nonce-based Content Security Policy (CSP v3) with strict-dynamic, subresource integrity (SRI), CSP violation telemetry, and header configurations across Nginx, Node.js, Python, Go, and Java."
-keywords: ["AppSec", "Cybersecurity", "Content Security Policy", "CSP v3", "Subresource Integrity", "SRI", "strict-dynamic", "Nonce", "Hash", "CSP Bypasses", "Supply Chain Security", "Report-To"]
+title: 03. Content Security Policy (CSP v3) & Subresource Integrity (SRI)
+description: Learn how to deploy strict nonce-based Content Security Policy (CSP v3)
+  with strict-dynamic, subresource integrity (SRI), CSP violation telemetry, and header
+  configurations across Nginx, Node.js, Python, Go, and Java.
+keywords:
+- AppSec
+- Cybersecurity
+- Content
+- Security
+- Policy
+- CSP
+- v3
+- Subresource
+- Integrity
+- SRI
+- strict-dynamic
+- Nonce
+- Hash
+- CSP
+- Bypasses
+- Supply
+- Chain
+- Security
+- Report-To
+slug: /web-and-api/frontend-security/content-security-policy-and-sri
 ---
+
 
 # 03. Content Security Policy (CSP v3) & Subresource Integrity (SRI)
 

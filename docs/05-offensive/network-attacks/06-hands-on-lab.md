@@ -1,8 +1,24 @@
 ---
-title: "06 - Hands-on Lab"
-description: "from flask import Flask, request"
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Network Attacks", "06 Hands On Lab.Md"]
+title: 06 - Hands-on Lab
+description: from flask import Flask, request
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '05'
+- Offensive
+- Network
+- Attacks
+- '06'
+- Hands
+- 'On'
+- Lab
+- Md
+slug: /offensive/network-attacks/hands-on-lab
 ---
+
 
 # 06 - Hands-on Lab
 

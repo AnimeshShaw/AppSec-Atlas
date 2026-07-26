@@ -1,8 +1,25 @@
 ---
-title: "05. A04 & A05: Insecure Design & Security Misconfiguration"
-description: "In-depth guide to Insecure Design and Security Misconfiguration: Rate limiting, CORS policies, XML External Entity (XXE) prevention, security headers, and safe defaults."
-keywords: ["AppSec", "Insecure Design", "Security Misconfiguration", "Rate Limiting", "CORS", "XXE", "defusedxml", "Nginx Security Headers"]
+title: '05. A04 & A05: Insecure Design & Security Misconfiguration'
+description: 'In-depth guide to Insecure Design and Security Misconfiguration: Rate
+  limiting, CORS policies, XML External Entity (XXE) prevention, security headers,
+  and safe defaults.'
+keywords:
+- AppSec
+- Insecure
+- Design
+- Security
+- Misconfiguration
+- Rate
+- Limiting
+- CORS
+- XXE
+- defusedxml
+- Nginx
+- Security
+- Headers
+slug: /foundational/owasp-top-10/a04-insecure-design-and-misconfig
 ---
+
 
 # 05. A04 & A05: Insecure Design & Security Misconfiguration
 

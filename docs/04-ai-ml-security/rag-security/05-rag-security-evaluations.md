@@ -1,8 +1,24 @@
 ---
-title: "05 - RAG Security Evaluations, Red Teaming & CI/CD Security"
-description: "Automate RAG red-teaming, prompt injection scanning, and multi-tenant isolation testing using Garak, Ragas, PyRIT, Promptfoo, and GitHub Actions."
-keywords: ["Garak", "Ragas", "PyRIT", "Promptfoo", "RAG Security Evaluations", "Red Teaming", "CI/CD Security", "AppSec"]
+title: 05 - RAG Security Evaluations, Red Teaming & CI/CD Security
+description: Automate RAG red-teaming, prompt injection scanning, and multi-tenant
+  isolation testing using Garak, Ragas, PyRIT, Promptfoo, and GitHub Actions.
+keywords:
+- Garak
+- Ragas
+- PyRIT
+- Promptfoo
+- RAG
+- Security
+- Evaluations
+- Red
+- Teaming
+- CI
+- CD
+- Security
+- AppSec
+slug: /ai-ml-security/rag-security/rag-security-evaluations
 ---
+
 
 # 05 - RAG Security Evaluations, Red Teaming & CI/CD Security
 

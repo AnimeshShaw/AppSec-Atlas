@@ -1,8 +1,16 @@
 ---
-title: "Data Anonymization and Pseudonymization"
-description: "Comprehensive guide and best practices for Data Anonymization and Pseudonymization in the gdpr-technical section of AppSec Atlas. Learn how to secure your infra"
-keywords: ['gdpr-technical', 'data-anonymization-and-pseudonymization', 'appsec', 'security', 'compliance']
+title: Data Anonymization and Pseudonymization
+description: Comprehensive guide and best practices for Data Anonymization and Pseudonymization
+  in the gdpr-technical section of AppSec Atlas. Learn how to secure your infra
+keywords:
+- gdpr-technical
+- data-anonymization-and-pseudonymization
+- appsec
+- security
+- compliance
+slug: /compliance/gdpr-technical/data-anonymization-and-pseudonymization
 ---
+
 # Data Anonymization and Pseudonymization
 
 Article 25 of the GDPR mandates **Data Protection by Design and by Default**. A key technical control to achieve this is the use of anonymization and pseudonymization techniques.

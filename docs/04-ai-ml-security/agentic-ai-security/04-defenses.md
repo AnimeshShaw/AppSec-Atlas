@@ -1,8 +1,26 @@
 ---
-title: "04. Production-Grade Defenses & Mitigation Architecture"
-description: "Implement battle-tested architectural mitigations for Agentic AI: Least Agency, Cryptographic Human-in-the-Loop (HITL), Sandboxing, and Dual-Agent Control Planes."
-keywords: ["AppSec", "Agentic AI Defenses", "Human-in-the-Loop", "Least Agency", "Dual-Agent Architecture", "Sandboxing", "Pydantic Schema", "Zod Validation"]
+title: 04. Production-Grade Defenses & Mitigation Architecture
+description: 'Implement battle-tested architectural mitigations for Agentic AI: Least
+  Agency, Cryptographic Human-in-the-Loop (HITL), Sandboxing, and Dual-Agent Control
+  Planes.'
+keywords:
+- AppSec
+- Agentic
+- AI
+- Defenses
+- Human-in-the-Loop
+- Least
+- Agency
+- Dual-Agent
+- Architecture
+- Sandboxing
+- Pydantic
+- Schema
+- Zod
+- Validation
+slug: /ai-ml-security/agentic-ai-security/defenses
 ---
+
 
 # 04. Production-Grade Defenses & Mitigation Architecture
 

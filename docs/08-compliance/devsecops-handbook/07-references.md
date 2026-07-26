@@ -1,7 +1,13 @@
 ---
-title: "07 - References"
-description: "Comprehensive guide and best practices for 07 - References in the devsecops-handbook section of AppSec Atlas. Learn how to secure your infrastructure."
-keywords: ['devsecops-handbook', '07---references', 'appsec', 'security', 'compliance']
+title: 07 - References
+description: Comprehensive guide and best practices for 07 - References in the devsecops-handbook
+  section of AppSec Atlas. Learn how to secure your infrastructure.
+keywords:
+- devsecops-handbook
+- '07'
+slug: /compliance/devsecops-handbook/references
+---
+references', 'appsec', 'security', 'compliance']
 ---
 # 07 - References
 

@@ -1,8 +1,29 @@
 ---
-title: "01. Overview & OWASP API Top 10"
-description: "Deep dive into API attack surfaces, OWASP API Security Top 10 (2023), architectural root causes of API vulnerabilities, real-world breach case studies, and API discovery strategies."
-keywords: ["AppSec", "API Security", "OWASP API Top 10", "API Discovery", "Shadow APIs", "Zombie APIs", "Threat Modeling", "BOLA", "BFLA"]
+title: 01. Overview & OWASP API Top 10
+description: Deep dive into API attack surfaces, OWASP API Security Top 10 (2023),
+  architectural root causes of API vulnerabilities, real-world breach case studies,
+  and API discovery strategies.
+keywords:
+- AppSec
+- API
+- Security
+- OWASP
+- API
+- Top
+- '10'
+- API
+- Discovery
+- Shadow
+- APIs
+- Zombie
+- APIs
+- Threat
+- Modeling
+- BOLA
+- BFLA
+slug: /web-and-api/api-security/introduction
 ---
+
 
 # 01. Overview & OWASP API Top 10
 

@@ -1,7 +1,14 @@
 ---
-title: "05 - DevSecOps Metrics and Maturity"
-description: "Comprehensive guide and best practices for 05 - DevSecOps Metrics and Maturity in the devsecops-handbook section of AppSec Atlas. Learn how to secure your infra"
-keywords: ['devsecops-handbook', '05---devsecops-metrics-and-maturity', 'appsec', 'security', 'compliance']
+title: 05 - DevSecOps Metrics and Maturity
+description: Comprehensive guide and best practices for 05 - DevSecOps Metrics and
+  Maturity in the devsecops-handbook section of AppSec Atlas. Learn how to secure
+  your infra
+keywords:
+- devsecops-handbook
+- '05'
+slug: /compliance/devsecops-handbook/devsecops-metrics-and-maturity
+---
+devsecops-metrics-and-maturity', 'appsec', 'security', 'compliance']
 ---
 # 05 - DevSecOps Metrics and Maturity
 

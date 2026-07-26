@@ -1,8 +1,23 @@
 ---
-title: "01. Introduction to IoT Architecture & Attack Surface"
-description: "The Internet of Things (IoT) ecosystem encompasses a massive web of physical devices—sensors, actuators, smart home appliances, industrial controllers..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Iot Security", "01 Introduction.Md"]
+title: 01. Introduction to IoT Architecture & Attack Surface
+description: The Internet of Things (IoT) ecosystem encompasses a massive web of physical
+  devices—sensors, actuators, smart home appliances, industrial controllers...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '07'
+- Specialized
+- Iot
+- Security
+- '01'
+- Introduction
+- Md
+slug: /specialized/iot-security/introduction
 ---
+
 
 # 01. Introduction to IoT Architecture & Attack Surface
 

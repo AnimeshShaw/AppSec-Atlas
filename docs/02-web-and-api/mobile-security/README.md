@@ -1,8 +1,28 @@
 ---
-title: "Mobile Application Security Guide"
-description: "Comprehensive AppSec Atlas guide on Mobile Application Security for Android and iOS, covering architecture, data protection, SSL pinning, dynamic instrumentation, and hardware attestation."
-keywords: ["Mobile Security", "Android Security", "iOS Security", "OWASP MASVS", "MASTG", "SSL Pinning", "Frida", "KeyStore", "Secure Enclave", "AppSec"]
+title: Mobile Application Security Guide
+description: Comprehensive AppSec Atlas guide on Mobile Application Security for Android
+  and iOS, covering architecture, data protection, SSL pinning, dynamic instrumentation,
+  and hardware attestation.
+keywords:
+- Mobile
+- Security
+- Android
+- Security
+- iOS
+- Security
+- OWASP
+- MASVS
+- MASTG
+- SSL
+- Pinning
+- Frida
+- KeyStore
+- Secure
+- Enclave
+- AppSec
+slug: /web-and-api/mobile-security
 ---
+
 
 # Mobile Application Security Guide
 

@@ -1,8 +1,26 @@
 ---
-title: "02 - Network Reconnaissance & Sniffing"
-description: "Packet analysis is the first step in both network troubleshooting and reconnaissance."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Network Attacks", "02 Network Reconnaissance And Sniffing.Md"]
+title: 02 - Network Reconnaissance & Sniffing
+description: Packet analysis is the first step in both network troubleshooting and
+  reconnaissance.
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '05'
+- Offensive
+- Network
+- Attacks
+- '02'
+- Network
+- Reconnaissance
+- And
+- Sniffing
+- Md
+slug: /offensive/network-attacks/network-reconnaissance-and-sniffing
 ---
+
 
 # 02 - Network Reconnaissance & Sniffing
 

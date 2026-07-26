@@ -1,8 +1,25 @@
 ---
-title: "04 - Hardware Debugging Interfaces"
-description: "During development, engineers rely on debug interfaces to flash firmware and diagnose issues. If left exposed in production, they offer root-level acc..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Hardware Security", "04 Hardware Debugging Interfaces.Md"]
+title: 04 - Hardware Debugging Interfaces
+description: During development, engineers rely on debug interfaces to flash firmware
+  and diagnose issues. If left exposed in production, they offer root-level acc...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '07'
+- Specialized
+- Hardware
+- Security
+- '04'
+- Hardware
+- Debugging
+- Interfaces
+- Md
+slug: /specialized/hardware-security/hardware-debugging-interfaces
 ---
+
 
 # 04 - Hardware Debugging Interfaces
 

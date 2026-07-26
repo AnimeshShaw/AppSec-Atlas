@@ -1,8 +1,22 @@
 ---
-title: "Capture The Flag (CTF) Learning Guide 🚩"
-description: "Welcome to the ultimate **Capture The Flag (CTF) Learning Guide**. This guide is designed to take you from a curious beginner to a proficient CTF play..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Ctf Guide", "Readme.Md"]
+title: Capture The Flag (CTF) Learning Guide 🚩
+description: Welcome to the ultimate **Capture The Flag (CTF) Learning Guide**. This
+  guide is designed to take you from a curious beginner to a proficient CTF play...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '05'
+- Offensive
+- Ctf
+- Guide
+- Readme
+- Md
+slug: /offensive/ctf-guide
 ---
+
 
 # Capture The Flag (CTF) Learning Guide 🚩
 

@@ -1,8 +1,26 @@
 ---
-title: "02. Core Mechanics & Technical Architecture"
-description: "Deep dive into LLM context window assembly, BPE tokenization, transformer attention mechanisms, instruction recency bias, and multi-language vulnerable code patterns."
-keywords: ["AppSec", "LLM Mechanics", "Tokenization", "Attention Mechanism", "Context Window", "ChatML", "Recency Bias", "Prompt Injection Mechanics"]
+title: 02. Core Mechanics & Technical Architecture
+description: Deep dive into LLM context window assembly, BPE tokenization, transformer
+  attention mechanisms, instruction recency bias, and multi-language vulnerable code
+  patterns.
+keywords:
+- AppSec
+- LLM
+- Mechanics
+- Tokenization
+- Attention
+- Mechanism
+- Context
+- Window
+- ChatML
+- Recency
+- Bias
+- Prompt
+- Injection
+- Mechanics
+slug: /ai-ml-security/llm-prompt-injection/core-concepts
 ---
+
 
 # 02. Core Mechanics & Technical Architecture
 

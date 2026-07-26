@@ -1,9 +1,28 @@
 ---
-title: "04. NetworkPolicies & RBAC Hardening"
-description: "Implement network microsegmentation using Kubernetes NetworkPolicies (Default Deny) and enforce least-privilege RBAC roles, ServiceAccount token automount controls, and API server auditing."
-keywords: ["networkpolicies", "kubernetes rbac", "default deny", "serviceaccount token", "automountServiceAccountToken", "microsegmentation", "api server audit", "k8s security", "appsec"]
+title: 04. NetworkPolicies & RBAC Hardening
+description: Implement network microsegmentation using Kubernetes NetworkPolicies
+  (Default Deny) and enforce least-privilege RBAC roles, ServiceAccount token automount
+  controls, and API server auditing.
+keywords:
+- networkpolicies
+- kubernetes
+- rbac
+- default
+- deny
+- serviceaccount
+- token
+- automountServiceAccountToken
+- microsegmentation
+- api
+- server
+- audit
+- k8s
+- security
+- appsec
 sidebar_position: 5
+slug: /cloud-and-infra/container-kubernetes/network-policies-and-rbac
 ---
+
 
 # 04. NetworkPolicies & RBAC Hardening
 

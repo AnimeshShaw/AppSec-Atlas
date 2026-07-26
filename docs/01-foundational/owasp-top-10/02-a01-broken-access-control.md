@@ -1,8 +1,27 @@
 ---
-title: "02. A01: Broken Access Control & IDOR"
-description: "Deep technical dive into Broken Access Control, Insecure Direct Object References (IDOR), vertical/horizontal privilege escalation, and multi-language RBAC/ABAC secure coding practices."
-keywords: ["AppSec", "Broken Access Control", "IDOR", "BOLA", "Privilege Escalation", "Python", "Node.js", "Go", "Java", "RBAC", "ABAC"]
+title: '02. A01: Broken Access Control & IDOR'
+description: Deep technical dive into Broken Access Control, Insecure Direct Object
+  References (IDOR), vertical/horizontal privilege escalation, and multi-language
+  RBAC/ABAC secure coding practices.
+keywords:
+- AppSec
+- Broken
+- Access
+- Control
+- IDOR
+- BOLA
+- Privilege
+- Escalation
+- Python
+- Node
+- js
+- Go
+- Java
+- RBAC
+- ABAC
+slug: /foundational/owasp-top-10/a01-broken-access-control
 ---
+
 
 # 02. A01: Broken Access Control & IDOR
 

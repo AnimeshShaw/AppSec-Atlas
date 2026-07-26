@@ -1,8 +1,23 @@
 ---
-title: "07. References & Taxonomies"
-description: "Authoritative references, taxonomies, and learning platforms for Bug Bounty hunting."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Bug Bounty", "07 References.Md"]
+title: 07. References & Taxonomies
+description: Authoritative references, taxonomies, and learning platforms for Bug
+  Bounty hunting.
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '05'
+- Offensive
+- Bug
+- Bounty
+- '07'
+- References
+- Md
+slug: /offensive/bug-bounty/references
 ---
+
 
 # 07. References & Taxonomies
 

@@ -1,0 +1,184 @@
+.mermaidWrapper {
+  position: relative;
+  margin: 1.5rem 0;
+  border-radius: 14px;
+  background: var(--atlas-card-bg);
+  border: 1px solid var(--atlas-card-border);
+  padding: 1.25rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+  overflow: hidden;
+}
+
+.mermaidWrapper:hover {
+  border-color: var(--atlas-card-border-hover);
+  box-shadow: var(--atlas-shadow-sm);
+}
+
+.container {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+  padding-top: 0.5rem;
+}
+
+.expandBadge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 8px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--atlas-card-border);
+  backdrop-filter: blur(8px);
+  cursor: pointer;
+  z-index: 5;
+  transition: all 0.2s ease;
+}
+
+.expandBadge:hover {
+  background: var(--atlas-card-bg-hover);
+  border-color: var(--ifm-color-primary);
+  transform: scale(1.04);
+}
+
+/* ==========================================================================
+   Theme-Adaptive Fullscreen Interactive Zoom Modal
+   ========================================================================== */
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 99999;
+  background: var(--atlas-modal-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  animation: fadeIn 0.2s ease-out;
+}
+
+.modalContent {
+  width: 94vw;
+  height: 90vh;
+  background: var(--atlas-modal-content-bg);
+  border: 1px solid var(--atlas-card-border);
+  border-radius: 18px;
+  box-shadow: var(--atlas-shadow-lg);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.modalHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.85rem 1.5rem;
+  background: var(--atlas-modal-header-bg);
+  border-bottom: 1px solid var(--atlas-card-border);
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.modalTitle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--ifm-heading-font-family);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--atlas-text-primary);
+}
+
+.zoomBadge {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.15rem 0.5rem;
+  border-radius: 9999px;
+  background: var(--atlas-glow-color);
+  color: var(--ifm-color-primary);
+}
+
+.modalControls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.controlBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.85rem;
+  border-radius: 8px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--atlas-text-primary);
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--atlas-card-border);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.controlBtn:hover {
+  background: var(--atlas-card-bg-hover);
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+}
+
+.closeBtn {
+  background: rgba(239, 68, 68, 0.12);
+  border-color: rgba(239, 68, 68, 0.3);
+  color: #ef4444;
+}
+
+.closeBtn:hover {
+  background: rgba(239, 68, 68, 0.25);
+  border-color: #ef4444;
+  color: #dc2626;
+}
+
+.modalBody {
+  flex-grow: 1;
+  overflow: auto;
+  padding: 2.5rem;
+  display: block;
+  text-align: center;
+  background: var(--ifm-background-color);
+}
+
+.zoomViewport {
+  display: inline-block;
+  transform-origin: top center;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  margin: 0 auto;
+  min-width: fit-content;
+}
+
+.zoomViewport svg {
+  max-width: none !important;
+  width: auto !important;
+  height: auto !important;
+  min-width: 650px;
+  display: block;
+  margin: 0 auto;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

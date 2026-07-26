@@ -1,8 +1,26 @@
 ---
-title: "06. Hands-On Vulnerability Lab"
-description: "Practice exploitation and defensive engineering with a self-contained, runnable Python lab: vulnerable_agent.py, exploit.py, and secure_agent.py."
-keywords: ["AppSec", "Agentic AI Lab", "Hands-On Lab", "Exploit Script", "Remediation Code", "Python Vulnerability Lab", "Agent Security"]
+title: 06. Hands-On Vulnerability Lab
+description: 'Practice exploitation and defensive engineering with a self-contained,
+  runnable Python lab: vulnerable_agent.py, exploit.py, and secure_agent.py.'
+keywords:
+- AppSec
+- Agentic
+- AI
+- Lab
+- Hands-On
+- Lab
+- Exploit
+- Script
+- Remediation
+- Code
+- Python
+- Vulnerability
+- Lab
+- Agent
+- Security
+slug: /ai-ml-security/agentic-ai-security/labs
 ---
+
 
 # 06. Hands-On Vulnerability Lab: Agentic AI Security
 

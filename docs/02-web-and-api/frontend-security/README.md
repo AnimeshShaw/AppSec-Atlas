@@ -1,8 +1,36 @@
 ---
-title: "Frontend Security Playbook"
-description: "Master modern frontend application security, browser threat modeling, DOM-based vulnerability mitigations, Content Security Policy (CSP v3), OAuth 2.0 PKCE, and Secure Client Architecture."
-keywords: ["AppSec", "Cybersecurity", "Frontend Security", "SPA Security", "DOM XSS", "Content Security Policy", "CSP v3", "SRI", "Trusted Types", "OAuth2 PKCE", "BFF Pattern", "Web Workers", "Browser Storage"]
+title: Frontend Security Playbook
+description: Master modern frontend application security, browser threat modeling,
+  DOM-based vulnerability mitigations, Content Security Policy (CSP v3), OAuth 2.0
+  PKCE, and Secure Client Architecture.
+keywords:
+- AppSec
+- Cybersecurity
+- Frontend
+- Security
+- SPA
+- Security
+- DOM
+- XSS
+- Content
+- Security
+- Policy
+- CSP
+- v3
+- SRI
+- Trusted
+- Types
+- OAuth2
+- PKCE
+- BFF
+- Pattern
+- Web
+- Workers
+- Browser
+- Storage
+slug: /web-and-api/frontend-security
 ---
+
 
 # Frontend Security Playbook
 

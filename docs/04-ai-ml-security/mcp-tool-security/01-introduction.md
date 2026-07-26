@@ -1,8 +1,33 @@
 ---
-title: "01 - Introduction to MCP & Tool-Use Security Architecture"
-description: "Deep technical dive into the Model Context Protocol (MCP) security model, architecture components, JSON-RPC 2.0 transport lifecycle, root cause analysis of tool vulnerabilities, and OWASP LLM threat taxonomy."
-keywords: ["MCP Architecture", "Model Context Protocol", "AI Agent Security", "JSON-RPC 2.0", "OWASP LLM Top 10", "Tool Calling Security", "Threat Landscape", "AppSec"]
+title: 01 - Introduction to MCP & Tool-Use Security Architecture
+description: Deep technical dive into the Model Context Protocol (MCP) security model,
+  architecture components, JSON-RPC 2.0 transport lifecycle, root cause analysis of
+  tool vulnerabilities, and OWASP LLM threat taxonomy.
+keywords:
+- MCP
+- Architecture
+- Model
+- Context
+- Protocol
+- AI
+- Agent
+- Security
+- JSON-RPC
+- '2'
+- '0'
+- OWASP
+- LLM
+- Top
+- '10'
+- Tool
+- Calling
+- Security
+- Threat
+- Landscape
+- AppSec
+slug: /ai-ml-security/mcp-tool-security/introduction
 ---
+
 
 # 01 - Introduction to MCP & Tool-Use Security Architecture
 

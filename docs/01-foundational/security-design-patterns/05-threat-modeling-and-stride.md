@@ -1,8 +1,27 @@
 ---
-title: "05 - Threat Modeling Frameworks and STRIDE"
-description: "Master threat modeling methodologies including the STRIDE framework, Data Flow Diagrams (DFDs), PASTA 7-stage risk analysis, LINDDUN privacy threat modeling, and automated threat modeling tools."
-keywords: ["AppSec", "Threat Modeling", "STRIDE", "PASTA", "LINDDUN", "Data Flow Diagram", "DFD", "OWASP Threat Dragon", "PyTM", "DREAD"]
+title: 05 - Threat Modeling Frameworks and STRIDE
+description: Master threat modeling methodologies including the STRIDE framework,
+  Data Flow Diagrams (DFDs), PASTA 7-stage risk analysis, LINDDUN privacy threat modeling,
+  and automated threat modeling tools.
+keywords:
+- AppSec
+- Threat
+- Modeling
+- STRIDE
+- PASTA
+- LINDDUN
+- Data
+- Flow
+- Diagram
+- DFD
+- OWASP
+- Threat
+- Dragon
+- PyTM
+- DREAD
+slug: /foundational/security-design-patterns/threat-modeling-and-stride
 ---
+
 
 # 05 - Threat Modeling Frameworks and STRIDE
 

@@ -1,10 +1,28 @@
 ---
-title: "04. Kubernetes Secrets Hardening & GitOps Patterns"
-description: "Harden Kubernetes secrets by configuring etcd KMS encryption at rest, deploying External Secrets Operator, using Secrets Store CSI Driver with tmpfs, and managing GitOps secrets with Sealed Secrets and SOPS."
-keywords: ["kubernetes secrets", "etcd encryption", "external secrets operator", "sealed secrets", "sops", "csi driver", "tmpfs", "appsec"]
-sidebar_label: "04. Kubernetes Secrets Hardening"
+title: 04. Kubernetes Secrets Hardening & GitOps Patterns
+description: Harden Kubernetes secrets by configuring etcd KMS encryption at rest,
+  deploying External Secrets Operator, using Secrets Store CSI Driver with tmpfs,
+  and managing GitOps secrets with Sealed Secrets and SOPS.
+keywords:
+- kubernetes
+- secrets
+- etcd
+- encryption
+- external
+- secrets
+- operator
+- sealed
+- secrets
+- sops
+- csi
+- driver
+- tmpfs
+- appsec
+sidebar_label: 04. Kubernetes Secrets Hardening
 sidebar_position: 5
+slug: /cloud-and-infra/secrets-management/kubernetes-secrets-hardening
 ---
+
 
 # 04. Kubernetes Secrets Hardening & GitOps Patterns
 

@@ -1,8 +1,24 @@
 ---
-title: "03 - Multi-Tenancy & Vector Database Access Control"
-description: "Implement enterprise multi-tenancy, Row-Level Security (RLS), metadata filtering, namespace isolation, and ABAC in Pinecone, Qdrant, Milvus, and pgvector."
-keywords: ["Vector Database Security", "Multi-Tenancy", "Row-Level Security", "Pinecone", "Qdrant", "pgvector", "LangChain", "Access Control", "AppSec"]
+title: 03 - Multi-Tenancy & Vector Database Access Control
+description: Implement enterprise multi-tenancy, Row-Level Security (RLS), metadata
+  filtering, namespace isolation, and ABAC in Pinecone, Qdrant, Milvus, and pgvector.
+keywords:
+- Vector
+- Database
+- Security
+- Multi-Tenancy
+- Row-Level
+- Security
+- Pinecone
+- Qdrant
+- pgvector
+- LangChain
+- Access
+- Control
+- AppSec
+slug: /ai-ml-security/rag-security/vector-db-access-control
 ---
+
 
 # 03 - Multi-Tenancy & Vector Database Access Control
 

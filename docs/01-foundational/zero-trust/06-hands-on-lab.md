@@ -1,8 +1,26 @@
 ---
-title: "Hands-on Lab: Transforming Perimeter Trust to Zero Trust Architecture"
-description: "Self-contained hands-on laboratory demonstrating perimeter trust vulnerability exploitation, Zero Trust refactoring, and automated security verification."
-keywords: ["Zero Trust Lab", "AppSec Tutorial", "FastAPI", "JWT Attestation", "Device Posture", "Exploit Script", "Docker Compose", "Python"]
+title: 'Hands-on Lab: Transforming Perimeter Trust to Zero Trust Architecture'
+description: Self-contained hands-on laboratory demonstrating perimeter trust vulnerability
+  exploitation, Zero Trust refactoring, and automated security verification.
+keywords:
+- Zero
+- Trust
+- Lab
+- AppSec
+- Tutorial
+- FastAPI
+- JWT
+- Attestation
+- Device
+- Posture
+- Exploit
+- Script
+- Docker
+- Compose
+- Python
+slug: /foundational/zero-trust/hands-on-lab
 ---
+
 
 # Hands-on Lab: Transforming Perimeter Trust to Zero Trust Architecture
 

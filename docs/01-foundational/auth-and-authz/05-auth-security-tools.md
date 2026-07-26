@@ -1,8 +1,24 @@
 ---
-title: "05 - Authentication & Authorization Security Tools & Automation"
-description: "Master identity infrastructure tools (Keycloak, ORY Hydra, OAuth2-Proxy), Policy engines (OPA), CLI security scanners (jwt_tool, Hashcat), and Semgrep SAST rules for automated identity auditing."
-keywords: ["Keycloak", "ORY Hydra", "OPA", "OAuth2-Proxy", "jwt_tool", "Hashcat", "Semgrep", "AppSec Tools", "SAST", "DAST"]
+title: 05 - Authentication & Authorization Security Tools & Automation
+description: Master identity infrastructure tools (Keycloak, ORY Hydra, OAuth2-Proxy),
+  Policy engines (OPA), CLI security scanners (jwt_tool, Hashcat), and Semgrep SAST
+  rules for automated identity auditing.
+keywords:
+- Keycloak
+- ORY
+- Hydra
+- OPA
+- OAuth2-Proxy
+- jwt_tool
+- Hashcat
+- Semgrep
+- AppSec
+- Tools
+- SAST
+- DAST
+slug: /foundational/auth-and-authz/auth-security-tools
 ---
+
 
 # 05 - Authentication & Authorization Security Tools & Automation
 

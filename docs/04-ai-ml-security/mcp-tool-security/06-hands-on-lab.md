@@ -1,8 +1,26 @@
 ---
-title: "06 - Hands-On Lab: MCP Exploitation & Remediation"
-description: "Self-contained hands-on lab environment demonstrating MCP path traversal, tool poisoning, automated exploit scripts, and production security remediation."
-keywords: ["MCP Lab", "Hands-on Lab", "Vulnerability PoC", "Exploit Script", "Path Traversal", "Tool Poisoning", "Security Mitigation", "Python"]
+title: '06 - Hands-On Lab: MCP Exploitation & Remediation'
+description: Self-contained hands-on lab environment demonstrating MCP path traversal,
+  tool poisoning, automated exploit scripts, and production security remediation.
+keywords:
+- MCP
+- Lab
+- Hands-on
+- Lab
+- Vulnerability
+- PoC
+- Exploit
+- Script
+- Path
+- Traversal
+- Tool
+- Poisoning
+- Security
+- Mitigation
+- Python
+slug: /ai-ml-security/mcp-tool-security/hands-on-lab
 ---
+
 
 # 06 - Hands-On Lab: MCP Exploitation & Remediation
 

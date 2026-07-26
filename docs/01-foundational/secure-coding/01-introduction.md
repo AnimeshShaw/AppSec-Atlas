@@ -1,8 +1,26 @@
 ---
-title: "Chapter 1: Introduction to Secure Coding"
-description: "Master foundational secure coding principles, trust boundary mapping, root causes of software flaws, and real-world vulnerability case studies."
-keywords: ["AppSec", "Cybersecurity", "Secure Coding", "Defense in Depth", "Least Privilege", "Trust Boundaries", "OWASP Top 10", "DevSecOps"]
+title: 'Chapter 1: Introduction to Secure Coding'
+description: Master foundational secure coding principles, trust boundary mapping,
+  root causes of software flaws, and real-world vulnerability case studies.
+keywords:
+- AppSec
+- Cybersecurity
+- Secure
+- Coding
+- Defense
+- in
+- Depth
+- Least
+- Privilege
+- Trust
+- Boundaries
+- OWASP
+- Top
+- '10'
+- DevSecOps
+slug: /foundational/secure-coding/introduction
 ---
+
 
 # Chapter 1: Introduction to Secure Coding
 

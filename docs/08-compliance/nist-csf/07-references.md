@@ -1,7 +1,13 @@
 ---
-title: "07 - References & Further Reading"
-description: "Comprehensive guide and best practices for 07 - References & Further Reading in the nist-csf section of AppSec Atlas. Learn how to secure your infrastructure."
-keywords: ['nist-csf', '07---references-&-further-reading', 'appsec', 'security', 'compliance']
+title: 07 - References & Further Reading
+description: Comprehensive guide and best practices for 07 - References & Further
+  Reading in the nist-csf section of AppSec Atlas. Learn how to secure your infrastructure.
+keywords:
+- nist-csf
+- '07'
+slug: /compliance/nist-csf/references
+---
+references-&-further-reading', 'appsec', 'security', 'compliance']
 ---
 # 07 - References & Further Reading
 

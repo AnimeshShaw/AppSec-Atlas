@@ -1,8 +1,27 @@
 ---
-title: "07 - References & Cloud Security Resources"
-description: "Comprehensive reference library for cloud security: CIS Benchmarks, NIST standards, high-profile breach analyses, open-source security tools, and CTF labs."
-keywords: ["Cloud Security Frameworks", "CIS Benchmarks", "NIST SP 800-53", "Prowler", "Scout Suite", "CloudGoat", "Cloud CTF", "AppSec"]
+title: 07 - References & Cloud Security Resources
+description: 'Comprehensive reference library for cloud security: CIS Benchmarks,
+  NIST standards, high-profile breach analyses, open-source security tools, and CTF
+  labs.'
+keywords:
+- Cloud
+- Security
+- Frameworks
+- CIS
+- Benchmarks
+- NIST
+- SP
+- 800-53
+- Prowler
+- Scout
+- Suite
+- CloudGoat
+- Cloud
+- CTF
+- AppSec
+slug: /cloud-and-infra/cloud-security/references
 ---
+
 
 # 07 - References & Cloud Security Resources
 

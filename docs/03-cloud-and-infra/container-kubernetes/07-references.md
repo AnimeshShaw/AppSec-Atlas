@@ -1,9 +1,31 @@
 ---
-title: "07. References, Benchmarks & Security Standards"
-description: "Authoritative benchmarks, security standards, MITRE ATT&CK for Containers mapping, CVE history, and recommended AppSec tooling."
-keywords: ["cis benchmarks", "nist sp 800-190", "mitre att&ck containers", "nsa cisa k8s guidance", "cve-2024-21626", "runc breakout", "container tools", "appsec"]
+title: 07. References, Benchmarks & Security Standards
+description: Authoritative benchmarks, security standards, MITRE ATT&CK for Containers
+  mapping, CVE history, and recommended AppSec tooling.
+keywords:
+- cis
+- benchmarks
+- nist
+- sp
+- 800-190
+- mitre
+- att
+- ck
+- containers
+- nsa
+- cisa
+- k8s
+- guidance
+- cve-2024-21626
+- runc
+- breakout
+- container
+- tools
+- appsec
 sidebar_position: 8
+slug: /cloud-and-infra/container-kubernetes/references
 ---
+
 
 # 07. References, Benchmarks & Security Standards
 

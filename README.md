@@ -16,7 +16,7 @@
 
 <br/>
 
-[🌐 Website](https://appsecatlas.com) · [📚 Browse Guides](#-guides) · [🗺️ Learning Paths](#-learning-paths) · [🤝 Contribute](CONTRIBUTING.md) · [💬 Discord](https://discord.gg/appsecatlas) · [💝 Sponsor](https://github.com/sponsors/AnimeshShaw)
+[🌐 Website](https://appsecatlas.com) · [📚 Browse Guides](#-guides) · [🗺️ Learning Paths](#-learning-paths) · [🤝 Contribute](CONTRIBUTING.md) · [💬 Discord](https://discord.gg/NHvrkJ5Hg3) · [💝 Sponsor](https://github.com/sponsors/AnimeshShaw)
 
 </div>
 
@@ -168,6 +168,22 @@ Quick-reference printable checklists for common security tasks:
 - 📄 [Cloud Deployment Checklist](checklists/cloud-deployment-checklist.md)
 - 📄 [Code Review Security Checklist](checklists/code-review-checklist.md)
 - 📄 [Incident Response Checklist](checklists/incident-response-checklist.md)
+
+---
+
+## 🚀 AppSec Ecosystem & Open-Source Projects
+
+Check out our specialized open-source security tools and companion repositories:
+
+| Project | Description | Link |
+|---|---|---|
+| 🔐 **DevCipher** | Premium Developer Cryptography & Security Toolkit Platform | [devcipher.dev](https://devcipher.dev/) · [GitHub](https://github.com/AnimeshShaw/DevCipher) |
+| 🤖 **Agentic AI Security Guide** | Specialized guide for securing autonomous AI agents, tool execution, and LLM orchestration | [GitHub Repo](https://github.com/AnimeshShaw/agentic-ai-security-guide) |
+| 🛡️ **Threat Modelling Basics** | Practical frameworks, templates, and methodologies for threat modeling (STRIDE, PASTA, DREAD) | [GitHub Repo](https://github.com/AnimeshShaw/threat-modelling-basics) |
+| ⚛️ **Quantum-Safe Py** | Python library implementing Post-Quantum Cryptography (NIST ML-KEM, ML-DSA, SLH-DSA) | [GitHub Repo](https://github.com/AnimeshShaw/quantum-safe-py) |
+| 🔍 **Quantum Safe Auditor** | Automated SAST scanner for detecting quantum-vulnerable cryptography across codebase repositories | [GitHub Repo](https://github.com/AnimeshShaw/quantum-safe-auditor) |
+
+> ⭐ **Explore and star these companion projects to support the open-source security ecosystem!**
 
 ---
 

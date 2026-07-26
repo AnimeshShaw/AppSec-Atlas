@@ -1,8 +1,22 @@
 ---
-title: "07 - References and Further Reading"
-description: "Comprehensive security guide and practical technical implementation handbook."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Soc Operations", "07 References.Md"]
+title: 07 - References and Further Reading
+description: Comprehensive security guide and practical technical implementation handbook.
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '06'
+- Defensive
+- Soc
+- Operations
+- '07'
+- References
+- Md
+slug: /defensive/soc-operations/references
 ---
+
 
 # 07 - References and Further Reading
 

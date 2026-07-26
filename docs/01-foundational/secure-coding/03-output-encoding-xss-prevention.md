@@ -1,8 +1,25 @@
 ---
-title: "Chapter 3: Output Encoding & XSS Prevention"
-description: "Master context-aware output encoding, DOM-based XSS defense, DOMPurify rich text sanitization, and Content Security Policy (CSP) implementation."
-keywords: ["AppSec", "XSS", "Cross-Site Scripting", "Output Encoding", "DOMPurify", "Content Security Policy", "Jinja2", "OWASP Java Encoder"]
+title: 'Chapter 3: Output Encoding & XSS Prevention'
+description: Master context-aware output encoding, DOM-based XSS defense, DOMPurify
+  rich text sanitization, and Content Security Policy (CSP) implementation.
+keywords:
+- AppSec
+- XSS
+- Cross-Site
+- Scripting
+- Output
+- Encoding
+- DOMPurify
+- Content
+- Security
+- Policy
+- Jinja2
+- OWASP
+- Java
+- Encoder
+slug: /foundational/secure-coding/output-encoding-xss-prevention
 ---
+
 
 # Chapter 3: Output Encoding & XSS Prevention
 

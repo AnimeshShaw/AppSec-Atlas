@@ -1,8 +1,23 @@
 ---
-title: "01. Overview & Bug Bounty Ecosystem"
-description: "Bug Bounty programs allow ethical security researchers to report security vulnerabilities to organizations in exchange for recognition or financial re..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Bug Bounty", "01 Introduction.Md"]
+title: 01. Overview & Bug Bounty Ecosystem
+description: Bug Bounty programs allow ethical security researchers to report security
+  vulnerabilities to organizations in exchange for recognition or financial re...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '05'
+- Offensive
+- Bug
+- Bounty
+- '01'
+- Introduction
+- Md
+slug: /offensive/bug-bounty/introduction
 ---
+
 
 # 01. Overview & Bug Bounty Ecosystem
 

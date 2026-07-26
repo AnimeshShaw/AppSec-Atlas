@@ -1,8 +1,31 @@
 ---
-title: "Infrastructure as Code (IaC) Security Masterclass"
-description: "Master Infrastructure as Code (IaC) security across Terraform, CloudFormation, Bicep, state files, Policy as Code (OPA/Rego, Checkov, tfsec), and automated drift detection."
-keywords: ["Infrastructure as Code", "IaC Security", "Terraform Hardening", "CloudFormation", "Azure Bicep", "Policy as Code", "OPA Rego", "Checkov", "tfsec", "Drift Detection"]
+title: Infrastructure as Code (IaC) Security Masterclass
+description: Master Infrastructure as Code (IaC) security across Terraform, CloudFormation,
+  Bicep, state files, Policy as Code (OPA/Rego, Checkov, tfsec), and automated drift
+  detection.
+keywords:
+- Infrastructure
+- as
+- Code
+- IaC
+- Security
+- Terraform
+- Hardening
+- CloudFormation
+- Azure
+- Bicep
+- Policy
+- as
+- Code
+- OPA
+- Rego
+- Checkov
+- tfsec
+- Drift
+- Detection
+slug: /cloud-and-infra/iac-security
 ---
+
 
 # Infrastructure as Code (IaC) Security Masterclass
 

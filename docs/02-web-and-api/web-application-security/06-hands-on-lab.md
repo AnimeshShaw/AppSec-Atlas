@@ -1,8 +1,29 @@
 ---
-title: "06 - Hands-on Lab: Web Application Vulnerabilities"
-description: "A self-contained hands-on lab containing a vulnerable Python Flask application (Stored XSS, File Upload RCE, SSRF, Session Fixation), an automated exploit framework, and a production secure refactor."
-keywords: ["Hands-on Lab", "Vulnerable App", "Stored XSS", "SSRF Exploit", "Path Traversal", "Session Fixation", "Python Flask", "Exploit Script", "Remediation"]
+title: '06 - Hands-on Lab: Web Application Vulnerabilities'
+description: A self-contained hands-on lab containing a vulnerable Python Flask application
+  (Stored XSS, File Upload RCE, SSRF, Session Fixation), an automated exploit framework,
+  and a production secure refactor.
+keywords:
+- Hands-on
+- Lab
+- Vulnerable
+- App
+- Stored
+- XSS
+- SSRF
+- Exploit
+- Path
+- Traversal
+- Session
+- Fixation
+- Python
+- Flask
+- Exploit
+- Script
+- Remediation
+slug: /web-and-api/web-application-security/hands-on-lab
 ---
+
 
 # 06 - Hands-on Lab: Web Application Vulnerabilities
 

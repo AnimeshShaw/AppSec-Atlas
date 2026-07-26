@@ -1,8 +1,23 @@
 ---
-title: "01 - Introduction to CTFs 🚩"
-description: "Capture The Flag (CTF) competitions are educational cybersecurity exercises where participants solve challenges to uncover hidden strings called 'flag..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Ctf Guide", "01 Introduction.Md"]
+title: 01 - Introduction to CTFs 🚩
+description: Capture The Flag (CTF) competitions are educational cybersecurity exercises
+  where participants solve challenges to uncover hidden strings called 'flag...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '05'
+- Offensive
+- Ctf
+- Guide
+- '01'
+- Introduction
+- Md
+slug: /offensive/ctf-guide/introduction
 ---
+
 
 # 01 - Introduction to CTFs 🚩
 

@@ -1,8 +1,28 @@
 ---
-title: "04 Reviewing Cryptography and Secrets"
-description: "Cryptography is hard to get right. Reviewers must look for hardcoded secrets, weak algorithms, incorrect modes of operation, and insufficient randomne..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "09 Hands On", "Code Review Guide", "04 Reviewing Crypto And Secrets.Md"]
+title: 04 Reviewing Cryptography and Secrets
+description: Cryptography is hard to get right. Reviewers must look for hardcoded
+  secrets, weak algorithms, incorrect modes of operation, and insufficient randomne...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- 09
+- Hands
+- 'On'
+- Code
+- Review
+- Guide
+- '04'
+- Reviewing
+- Crypto
+- And
+- Secrets
+- Md
+slug: /hands-on/code-review-guide/reviewing-crypto-and-secrets
 ---
+
 
 # 04 Reviewing Cryptography and Secrets
 

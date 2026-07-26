@@ -1,9 +1,31 @@
 ---
-title: "Container & Kubernetes Security Guide"
-description: "Master container lifecycle and Kubernetes security. Learn Dockerfile hardening, K8s SecurityContext, NetworkPolicies, RBAC, and Falco runtime threat detection."
-keywords: ["container security", "kubernetes security", "dockerfile hardening", "k8s security context", "network policies", "rbac", "falco", "linux isolation", "cloud security", "appsec"]
+title: Container & Kubernetes Security Guide
+description: Master container lifecycle and Kubernetes security. Learn Dockerfile
+  hardening, K8s SecurityContext, NetworkPolicies, RBAC, and Falco runtime threat
+  detection.
+keywords:
+- container
+- security
+- kubernetes
+- security
+- dockerfile
+- hardening
+- k8s
+- security
+- context
+- network
+- policies
+- rbac
+- falco
+- linux
+- isolation
+- cloud
+- security
+- appsec
 sidebar_position: 1
+slug: /cloud-and-infra/container-kubernetes
 ---
+
 
 # Container & Kubernetes Security Guide
 

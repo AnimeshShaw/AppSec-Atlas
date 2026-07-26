@@ -1,8 +1,29 @@
 ---
-title: "01. Overview & AI Red Teaming Methodology"
-description: "Theoretical foundation of AI Red Teaming: comparing traditional software pentesting with probabilistic model auditing, NIST AI 100-2 / MITRE ATLAS framework alignment, threat modeling AI architectures, and establishing safe audit scope."
-keywords: ["AI Red Teaming", "NIST AI 100-2", "MITRE ATLAS", "AI Threat Modeling", "LLM Security", "Probabilistic Security", "AppSec Atlas"]
+title: 01. Overview & AI Red Teaming Methodology
+description: 'Theoretical foundation of AI Red Teaming: comparing traditional software
+  pentesting with probabilistic model auditing, NIST AI 100-2 / MITRE ATLAS framework
+  alignment, threat modeling AI architectures, and establishing safe audit scope.'
+keywords:
+- AI
+- Red
+- Teaming
+- NIST
+- AI
+- 100-2
+- MITRE
+- ATLAS
+- AI
+- Threat
+- Modeling
+- LLM
+- Security
+- Probabilistic
+- Security
+- AppSec
+- Atlas
+slug: /ai-ml-security/ai-red-teaming/introduction
 ---
+
 
 # 01. Overview & AI Red Teaming Methodology
 

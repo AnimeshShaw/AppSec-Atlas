@@ -1,8 +1,23 @@
 ---
-title: "05 - Mobile Security Tools"
-description: "Comprehensive technical manual for mobile security testing tools: MobSF docker automated scanning, Frida dynamic hooking workflows, Objection REPL commands, JADX decompilation, and proxy setup."
-keywords: ["MobSF", "Frida", "Objection", "Burp Suite", "JADX", "Apktool", "Mobile Security Tools", "AppSec"]
+title: 05 - Mobile Security Tools
+description: 'Comprehensive technical manual for mobile security testing tools: MobSF
+  docker automated scanning, Frida dynamic hooking workflows, Objection REPL commands,
+  JADX decompilation, and proxy setup.'
+keywords:
+- MobSF
+- Frida
+- Objection
+- Burp
+- Suite
+- JADX
+- Apktool
+- Mobile
+- Security
+- Tools
+- AppSec
+slug: /web-and-api/mobile-security/mobile-security-tools
 ---
+
 
 # 05 - Mobile Security Tools
 
@@ -45,18 +60,18 @@ FILE_PATH="build/outputs/apk/release/app-release.apk"
 
 # Step 1: Upload binary to MobSF
 echo "[*] Uploading $FILE_PATH to MobSF..."
-UPLOAD_RESPONSE=`$(curl -s -F "file=@`$`FILE_PATH" -H "Authorization: `$`API_KEY" "$`MOBSF_URL/api/v1/upload")
+UPLOAD_RESPONSE=`$(curl -s -F "file=@`$FILE_PATH" -H "Authorization: $`API_KEY" "$`MOBSF_URL/api/v1/upload")
 HASH=`$(echo $`UPLOAD_RESPONSE | jq -r '.hash')
 
 echo "[+] Binary uploaded successfully. Hash: $HASH"
 
 # Step 2: Trigger Static Scan
 echo "[*] Initiating static analysis..."
-SCAN_RESPONSE=`$(curl -s -X POST -d "hash=`$`HASH" -H "Authorization: `$`API_KEY" "$`MOBSF_URL/api/v1/scan")
+SCAN_RESPONSE=`$(curl -s -X POST -d "hash=`$HASH" -H "Authorization: $`API_KEY" "$`MOBSF_URL/api/v1/scan")
 
 # Step 3: Fetch JSON Vulnerability Report
 echo "[*] Fetching JSON scan report..."
-curl -s -X POST -d "hash=`$HASH" -H "Authorization: `$`API_KEY" "$`MOBSF_URL/api/v1/report_json" -o mobsf_report.json
+curl -s -X POST -d "hash=`$HASH" -H "Authorization: $``API_KEY" "$`MOBSF_URL/api/v1/report_json" -o mobsf_report.json
 
 # Step 4: Parse high-severity security findings
 HIGH_COUNT=$(jq '.high | length' mobsf_report.json)

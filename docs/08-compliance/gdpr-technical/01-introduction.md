@@ -1,8 +1,16 @@
 ---
-title: "Introduction to GDPR for Engineers"
-description: "Comprehensive guide and best practices for Introduction to GDPR for Engineers in the gdpr-technical section of AppSec Atlas. Learn how to secure your infrastruc"
-keywords: ['gdpr-technical', 'introduction-to-gdpr-for-engineers', 'appsec', 'security', 'compliance']
+title: Introduction to GDPR for Engineers
+description: Comprehensive guide and best practices for Introduction to GDPR for Engineers
+  in the gdpr-technical section of AppSec Atlas. Learn how to secure your infrastruc
+keywords:
+- gdpr-technical
+- introduction-to-gdpr-for-engineers
+- appsec
+- security
+- compliance
+slug: /compliance/gdpr-technical/introduction
 ---
+
 # Introduction to GDPR for Engineers
 
 The General Data Protection Regulation (GDPR) is a comprehensive privacy law that took effect on May 25, 2018. For engineers, GDPR is not just a compliance checklist—it's a fundamental shift in how we architect systems, handle data, and build software.

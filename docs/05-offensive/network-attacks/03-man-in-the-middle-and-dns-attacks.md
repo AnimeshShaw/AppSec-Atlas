@@ -1,8 +1,29 @@
 ---
-title: "03 - Man-in-the-Middle & DNS Attacks"
-description: "MitM attacks occur when an attacker intercepts communications between two parties. ARP spoofing, rogue access points, and DNS poisoning are common vec..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Network Attacks", "03 Man In The Middle And Dns Attacks.Md"]
+title: 03 - Man-in-the-Middle & DNS Attacks
+description: MitM attacks occur when an attacker intercepts communications between
+  two parties. ARP spoofing, rogue access points, and DNS poisoning are common vec...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '05'
+- Offensive
+- Network
+- Attacks
+- '03'
+- Man
+- In
+- The
+- Middle
+- And
+- Dns
+- Attacks
+- Md
+slug: /offensive/network-attacks/man-in-the-middle-and-dns-attacks
 ---
+
 
 # 03 - Man-in-the-Middle & DNS Attacks
 

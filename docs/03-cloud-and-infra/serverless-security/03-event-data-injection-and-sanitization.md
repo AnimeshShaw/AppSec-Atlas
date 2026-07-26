@@ -1,9 +1,28 @@
 ---
-title: "03 - Event Data Injection and Sanitization"
-description: "Comprehensive guide to event-driven attack vectors, deserialization flaws, injection vulnerabilities, schema validation, and multi-language secure code implementations."
-keywords: ["Event Injection", "Serverless Injection", "S3 Command Injection", "Input Validation", "Python", "Node.js", "Go", "Java", "Zod", "Pydantic"]
-sidebar_label: "03 - Event Injection & Sanitization"
+title: 03 - Event Data Injection and Sanitization
+description: Comprehensive guide to event-driven attack vectors, deserialization flaws,
+  injection vulnerabilities, schema validation, and multi-language secure code implementations.
+keywords:
+- Event
+- Injection
+- Serverless
+- Injection
+- S3
+- Command
+- Injection
+- Input
+- Validation
+- Python
+- Node
+- js
+- Go
+- Java
+- Zod
+- Pydantic
+sidebar_label: 03 - Event Injection & Sanitization
+slug: /cloud-and-infra/serverless-security/event-data-injection-and-sanitization
 ---
+
 
 # 03 - Event Data Injection and Sanitization
 

@@ -1,8 +1,31 @@
 ---
-title: "Model Context Protocol (MCP) & Tool-Use Security Masterclass"
-description: "Master the security architecture, threat vectors, tool poisoning mitigations, least-privilege scoping, sandbox isolation, and security auditing for the Model Context Protocol (MCP)."
-keywords: ["MCP Security", "Model Context Protocol", "AI Tool Security", "Tool Poisoning", "Shadow Tools", "Agentic AI", "Prompt Injection", "gVisor Sandboxing", "AppSec"]
+title: Model Context Protocol (MCP) & Tool-Use Security Masterclass
+description: Master the security architecture, threat vectors, tool poisoning mitigations,
+  least-privilege scoping, sandbox isolation, and security auditing for the Model
+  Context Protocol (MCP).
+keywords:
+- MCP
+- Security
+- Model
+- Context
+- Protocol
+- AI
+- Tool
+- Security
+- Tool
+- Poisoning
+- Shadow
+- Tools
+- Agentic
+- AI
+- Prompt
+- Injection
+- gVisor
+- Sandboxing
+- AppSec
+slug: /ai-ml-security/mcp-tool-security
 ---
+
 
 # Model Context Protocol (MCP) & Tool-Use Security Masterclass
 

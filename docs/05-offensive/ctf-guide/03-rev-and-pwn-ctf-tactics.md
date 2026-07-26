@@ -1,8 +1,27 @@
 ---
-title: "03 - Reverse Engineering & Pwn Tactics 🔄💥"
-description: "This chapter covers the low-level arts: dismantling compiled binaries and exploiting memory corruption vulnerabilities."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Ctf Guide", "03 Rev And Pwn Ctf Tactics.Md"]
+title: 03 - Reverse Engineering & Pwn Tactics 🔄💥
+description: 'This chapter covers the low-level arts: dismantling compiled binaries
+  and exploiting memory corruption vulnerabilities.'
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '05'
+- Offensive
+- Ctf
+- Guide
+- '03'
+- Rev
+- And
+- Pwn
+- Ctf
+- Tactics
+- Md
+slug: /offensive/ctf-guide/rev-and-pwn-ctf-tactics
 ---
+
 
 # 03 - Reverse Engineering & Pwn Tactics 🔄💥
 

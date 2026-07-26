@@ -1,8 +1,27 @@
 ---
-title: "Chapter 5: Web3 Bridge & Oracle Security"
-description: "Beyond smart contract code, systemic risks in Web3 exist at the architecture layer, specifically concerning cross-chain communication and off-chain da..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Blockchain Security", "05 Web3 Bridge And Oracle Security.Md"]
+title: 'Chapter 5: Web3 Bridge & Oracle Security'
+description: Beyond smart contract code, systemic risks in Web3 exist at the architecture
+  layer, specifically concerning cross-chain communication and off-chain da...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '07'
+- Specialized
+- Blockchain
+- Security
+- '05'
+- Web3
+- Bridge
+- And
+- Oracle
+- Security
+- Md
+slug: /specialized/blockchain-security/web3-bridge-and-oracle-security
 ---
+
 
 # Chapter 5: Web3 Bridge & Oracle Security
 

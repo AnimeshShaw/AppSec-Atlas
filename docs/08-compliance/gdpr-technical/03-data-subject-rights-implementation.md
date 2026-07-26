@@ -1,8 +1,16 @@
 ---
-title: "Implementing Data Subject Rights"
-description: "Comprehensive guide and best practices for Implementing Data Subject Rights in the gdpr-technical section of AppSec Atlas. Learn how to secure your infrastructu"
-keywords: ['gdpr-technical', 'implementing-data-subject-rights', 'appsec', 'security', 'compliance']
+title: Implementing Data Subject Rights
+description: Comprehensive guide and best practices for Implementing Data Subject
+  Rights in the gdpr-technical section of AppSec Atlas. Learn how to secure your infrastructu
+keywords:
+- gdpr-technical
+- implementing-data-subject-rights
+- appsec
+- security
+- compliance
+slug: /compliance/gdpr-technical/data-subject-rights-implementation
 ---
+
 # Implementing Data Subject Rights
 
 GDPR grants individuals specific rights regarding their personal data. Implementing these requires robust API endpoints and data orchestration.

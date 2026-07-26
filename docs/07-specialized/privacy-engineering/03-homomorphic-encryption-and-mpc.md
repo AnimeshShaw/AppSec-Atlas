@@ -1,8 +1,26 @@
 ---
-title: "Homomorphic Encryption and Secure MPC"
-description: "Advanced Privacy Enhancing Technologies (PETs) allow computation on data without exposing the raw data itself."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Privacy Engineering", "03 Homomorphic Encryption And Mpc.Md"]
+title: Homomorphic Encryption and Secure MPC
+description: Advanced Privacy Enhancing Technologies (PETs) allow computation on data
+  without exposing the raw data itself.
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '07'
+- Specialized
+- Privacy
+- Engineering
+- '03'
+- Homomorphic
+- Encryption
+- And
+- Mpc
+- Md
+slug: /specialized/privacy-engineering/homomorphic-encryption-and-mpc
 ---
+
 
 # Homomorphic Encryption and Secure MPC
 

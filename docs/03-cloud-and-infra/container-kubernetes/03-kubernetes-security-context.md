@@ -1,9 +1,29 @@
 ---
-title: "03. Kubernetes SecurityContext & Pod Security Standards"
-description: "Configure Kubernetes SecurityContext settings to enforce non-root execution, drop capabilities, enable Seccomp profiles, enforce read-only filesystems, and comply with the Restricted Pod Security Standard."
-keywords: ["kubernetes security context", "pod security standards", "pod security admission", "seccomp", "apparmor", "readOnlyRootFilesystem", "runAsNonRoot", "k8s hardening", "appsec"]
+title: 03. Kubernetes SecurityContext & Pod Security Standards
+description: Configure Kubernetes SecurityContext settings to enforce non-root execution,
+  drop capabilities, enable Seccomp profiles, enforce read-only filesystems, and comply
+  with the Restricted Pod Security Standard.
+keywords:
+- kubernetes
+- security
+- context
+- pod
+- security
+- standards
+- pod
+- security
+- admission
+- seccomp
+- apparmor
+- readOnlyRootFilesystem
+- runAsNonRoot
+- k8s
+- hardening
+- appsec
 sidebar_position: 4
+slug: /cloud-and-infra/container-kubernetes/kubernetes-security-context
 ---
+
 
 # 03. Kubernetes SecurityContext & Pod Security Standards
 

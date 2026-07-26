@@ -1,8 +1,23 @@
 ---
-title: "Introduction to Privacy Engineering"
-description: "Privacy by Design is a framework that requires privacy to be considered at every stage of the engineering process. Coined by Dr. Ann Cavoukian, it is ..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Privacy Engineering", "01 Introduction.Md"]
+title: Introduction to Privacy Engineering
+description: Privacy by Design is a framework that requires privacy to be considered
+  at every stage of the engineering process. Coined by Dr. Ann Cavoukian, it is ...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '07'
+- Specialized
+- Privacy
+- Engineering
+- '01'
+- Introduction
+- Md
+slug: /specialized/privacy-engineering/introduction
 ---
+
 
 # Introduction to Privacy Engineering
 

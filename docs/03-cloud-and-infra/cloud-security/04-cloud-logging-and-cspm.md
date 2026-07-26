@@ -1,8 +1,24 @@
 ---
-title: "04 - Cloud Logging, Telemetry, and CSPM"
-description: "Master multi-cloud telemetry, CloudTrail log analysis, open-source CSPM tooling with Prowler and Scout Suite, and event-driven auto-remediation."
-keywords: ["Cloud Telemetry", "AWS CloudTrail", "Cloud Logging", "CSPM", "Prowler", "Scout Suite", "Automated Remediation", "AppSec"]
+title: 04 - Cloud Logging, Telemetry, and CSPM
+description: Master multi-cloud telemetry, CloudTrail log analysis, open-source CSPM
+  tooling with Prowler and Scout Suite, and event-driven auto-remediation.
+keywords:
+- Cloud
+- Telemetry
+- AWS
+- CloudTrail
+- Cloud
+- Logging
+- CSPM
+- Prowler
+- Scout
+- Suite
+- Automated
+- Remediation
+- AppSec
+slug: /cloud-and-infra/cloud-security/cloud-logging-and-cspm
 ---
+
 
 # 04 - Cloud Logging, Telemetry, and CSPM
 

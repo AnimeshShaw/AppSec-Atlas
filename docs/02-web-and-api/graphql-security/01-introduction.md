@@ -1,8 +1,22 @@
 ---
-title: "01. GraphQL Security Introduction & Threat Landscape"
-description: "Foundational theory of GraphQL execution engines, schema architecture, root causes of vulnerabilities, and the modern GraphQL threat landscape."
-keywords: ["GraphQL Security", "GraphQL Architecture", "Schema Introspection", "AST Parsing", "Threat Landscape", "AppSec"]
+title: 01. GraphQL Security Introduction & Threat Landscape
+description: Foundational theory of GraphQL execution engines, schema architecture,
+  root causes of vulnerabilities, and the modern GraphQL threat landscape.
+keywords:
+- GraphQL
+- Security
+- GraphQL
+- Architecture
+- Schema
+- Introspection
+- AST
+- Parsing
+- Threat
+- Landscape
+- AppSec
+slug: /web-and-api/graphql-security/introduction
 ---
+
 
 # 01. GraphQL Security Introduction & Threat Landscape
 

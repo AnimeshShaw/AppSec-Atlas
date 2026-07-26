@@ -1,8 +1,26 @@
 ---
-title: "02. Core Security Concepts & Attack Vectors"
-description: "Technical deep dive into gRPC attack vectors including mTLS misconfigurations, Metadata token leaks, Protobuf deserialization issues, Reflection exposure, and HTTP/2 DoS."
-keywords: ["Attack Vectors", "mTLS", "Server Reflection", "Protobuf Insecure Deserialization", "HTTP/2 Rapid Reset", "gRPC Interceptors"]
+title: 02. Core Security Concepts & Attack Vectors
+description: Technical deep dive into gRPC attack vectors including mTLS misconfigurations,
+  Metadata token leaks, Protobuf deserialization issues, Reflection exposure, and
+  HTTP/2 DoS.
+keywords:
+- Attack
+- Vectors
+- mTLS
+- Server
+- Reflection
+- Protobuf
+- Insecure
+- Deserialization
+- HTTP
+- '2'
+- Rapid
+- Reset
+- gRPC
+- Interceptors
+slug: /web-and-api/grpc-security/core-concepts
 ---
+
 
 # 02. Core Security Concepts & Attack Vectors
 
@@ -67,7 +85,7 @@ custom-trace-bin: A1B2C3D4E5==
 ```
 
 ### Attack Vector A: Downstream Context Leakage & Privileged Identity Forgery
-In microservice chains (Service A `$\rightarrow`$` Service B `$`\rightarrow$` Service C), context propagation mistakes are common:
+In microservice chains (Service A → Service B → Service C), context propagation mistakes are common:
 
 ```mermaid
 flowchart LR
@@ -179,10 +197,10 @@ sequenceDiagram
 ### B. Unbounded Streaming RPC Memory Exhaustion
 gRPC supports four invocation paradigms:
 
-1. **Unary RPC:** Single Request `$\rightarrow$` Single Response.
-2. **Server Streaming RPC:** Single Request `$\rightarrow$` Stream of Responses.
-3. **Client Streaming RPC:** Stream of Requests `$\rightarrow$` Single Response.
-4. **Bidirectional Streaming RPC:** Stream of Requests `$\leftrightarrow$` Stream of Responses.
+1. **Unary RPC:** Single Request → Single Response.
+2. **Server Streaming RPC:** Single Request → Stream of Responses.
+3. **Client Streaming RPC:** Stream of Requests → Single Response.
+4. **Bidirectional Streaming RPC:** Stream of Requests ↔ Stream of Responses.
 
 ```
 Client Streaming Attack:

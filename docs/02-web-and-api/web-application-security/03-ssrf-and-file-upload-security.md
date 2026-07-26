@@ -1,8 +1,34 @@
 ---
-title: "03 - SSRF and File Upload Security"
-description: "Master Server-Side Request Forgery (SSRF) defenses, cloud metadata protection (AWS IMDSv2), DNS rebinding mitigation, unrestricted file upload security pipelines, image re-encoding, and path traversal prevention across Python, Node.js, and Go."
-keywords: ["SSRF", "Server-Side Request Forgery", "AWS IMDSv2", "DNS Rebinding", "File Upload Security", "Path Traversal", "Zip Slip", "Image Processing Security", "Magic Bytes", "Egress Filtering"]
+title: 03 - SSRF and File Upload Security
+description: Master Server-Side Request Forgery (SSRF) defenses, cloud metadata protection
+  (AWS IMDSv2), DNS rebinding mitigation, unrestricted file upload security pipelines,
+  image re-encoding, and path traversal prevention across Python, Node.js, and Go.
+keywords:
+- SSRF
+- Server-Side
+- Request
+- Forgery
+- AWS
+- IMDSv2
+- DNS
+- Rebinding
+- File
+- Upload
+- Security
+- Path
+- Traversal
+- Zip
+- Slip
+- Image
+- Processing
+- Security
+- Magic
+- Bytes
+- Egress
+- Filtering
+slug: /web-and-api/web-application-security/ssrf-and-file-upload-security
 ---
+
 
 # 03 - SSRF and File Upload Security
 

@@ -1,8 +1,26 @@
 ---
-title: "03 - Windows and Linux Artifact Analysis"
-description: "A hierarchical database that stores low-level settings."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Digital Forensics", "03 Windows And Linux Artifact Analysis.Md"]
+title: 03 - Windows and Linux Artifact Analysis
+description: A hierarchical database that stores low-level settings.
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '06'
+- Defensive
+- Digital
+- Forensics
+- '03'
+- Windows
+- And
+- Linux
+- Artifact
+- Analysis
+- Md
+slug: /defensive/digital-forensics/windows-and-linux-artifact-analysis
 ---
+
 
 # 03 - Windows and Linux Artifact Analysis
 
@@ -37,7 +55,7 @@ Stored in `%SystemRoot%\System32\Winevt\Logs\`.
 
 ```bash
 # Find failed SSH logins in auth.log
-grep "Failed password" /var/log/auth.log | awk '{print `$1, `$`2, `$`3, `$`9, $`11}'
+grep "Failed password" /var/log/auth.log | awk '{print `$1, $`2, `$3, `$9, $`11}'
 
 # Find unique IPs attempting brute force
 grep "Failed password" /var/log/auth.log | awk '{print $11}' | sort | uniq -c | sort -nr

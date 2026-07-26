@@ -1,8 +1,28 @@
 ---
-title: "02 Reviewing Authentication and Authorization"
-description: "Authentication (AuthN) and Authorization (AuthZ) are the most critical components of any application. Flaws here often lead to complete system comprom..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "09 Hands On", "Code Review Guide", "02 Reviewing Authentication And Authorization.Md"]
+title: 02 Reviewing Authentication and Authorization
+description: Authentication (AuthN) and Authorization (AuthZ) are the most critical
+  components of any application. Flaws here often lead to complete system comprom...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- 09
+- Hands
+- 'On'
+- Code
+- Review
+- Guide
+- '02'
+- Reviewing
+- Authentication
+- And
+- Authorization
+- Md
+slug: /hands-on/code-review-guide/reviewing-authentication-and-authorization
 ---
+
 
 # 02 Reviewing Authentication and Authorization
 

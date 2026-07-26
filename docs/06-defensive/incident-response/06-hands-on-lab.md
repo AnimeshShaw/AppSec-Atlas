@@ -1,8 +1,26 @@
 ---
-title: "06 - Hands-On Lab: Web Server Incident Triage"
-description: "In this lab, you will act as a first responder. You have received an alert about suspicious activity on a web server. You will use a Python script to ..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Incident Response", "06 Hands On Lab.Md"]
+title: '06 - Hands-On Lab: Web Server Incident Triage'
+description: In this lab, you will act as a first responder. You have received an
+  alert about suspicious activity on a web server. You will use a Python script to
+  ...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '06'
+- Defensive
+- Incident
+- Response
+- '06'
+- Hands
+- 'On'
+- Lab
+- Md
+slug: /defensive/incident-response/hands-on-lab
 ---
+
 
 # 06 - Hands-On Lab: Web Server Incident Triage
 

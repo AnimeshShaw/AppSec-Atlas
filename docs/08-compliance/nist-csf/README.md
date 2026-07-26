@@ -1,8 +1,20 @@
 ---
-title: "NIST Cybersecurity Framework (CSF) 2.0 Guide"
-description: "Comprehensive guide and best practices for NIST Cybersecurity Framework (CSF) 2.0 Guide in the nist-csf section of AppSec Atlas. Learn how to secure your infras"
-keywords: ['nist-csf', 'nist-cybersecurity-framework-(csf)-2.0-guide', 'appsec', 'security', 'compliance']
+title: NIST Cybersecurity Framework (CSF) 2.0 Guide
+description: Comprehensive guide and best practices for NIST Cybersecurity Framework
+  (CSF) 2.0 Guide in the nist-csf section of AppSec Atlas. Learn how to secure your
+  infras
+keywords:
+- nist-csf
+- nist-cybersecurity-framework-
+- csf
+- '-2'
+- 0-guide
+- appsec
+- security
+- compliance
+slug: /compliance/nist-csf
 ---
+
 # NIST Cybersecurity Framework (CSF) 2.0 Guide
 
 ## Overview

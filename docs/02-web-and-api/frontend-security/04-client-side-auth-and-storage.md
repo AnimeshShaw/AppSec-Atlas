@@ -1,8 +1,33 @@
 ---
-title: "04. Client-Side Authentication, Token Storage & Browser Storage Hazards"
-description: "Master client-side token security, OAuth 2.0 PKCE, Backend-For-Frontend (BFF) architecture, Web Workers for in-memory token storage, and secure HttpOnly cookie prefixes."
-keywords: ["AppSec", "Cybersecurity", "OAuth 2.0 PKCE", "BFF Pattern", "LocalStorage Hazards", "HttpOnly Cookies", "SameSite", "Web Workers", "Token Theft", "__Host- Cookie", "CSRF Defenses"]
+title: 04. Client-Side Authentication, Token Storage & Browser Storage Hazards
+description: Master client-side token security, OAuth 2.0 PKCE, Backend-For-Frontend
+  (BFF) architecture, Web Workers for in-memory token storage, and secure HttpOnly
+  cookie prefixes.
+keywords:
+- AppSec
+- Cybersecurity
+- OAuth
+- '2'
+- '0'
+- PKCE
+- BFF
+- Pattern
+- LocalStorage
+- Hazards
+- HttpOnly
+- Cookies
+- SameSite
+- Web
+- Workers
+- Token
+- Theft
+- __Host-
+- Cookie
+- CSRF
+- Defenses
+slug: /web-and-api/frontend-security/client-side-auth-and-storage
 ---
+
 
 # 04. Client-Side Authentication, Token Storage & Browser Storage Hazards
 

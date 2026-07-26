@@ -1,8 +1,25 @@
 ---
-title: "01 Introduction to Secure Code Review"
-description: "Secure Code Review is the process of auditing source code for security vulnerabilities before the code is deployed to production. It is one of the mos..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "09 Hands On", "Code Review Guide", "01 Introduction.Md"]
+title: 01 Introduction to Secure Code Review
+description: Secure Code Review is the process of auditing source code for security
+  vulnerabilities before the code is deployed to production. It is one of the mos...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- 09
+- Hands
+- 'On'
+- Code
+- Review
+- Guide
+- '01'
+- Introduction
+- Md
+slug: /hands-on/code-review-guide/introduction
 ---
+
 
 # 01 Introduction to Secure Code Review
 

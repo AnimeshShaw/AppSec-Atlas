@@ -1,8 +1,25 @@
 ---
-title: "01. Introduction to Agentic AI Security"
-description: "Understand the fundamental architecture, autonomous execution loops, threat landscape, and security root causes of Agentic AI systems."
-keywords: ["AppSec", "Agentic AI", "AI Security", "ReAct Loop", "Autonomous Agents", "OWASP LLM 2025", "Excessive Agency"]
+title: 01. Introduction to Agentic AI Security
+description: Understand the fundamental architecture, autonomous execution loops,
+  threat landscape, and security root causes of Agentic AI systems.
+keywords:
+- AppSec
+- Agentic
+- AI
+- AI
+- Security
+- ReAct
+- Loop
+- Autonomous
+- Agents
+- OWASP
+- LLM
+- '2025'
+- Excessive
+- Agency
+slug: /ai-ml-security/agentic-ai-security/introduction
 ---
+
 
 # 01. Introduction to Agentic AI Security
 
@@ -13,6 +30,8 @@ While autonomy unlocks immense business value, it fundamentally alters the cyber
 ---
 
 > [!TIP]
+> **Companion Open-Source Hands-On Project:** For real-world exploits, vulnerable agent architectures, and hands-on defense implementations, check out our companion repository: [github.com/AnimeshShaw/agentic-ai-security-guide](https://github.com/AnimeshShaw/agentic-ai-security-guide).
+>
 > **Industry Alignment:** Agentic AI security requires mapping vulnerabilities directly to the **OWASP Top 10 for Large Language Model Applications (2025 Edition)**, specifically highlighting **LLM08: Excessive Agency**, **LLM01: Prompt Injection**, and **LLM05: Supply Chain & Tool Risks**.
 
 ---

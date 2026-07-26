@@ -1,8 +1,25 @@
 ---
-title: "05. Reporting & Remediation Tracking"
-description: "A penetration test report is the primary deliverable provided to executive leadership and technical engineering teams."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Penetration Testing", "05 Reporting And Remediation.Md"]
+title: 05. Reporting & Remediation Tracking
+description: A penetration test report is the primary deliverable provided to executive
+  leadership and technical engineering teams.
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '05'
+- Offensive
+- Penetration
+- Testing
+- '05'
+- Reporting
+- And
+- Remediation
+- Md
+slug: /offensive/penetration-testing/reporting-and-remediation
 ---
+
 
 # 05. Reporting & Remediation Tracking
 

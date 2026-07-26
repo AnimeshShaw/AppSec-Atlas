@@ -1,8 +1,25 @@
 ---
-title: "01. Introduction to gRPC & HTTP/2 Security"
-description: "Deep dive into gRPC architecture, HTTP/2 multiplexing, Protocol Buffers binary wire format, root causes of gRPC vulnerabilities, and threat landscape."
-keywords: ["gRPC Architecture", "HTTP/2 Security", "Protobuf Serialization", "Threat Landscape", "Multiplexing", "HTTP/2 Rapid Reset"]
+title: 01. Introduction to gRPC & HTTP/2 Security
+description: Deep dive into gRPC architecture, HTTP/2 multiplexing, Protocol Buffers
+  binary wire format, root causes of gRPC vulnerabilities, and threat landscape.
+keywords:
+- gRPC
+- Architecture
+- HTTP
+- '2'
+- Security
+- Protobuf
+- Serialization
+- Threat
+- Landscape
+- Multiplexing
+- HTTP
+- '2'
+- Rapid
+- Reset
+slug: /web-and-api/grpc-security/introduction
 ---
+
 
 # 01. Introduction to gRPC & HTTP/2 Security
 

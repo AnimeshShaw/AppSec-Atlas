@@ -1,0 +1,121 @@
+.section {
+  padding: 5rem 1.5rem;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.tagline {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #c084fc;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.title {
+  font-family: var(--ifm-heading-font-family);
+  font-size: clamp(2rem, 3.5vw, 2.75rem);
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: var(--atlas-text-secondary);
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.pathCard {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pathHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.pathIcon {
+  font-size: 1.8rem;
+}
+
+.pathRole {
+  font-family: var(--ifm-heading-font-family);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--ifm-font-color-base);
+}
+
+.stepList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  margin-bottom: 1.5rem;
+}
+
+.stepItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  font-size: 0.92rem;
+  color: var(--atlas-text-secondary);
+}
+
+.stepNumber {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: rgba(56, 189, 248, 0.15);
+  color: #38bdf8;
+  font-weight: 700;
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+.stepText {
+  line-height: 1.45;
+}
+
+.pathBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--ifm-font-color-base) !important;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--atlas-card-border);
+  transition: all 0.2s ease;
+  text-decoration: none !important;
+}
+
+.pathBtn:hover {
+  background: rgba(56, 189, 248, 0.15);
+  border-color: rgba(56, 189, 248, 0.4);
+  color: #38bdf8 !important;
+}

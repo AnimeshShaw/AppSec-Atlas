@@ -1,8 +1,29 @@
 ---
-title: "Zero Trust Cloud Architecture"
-description: "Design multi-cloud Zero Trust architectures using AWS Verified Access, GCP BeyondCorp, Azure Entra ID, Identity-Aware Proxies (IAP), and Terraform IaC."
-keywords: ["Cloud Zero Trust", "AWS Verified Access", "GCP BeyondCorp", "Azure Conditional Access", "IAP", "Pomerium", "Terraform", "PrivateLink", "VPC Service Controls"]
+title: Zero Trust Cloud Architecture
+description: Design multi-cloud Zero Trust architectures using AWS Verified Access,
+  GCP BeyondCorp, Azure Entra ID, Identity-Aware Proxies (IAP), and Terraform IaC.
+keywords:
+- Cloud
+- Zero
+- Trust
+- AWS
+- Verified
+- Access
+- GCP
+- BeyondCorp
+- Azure
+- Conditional
+- Access
+- IAP
+- Pomerium
+- Terraform
+- PrivateLink
+- VPC
+- Service
+- Controls
+slug: /foundational/zero-trust/zero-trust-cloud-architecture
 ---
+
 
 # Zero Trust Cloud Architecture
 
@@ -141,7 +162,7 @@ resource "aws_verifiedaccess_endpoint" "finance_app_endpoint" {
 ## 4. Cloud ZTA Nuances & Multi-Cloud Edge Cases
 
 ### 1. Cross-Cloud Identity Synchronization Delay
-When federating identity across Okta, AWS IAM Identity Center, and Azure Entra ID, SCIM provisioning delays (`$5-15\text{ minutes}$`) can allow recently terminated employees to retain access to cross-cloud resources.
+When federating identity across Okta, AWS IAM Identity Center, and Azure Entra ID, SCIM provisioning delays (`5-15 minutes`) can allow recently terminated employees to retain access to cross-cloud resources.
 * **Mitigation**: Enforce **Direct OIDC JWT Validation** at the API Gateway layer rather than relying solely on synced cloud IAM user objects.
 
 ### 2. Cloud Metadata Service (IMDSv2) Exfiltration

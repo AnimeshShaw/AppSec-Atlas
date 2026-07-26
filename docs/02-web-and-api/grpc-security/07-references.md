@@ -1,8 +1,22 @@
 ---
-title: "07. gRPC Security References & Standards"
-description: "Comprehensive directory of gRPC security specifications, RFCs, OWASP mappings, CVE case studies, and official documentation."
-keywords: ["gRPC References", "CVE-2023-44487", "RFC 7540", "gRPC Security Specs", "OWASP API Security"]
+title: 07. gRPC Security References & Standards
+description: Comprehensive directory of gRPC security specifications, RFCs, OWASP
+  mappings, CVE case studies, and official documentation.
+keywords:
+- gRPC
+- References
+- CVE-2023-44487
+- RFC
+- '7540'
+- gRPC
+- Security
+- Specs
+- OWASP
+- API
+- Security
+slug: /web-and-api/grpc-security/references
 ---
+
 
 # 07. gRPC Security References & Standards
 

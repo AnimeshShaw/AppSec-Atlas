@@ -1,8 +1,16 @@
 ---
-title: "DevSecOps Handbook"
-description: "Comprehensive guide and best practices for DevSecOps Handbook in the devsecops-handbook section of AppSec Atlas. Learn how to secure your infrastructure."
-keywords: ['devsecops-handbook', 'devsecops-handbook', 'appsec', 'security', 'compliance']
+title: DevSecOps Handbook
+description: Comprehensive guide and best practices for DevSecOps Handbook in the
+  devsecops-handbook section of AppSec Atlas. Learn how to secure your infrastructure.
+keywords:
+- devsecops-handbook
+- devsecops-handbook
+- appsec
+- security
+- compliance
+slug: /compliance/devsecops-handbook
 ---
+
 # DevSecOps Handbook
 
 Welcome to the **DevSecOps Handbook** – the definitive guide for integrating security seamlessly into your Software Development Life Cycle (SDLC) and CI/CD pipelines. This guide is built to help engineering and security teams automate compliance, enforce policy as code, and measure security maturity.

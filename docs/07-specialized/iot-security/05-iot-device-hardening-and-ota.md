@@ -1,8 +1,27 @@
 ---
-title: "05. IoT Device Hardening & Secure OTA"
-description: "Building on the hardware primitives from the previous chapter, we must implement robust operational security at the firmware and application level. Th..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Iot Security", "05 Iot Device Hardening And Ota.Md"]
+title: 05. IoT Device Hardening & Secure OTA
+description: Building on the hardware primitives from the previous chapter, we must
+  implement robust operational security at the firmware and application level. Th...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '07'
+- Specialized
+- Iot
+- Security
+- '05'
+- Iot
+- Device
+- Hardening
+- And
+- Ota
+- Md
+slug: /specialized/iot-security/iot-device-hardening-and-ota
 ---
+
 
 # 05. IoT Device Hardening & Secure OTA
 

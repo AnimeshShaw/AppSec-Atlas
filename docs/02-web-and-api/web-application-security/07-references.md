@@ -1,8 +1,31 @@
 ---
-title: "07 - References and Security Resources"
-description: "Comprehensive AppSec Atlas directory of official security standards, RFC specifications, real-world CVE case studies, OWASP cheat sheets, and DAST/SAST tooling documentation."
-keywords: ["AppSec", "OWASP WSTG", "OWASP ASVS", "NIST SP 800-53", "CVE Case Studies", "SSRF CVEs", "Log4Shell", "PortSwigger Academy", "Security Cheat Sheets"]
+title: 07 - References and Security Resources
+description: Comprehensive AppSec Atlas directory of official security standards,
+  RFC specifications, real-world CVE case studies, OWASP cheat sheets, and DAST/SAST
+  tooling documentation.
+keywords:
+- AppSec
+- OWASP
+- WSTG
+- OWASP
+- ASVS
+- NIST
+- SP
+- 800-53
+- CVE
+- Case
+- Studies
+- SSRF
+- CVEs
+- Log4Shell
+- PortSwigger
+- Academy
+- Security
+- Cheat
+- Sheets
+slug: /web-and-api/web-application-security/references
 ---
+
 
 # 07 - References and Security Resources
 

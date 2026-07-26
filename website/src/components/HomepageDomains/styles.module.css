@@ -1,0 +1,128 @@
+.section {
+  padding: 5rem 1.5rem;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.tagline {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #38bdf8;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.title {
+  font-family: var(--ifm-heading-font-family);
+  font-size: clamp(2rem, 3.5vw, 2.75rem);
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: var(--atlas-text-secondary);
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 1.75rem;
+}
+
+.domainCard {
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none !important;
+  color: inherit !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.domainHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.iconWrapper {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  background: rgba(56, 189, 248, 0.1);
+  border: 1px solid rgba(56, 189, 248, 0.2);
+}
+
+.chapterBadge {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--atlas-text-muted);
+  background: rgba(148, 163, 184, 0.12);
+  padding: 0.25rem 0.65rem;
+  border-radius: 9999px;
+  border: 1px solid var(--atlas-card-border);
+}
+
+.domainTitle {
+  font-family: var(--ifm-heading-font-family);
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+  color: var(--ifm-font-color-base);
+}
+
+.domainDescription {
+  font-size: 0.95rem;
+  color: var(--atlas-text-secondary);
+  line-height: 1.55;
+  margin-bottom: 1.25rem;
+  flex-grow: 1;
+}
+
+.topicsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1.25rem;
+}
+
+.topicTag {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.2rem 0.55rem;
+  border-radius: 6px;
+  background: rgba(148, 163, 184, 0.12);
+  color: var(--atlas-text-secondary);
+  border: 1px solid var(--atlas-card-border);
+}
+
+.arrowLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #38bdf8;
+  transition: gap 0.2s ease;
+}
+
+.domainCard:hover .arrowLink {
+  gap: 0.65rem;
+}

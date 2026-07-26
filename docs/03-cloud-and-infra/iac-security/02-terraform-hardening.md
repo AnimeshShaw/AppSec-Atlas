@@ -1,8 +1,28 @@
 ---
-title: "02 - Terraform Hardening & State Security Masterclass"
-description: "Master Terraform security: state file encryption, remote backend hardening, secrets elimination, OIDC provider authentication, and supply chain protection."
-keywords: ["Terraform Security", "State File Hardening", "HashiCorp Terraform", "S3 Remote Backend", "Secrets Management", "OIDC Authentication", "Supply Chain Security"]
+title: 02 - Terraform Hardening & State Security Masterclass
+description: 'Master Terraform security: state file encryption, remote backend hardening,
+  secrets elimination, OIDC provider authentication, and supply chain protection.'
+keywords:
+- Terraform
+- Security
+- State
+- File
+- Hardening
+- HashiCorp
+- Terraform
+- S3
+- Remote
+- Backend
+- Secrets
+- Management
+- OIDC
+- Authentication
+- Supply
+- Chain
+- Security
+slug: /cloud-and-infra/iac-security/terraform-hardening
 ---
+
 
 # 02 - Terraform Hardening & State Security Masterclass
 

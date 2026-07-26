@@ -1,8 +1,24 @@
 ---
-title: "01 - Introduction to Browser Extension Security"
-description: "Browser extensions are prime targets for attackers because they can read and modify all data on websites the user visits, capture credentials, and man..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Browser Extension Security", "01 Introduction.Md"]
+title: 01 - Introduction to Browser Extension Security
+description: Browser extensions are prime targets for attackers because they can read
+  and modify all data on websites the user visits, capture credentials, and man...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '07'
+- Specialized
+- Browser
+- Extension
+- Security
+- '01'
+- Introduction
+- Md
+slug: /specialized/browser-extension-security/introduction
 ---
+
 
 # 01 - Introduction to Browser Extension Security
 

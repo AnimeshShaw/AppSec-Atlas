@@ -1,8 +1,26 @@
 ---
-title: "02. Asset Discovery & Scope Mapping"
-description: "Mapping an organization's asset inventory helps identify unlinked API endpoints and forgotten subdomains."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Bug Bounty", "02 Reconnaissance And Scope Mapping.Md"]
+title: 02. Asset Discovery & Scope Mapping
+description: Mapping an organization's asset inventory helps identify unlinked API
+  endpoints and forgotten subdomains.
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '05'
+- Offensive
+- Bug
+- Bounty
+- '02'
+- Reconnaissance
+- And
+- Scope
+- Mapping
+- Md
+slug: /offensive/bug-bounty/reconnaissance-and-scope-mapping
 ---
+
 
 # 02. Asset Discovery & Scope Mapping
 

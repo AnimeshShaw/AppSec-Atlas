@@ -1,8 +1,27 @@
 ---
-title: "06. Hands-On Vulnerability Lab"
-description: "Self-contained interactive laboratory: Audit a vulnerable LLM Customer Support Assistant, execute a direct/indirect prompt injection exploit, and implement robust remediation."
-keywords: ["AppSec Lab", "Prompt Injection Lab", "LLM Vulnerability Challenge", "Exploit Script", "Remediation Code", "Hands-On AI Security"]
+title: 06. Hands-On Vulnerability Lab
+description: 'Self-contained interactive laboratory: Audit a vulnerable LLM Customer
+  Support Assistant, execute a direct/indirect prompt injection exploit, and implement
+  robust remediation.'
+keywords:
+- AppSec
+- Lab
+- Prompt
+- Injection
+- Lab
+- LLM
+- Vulnerability
+- Challenge
+- Exploit
+- Script
+- Remediation
+- Code
+- Hands-On
+- AI
+- Security
+slug: /ai-ml-security/llm-prompt-injection/labs
 ---
+
 
 # 06. Hands-On Vulnerability Lab
 

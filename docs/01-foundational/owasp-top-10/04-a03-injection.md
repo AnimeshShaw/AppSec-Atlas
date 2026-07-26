@@ -1,8 +1,24 @@
 ---
-title: "04. A03: Injection (SQLi, Command Injection & SSRF)"
-description: "Deep technical guide to Injection flaws: SQL Injection (in-band, blind), Command Injection, and Server-Side Request Forgery (SSRF with cloud IMDS defense) across Python, Node.js, Go, and Java."
-keywords: ["AppSec", "Injection", "SQLi", "Command Injection", "SSRF", "IMDSv2", "Python", "Node.js", "Go", "Java"]
+title: '04. A03: Injection (SQLi, Command Injection & SSRF)'
+description: 'Deep technical guide to Injection flaws: SQL Injection (in-band, blind),
+  Command Injection, and Server-Side Request Forgery (SSRF with cloud IMDS defense)
+  across Python, Node.js, Go, and Java.'
+keywords:
+- AppSec
+- Injection
+- SQLi
+- Command
+- Injection
+- SSRF
+- IMDSv2
+- Python
+- Node
+- js
+- Go
+- Java
+slug: /foundational/owasp-top-10/a03-injection
 ---
+
 
 # 04. A03: Injection (SQLi, Command Injection & SSRF)
 

@@ -1,8 +1,27 @@
 ---
-title: "02 - AWS Security Hardening & Deep Dive"
-description: "Master AWS security hardening: IAM least privilege policies, S3 public access blocking, IMDSv2 SSRF mitigation, and VPC security groups in Terraform."
-keywords: ["AWS Security", "IAM Least Privilege", "IMDSv2", "S3 Hardening", "Terraform AWS", "STS AssumeRole", "VPC Security Groups", "AppSec"]
+title: 02 - AWS Security Hardening & Deep Dive
+description: 'Master AWS security hardening: IAM least privilege policies, S3 public
+  access blocking, IMDSv2 SSRF mitigation, and VPC security groups in Terraform.'
+keywords:
+- AWS
+- Security
+- IAM
+- Least
+- Privilege
+- IMDSv2
+- S3
+- Hardening
+- Terraform
+- AWS
+- STS
+- AssumeRole
+- VPC
+- Security
+- Groups
+- AppSec
+slug: /cloud-and-infra/cloud-security/aws-security-hardening
 ---
+
 
 # 02 - AWS Security Hardening & Deep Dive
 

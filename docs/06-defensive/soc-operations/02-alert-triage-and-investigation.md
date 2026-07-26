@@ -1,8 +1,26 @@
 ---
-title: "02 - Alert Triage and Investigation"
-description: "When a SIEM or EDR tool triggers an alert, the Tier 1 analyst executes a structured workflow to determine its validity."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Soc Operations", "02 Alert Triage And Investigation.Md"]
+title: 02 - Alert Triage and Investigation
+description: When a SIEM or EDR tool triggers an alert, the Tier 1 analyst executes
+  a structured workflow to determine its validity.
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '06'
+- Defensive
+- Soc
+- Operations
+- '02'
+- Alert
+- Triage
+- And
+- Investigation
+- Md
+slug: /defensive/soc-operations/alert-triage-and-investigation
 ---
+
 
 # 02 - Alert Triage and Investigation
 

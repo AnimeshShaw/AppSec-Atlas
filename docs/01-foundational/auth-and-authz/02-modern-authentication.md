@@ -1,8 +1,27 @@
 ---
-title: "02 - Modern Authentication Protocols & Session Security"
-description: "Master modern authentication protocols including OAuth 2.0 PKCE, OpenID Connect (OIDC), FIDO2/WebAuthn, TOTP, and secure session management across multiple programming languages."
-keywords: ["OAuth2", "PKCE", "OIDC", "WebAuthn", "FIDO2", "TOTP", "Session Management", "HttpOnly", "SameSite", "Python", "Node.js", "Go", "Java"]
+title: 02 - Modern Authentication Protocols & Session Security
+description: Master modern authentication protocols including OAuth 2.0 PKCE, OpenID
+  Connect (OIDC), FIDO2/WebAuthn, TOTP, and secure session management across multiple
+  programming languages.
+keywords:
+- OAuth2
+- PKCE
+- OIDC
+- WebAuthn
+- FIDO2
+- TOTP
+- Session
+- Management
+- HttpOnly
+- SameSite
+- Python
+- Node
+- js
+- Go
+- Java
+slug: /foundational/auth-and-authz/modern-authentication
 ---
+
 
 # 02 - Modern Authentication Protocols & Session Security
 

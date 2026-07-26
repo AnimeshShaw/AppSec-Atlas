@@ -1,25 +1,20 @@
-yangshun:
-  name: Yangshun Tay
-  title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd
-  url: https://linkedin.com/in/yangshun
-  image_url: https://github.com/yangshun.png
+animesh:
+  name: Animesh Shaw
+  title: Founder & Lead Security Architect, AppSec Atlas
+  url: https://github.com/AnimeshShaw
+  image_url: https://github.com/AnimeshShaw.png
   page: true
   socials:
-    x: yangshunz
-    linkedin: yangshun
-    github: yangshun
-    newsletter: https://www.greatfrontend.com
+    x: appsecatlas
+    github: AnimeshShaw
+    linkedin: AnimeshShaw
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
+appsec-team:
+  name: AppSec Atlas Research Team
+  title: Core Security Research & Contributor Group
+  url: https://appsecatlas.com
+  image_url: https://github.com/AnimeshShaw.png
+  page: true
   socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+    x: appsecatlas
+    github: AnimeshShaw

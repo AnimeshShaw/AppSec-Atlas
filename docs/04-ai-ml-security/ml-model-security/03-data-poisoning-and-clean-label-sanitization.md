@@ -1,8 +1,26 @@
 ---
-title: "03. Data Poisoning & Dataset Sanitization"
-description: "Comprehensive guide to Data Poisoning, Clean-Label Attacks, Trojan Backdoors, Spectral Signature Sanitization, and Supply Chain Dataset Provenance."
-keywords: ["Data Poisoning", "Clean-Label Poisoning", "Trojan Backdoor", "Spectral Signatures", "Activation Clustering", "Isolation Forest", "Safetensors", "Dataset Sanitization"]
+title: 03. Data Poisoning & Dataset Sanitization
+description: Comprehensive guide to Data Poisoning, Clean-Label Attacks, Trojan Backdoors,
+  Spectral Signature Sanitization, and Supply Chain Dataset Provenance.
+keywords:
+- Data
+- Poisoning
+- Clean-Label
+- Poisoning
+- Trojan
+- Backdoor
+- Spectral
+- Signatures
+- Activation
+- Clustering
+- Isolation
+- Forest
+- Safetensors
+- Dataset
+- Sanitization
+slug: /ai-ml-security/ml-model-security/data-poisoning-and-clean-label-sanitization
 ---
+
 
 # 03. Data Poisoning & Dataset Sanitization
 

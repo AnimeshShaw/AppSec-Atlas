@@ -1,8 +1,23 @@
 ---
-title: "04. Production Defenses & gRPC Hardening"
-description: "Production-grade mitigation strategies for gRPC services: mTLS with SPIFFE/SPIRE, Interceptor patterns, Protobuf validation, Envoy Gateway rules, and HTTP/2 hardening."
-keywords: ["gRPC Defenses", "SPIFFE SPIRE", "Envoy Proxy", "protoc-gen-validate", "Rate Limiting", "Interceptors", "Hardening"]
+title: 04. Production Defenses & gRPC Hardening
+description: 'Production-grade mitigation strategies for gRPC services: mTLS with
+  SPIFFE/SPIRE, Interceptor patterns, Protobuf validation, Envoy Gateway rules, and
+  HTTP/2 hardening.'
+keywords:
+- gRPC
+- Defenses
+- SPIFFE
+- SPIRE
+- Envoy
+- Proxy
+- protoc-gen-validate
+- Rate
+- Limiting
+- Interceptors
+- Hardening
+slug: /web-and-api/grpc-security/defenses
 ---
+
 
 # 04. Production Defenses & gRPC Hardening
 

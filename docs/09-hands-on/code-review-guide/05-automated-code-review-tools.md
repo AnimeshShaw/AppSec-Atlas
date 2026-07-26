@@ -1,8 +1,28 @@
 ---
-title: "05 Automated Code Review Tools"
-description: "Static Application Security Testing (SAST) tools help automate the discovery of security defects."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "09 Hands On", "Code Review Guide", "05 Automated Code Review Tools.Md"]
+title: 05 Automated Code Review Tools
+description: Static Application Security Testing (SAST) tools help automate the discovery
+  of security defects.
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- 09
+- Hands
+- 'On'
+- Code
+- Review
+- Guide
+- '05'
+- Automated
+- Code
+- Review
+- Tools
+- Md
+slug: /hands-on/code-review-guide/automated-code-review-tools
 ---
+
 
 # 05 Automated Code Review Tools
 

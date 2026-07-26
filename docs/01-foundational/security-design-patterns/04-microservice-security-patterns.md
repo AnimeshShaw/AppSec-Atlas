@@ -1,8 +1,31 @@
 ---
-title: "04 - Microservice & Distributed System Security Patterns"
-description: "Master microservice security patterns including Sidecar Proxies (Envoy), API Gateways, OAuth 2.0 Token Exchange (RFC 8693), SPIFFE/SPIRE mTLS Workload Identity, and Zero Trust Architecture."
-keywords: ["AppSec", "Microservices", "Sidecar Proxy", "Envoy", "Service Mesh", "API Gateway", "OAuth2 Token Exchange", "RFC 8693", "mTLS", "SPIFFE", "SPIRE", "Zero Trust"]
+title: 04 - Microservice & Distributed System Security Patterns
+description: Master microservice security patterns including Sidecar Proxies (Envoy),
+  API Gateways, OAuth 2.0 Token Exchange (RFC 8693), SPIFFE/SPIRE mTLS Workload Identity,
+  and Zero Trust Architecture.
+keywords:
+- AppSec
+- Microservices
+- Sidecar
+- Proxy
+- Envoy
+- Service
+- Mesh
+- API
+- Gateway
+- OAuth2
+- Token
+- Exchange
+- RFC
+- '8693'
+- mTLS
+- SPIFFE
+- SPIRE
+- Zero
+- Trust
+slug: /foundational/security-design-patterns/microservice-security-patterns
 ---
+
 
 # 04 - Microservice & Distributed System Security Patterns
 

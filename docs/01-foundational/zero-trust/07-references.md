@@ -1,8 +1,26 @@
 ---
-title: "Zero Trust Architecture References & Standards"
-description: "Comprehensive catalog of Zero Trust specifications, RFC standards, NIST guidelines, real-world incident case studies, and enterprise security tooling."
-keywords: ["Zero Trust Standards", "NIST SP 800-207", "CISA ZTMM", "RFC 8705", "DPoP", "SPIFFE", "SolarWinds Incident", "BeyondCorp"]
+title: Zero Trust Architecture References & Standards
+description: Comprehensive catalog of Zero Trust specifications, RFC standards, NIST
+  guidelines, real-world incident case studies, and enterprise security tooling.
+keywords:
+- Zero
+- Trust
+- Standards
+- NIST
+- SP
+- 800-207
+- CISA
+- ZTMM
+- RFC
+- '8705'
+- DPoP
+- SPIFFE
+- SolarWinds
+- Incident
+- BeyondCorp
+slug: /foundational/zero-trust/references
 ---
+
 
 # Zero Trust Architecture References & Standards
 

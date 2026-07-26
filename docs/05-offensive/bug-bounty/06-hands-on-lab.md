@@ -1,8 +1,25 @@
 ---
-title: "06. Hands-On Vulnerability Lab"
-description: "In this hands-on lab, you will audit a **vulnerable Coupon Redemption API**, run an audit script to detect a Race Condition flaw, and implement an ato..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Bug Bounty", "06 Hands On Lab.Md"]
+title: 06. Hands-On Vulnerability Lab
+description: In this hands-on lab, you will audit a **vulnerable Coupon Redemption
+  API**, run an audit script to detect a Race Condition flaw, and implement an ato...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '05'
+- Offensive
+- Bug
+- Bounty
+- '06'
+- Hands
+- 'On'
+- Lab
+- Md
+slug: /offensive/bug-bounty/hands-on-lab
 ---
+
 
 # 06. Hands-On Vulnerability Lab
 

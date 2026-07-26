@@ -1,8 +1,21 @@
 ---
-title: "02 - CORS Mechanics & Protocol Specification"
-description: "Master the mechanics of Cross-Origin Resource Sharing (CORS): simple requests, preflight OPTIONS exchanges, credential handling, and header specifications."
-keywords: ["AppSec", "CORS", "Preflight Request", "Access-Control-Allow-Origin", "Access-Control-Allow-Credentials", "HTTP Headers", "Web Security"]
+title: 02 - CORS Mechanics & Protocol Specification
+description: 'Master the mechanics of Cross-Origin Resource Sharing (CORS): simple
+  requests, preflight OPTIONS exchanges, credential handling, and header specifications.'
+keywords:
+- AppSec
+- CORS
+- Preflight
+- Request
+- Access-Control-Allow-Origin
+- Access-Control-Allow-Credentials
+- HTTP
+- Headers
+- Web
+- Security
+slug: /web-and-api/cors-and-sop/cors-mechanics-and-headers
 ---
+
 
 # 02 - CORS Mechanics & Protocol Specification
 

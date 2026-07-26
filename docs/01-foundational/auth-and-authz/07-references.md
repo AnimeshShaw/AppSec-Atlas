@@ -1,8 +1,32 @@
 ---
-title: "07 - References, Standards, & CVE Case Studies"
-description: "Authoritative references, RFC specifications, NIST SP 800-63B guidelines, OWASP standards, CVE case studies, and tool documentation for Authentication and Authorization."
-keywords: ["AppSec References", "RFC 6749", "RFC 7519", "RFC 7636", "NIST SP 800-63B", "OWASP ASVS", "CVE Case Studies", "Keycloak Docs", "OPA Docs"]
+title: 07 - References, Standards, & CVE Case Studies
+description: Authoritative references, RFC specifications, NIST SP 800-63B guidelines,
+  OWASP standards, CVE case studies, and tool documentation for Authentication and
+  Authorization.
+keywords:
+- AppSec
+- References
+- RFC
+- '6749'
+- RFC
+- '7519'
+- RFC
+- '7636'
+- NIST
+- SP
+- 800-63B
+- OWASP
+- ASVS
+- CVE
+- Case
+- Studies
+- Keycloak
+- Docs
+- OPA
+- Docs
+slug: /foundational/auth-and-authz/references
 ---
+
 
 # 07 - References, Standards, & CVE Case Studies
 

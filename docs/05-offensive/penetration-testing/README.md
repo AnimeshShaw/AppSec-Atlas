@@ -1,8 +1,22 @@
 ---
-title: "Penetration Testing Methodology Guide"
-description: "Penetration testing is the authorized, simulated security assessment of an organization's systems, networks, and web applications to identify security..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Penetration Testing", "Readme.Md"]
+title: Penetration Testing Methodology Guide
+description: Penetration testing is the authorized, simulated security assessment
+  of an organization's systems, networks, and web applications to identify security...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '05'
+- Offensive
+- Penetration
+- Testing
+- Readme
+- Md
+slug: /offensive/penetration-testing
 ---
+
 
 # Penetration Testing Methodology Guide
 

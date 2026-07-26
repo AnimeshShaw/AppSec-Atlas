@@ -1,8 +1,33 @@
 ---
-title: "AI Red Teaming & Safety Evaluation Playbook"
-description: "Comprehensive guide to AI Red Teaming: methodology, threat modeling with NIST AI 100-2 and MITRE ATLAS, automated evaluation with PyRIT & Garak, multi-turn Crescendo attacks, guardrail stress testing, and defensive engineering."
-keywords: ["AI Red Teaming", "LLM Security", "PyRIT", "Garak", "MITRE ATLAS", "NIST AI 100-2", "Guardrail Stress Testing", "Prompt Injection", "Crescendo Attack", "AppSec Atlas"]
+title: AI Red Teaming & Safety Evaluation Playbook
+description: 'Comprehensive guide to AI Red Teaming: methodology, threat modeling
+  with NIST AI 100-2 and MITRE ATLAS, automated evaluation with PyRIT & Garak, multi-turn
+  Crescendo attacks, guardrail stress testing, and defensive engineering.'
+keywords:
+- AI
+- Red
+- Teaming
+- LLM
+- Security
+- PyRIT
+- Garak
+- MITRE
+- ATLAS
+- NIST
+- AI
+- 100-2
+- Guardrail
+- Stress
+- Testing
+- Prompt
+- Injection
+- Crescendo
+- Attack
+- AppSec
+- Atlas
+slug: /ai-ml-security/ai-red-teaming
 ---
+
 
 # AI Red Teaming & Safety Evaluation Playbook
 

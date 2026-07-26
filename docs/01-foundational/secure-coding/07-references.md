@@ -1,8 +1,26 @@
 ---
-title: "Chapter 7: References & Standards"
-description: "Comprehensive AppSec reference directory: CVE breakdowns, CWE Top 25 mappings, OWASP ASVS v4.0 standards, NIST SSDF guidelines, and security library documentation."
-keywords: ["AppSec", "CVE Breakdown", "CWE Top 25", "OWASP ASVS", "NIST SSDF", "SEI CERT", "Security References"]
+title: 'Chapter 7: References & Standards'
+description: 'Comprehensive AppSec reference directory: CVE breakdowns, CWE Top 25
+  mappings, OWASP ASVS v4.0 standards, NIST SSDF guidelines, and security library
+  documentation.'
+keywords:
+- AppSec
+- CVE
+- Breakdown
+- CWE
+- Top
+- '25'
+- OWASP
+- ASVS
+- NIST
+- SSDF
+- SEI
+- CERT
+- Security
+- References
+slug: /foundational/secure-coding/references
 ---
+
 
 # Chapter 7: References & Standards
 

@@ -1,8 +1,23 @@
 ---
-title: "Chapter 6: Hands-On Lab"
-description: "Self-contained hands-on vulnerability lab: Spin up a vulnerable Python Flask application, execute an automated exploit script, and implement production security remediations."
-keywords: ["AppSec", "Hands-On Lab", "Exploit", "Path Traversal", "File Upload", "XSS", "Flask", "Remediation"]
+title: 'Chapter 6: Hands-On Lab'
+description: 'Self-contained hands-on vulnerability lab: Spin up a vulnerable Python
+  Flask application, execute an automated exploit script, and implement production
+  security remediations.'
+keywords:
+- AppSec
+- Hands-On
+- Lab
+- Exploit
+- Path
+- Traversal
+- File
+- Upload
+- XSS
+- Flask
+- Remediation
+slug: /foundational/secure-coding/hands-on-lab
 ---
+
 
 # Chapter 6: Hands-On Lab
 

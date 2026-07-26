@@ -1,8 +1,24 @@
 ---
-title: "06. Defenses & Secure Coding Cheatsheet"
-description: "Cross-language defense matrix (Python, Node.js, Go, Java), production Semgrep SAST rule set, and pull request security review checklist."
-keywords: ["AppSec", "Cheatsheet", "Semgrep Rules", "Secure Coding", "Python", "Node.js", "Go", "Java", "SAST", "DAST"]
+title: 06. Defenses & Secure Coding Cheatsheet
+description: Cross-language defense matrix (Python, Node.js, Go, Java), production
+  Semgrep SAST rule set, and pull request security review checklist.
+keywords:
+- AppSec
+- Cheatsheet
+- Semgrep
+- Rules
+- Secure
+- Coding
+- Python
+- Node
+- js
+- Go
+- Java
+- SAST
+- DAST
+slug: /foundational/owasp-top-10/defenses-cheatsheet
 ---
+
 
 # 06. Defenses & Secure Coding Cheatsheet
 

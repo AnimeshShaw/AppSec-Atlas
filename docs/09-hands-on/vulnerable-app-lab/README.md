@@ -1,8 +1,24 @@
 ---
-title: "AppSec Atlas Security Guide"
-description: "This guide is planned but not yet written. Want to help build AppSec Atlas?"
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "09 Hands On", "Vulnerable App Lab", "Readme.Md"]
+title: AppSec Atlas Security Guide
+description: This guide is planned but not yet written. Want to help build AppSec
+  Atlas?
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- 09
+- Hands
+- 'On'
+- Vulnerable
+- App
+- Lab
+- Readme
+- Md
+slug: /hands-on/vulnerable-app-lab
 ---
+
 
 ﻿# Vulnerable App Lab
 

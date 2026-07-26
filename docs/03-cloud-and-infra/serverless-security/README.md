@@ -1,9 +1,34 @@
 ---
-title: "Serverless Security Master Guide"
-description: "Comprehensive production guide for securing serverless applications, covering threat modeling, least privilege IAM, event injection, secrets management, runtime defenses, and hands-on labs across AWS Lambda, Azure Functions, and GCP Cloud Functions."
-keywords: ["Serverless Security", "AWS Lambda", "Azure Functions", "Google Cloud Functions", "IAM Security", "Event Injection", "Denial of Wallet", "OWASP Serverless Top 10"]
-sidebar_label: "Overview"
+title: Serverless Security Master Guide
+description: Comprehensive production guide for securing serverless applications,
+  covering threat modeling, least privilege IAM, event injection, secrets management,
+  runtime defenses, and hands-on labs across AWS Lambda, Azure Functions, and GCP
+  Cloud Functions.
+keywords:
+- Serverless
+- Security
+- AWS
+- Lambda
+- Azure
+- Functions
+- Google
+- Cloud
+- Functions
+- IAM
+- Security
+- Event
+- Injection
+- Denial
+- of
+- Wallet
+- OWASP
+- Serverless
+- Top
+- '10'
+sidebar_label: Overview
+slug: /cloud-and-infra/serverless-security
 ---
+
 
 # 🛡️ Serverless Security Master Guide
 

@@ -1,8 +1,28 @@
 ---
-title: "02 - MCP Tool Poisoning & Shadow Tools"
-description: "Deep technical analysis of MCP tool poisoning, tool description prompt injection, shadow tool registration, namespace squatting, and multi-language defensive implementations."
-keywords: ["Tool Poisoning", "Shadow Tools", "MCP Security", "Prompt Injection", "Namespace Squatting", "Schema Injection", "Python", "TypeScript", "Go", "Java"]
+title: 02 - MCP Tool Poisoning & Shadow Tools
+description: Deep technical analysis of MCP tool poisoning, tool description prompt
+  injection, shadow tool registration, namespace squatting, and multi-language defensive
+  implementations.
+keywords:
+- Tool
+- Poisoning
+- Shadow
+- Tools
+- MCP
+- Security
+- Prompt
+- Injection
+- Namespace
+- Squatting
+- Schema
+- Injection
+- Python
+- TypeScript
+- Go
+- Java
+slug: /ai-ml-security/mcp-tool-security/mcp-tool-poisoning-and-shadow-tools
 ---
+
 
 # 02 - MCP Tool Poisoning & Shadow Tools
 

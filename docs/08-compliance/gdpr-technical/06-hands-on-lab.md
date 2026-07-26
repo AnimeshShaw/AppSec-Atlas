@@ -1,8 +1,18 @@
 ---
-title: "Hands-On Lab: Implementing GDPR Controls"
-description: "Comprehensive guide and best practices for Hands-On Lab: Implementing GDPR Controls in the gdpr-technical section of AppSec Atlas. Learn how to secure your infr"
-keywords: ['gdpr-technical', 'hands-on-lab:-implementing-gdpr-controls', 'appsec', 'security', 'compliance']
+title: 'Hands-On Lab: Implementing GDPR Controls'
+description: 'Comprehensive guide and best practices for Hands-On Lab: Implementing
+  GDPR Controls in the gdpr-technical section of AppSec Atlas. Learn how to secure
+  your infr'
+keywords:
+- gdpr-technical
+- hands-on-lab
+- -implementing-gdpr-controls
+- appsec
+- security
+- compliance
+slug: /compliance/gdpr-technical/hands-on-lab
 ---
+
 # Hands-On Lab: Implementing GDPR Controls
 
 In this lab, we will remediate a non-compliant Python script that stores plain-text PII and fails to handle the "Right to be Forgotten".

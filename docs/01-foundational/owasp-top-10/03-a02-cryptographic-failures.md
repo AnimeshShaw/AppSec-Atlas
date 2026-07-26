@@ -1,8 +1,27 @@
 ---
-title: "03. A02: Cryptographic Failures"
-description: "Comprehensive guide to Cryptographic Failures: Password hashing with Argon2id/bcrypt, AES-256-GCM authenticated encryption, secret management, TLS 1.3, and key management architecture."
-keywords: ["AppSec", "Cryptographic Failures", "Argon2id", "bcrypt", "AES-256-GCM", "TLS 1.3", "KMS", "Python", "Node.js", "Go", "Java"]
+title: '03. A02: Cryptographic Failures'
+description: 'Comprehensive guide to Cryptographic Failures: Password hashing with
+  Argon2id/bcrypt, AES-256-GCM authenticated encryption, secret management, TLS 1.3,
+  and key management architecture.'
+keywords:
+- AppSec
+- Cryptographic
+- Failures
+- Argon2id
+- bcrypt
+- AES-256-GCM
+- TLS
+- '1'
+- '3'
+- KMS
+- Python
+- Node
+- js
+- Go
+- Java
+slug: /foundational/owasp-top-10/a02-cryptographic-failures
 ---
+
 
 # 03. A02: Cryptographic Failures
 

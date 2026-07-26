@@ -1,8 +1,26 @@
 ---
-title: "03 - Least Privilege & Permission Scopes in MCP"
-description: "Master the Principle of Least Privilege for MCP tools, including parameter validation, path canonicalization, RBAC/ABAC scoping, and Human-in-the-Loop (HITL) approval gates."
-keywords: ["Least Privilege", "HITL", "Human-in-the-Loop", "Path Canonicalization", "RBAC", "ABAC", "MCP Security", "Python", "TypeScript", "Go", "Java"]
+title: 03 - Least Privilege & Permission Scopes in MCP
+description: Master the Principle of Least Privilege for MCP tools, including parameter
+  validation, path canonicalization, RBAC/ABAC scoping, and Human-in-the-Loop (HITL)
+  approval gates.
+keywords:
+- Least
+- Privilege
+- HITL
+- Human-in-the-Loop
+- Path
+- Canonicalization
+- RBAC
+- ABAC
+- MCP
+- Security
+- Python
+- TypeScript
+- Go
+- Java
+slug: /ai-ml-security/mcp-tool-security/least-privilege-and-permission-scopes
 ---
+
 
 # 03 - Least Privilege & Permission Scopes in MCP
 

@@ -1,8 +1,27 @@
 ---
-title: "05 - Extension Security Auditing Tools"
-description: "When analyzing a third-party extension or testing your own, the right tools make a huge difference."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Browser Extension Security", "05 Extension Security Auditing Tools.Md"]
+title: 05 - Extension Security Auditing Tools
+description: When analyzing a third-party extension or testing your own, the right
+  tools make a huge difference.
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '07'
+- Specialized
+- Browser
+- Extension
+- Security
+- '05'
+- Extension
+- Security
+- Auditing
+- Tools
+- Md
+slug: /specialized/browser-extension-security/extension-security-auditing-tools
 ---
+
 
 # 05 - Extension Security Auditing Tools
 
@@ -28,7 +47,7 @@ rules:
     languages: [javascript]
     severity: WARNING
     pattern: |
-      chrome.runtime.onMessageExternal.addListener(function(`$REQ, `$`SENDER, $`RES) {
+      chrome.runtime.onMessageExternal.addListener(function(`$REQ, $``SENDER, $`RES) {
         ...
         // Missing check for `$SENDER.origin or $`SENDER.url
       })

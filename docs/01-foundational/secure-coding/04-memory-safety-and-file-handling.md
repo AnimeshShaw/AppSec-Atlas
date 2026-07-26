@@ -1,8 +1,28 @@
 ---
-title: "Chapter 4: Memory Safety & File Handling"
-description: "Master secure file upload architectures, magic byte verification, canonical path traversal prevention, Zip Slip mitigation, and memory safety principles."
-keywords: ["AppSec", "Path Traversal", "File Upload Security", "Magic Bytes", "Zip Slip", "Memory Safety", "Canonicalization", "Node.js", "Python", "Go"]
+title: 'Chapter 4: Memory Safety & File Handling'
+description: Master secure file upload architectures, magic byte verification, canonical
+  path traversal prevention, Zip Slip mitigation, and memory safety principles.
+keywords:
+- AppSec
+- Path
+- Traversal
+- File
+- Upload
+- Security
+- Magic
+- Bytes
+- Zip
+- Slip
+- Memory
+- Safety
+- Canonicalization
+- Node
+- js
+- Python
+- Go
+slug: /foundational/secure-coding/memory-safety-and-file-handling
 ---
+
 
 # Chapter 4: Memory Safety & File Handling
 

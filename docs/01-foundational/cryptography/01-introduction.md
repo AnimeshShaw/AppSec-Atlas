@@ -1,8 +1,25 @@
 ---
-title: "01 - Introduction to Cryptography"
-description: "Master the foundational pillars of cryptography: CIA+N triad, Encoding vs Hashing vs Encryption comparison matrix, Symmetric vs Asymmetric primitives, and critical implementation anti-patterns."
-keywords: ["AppSec", "Cryptography", "CIA Triad", "Encoding vs Hashing vs Encryption", "CSPRNG", "Entropy", "Security Guarantees"]
+title: 01 - Introduction to Cryptography
+description: 'Master the foundational pillars of cryptography: CIA+N triad, Encoding
+  vs Hashing vs Encryption comparison matrix, Symmetric vs Asymmetric primitives,
+  and critical implementation anti-patterns.'
+keywords:
+- AppSec
+- Cryptography
+- CIA
+- Triad
+- Encoding
+- vs
+- Hashing
+- vs
+- Encryption
+- CSPRNG
+- Entropy
+- Security
+- Guarantees
+slug: /foundational/cryptography/introduction
 ---
+
 
 # 01 - Introduction to Cryptography
 
@@ -14,6 +31,8 @@ Cryptography is the mathematical foundation of digital trust. In modern software
 - **Non-repudiation**: Preventing an author or sender from falsely denying the origination or contents of a signed message.
 
 > [!TIP]
+> **Developer Cryptography Toolkit:** Need an interactive online platform to test, verify, and experiment with encoding (Base64, Hex), ciphers (AES-256, RSA), password hashing (Argon2id, bcrypt), and key generation? Check out our developer security platform: [devcipher.dev](https://devcipher.dev/) · [GitHub Repo](https://github.com/AnimeshShaw/DevCipher).
+>
 > **Industry Standard:** Modern security frameworks (such as NIST SP 800-175B, OWASP Top 10 A02:2021 - Cryptographic Failures, and CIS Controls) mandate that cryptographic controls must be selected based on evaluated threat models and standardized primitives rather than custom implementations.
 
 ---
@@ -24,12 +43,12 @@ One of the most frequent anti-patterns in application engineering is conflating 
 
 | Category | Input / Output | Key Required? | Reversibility | Primary Security Goal | Standard Algorithms | Typical Use Case |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Encoding** | Data `$\rightarrow$` Formatted Data | ❌ No | ✅ Reversible (No secret) | Interoperability & Transport | Base64, Hex, URL-Encoding | Transmitting binary payloads over HTTP/JSON |
-| **Cryptographic Hashing** | Arbitrary Data `$\rightarrow$` Fixed-Size Digest | ❌ No | ❌ One-Way (Irreversible) | Integrity Verification | SHA-256, SHA-3, BLAKE3 | File checksums, digital signatures |
-| **Password Hashing (KDF)** | Password + Salt `$\rightarrow$` Slow Hash | ❌ No (Uses Salt) | ❌ One-Way (Computationally Hard) | Credential Protection | Argon2id, bcrypt, PBKDF2 | Storing user passwords securely |
-| **Symmetric Encryption** | Plaintext `$\leftrightarrow$` Ciphertext | 🔑 Single Secret Key | ✅ Reversible with Key | Bulk Data Confidentiality | AES-256-GCM, ChaCha20-Poly1305 | Database column encryption, TLS payload |
-| **Asymmetric Encryption** | Plaintext `$\leftrightarrow$` Ciphertext | 🔑 Public/Private Pair | ✅ Reversible with Private Key | Secret Key Distribution | RSA-OAEP, ECIES | Key encapsulation, secure boot |
-| **Digital Signatures** | Message + Private Key `$\rightarrow$` Signature | 🔑 Public/Private Pair | ❌ One-Way Verification | Authenticity & Non-repudiation | Ed25519, RSA-PSS, ECDSA | JWT signing, software update verification |
+| **Encoding** | Data `\rightarrow` Formatted Data | ❌ No | ✅ Reversible (No secret) | Interoperability & Transport | Base64, Hex, URL-Encoding | Transmitting binary payloads over HTTP/JSON |
+| **Cryptographic Hashing** | Arbitrary Data `\rightarrow` Fixed-Size Digest | ❌ No | ❌ One-Way (Irreversible) | Integrity Verification | SHA-256, SHA-3, BLAKE3 | File checksums, digital signatures |
+| **Password Hashing (KDF)** | Password + Salt `\rightarrow` Slow Hash | ❌ No (Uses Salt) | ❌ One-Way (Computationally Hard) | Credential Protection | Argon2id, bcrypt, PBKDF2 | Storing user passwords securely |
+| **Symmetric Encryption** | Plaintext `\leftrightarrow` Ciphertext | 🔑 Single Secret Key | ✅ Reversible with Key | Bulk Data Confidentiality | AES-256-GCM, ChaCha20-Poly1305 | Database column encryption, TLS payload |
+| **Asymmetric Encryption** | Plaintext `\leftrightarrow` Ciphertext | 🔑 Public/Private Pair | ✅ Reversible with Private Key | Secret Key Distribution | RSA-OAEP, ECIES | Key encapsulation, secure boot |
+| **Digital Signatures** | Message + Private Key `\rightarrow` Signature | 🔑 Public/Private Pair | ❌ One-Way Verification | Authenticity & Non-repudiation | Ed25519, RSA-PSS, ECDSA | JWT signing, software update verification |
 
 ---
 

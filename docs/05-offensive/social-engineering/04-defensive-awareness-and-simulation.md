@@ -1,8 +1,26 @@
 ---
-title: "04 - Defensive Awareness and Simulation"
-description: "Technical controls will inevitably fail. When a phishing email reaches an inbox, the employee is the final line of defense. Security awareness trainin..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Social Engineering", "04 Defensive Awareness And Simulation.Md"]
+title: 04 - Defensive Awareness and Simulation
+description: Technical controls will inevitably fail. When a phishing email reaches
+  an inbox, the employee is the final line of defense. Security awareness trainin...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '05'
+- Offensive
+- Social
+- Engineering
+- '04'
+- Defensive
+- Awareness
+- And
+- Simulation
+- Md
+slug: /offensive/social-engineering/defensive-awareness-and-simulation
 ---
+
 
 # 04 - Defensive Awareness and Simulation
 

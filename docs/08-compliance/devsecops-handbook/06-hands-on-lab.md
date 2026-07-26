@@ -1,7 +1,14 @@
 ---
-title: "06 - Hands-On Lab: Building a DevSecOps Pipeline"
-description: "Comprehensive guide and best practices for 06 - Hands-On Lab: Building a DevSecOps Pipeline in the devsecops-handbook section of AppSec Atlas. Learn how to secu"
-keywords: ['devsecops-handbook', '06---hands-on-lab:-building-a-devsecops-pipeline', 'appsec', 'security', 'compliance']
+title: '06 - Hands-On Lab: Building a DevSecOps Pipeline'
+description: 'Comprehensive guide and best practices for 06 - Hands-On Lab: Building
+  a DevSecOps Pipeline in the devsecops-handbook section of AppSec Atlas. Learn how
+  to secu'
+keywords:
+- devsecops-handbook
+- '06'
+slug: /compliance/devsecops-handbook/hands-on-lab
+---
+hands-on-lab:-building-a-devsecops-pipeline', 'appsec', 'security', 'compliance']
 ---
 # 06 - Hands-On Lab: Building a DevSecOps Pipeline
 

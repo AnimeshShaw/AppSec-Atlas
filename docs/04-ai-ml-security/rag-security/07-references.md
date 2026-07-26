@@ -1,8 +1,28 @@
 ---
-title: "07 - References & Further Reading"
-description: "Comprehensive references, academic papers, OWASP standards, MITRE ATLAS framework, vendor security guides, and open-source evaluation tools for RAG security."
-keywords: ["RAG Security References", "OWASP LLM Top 10", "MITRE ATLAS", "NIST AI RMF", "Indirect Prompt Injection Papers", "AppSec"]
+title: 07 - References & Further Reading
+description: Comprehensive references, academic papers, OWASP standards, MITRE ATLAS
+  framework, vendor security guides, and open-source evaluation tools for RAG security.
+keywords:
+- RAG
+- Security
+- References
+- OWASP
+- LLM
+- Top
+- '10'
+- MITRE
+- ATLAS
+- NIST
+- AI
+- RMF
+- Indirect
+- Prompt
+- Injection
+- Papers
+- AppSec
+slug: /ai-ml-security/rag-security/references
 ---
+
 
 # 07 - References & Further Reading
 

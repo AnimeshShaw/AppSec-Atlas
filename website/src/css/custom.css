@@ -1,30 +1,220 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * AppSec Atlas Design System & Global Styles
+ * Optimized for Modern Visual Aesthetics & WCAG 2.1 AA/AAA Accessibility
  */
 
-/* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  /* Typography Tokens */
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  --ifm-heading-font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --ifm-font-family-monospace: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --ifm-heading-font-weight: 700;
+  --ifm-line-height-base: 1.65;
+
+  /* Primary Light Theme Palette */
+  --ifm-color-primary: #0284c7;
+  --ifm-color-primary-dark: #0369a1;
+  --ifm-color-primary-darker: #075985;
+  --ifm-color-primary-darkest: #0c4a6e;
+  --ifm-color-primary-light: #38bdf8;
+  --ifm-color-primary-lighter: #60a5fa;
+  --ifm-color-primary-lightest: #93c5fd;
+
+  --ifm-background-color: #ffffff;
+  --ifm-background-surface-color: #f8fafc;
+  --ifm-font-color-base: #0f172a;
+  --ifm-heading-color: #0f172a;
+
+  /* Theme-aware Atlas Color Variables (LIGHT MODE) */
+  --atlas-text-primary: #0f172a;
+  --atlas-text-secondary: #334155;
+  --atlas-text-muted: #475569;
+  --atlas-accent-gradient: linear-gradient(135deg, #0284c7 0%, #4f46e5 50%, #7c3aed 100%);
+  --atlas-card-bg: #ffffff;
+  --atlas-card-bg-hover: #f8fafc;
+  --atlas-card-border: #cbd5e1;
+  --atlas-card-border-hover: #0284c7;
+  --atlas-shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+  --atlas-shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+  --atlas-glow-color: rgba(2, 132, 199, 0.15);
+  --atlas-modal-bg: rgba(255, 255, 255, 0.95);
+  --atlas-modal-content-bg: #ffffff;
+  --atlas-modal-header-bg: #f1f5f9;
+  --atlas-terminal-bg: #090d16;
+
+  --ifm-code-font-size: 90%;
+  --ifm-code-border-radius: 6px;
+  --ifm-navbar-background-color: rgba(255, 255, 255, 0.9);
+  --ifm-navbar-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Dark Mode Theme Palette (Deep Slate & Glowing Cyber Mesh) */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #38bdf8;
+  --ifm-color-primary-dark: #0284c7;
+  --ifm-color-primary-darker: #0369a1;
+  --ifm-color-primary-darkest: #075985;
+  --ifm-color-primary-light: #7dd3fc;
+  --ifm-color-primary-lighter: #bae6fd;
+  --ifm-color-primary-lightest: #e0f2fe;
+
+  --ifm-background-color: #07090e;
+  --ifm-background-surface-color: #0f172a;
+  --ifm-font-color-base: #f1f5f9;
+  --ifm-heading-color: #f8fafc;
+
+  /* Theme-aware Atlas Color Variables (DARK MODE) */
+  --atlas-text-primary: #f8fafc;
+  --atlas-text-secondary: #cbd5e1;
+  --atlas-text-muted: #94a3b8;
+  --atlas-accent-gradient: linear-gradient(135deg, #38bdf8 0%, #818cf8 50%, #c084fc 100%);
+  --atlas-card-bg: rgba(15, 23, 42, 0.65);
+  --atlas-card-bg-hover: rgba(30, 41, 59, 0.8);
+  --atlas-card-border: rgba(255, 255, 255, 0.08);
+  --atlas-card-border-hover: rgba(56, 189, 248, 0.4);
+  --atlas-shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --atlas-shadow-lg: 0 20px 30px -10px rgba(0, 0, 0, 0.6), 0 0 25px rgba(56, 189, 248, 0.08);
+  --atlas-glow-color: rgba(56, 189, 248, 0.25);
+  --atlas-modal-bg: rgba(5, 7, 12, 0.94);
+  --atlas-modal-content-bg: #090d16;
+  --atlas-modal-header-bg: #0f172a;
+  --atlas-terminal-bg: #090d16;
+
+  --ifm-navbar-background-color: rgba(7, 9, 14, 0.9);
+  --ifm-navbar-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.08);
+  --ifm-footer-background-color: #05070a;
+}
+
+/* ==========================================================================
+   Accessibility (WCAG 2.1 Compliance & Focus Indicators)
+   ========================================================================== */
+
+/* Enhanced Focus-Visible Ring for Keyboard Navigation */
+*:focus-visible {
+  outline: 2px solid var(--ifm-color-primary) !important;
+  outline-offset: 3px !important;
+  box-shadow: 0 0 0 4px var(--atlas-glow-color) !important;
+  border-radius: 4px;
+}
+
+/* Respect Reduced Motion Preferences */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* High Contrast Links & Paragraphs */
+a {
+  font-weight: 500;
+  transition: color 0.15s ease-in-out;
+}
+
+p, li, td {
+  color: var(--atlas-text-secondary);
+}
+
+/* ==========================================================================
+   Navbar & Glassmorphism Aesthetics
+   ========================================================================== */
+
+.navbar {
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--atlas-card-border);
+}
+
+.navbar__title {
+  font-family: var(--ifm-heading-font-family);
+  font-weight: 800;
+  font-size: 1.2rem;
+  background: var(--atlas-accent-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar__item {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+/* ==========================================================================
+   Global UI Components & Utility Classes
+   ========================================================================== */
+
+.gradient-text {
+  background: var(--atlas-accent-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.glass-card {
+  background: var(--atlas-card-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--atlas-card-border);
+  border-radius: 16px;
+  box-shadow: var(--atlas-shadow-sm);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease, background-color 0.25s ease;
+}
+
+.glass-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--atlas-shadow-lg);
+  border-color: var(--atlas-card-border-hover);
+  background: var(--atlas-card-bg-hover);
+}
+
+/* ==========================================================================
+   ASCII Tables & Architecture Diagrams Formatting
+   ========================================================================== */
+
+.theme-doc-markdown pre, pre {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.88rem;
+  line-height: 1.5;
+  white-space: pre;
+  overflow-x: auto;
+  word-wrap: normal;
+  border-radius: 10px;
+}
+
+.theme-doc-markdown table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+}
+
+.theme-doc-markdown table th {
+  background: var(--ifm-background-surface-color);
+  color: var(--atlas-text-primary);
+  font-weight: 700;
+  border: 1px solid var(--atlas-card-border);
+}
+
+.theme-doc-markdown table td {
+  color: var(--atlas-text-secondary);
+  border: 1px solid var(--atlas-card-border);
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--ifm-background-color);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.3);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.5);
 }

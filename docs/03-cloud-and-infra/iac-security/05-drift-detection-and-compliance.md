@@ -1,8 +1,23 @@
 ---
-title: "05 - Drift Detection and Continuous Compliance Masterclass"
-description: "Master infrastructure drift detection using terraform plan, driftctl, and AWS Config. Learn automated event-driven remediation architectures and CSPM integration."
-keywords: ["Infrastructure Drift", "Driftctl", "AWS Config", "Continuous Compliance", "Click-Ops Risk", "Auto-Remediation", "CSPM"]
+title: 05 - Drift Detection and Continuous Compliance Masterclass
+description: Master infrastructure drift detection using terraform plan, driftctl,
+  and AWS Config. Learn automated event-driven remediation architectures and CSPM
+  integration.
+keywords:
+- Infrastructure
+- Drift
+- Driftctl
+- AWS
+- Config
+- Continuous
+- Compliance
+- Click-Ops
+- Risk
+- Auto-Remediation
+- CSPM
+slug: /cloud-and-infra/iac-security/drift-detection-and-compliance
 ---
+
 
 # 05 - Drift Detection and Continuous Compliance Masterclass
 

@@ -1,8 +1,26 @@
 ---
-title: "02. GitHub Actions & Runner Security Hardening"
-description: "Master GitHub Actions security: Poisoned Pipeline Execution (PPE), pull_request_target vulnerabilities, script injection, action SHA pinning, and runner isolation."
-keywords: ["AppSec", "Cybersecurity", "GitHub Actions Security", "Poisoned Pipeline Execution", "pull_request_target", "Script Injection", "SHA Pinning", "Harden Runner"]
+title: 02. GitHub Actions & Runner Security Hardening
+description: 'Master GitHub Actions security: Poisoned Pipeline Execution (PPE), pull_request_target
+  vulnerabilities, script injection, action SHA pinning, and runner isolation.'
+keywords:
+- AppSec
+- Cybersecurity
+- GitHub
+- Actions
+- Security
+- Poisoned
+- Pipeline
+- Execution
+- pull_request_target
+- Script
+- Injection
+- SHA
+- Pinning
+- Harden
+- Runner
+slug: /cloud-and-infra/cicd-pipeline-security/github-actions-hardening
 ---
+
 
 # 02. GitHub Actions & Runner Security Hardening
 

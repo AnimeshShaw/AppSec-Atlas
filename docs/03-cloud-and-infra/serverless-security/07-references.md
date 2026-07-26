@@ -1,9 +1,29 @@
 ---
-title: "07 - References & Standards"
-description: "Comprehensive reference library for Serverless Security, including CVEs, OWASP frameworks, NIST standards, CIS benchmarks, and security tooling resources."
-keywords: ["Serverless Security References", "OWASP Serverless Top 10", "NIST SP 800-207", "CIS AWS Foundations", "CVEs", "Cloud Security Standards"]
-sidebar_label: "07 - References"
+title: 07 - References & Standards
+description: Comprehensive reference library for Serverless Security, including CVEs,
+  OWASP frameworks, NIST standards, CIS benchmarks, and security tooling resources.
+keywords:
+- Serverless
+- Security
+- References
+- OWASP
+- Serverless
+- Top
+- '10'
+- NIST
+- SP
+- 800-207
+- CIS
+- AWS
+- Foundations
+- CVEs
+- Cloud
+- Security
+- Standards
+sidebar_label: 07 - References
+slug: /cloud-and-infra/serverless-security/references
 ---
+
 
 # 07 - References & Standards
 

@@ -1,8 +1,28 @@
 ---
-title: "01 - Introduction to Web Application Security & Architecture"
-description: "Master modern web application security architecture, root cause threat modeling, and production configuration of HTTP Security Headers across Nginx, Caddy, Python, Express, and Go."
-keywords: ["web application security", "HTTP security headers", "HSTS", "CSP", "X-Frame-Options", "Referrer-Policy", "Permissions-Policy", "COOP", "COEP", "Helmet", "Nginx security"]
+title: 01 - Introduction to Web Application Security & Architecture
+description: Master modern web application security architecture, root cause threat
+  modeling, and production configuration of HTTP Security Headers across Nginx, Caddy,
+  Python, Express, and Go.
+keywords:
+- web
+- application
+- security
+- HTTP
+- security
+- headers
+- HSTS
+- CSP
+- X-Frame-Options
+- Referrer-Policy
+- Permissions-Policy
+- COOP
+- COEP
+- Helmet
+- Nginx
+- security
+slug: /web-and-api/web-application-security/introduction
 ---
+
 
 # 01 - Introduction to Web Application Security & Architecture
 

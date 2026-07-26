@@ -1,8 +1,29 @@
 ---
-title: "Agentic AI Security Guide"
-description: "Master the security of autonomous AI agents, multi-agent frameworks, tool execution safety, memory isolation, and defense-in-depth engineering."
-keywords: ["AppSec", "Cybersecurity", "Agentic AI Security", "AI Agents", "LangGraph", "AutoGen", "CrewAI", "Tool Hijacking", "Excessive Agency", "OWASP LLM Top 10"]
+title: Agentic AI Security Guide
+description: Master the security of autonomous AI agents, multi-agent frameworks,
+  tool execution safety, memory isolation, and defense-in-depth engineering.
+keywords:
+- AppSec
+- Cybersecurity
+- Agentic
+- AI
+- Security
+- AI
+- Agents
+- LangGraph
+- AutoGen
+- CrewAI
+- Tool
+- Hijacking
+- Excessive
+- Agency
+- OWASP
+- LLM
+- Top
+- '10'
+slug: /ai-ml-security/agentic-ai-security
 ---
+
 
 # Agentic AI Security Guide
 

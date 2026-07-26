@@ -1,8 +1,32 @@
 ---
-title: "07. References & Standards"
-description: "Authoritative academic research papers, industry standards (NIST AI 100-2, MITRE ATLAS, OWASP Top 10 for LLMs), security frameworks, and open-source AI Red Teaming tools."
-keywords: ["NIST AI 100-2", "MITRE ATLAS", "OWASP LLM Top 10", "AI Security Research", "PyRIT", "garak", "AI Red Teaming References", "AppSec Atlas"]
+title: 07. References & Standards
+description: Authoritative academic research papers, industry standards (NIST AI 100-2,
+  MITRE ATLAS, OWASP Top 10 for LLMs), security frameworks, and open-source AI Red
+  Teaming tools.
+keywords:
+- NIST
+- AI
+- 100-2
+- MITRE
+- ATLAS
+- OWASP
+- LLM
+- Top
+- '10'
+- AI
+- Security
+- Research
+- PyRIT
+- garak
+- AI
+- Red
+- Teaming
+- References
+- AppSec
+- Atlas
+slug: /ai-ml-security/ai-red-teaming/references
 ---
+
 
 # 07. References & Standards
 

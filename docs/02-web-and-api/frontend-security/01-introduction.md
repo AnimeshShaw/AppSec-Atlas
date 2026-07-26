@@ -1,8 +1,30 @@
 ---
-title: "01. Introduction to Frontend Security & Threat Modeling"
-description: "Explore the theoretical foundations of frontend security, browser threat modeling, Same-Origin Policy (SOP) mechanics, DOM architecture, and the attack landscape across SPAs, SSR, and Micro-Frontends."
-keywords: ["AppSec", "Cybersecurity", "Frontend Security", "Threat Model", "Same-Origin Policy", "SOP", "DOM Architecture", "DOM XSS", "SPA Security", "SSR Security", "Micro-Frontends"]
+title: 01. Introduction to Frontend Security & Threat Modeling
+description: Explore the theoretical foundations of frontend security, browser threat
+  modeling, Same-Origin Policy (SOP) mechanics, DOM architecture, and the attack landscape
+  across SPAs, SSR, and Micro-Frontends.
+keywords:
+- AppSec
+- Cybersecurity
+- Frontend
+- Security
+- Threat
+- Model
+- Same-Origin
+- Policy
+- SOP
+- DOM
+- Architecture
+- DOM
+- XSS
+- SPA
+- Security
+- SSR
+- Security
+- Micro-Frontends
+slug: /web-and-api/frontend-security/introduction
 ---
+
 
 # 01. Introduction to Frontend Security & Threat Modeling
 

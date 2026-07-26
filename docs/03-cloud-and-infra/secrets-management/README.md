@@ -1,10 +1,32 @@
 ---
-title: "Secrets Management Guide"
-description: "Master enterprise secrets management, centralizing, rotating, and securely injecting credentials using HashiCorp Vault, Cloud Secrets Managers, and Kubernetes hardening patterns."
-keywords: ["secrets management", "hashicorp vault", "aws secrets manager", "kubernetes secrets", "external secrets operator", "approle", "dynamic secrets", "gitleaks", "trufflehog", "appsec"]
-sidebar_label: "Secrets Management Overview"
+title: Secrets Management Guide
+description: Master enterprise secrets management, centralizing, rotating, and securely
+  injecting credentials using HashiCorp Vault, Cloud Secrets Managers, and Kubernetes
+  hardening patterns.
+keywords:
+- secrets
+- management
+- hashicorp
+- vault
+- aws
+- secrets
+- manager
+- kubernetes
+- secrets
+- external
+- secrets
+- operator
+- approle
+- dynamic
+- secrets
+- gitleaks
+- trufflehog
+- appsec
+sidebar_label: Secrets Management Overview
 sidebar_position: 1
+slug: /cloud-and-infra/secrets-management
 ---
+
 
 # Secrets Management Guide
 

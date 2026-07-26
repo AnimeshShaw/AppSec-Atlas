@@ -1,8 +1,29 @@
 ---
-title: "07 - References, Standards and Tooling Index"
-description: "Comprehensive catalog of industry security standards, NIST controls, CIS benchmarks, OWASP cheatsheets, open-source security tools, and Cloud provider security documentation."
-keywords: ["IaC Security References", "CIS Benchmarks", "NIST SP 800-53", "OWASP IaC", "Checkov Docs", "OPA Rego Docs", "Security Standards"]
+title: 07 - References, Standards and Tooling Index
+description: Comprehensive catalog of industry security standards, NIST controls,
+  CIS benchmarks, OWASP cheatsheets, open-source security tools, and Cloud provider
+  security documentation.
+keywords:
+- IaC
+- Security
+- References
+- CIS
+- Benchmarks
+- NIST
+- SP
+- 800-53
+- OWASP
+- IaC
+- Checkov
+- Docs
+- OPA
+- Rego
+- Docs
+- Security
+- Standards
+slug: /cloud-and-infra/iac-security/references
 ---
+
 
 # 07 - References, Standards and Tooling Index
 

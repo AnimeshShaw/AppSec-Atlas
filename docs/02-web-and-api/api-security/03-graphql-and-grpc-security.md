@@ -1,8 +1,27 @@
 ---
-title: "03. GraphQL & gRPC Security"
-description: "Advanced security guide for GraphQL and gRPC APIs covering introspection hardening, query depth and cost limiting, batching attack mitigations, HTTP/2 stream security, and gRPC interceptors across Node.js, Python, Go, and Java."
-keywords: ["AppSec", "GraphQL Security", "gRPC Security", "Introspection", "Query Depth", "Query Batching", "HTTP/2", "Protobuf", "mTLS", "Interceptors"]
+title: 03. GraphQL & gRPC Security
+description: Advanced security guide for GraphQL and gRPC APIs covering introspection
+  hardening, query depth and cost limiting, batching attack mitigations, HTTP/2 stream
+  security, and gRPC interceptors across Node.js, Python, Go, and Java.
+keywords:
+- AppSec
+- GraphQL
+- Security
+- gRPC
+- Security
+- Introspection
+- Query
+- Depth
+- Query
+- Batching
+- HTTP
+- '2'
+- Protobuf
+- mTLS
+- Interceptors
+slug: /web-and-api/api-security/graphql-and-grpc-security
 ---
+
 
 # 03. GraphQL & gRPC Security
 

@@ -1,8 +1,23 @@
 ---
-title: "01 - Introduction to Incident Response"
-description: "Effective incident response requires a structured approach. The most widely adopted framework is defined in **NIST Special Publication 800-61 Revision..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Incident Response", "01 Introduction.Md"]
+title: 01 - Introduction to Incident Response
+description: Effective incident response requires a structured approach. The most
+  widely adopted framework is defined in **NIST Special Publication 800-61 Revision...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '06'
+- Defensive
+- Incident
+- Response
+- '01'
+- Introduction
+- Md
+slug: /defensive/incident-response/introduction
 ---
+
 
 # 01 - Introduction to Incident Response
 

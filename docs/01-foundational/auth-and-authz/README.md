@@ -1,8 +1,28 @@
 ---
-title: "Authentication & Authorization Masterclass"
-description: "Master the foundational principles, attack vectors, and production-grade security architectures for identity management, modern authentication protocols, JWT security, and fine-grained authorization."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Auth And Authz", "OAuth2", "OIDC", "JWT", "RBAC", "ABAC", "OPA"]
+title: Authentication & Authorization Masterclass
+description: Master the foundational principles, attack vectors, and production-grade
+  security architectures for identity management, modern authentication protocols,
+  JWT security, and fine-grained authorization.
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '01'
+- Foundational
+- Auth
+- And
+- Authz
+- OAuth2
+- OIDC
+- JWT
+- RBAC
+- ABAC
+- OPA
+slug: /foundational/auth-and-authz
 ---
+
 
 # Authentication & Authorization Masterclass
 

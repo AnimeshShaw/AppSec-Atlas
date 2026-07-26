@@ -1,8 +1,27 @@
 ---
-title: "07 - References and Standards"
-description: "Authoritative specifications, standards, CVE analyses, academic research papers, OWASP cheat sheets, and tool repositories for CORS and SOP security."
-keywords: ["AppSec", "CORS References", "WHATWG Fetch", "RFC 6454", "OWASP Cheat Sheet", "CVE Case Studies", "Web Security Standards"]
+title: 07 - References and Standards
+description: Authoritative specifications, standards, CVE analyses, academic research
+  papers, OWASP cheat sheets, and tool repositories for CORS and SOP security.
+keywords:
+- AppSec
+- CORS
+- References
+- WHATWG
+- Fetch
+- RFC
+- '6454'
+- OWASP
+- Cheat
+- Sheet
+- CVE
+- Case
+- Studies
+- Web
+- Security
+- Standards
+slug: /web-and-api/cors-and-sop/references
 ---
+
 
 # 07 - References and Standards
 

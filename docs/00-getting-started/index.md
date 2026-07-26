@@ -1,8 +1,21 @@
 ---
-title: "AppSec Atlas Security Guide"
-description: "AppSec Atlas is a comprehensive, community-driven security knowledge base covering 45 guides across 9 security domains. Whether you're a developer wan..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "00 Getting Started", "Index.Md"]
+title: AppSec Atlas Security Guide
+description: AppSec Atlas is a comprehensive, community-driven security knowledge
+  base covering 45 guides across 9 security domains.
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '00'
+- Getting
+- Started
+- Index
+- Md
+slug: /getting-started
 ---
+
 
 ﻿# Welcome to AppSec Atlas
 
@@ -50,5 +63,5 @@ First-time contributor? Look for issues labeled [`good first issue`](https://git
 ## Community
 
 - ðŸ’¬ [Discord](https://discord.gg/appsecatlas) â€” Ask questions, discuss security topics, meet contributors
-- ðŸ¦ [Twitter/X @appsecatlas](https://twitter.com/appsecatlas) â€” Updates and announcements
+- ðŸ¦ [Twitter/X @appsecatlas](https://twitter.com/appsecatlas) â€” Updates and announcements
 - ðŸ“§ [Newsletter](https://appsecatlas.com/newsletter) â€” Monthly digest of new guides and security news

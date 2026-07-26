@@ -1,8 +1,24 @@
 ---
-title: "Introduction & Setup"
-description: "To safely practice the vulnerabilities detailed in this module, we will utilize a containerized environment powered by Docker and Docker Compose. This..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "09 Hands On", "Ctf Challenges", "01 Introduction.Md"]
+title: Introduction & Setup
+description: To safely practice the vulnerabilities detailed in this module, we will
+  utilize a containerized environment powered by Docker and Docker Compose. This...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- 09
+- Hands
+- 'On'
+- Ctf
+- Challenges
+- '01'
+- Introduction
+- Md
+slug: /hands-on/ctf-challenges/introduction
 ---
+
 
 # Introduction & Setup
 

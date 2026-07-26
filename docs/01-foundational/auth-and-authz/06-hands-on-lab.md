@@ -1,8 +1,25 @@
 ---
-title: "06 - Hands-on Lab: Exploiting & Hardening JWT & Access Control"
-description: "Self-contained hands-on lab demonstrating JWT signature bypass (alg:none), insecure cookie configuration, and Broken Object Level Authorization (BOLA/IDOR) with automated exploit scripts and production remediations."
-keywords: ["Hands-on Lab", "JWT Exploit", "alg none", "IDOR", "BOLA", "Flask Lab", "Exploit Script", "Remediation"]
+title: '06 - Hands-on Lab: Exploiting & Hardening JWT & Access Control'
+description: Self-contained hands-on lab demonstrating JWT signature bypass (alg:none),
+  insecure cookie configuration, and Broken Object Level Authorization (BOLA/IDOR)
+  with automated exploit scripts and production remediations.
+keywords:
+- Hands-on
+- Lab
+- JWT
+- Exploit
+- alg
+- none
+- IDOR
+- BOLA
+- Flask
+- Lab
+- Exploit
+- Script
+- Remediation
+slug: /foundational/auth-and-authz/hands-on-lab
 ---
+
 
 # 06 - Hands-on Lab: Exploiting & Hardening JWT & Access Control
 

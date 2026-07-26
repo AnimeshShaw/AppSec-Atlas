@@ -1,8 +1,29 @@
 ---
-title: "06. Hands-On Red Teaming Lab"
-description: "Self-contained, runnable Python security lab: Vulnerable AI Customer Support Agent, Automated Audit & Exploit Harness, Hardened Guardrail Patch, and Verification Suite."
-keywords: ["AI Security Lab", "Hands-On Vulnerability Lab", "Python Red Team Lab", "Prompt Injection Lab", "Guardrail Remediation", "AppSec Atlas"]
+title: 06. Hands-On Red Teaming Lab
+description: 'Self-contained, runnable Python security lab: Vulnerable AI Customer
+  Support Agent, Automated Audit & Exploit Harness, Hardened Guardrail Patch, and
+  Verification Suite.'
+keywords:
+- AI
+- Security
+- Lab
+- Hands-On
+- Vulnerability
+- Lab
+- Python
+- Red
+- Team
+- Lab
+- Prompt
+- Injection
+- Lab
+- Guardrail
+- Remediation
+- AppSec
+- Atlas
+slug: /ai-ml-security/ai-red-teaming/labs
 ---
+
 
 # 06. Hands-On Red Teaming Lab
 

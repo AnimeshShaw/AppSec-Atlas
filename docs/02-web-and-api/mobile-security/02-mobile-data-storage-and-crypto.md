@@ -1,8 +1,23 @@
 ---
-title: "02 - Mobile Data Storage and Cryptography"
-description: "In-depth guide to mobile data storage security, hardware-backed key management (Android KeyStore, iOS Secure Enclave), cryptographic implementation, and side-channel leak prevention."
-keywords: ["EncryptedSharedPreferences", "Keychain", "Android KeyStore", "Secure Enclave", "Mobile Encryption", "AES-GCM", "ProGuard", "AppSec"]
+title: 02 - Mobile Data Storage and Cryptography
+description: In-depth guide to mobile data storage security, hardware-backed key management
+  (Android KeyStore, iOS Secure Enclave), cryptographic implementation, and side-channel
+  leak prevention.
+keywords:
+- EncryptedSharedPreferences
+- Keychain
+- Android
+- KeyStore
+- Secure
+- Enclave
+- Mobile
+- Encryption
+- AES-GCM
+- ProGuard
+- AppSec
+slug: /web-and-api/mobile-security/mobile-data-storage-and-crypto
 ---
+
 
 # 02 - Mobile Data Storage and Cryptography
 

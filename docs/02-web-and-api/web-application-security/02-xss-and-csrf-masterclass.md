@@ -1,8 +1,33 @@
 ---
-title: "02 - XSS and CSRF Masterclass"
-description: "Deep technical breakdown of Cross-Site Scripting (XSS) and Cross-Site Request Forgery (CSRF). Master context-aware escaping, DOM sinks, Anti-CSRF token strategies, SameSite cookies, and multi-language defenses in Python, Node.js, Go, and Java."
-keywords: ["XSS", "CSRF", "Cross-Site Scripting", "Cross-Site Request Forgery", "Stored XSS", "Reflected XSS", "DOM XSS", "Anti-CSRF Token", "SameSite Cookie", "Context Escaping", "DOMPurify"]
+title: 02 - XSS and CSRF Masterclass
+description: Deep technical breakdown of Cross-Site Scripting (XSS) and Cross-Site
+  Request Forgery (CSRF). Master context-aware escaping, DOM sinks, Anti-CSRF token
+  strategies, SameSite cookies, and multi-language defenses in Python, Node.js, Go,
+  and Java.
+keywords:
+- XSS
+- CSRF
+- Cross-Site
+- Scripting
+- Cross-Site
+- Request
+- Forgery
+- Stored
+- XSS
+- Reflected
+- XSS
+- DOM
+- XSS
+- Anti-CSRF
+- Token
+- SameSite
+- Cookie
+- Context
+- Escaping
+- DOMPurify
+slug: /web-and-api/web-application-security/xss-and-csrf-masterclass
 ---
+
 
 # 02 - XSS and CSRF Masterclass
 

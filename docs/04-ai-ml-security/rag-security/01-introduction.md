@@ -1,8 +1,28 @@
 ---
-title: "01 - Introduction to RAG Security & Threat Model"
-description: "Understand the architectural mechanics, vector space mathematics, trust boundaries, and threat landscape of Retrieval-Augmented Generation (RAG) systems."
-keywords: ["AppSec", "RAG Security", "AI Threat Modeling", "Indirect Prompt Injection", "Vector Search", "OWASP LLM Top 10", "Trust Boundaries"]
+title: 01 - Introduction to RAG Security & Threat Model
+description: Understand the architectural mechanics, vector space mathematics, trust
+  boundaries, and threat landscape of Retrieval-Augmented Generation (RAG) systems.
+keywords:
+- AppSec
+- RAG
+- Security
+- AI
+- Threat
+- Modeling
+- Indirect
+- Prompt
+- Injection
+- Vector
+- Search
+- OWASP
+- LLM
+- Top
+- '10'
+- Trust
+- Boundaries
+slug: /ai-ml-security/rag-security/introduction
 ---
+
 
 # 01 - Introduction to RAG Security & Threat Model
 

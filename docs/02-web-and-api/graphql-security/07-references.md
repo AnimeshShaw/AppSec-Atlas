@@ -1,8 +1,22 @@
 ---
-title: "07. GraphQL Security References & Standards"
-description: "Curated reference list of CVEs, OWASP Cheat Sheets, GraphQL specifications, academic papers, and security research."
-keywords: ["GraphQL References", "CVE List", "OWASP GraphQL", "GraphQL Security Standards", "AppSec References"]
+title: 07. GraphQL Security References & Standards
+description: Curated reference list of CVEs, OWASP Cheat Sheets, GraphQL specifications,
+  academic papers, and security research.
+keywords:
+- GraphQL
+- References
+- CVE
+- List
+- OWASP
+- GraphQL
+- GraphQL
+- Security
+- Standards
+- AppSec
+- References
+slug: /web-and-api/graphql-security/references
 ---
+
 
 # 07. GraphQL Security References & Standards
 

@@ -1,8 +1,25 @@
 ---
-title: "CORS & Same-Origin Policy Security Masterclass"
-description: "Master Same-Origin Policy (SOP) and Cross-Origin Resource Sharing (CORS) security. Learn protocol mechanics, attack vectors, production-grade defenses, multi-language code snippets, and auditing tools."
-keywords: ["AppSec", "Cybersecurity", "CORS", "Same-Origin Policy", "Web Security", "Cross-Origin Resource Sharing", "API Security", "OWASP"]
+title: CORS & Same-Origin Policy Security Masterclass
+description: Master Same-Origin Policy (SOP) and Cross-Origin Resource Sharing (CORS)
+  security. Learn protocol mechanics, attack vectors, production-grade defenses, multi-language
+  code snippets, and auditing tools.
+keywords:
+- AppSec
+- Cybersecurity
+- CORS
+- Same-Origin
+- Policy
+- Web
+- Security
+- Cross-Origin
+- Resource
+- Sharing
+- API
+- Security
+- OWASP
+slug: /web-and-api/cors-and-sop
 ---
+
 
 # CORS & Same-Origin Policy Security Masterclass
 

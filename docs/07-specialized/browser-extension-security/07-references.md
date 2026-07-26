@@ -1,8 +1,23 @@
 ---
-title: "07 - References"
-description: "Comprehensive security guide and practical technical implementation handbook."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Browser Extension Security", "07 References.Md"]
+title: 07 - References
+description: Comprehensive security guide and practical technical implementation handbook.
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '07'
+- Specialized
+- Browser
+- Extension
+- Security
+- '07'
+- References
+- Md
+slug: /specialized/browser-extension-security/references
 ---
+
 
 # 07 - References
 

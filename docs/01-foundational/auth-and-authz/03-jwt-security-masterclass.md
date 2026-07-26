@@ -1,8 +1,28 @@
 ---
-title: "03 - JWT Security Masterclass & Cryptographic Exploitation"
-description: "Master JSON Web Token (JWT) cryptographic mechanics, common implementation vulnerabilities (alg:none, Key Confusion, kid injection), JWKS rotation, and multi-language secure verification patterns."
-keywords: ["JWT", "JWS", "JWE", "alg none", "Key Confusion", "RS256", "HS256", "JWKS", "Refresh Token Rotation", "PyJWT", "jose", "golang-jwt"]
+title: 03 - JWT Security Masterclass & Cryptographic Exploitation
+description: Master JSON Web Token (JWT) cryptographic mechanics, common implementation
+  vulnerabilities (alg:none, Key Confusion, kid injection), JWKS rotation, and multi-language
+  secure verification patterns.
+keywords:
+- JWT
+- JWS
+- JWE
+- alg
+- none
+- Key
+- Confusion
+- RS256
+- HS256
+- JWKS
+- Refresh
+- Token
+- Rotation
+- PyJWT
+- jose
+- golang-jwt
+slug: /foundational/auth-and-authz/jwt-security-masterclass
 ---
+
 
 # 03 - JWT Security Masterclass & Cryptographic Exploitation
 
@@ -54,7 +74,7 @@ eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJzdWIiOiJ1c3JfMTAyOTM4Iiwicm9sZSI6ImFkbWlu
 
 ---
 
-### B. RSA-to-HMAC Algorithm Confusion Attack (RS256 `$\rightarrow$` HS256)
+### B. RSA-to-HMAC Algorithm Confusion Attack (RS256 `\rightarrow` HS256)
 
 When an application expects an asymmetric RS256 token (signed with a private key and verified with a public key), an attacker can change the algorithm header to **`HS256`** (symmetric HMAC).
 

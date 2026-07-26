@@ -1,8 +1,24 @@
 ---
-title: "01. Overview & Threat Landscape"
-description: "In-depth guide to the OWASP risk rating methodology, core root causes of software vulnerabilities, and CI/CD DevSecOps integration using SAST, DAST, and SCA."
-keywords: ["AppSec", "Cybersecurity", "OWASP Top 10", "Threat Modeling", "DevSecOps", "SAST", "DAST", "SCA", "STRIDE"]
+title: 01. Overview & Threat Landscape
+description: In-depth guide to the OWASP risk rating methodology, core root causes
+  of software vulnerabilities, and CI/CD DevSecOps integration using SAST, DAST, and
+  SCA.
+keywords:
+- AppSec
+- Cybersecurity
+- OWASP
+- Top
+- '10'
+- Threat
+- Modeling
+- DevSecOps
+- SAST
+- DAST
+- SCA
+- STRIDE
+slug: /foundational/owasp-top-10/introduction
 ---
+
 
 # 01. Overview & Threat Landscape
 

@@ -1,8 +1,28 @@
 ---
-title: "Secure Coding Practices Guide"
-description: "Master production-grade secure coding practices across Python, Node.js, Go, and Java. Learn input validation, XSS prevention, path traversal defense, and SAST pipeline integration."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "01 Foundational", "Secure Coding", "Input Validation", "XSS Prevention", "SAST", "Path Traversal"]
+title: Secure Coding Practices Guide
+description: Master production-grade secure coding practices across Python, Node.js,
+  Go, and Java. Learn input validation, XSS prevention, path traversal defense, and
+  SAST pipeline integration.
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '01'
+- Foundational
+- Secure
+- Coding
+- Input
+- Validation
+- XSS
+- Prevention
+- SAST
+- Path
+- Traversal
+slug: /foundational/secure-coding
 ---
+
 
 # Secure Coding Practices Guide
 

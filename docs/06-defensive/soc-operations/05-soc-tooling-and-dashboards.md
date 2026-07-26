@@ -1,8 +1,26 @@
 ---
-title: "05 - SOC Tooling and Dashboards"
-description: "Building a highly effective SOC doesn't require millions of dollars in licensing. Many organizations start with or heavily utilize open-source and fre..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Soc Operations", "05 Soc Tooling And Dashboards.Md"]
+title: 05 - SOC Tooling and Dashboards
+description: Building a highly effective SOC doesn't require millions of dollars in
+  licensing. Many organizations start with or heavily utilize open-source and fre...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '06'
+- Defensive
+- Soc
+- Operations
+- '05'
+- Soc
+- Tooling
+- And
+- Dashboards
+- Md
+slug: /defensive/soc-operations/soc-tooling-and-dashboards
 ---
+
 
 # 05 - SOC Tooling and Dashboards
 

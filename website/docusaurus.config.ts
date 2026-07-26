@@ -11,6 +11,11 @@ const config: Config = {
     v4: true,
   },
 
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
+
   url: 'https://appsecatlas.com',
   baseUrl: '/',
 
@@ -20,10 +25,67 @@ const config: Config = {
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preconnect',
+        href: 'https://fonts.googleapis.com',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preconnect',
+        href: 'https://fonts.gstatic.com',
+        crossorigin: 'anonymous',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap',
+      },
+    },
+  ],
+
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        createRedirects(existingPath: string) {
+          if (existingPath.startsWith('/docs/')) {
+            const pathWithoutDocs = existingPath.replace('/docs/', '');
+            const categoryMap: Record<string, string> = {
+              'getting-started': '00-getting-started',
+              'foundational': '01-foundational',
+              'web-and-api': '02-web-and-api',
+              'cloud-and-infra': '03-cloud-and-infra',
+              'ai-ml-security': '04-ai-ml-security',
+              'offensive': '05-offensive',
+              'defensive': '06-defensive',
+              'specialized': '07-specialized',
+              'compliance': '08-compliance',
+              'hands-on': '09-hands-on',
+            };
+            for (const [clean, numbered] of Object.entries(categoryMap)) {
+              if (pathWithoutDocs.startsWith(clean)) {
+                const legacyPath = '/docs/' + pathWithoutDocs.replace(clean, numbered);
+                return [legacyPath];
+              }
+            }
+          }
+          return undefined;
+        },
+      },
+    ],
+  ],
 
   presets: [
     [
@@ -51,6 +113,9 @@ const config: Config = {
   ],
 
   themeConfig: {
+    mermaid: {
+      theme: {light: 'neutral', dark: 'dark'},
+    },
     image: 'img/logo.svg',
     colorMode: {
       defaultMode: 'dark',
@@ -76,7 +141,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://discord.gg/appsecatlas',
+          href: 'https://discord.gg/NHvrkJ5Hg3',
           label: '💬 Discord',
           position: 'right',
         },
@@ -111,11 +176,36 @@ const config: Config = {
             },
             {
               label: 'Discord',
-              href: 'https://discord.gg/appsecatlas',
+              href: 'https://discord.gg/NHvrkJ5Hg3',
             },
             {
               label: 'Twitter / X',
               href: 'https://x.com/appsecatlas',
+            },
+          ],
+        },
+        {
+          title: 'Ecosystem & Tools',
+          items: [
+            {
+              label: '🔐 DevCipher Platform',
+              href: 'https://devcipher.dev/',
+            },
+            {
+              label: '🤖 Agentic AI Security',
+              href: 'https://github.com/AnimeshShaw/agentic-ai-security-guide',
+            },
+            {
+              label: '🛡️ Threat Modelling Basics',
+              href: 'https://github.com/AnimeshShaw/threat-modelling-basics',
+            },
+            {
+              label: '⚛️ Quantum-Safe Py',
+              href: 'https://github.com/AnimeshShaw/quantum-safe-py',
+            },
+            {
+              label: '🔍 Quantum Safe Auditor',
+              href: 'https://github.com/AnimeshShaw/quantum-safe-auditor',
             },
           ],
         },

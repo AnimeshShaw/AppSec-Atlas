@@ -1,8 +1,31 @@
 ---
-title: "01 - Introduction to Architectural Security Design Principles"
-description: "Explore the fundamental principles of architectural security engineering, Saltzer and Schroeder's design rules adapted for modern cloud-native systems, root causes of architectural failures, and industry security frameworks."
-keywords: ["AppSec", "Cybersecurity", "Security Design Principles", "Saltzer Schroeder", "Defense in Depth", "Fail Secure", "Complete Mediation", "Architectural Security", "NIST SP 800-160"]
+title: 01 - Introduction to Architectural Security Design Principles
+description: Explore the fundamental principles of architectural security engineering,
+  Saltzer and Schroeder's design rules adapted for modern cloud-native systems, root
+  causes of architectural failures, and industry security frameworks.
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Design
+- Principles
+- Saltzer
+- Schroeder
+- Defense
+- in
+- Depth
+- Fail
+- Secure
+- Complete
+- Mediation
+- Architectural
+- Security
+- NIST
+- SP
+- 800-160
+slug: /foundational/security-design-patterns/introduction
 ---
+
 
 # 01 - Introduction to Architectural Security Design Principles
 
@@ -10,6 +33,8 @@ Security is most effective when it is woven into the fundamental fabric of an ap
 
 > [!IMPORTANT]
 > **Architectural Paradigm:** Code-level vulnerabilities (e.g., buffer overflows, SQL injection) can often be fixed with localized patches or SAST updates. Architectural vulnerabilities (e.g., broken trust boundaries, lack of complete mediation, missing fault isolation) require systemic redesigns, breaking changes, and high engineering overhead.
+>
+> 🛡️ **Threat Modeling Templates & Frameworks:** Want hands-on templates and practical guides for threat modeling cloud architectures using STRIDE, PASTA, and DREAD? Check out our companion repository: [github.com/AnimeshShaw/threat-modelling-basics](https://github.com/AnimeshShaw/threat-modelling-basics).
 
 ---
 

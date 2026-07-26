@@ -1,8 +1,26 @@
 ---
-title: "03. GraphQL Code Examples & Attack Scenarios"
-description: "Production-grade code examples showcasing vulnerable vs secure implementations in Python, Node.js, Go, and Java across key GraphQL attack scenarios."
-keywords: ["GraphQL Code Examples", "Python GraphQL", "Node.js Apollo", "Go gqlgen", "Java Spring GraphQL", "Secure Coding"]
+title: 03. GraphQL Code Examples & Attack Scenarios
+description: Production-grade code examples showcasing vulnerable vs secure implementations
+  in Python, Node.js, Go, and Java across key GraphQL attack scenarios.
+keywords:
+- GraphQL
+- Code
+- Examples
+- Python
+- GraphQL
+- Node
+- js
+- Apollo
+- Go
+- gqlgen
+- Java
+- Spring
+- GraphQL
+- Secure
+- Coding
+slug: /web-and-api/graphql-security/code-examples
 ---
+
 
 # 03. GraphQL Code Examples & Attack Scenarios
 
@@ -292,7 +310,7 @@ public class UserController {
 
 ### Scenario 1: Node.js (DataLoader Implementation)
 
-#### ❌ Vulnerable: `$1 + N$` Database Query Storm
+#### ❌ Vulnerable: `1 + N` Database Query Storm
 ```typescript
 // VULNERABLE: Resolving author individually for every post in a list
 const resolvers = {

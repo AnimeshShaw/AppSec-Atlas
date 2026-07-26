@@ -1,8 +1,36 @@
 ---
-title: "07. References, Standards & Technical Resources"
-description: "Authoritative specifications, RFCs, OWASP cheat sheets, CVE case studies, and security tooling resources for frontend application security."
-keywords: ["AppSec", "Cybersecurity", "Frontend Security References", "W3C CSP Level 3", "Trusted Types Spec", "OWASP Cheat Sheets", "RFC 7636 PKCE", "CVE Case Studies", "DOMPurify", "Google CSP Evaluator"]
+title: 07. References, Standards & Technical Resources
+description: Authoritative specifications, RFCs, OWASP cheat sheets, CVE case studies,
+  and security tooling resources for frontend application security.
+keywords:
+- AppSec
+- Cybersecurity
+- Frontend
+- Security
+- References
+- W3C
+- CSP
+- Level
+- '3'
+- Trusted
+- Types
+- Spec
+- OWASP
+- Cheat
+- Sheets
+- RFC
+- '7636'
+- PKCE
+- CVE
+- Case
+- Studies
+- DOMPurify
+- Google
+- CSP
+- Evaluator
+slug: /web-and-api/frontend-security/references
 ---
+
 
 # 07. References, Standards & Technical Resources
 

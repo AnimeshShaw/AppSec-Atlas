@@ -1,8 +1,24 @@
 ---
-title: "04. Guardrail Architecture & Mitigations"
-description: "Production-grade mitigations and defense-in-depth architecture for AI applications: Meta Llama-Guard-3, NVIDIA NeMo Guardrails, Dual-LLM isolation patterns, system prompt engineering, and guardrail accuracy metrics."
-keywords: ["Llama-Guard-3", "NeMo Guardrails", "Dual-LLM Pattern", "AI Guardrails", "Defense-in-Depth", "Prompt Isolation", "AppSec Atlas"]
+title: 04. Guardrail Architecture & Mitigations
+description: 'Production-grade mitigations and defense-in-depth architecture for AI
+  applications: Meta Llama-Guard-3, NVIDIA NeMo Guardrails, Dual-LLM isolation patterns,
+  system prompt engineering, and guardrail accuracy metrics.'
+keywords:
+- Llama-Guard-3
+- NeMo
+- Guardrails
+- Dual-LLM
+- Pattern
+- AI
+- Guardrails
+- Defense-in-Depth
+- Prompt
+- Isolation
+- AppSec
+- Atlas
+slug: /ai-ml-security/ai-red-teaming/defenses
 ---
+
 
 # 04. Guardrail Architecture & Mitigations
 

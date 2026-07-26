@@ -1,7 +1,13 @@
 ---
-title: "03 - Evidence Collection and Auditing"
-description: "Comprehensive guide and best practices for 03 - Evidence Collection and Auditing in the soc2-guide section of AppSec Atlas. Learn how to secure your infrastruct"
-keywords: ['soc2-guide', '03---evidence-collection-and-auditing', 'appsec', 'security', 'compliance']
+title: 03 - Evidence Collection and Auditing
+description: Comprehensive guide and best practices for 03 - Evidence Collection and
+  Auditing in the soc2-guide section of AppSec Atlas. Learn how to secure your infrastruct
+keywords:
+- soc2-guide
+- '03'
+slug: /compliance/soc2-guide/evidence-collection-and-auditing
+---
+evidence-collection-and-auditing', 'appsec', 'security', 'compliance']
 ---
 # 03 - Evidence Collection and Auditing
 

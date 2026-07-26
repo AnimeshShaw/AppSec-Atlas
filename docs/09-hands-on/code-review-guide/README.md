@@ -1,8 +1,24 @@
 ---
-title: "Secure Code Review Guide"
-description: "Welcome to the Secure Code Review Guide. This module provides a comprehensive deep dive into the methodology, practice, and tooling required to perfor..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "09 Hands On", "Code Review Guide", "Readme.Md"]
+title: Secure Code Review Guide
+description: Welcome to the Secure Code Review Guide. This module provides a comprehensive
+  deep dive into the methodology, practice, and tooling required to perfor...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- 09
+- Hands
+- 'On'
+- Code
+- Review
+- Guide
+- Readme
+- Md
+slug: /hands-on/code-review-guide
 ---
+
 
 # Secure Code Review Guide
 

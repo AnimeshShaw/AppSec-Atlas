@@ -1,8 +1,27 @@
 ---
-title: "06. Hands-on GraphQL Security Vulnerability Lab"
-description: "Self-contained, runnable Node.js/Express GraphQL security lab featuring Introspection, Batching Brute Force, Depth DoS, BOLA, and complete Python exploit script with step-by-step secure remediation."
-keywords: ["GraphQL Lab", "Hands-on Security Lab", "Exploit Script", "Node.js GraphQL Lab", "Python Exploit", "AppSec Lab"]
+title: 06. Hands-on GraphQL Security Vulnerability Lab
+description: Self-contained, runnable Node.js/Express GraphQL security lab featuring
+  Introspection, Batching Brute Force, Depth DoS, BOLA, and complete Python exploit
+  script with step-by-step secure remediation.
+keywords:
+- GraphQL
+- Lab
+- Hands-on
+- Security
+- Lab
+- Exploit
+- Script
+- Node
+- js
+- GraphQL
+- Lab
+- Python
+- Exploit
+- AppSec
+- Lab
+slug: /web-and-api/graphql-security/labs
 ---
+
 
 # 06. Hands-on GraphQL Security Vulnerability Lab
 

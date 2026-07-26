@@ -1,8 +1,22 @@
 ---
-title: "07. References & Standards"
-description: "Authoritative frameworks, guides, and tools for Penetration Testing."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Penetration Testing", "07 References.Md"]
+title: 07. References & Standards
+description: Authoritative frameworks, guides, and tools for Penetration Testing.
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '05'
+- Offensive
+- Penetration
+- Testing
+- '07'
+- References
+- Md
+slug: /offensive/penetration-testing/references
 ---
+
 
 # 07. References & Standards
 

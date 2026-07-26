@@ -1,8 +1,27 @@
 ---
-title: "05. Tooling & Burp Suite Extensions"
-description: "Using specialized Burp Suite extensions automates repetitive authorization and parameter discovery tasks."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Bug Bounty", "05 Bug Bounty Tooling And Extensions.Md"]
+title: 05. Tooling & Burp Suite Extensions
+description: Using specialized Burp Suite extensions automates repetitive authorization
+  and parameter discovery tasks.
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '05'
+- Offensive
+- Bug
+- Bounty
+- '05'
+- Bug
+- Bounty
+- Tooling
+- And
+- Extensions
+- Md
+slug: /offensive/bug-bounty/bug-bounty-tooling-and-extensions
 ---
+
 
 # 05. Tooling & Burp Suite Extensions
 

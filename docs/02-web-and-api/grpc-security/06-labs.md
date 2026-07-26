@@ -1,8 +1,22 @@
 ---
-title: "06. Hands-on Vulnerability Lab: Exploiting & Securing gRPC"
-description: "Self-contained, runnable gRPC security lab featuring a vulnerable microservice, automated Python exploit script, and step-by-step hardened remediation."
-keywords: ["gRPC Lab", "Exploit Script", "Vulnerability PoC", "Hands-on Security", "Python gRPC Lab"]
+title: '06. Hands-on Vulnerability Lab: Exploiting & Securing gRPC'
+description: Self-contained, runnable gRPC security lab featuring a vulnerable microservice,
+  automated Python exploit script, and step-by-step hardened remediation.
+keywords:
+- gRPC
+- Lab
+- Exploit
+- Script
+- Vulnerability
+- PoC
+- Hands-on
+- Security
+- Python
+- gRPC
+- Lab
+slug: /web-and-api/grpc-security/labs
 ---
+
 
 # 06. Hands-on Vulnerability Lab: Exploiting & Securing gRPC
 

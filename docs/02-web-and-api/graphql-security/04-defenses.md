@@ -1,8 +1,25 @@
 ---
-title: "04. Production-Grade GraphQL Defenses & Architecture Patterns"
-description: "Comprehensive mitigation strategies for GraphQL: Automatic Persisted Queries (APQ), query cost analysis, schema validation, field directives, rate limiting, and gateway hardening."
-keywords: ["GraphQL Defenses", "Automatic Persisted Queries", "APQ", "Query Cost Calculation", "GraphQL Gateway", "Rate Limiting"]
+title: 04. Production-Grade GraphQL Defenses & Architecture Patterns
+description: 'Comprehensive mitigation strategies for GraphQL: Automatic Persisted
+  Queries (APQ), query cost analysis, schema validation, field directives, rate limiting,
+  and gateway hardening.'
+keywords:
+- GraphQL
+- Defenses
+- Automatic
+- Persisted
+- Queries
+- APQ
+- Query
+- Cost
+- Calculation
+- GraphQL
+- Gateway
+- Rate
+- Limiting
+slug: /web-and-api/graphql-security/defenses
 ---
+
 
 # 04. Production-Grade Defenses & Architecture Patterns
 
@@ -18,7 +35,7 @@ To block structural DoS attacks without breaking valid client queries, productio
 Each field in the schema is assigned a base complexity score (default = 1 point). List fields multiply the cost of their child selections based on pagination parameters (`first`, `limit`, `last`).
 
 ```math
-\text{Cost}(\text{Node}) = \text{BaseWeight} + \left( \text{PaginationLimit} \times \sum \text{Cost}(\text{ChildNodes}) \right)
+Cost(Node) = BaseWeight + \left( PaginationLimit \times \sum Cost(ChildNodes) \right)
 ```
 
 ```

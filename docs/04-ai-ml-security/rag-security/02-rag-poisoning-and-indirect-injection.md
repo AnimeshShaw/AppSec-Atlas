@@ -1,8 +1,28 @@
 ---
-title: "02 - RAG Poisoning & Indirect Injection Mechanics"
-description: "Master the mechanics of Indirect Prompt Injection, PDF font hiding, zero-width Unicode vectors, semantic clustering data poisoning, and split-chunk attacks in RAG."
-keywords: ["Indirect Prompt Injection", "Data Poisoning", "RAG Vulnerabilities", "Embedding Distance Manipulation", "PDF Hiding Attacks", "Zero-Width Space", "AppSec"]
+title: 02 - RAG Poisoning & Indirect Injection Mechanics
+description: Master the mechanics of Indirect Prompt Injection, PDF font hiding, zero-width
+  Unicode vectors, semantic clustering data poisoning, and split-chunk attacks in
+  RAG.
+keywords:
+- Indirect
+- Prompt
+- Injection
+- Data
+- Poisoning
+- RAG
+- Vulnerabilities
+- Embedding
+- Distance
+- Manipulation
+- PDF
+- Hiding
+- Attacks
+- Zero-Width
+- Space
+- AppSec
+slug: /ai-ml-security/rag-security/rag-poisoning-and-indirect-injection
 ---
+
 
 # 02 - RAG Poisoning & Indirect Injection Mechanics
 

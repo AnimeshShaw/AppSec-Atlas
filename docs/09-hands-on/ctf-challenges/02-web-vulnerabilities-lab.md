@@ -1,8 +1,25 @@
 ---
-title: "Web Vulnerabilities Lab"
-description: "query = f'SELECT * FROM users WHERE username = '{username}''"
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "09 Hands On", "Ctf Challenges", "02 Web Vulnerabilities Lab.Md"]
+title: Web Vulnerabilities Lab
+description: query = f'SELECT * FROM users WHERE username = '{username}''
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- 09
+- Hands
+- 'On'
+- Ctf
+- Challenges
+- '02'
+- Web
+- Vulnerabilities
+- Lab
+- Md
+slug: /hands-on/ctf-challenges/web-vulnerabilities-lab
 ---
+
 
 # Web Vulnerabilities Lab
 

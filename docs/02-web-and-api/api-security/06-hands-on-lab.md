@@ -1,8 +1,27 @@
 ---
-title: "06. Hands-On Vulnerability Lab"
-description: "Self-contained hands-on Python/Flask microservice lab demonstrating BOLA, Mass Assignment, and BFLA vulnerabilities, an automated PoC exploit script, and production remediation code."
-keywords: ["AppSec", "API Security Lab", "BOLA Lab", "Mass Assignment Lab", "BFLA Lab", "Python", "Flask", "Exploit PoC"]
+title: 06. Hands-On Vulnerability Lab
+description: Self-contained hands-on Python/Flask microservice lab demonstrating BOLA,
+  Mass Assignment, and BFLA vulnerabilities, an automated PoC exploit script, and
+  production remediation code.
+keywords:
+- AppSec
+- API
+- Security
+- Lab
+- BOLA
+- Lab
+- Mass
+- Assignment
+- Lab
+- BFLA
+- Lab
+- Python
+- Flask
+- Exploit
+- PoC
+slug: /web-and-api/api-security/hands-on-lab
 ---
+
 
 # 06. Hands-On Vulnerability Lab
 

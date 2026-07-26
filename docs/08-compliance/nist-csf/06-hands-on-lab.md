@@ -1,7 +1,14 @@
 ---
-title: "06 - Hands-on Lab: Compliance Assessment Tool"
-description: "Comprehensive guide and best practices for 06 - Hands-on Lab: Compliance Assessment Tool in the nist-csf section of AppSec Atlas. Learn how to secure your infra"
-keywords: ['nist-csf', '06---hands-on-lab:-compliance-assessment-tool', 'appsec', 'security', 'compliance']
+title: '06 - Hands-on Lab: Compliance Assessment Tool'
+description: 'Comprehensive guide and best practices for 06 - Hands-on Lab: Compliance
+  Assessment Tool in the nist-csf section of AppSec Atlas. Learn how to secure your
+  infra'
+keywords:
+- nist-csf
+- '06'
+slug: /compliance/nist-csf/hands-on-lab
+---
+hands-on-lab:-compliance-assessment-tool', 'appsec', 'security', 'compliance']
 ---
 # 06 - Hands-on Lab: Compliance Assessment Tool
 

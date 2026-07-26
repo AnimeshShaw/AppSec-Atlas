@@ -1,8 +1,25 @@
 ---
-title: "05. API Gateway & Defense Patterns"
-description: "Production architectural guide for hardening API Gateways (Nginx, Kong, Envoy), enforcing OpenAPI JSON Schema contract validation, CORS policy configuration, and Zero Trust API defense patterns."
-keywords: ["AppSec", "API Gateway", "Nginx", "Kong", "Envoy", "OpenAPI", "JSON Schema", "CORS", "Zero Trust", "mTLS"]
+title: 05. API Gateway & Defense Patterns
+description: Production architectural guide for hardening API Gateways (Nginx, Kong,
+  Envoy), enforcing OpenAPI JSON Schema contract validation, CORS policy configuration,
+  and Zero Trust API defense patterns.
+keywords:
+- AppSec
+- API
+- Gateway
+- Nginx
+- Kong
+- Envoy
+- OpenAPI
+- JSON
+- Schema
+- CORS
+- Zero
+- Trust
+- mTLS
+slug: /web-and-api/api-security/defenses-and-gateway-patterns
 ---
+
 
 # 05. API Gateway & Defense Patterns
 

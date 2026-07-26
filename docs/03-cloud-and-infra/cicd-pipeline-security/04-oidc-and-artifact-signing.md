@@ -1,8 +1,26 @@
 ---
-title: "04. OIDC Authentication & Cryptographic Artifact Signing"
-description: "Eliminate static cloud credentials using OIDC for AWS/GCP/Azure and enforce container integrity with Sigstore/Cosign and Kyverno admission policy."
-keywords: ["AppSec", "Cybersecurity", "OIDC AWS", "Sigstore Cosign", "Image Signing", "Kyverno Admission Controller", "SLSA Provenance", "Workload Identity"]
+title: 04. OIDC Authentication & Cryptographic Artifact Signing
+description: Eliminate static cloud credentials using OIDC for AWS/GCP/Azure and enforce
+  container integrity with Sigstore/Cosign and Kyverno admission policy.
+keywords:
+- AppSec
+- Cybersecurity
+- OIDC
+- AWS
+- Sigstore
+- Cosign
+- Image
+- Signing
+- Kyverno
+- Admission
+- Controller
+- SLSA
+- Provenance
+- Workload
+- Identity
+slug: /cloud-and-infra/cicd-pipeline-security/oidc-and-artifact-signing
 ---
+
 
 # 04. OIDC Authentication & Cryptographic Artifact Signing
 

@@ -1,8 +1,33 @@
 ---
-title: "API Security Guide"
-description: "Comprehensive guide on API Security covering OWASP API Security Top 10 (2023), REST, GraphQL, and gRPC vulnerabilities, BOLA/BFLA mechanics, rate limiting, token security, and API gateway defense patterns."
-keywords: ["AppSec", "API Security", "OWASP API Top 10", "BOLA", "BFLA", "GraphQL Security", "gRPC Security", "Rate Limiting", "JWT Security", "API Gateway", "OAuth2", "mTLS"]
+title: API Security Guide
+description: Comprehensive guide on API Security covering OWASP API Security Top 10
+  (2023), REST, GraphQL, and gRPC vulnerabilities, BOLA/BFLA mechanics, rate limiting,
+  token security, and API gateway defense patterns.
+keywords:
+- AppSec
+- API
+- Security
+- OWASP
+- API
+- Top
+- '10'
+- BOLA
+- BFLA
+- GraphQL
+- Security
+- gRPC
+- Security
+- Rate
+- Limiting
+- JWT
+- Security
+- API
+- Gateway
+- OAuth2
+- mTLS
+slug: /web-and-api/api-security
 ---
+
 
 # API Security Guide
 

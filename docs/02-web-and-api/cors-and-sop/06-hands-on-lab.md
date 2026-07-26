@@ -1,8 +1,25 @@
 ---
-title: "06 - Hands-On Lab: Exploiting and Remediating CORS"
-description: "Step-by-step hands-on lab: build a vulnerable Flask API, execute a complete cross-origin data exfiltration exploit PoC, apply secure allowlist remediation, and verify with an automated test suite."
-keywords: ["AppSec", "Hands-On Lab", "CORS Exploit", "Flask Security", "Data Exfiltration", "PoC", "Remediation", "Security Tutorial"]
+title: '06 - Hands-On Lab: Exploiting and Remediating CORS'
+description: 'Step-by-step hands-on lab: build a vulnerable Flask API, execute a complete
+  cross-origin data exfiltration exploit PoC, apply secure allowlist remediation,
+  and verify with an automated test suite.'
+keywords:
+- AppSec
+- Hands-On
+- Lab
+- CORS
+- Exploit
+- Flask
+- Security
+- Data
+- Exfiltration
+- PoC
+- Remediation
+- Security
+- Tutorial
+slug: /web-and-api/cors-and-sop/hands-on-lab
 ---
+
 
 # 06 - Hands-On Lab: Exploiting and Remediating CORS
 

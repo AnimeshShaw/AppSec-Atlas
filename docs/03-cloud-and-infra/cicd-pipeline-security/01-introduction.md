@@ -1,8 +1,31 @@
 ---
-title: "01. Overview, Architecture & Supply Chain Threat Landscape"
-description: "Explore CI/CD pipeline architecture, the OWASP Top 10 CI/CD Security Risks, SLSA v1.0 framework, and real-world supply chain attacks including SolarWinds, Codecov, and XZ Utils."
-keywords: ["AppSec", "Cybersecurity", "CI/CD Security", "OWASP CI/CD Top 10", "SLSA Framework", "SolarWinds Attack", "XZ Utils", "Supply Chain Attacks"]
+title: 01. Overview, Architecture & Supply Chain Threat Landscape
+description: Explore CI/CD pipeline architecture, the OWASP Top 10 CI/CD Security
+  Risks, SLSA v1.0 framework, and real-world supply chain attacks including SolarWinds,
+  Codecov, and XZ Utils.
+keywords:
+- AppSec
+- Cybersecurity
+- CI
+- CD
+- Security
+- OWASP
+- CI
+- CD
+- Top
+- '10'
+- SLSA
+- Framework
+- SolarWinds
+- Attack
+- XZ
+- Utils
+- Supply
+- Chain
+- Attacks
+slug: /cloud-and-infra/cicd-pipeline-security/introduction
 ---
+
 
 # 01. Overview, Architecture & Supply Chain Threat Landscape
 

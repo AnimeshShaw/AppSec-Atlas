@@ -1,7 +1,13 @@
 ---
-title: "02 - Security in CI/CD Pipelines"
-description: "Comprehensive guide and best practices for 02 - Security in CI/CD Pipelines in the devsecops-handbook section of AppSec Atlas. Learn how to secure your infrastr"
-keywords: ['devsecops-handbook', '02---security-in-ci/cd-pipelines', 'appsec', 'security', 'compliance']
+title: 02 - Security in CI/CD Pipelines
+description: Comprehensive guide and best practices for 02 - Security in CI/CD Pipelines
+  in the devsecops-handbook section of AppSec Atlas. Learn how to secure your infrastr
+keywords:
+- devsecops-handbook
+- '02'
+slug: /compliance/devsecops-handbook/security-in-ci-cd-pipelines
+---
+security-in-ci/cd-pipelines', 'appsec', 'security', 'compliance']
 ---
 # 02 - Security in CI/CD Pipelines
 

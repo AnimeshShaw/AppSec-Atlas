@@ -1,8 +1,26 @@
 ---
-title: "05. Security Testing & Tooling Setup"
-description: "Master automated security testing for Agentic AI using SAST rules (Semgrep), DAST tools (PyRIT, garak), OPA REGO authorization, and runtime tracing."
-keywords: ["AppSec", "Agentic AI", "Semgrep Rules", "PyRIT", "garak", "OPA Rego", "AgentOps", "LLM Security Testing", "SAST DAST"]
+title: 05. Security Testing & Tooling Setup
+description: Master automated security testing for Agentic AI using SAST rules (Semgrep),
+  DAST tools (PyRIT, garak), OPA REGO authorization, and runtime tracing.
+keywords:
+- AppSec
+- Agentic
+- AI
+- Semgrep
+- Rules
+- PyRIT
+- garak
+- OPA
+- Rego
+- AgentOps
+- LLM
+- Security
+- Testing
+- SAST
+- DAST
+slug: /ai-ml-security/agentic-ai-security/tools
 ---
+
 
 # 05. Security Testing & Tooling Setup
 
@@ -42,7 +60,7 @@ rules:
               ...
       - pattern-not:
           pattern: |
-              def `$TOOL_NAME(..., `$`PARAM: $`MODEL_TYPE, ...):
+              def `$TOOL_NAME(..., $``PARAM: $`MODEL_TYPE, ...):
                   ...
     metadata:
       owasp: "LLM05: Supply Chain & Tool Risks"

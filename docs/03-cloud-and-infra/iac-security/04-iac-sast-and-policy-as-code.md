@@ -1,8 +1,27 @@
 ---
-title: "04 - IaC SAST and Policy as Code Masterclass"
-description: "Master Static Analysis (Checkov, tfsec, Terrascan) and Policy as Code (OPA/Rego, custom Checkov Python rules) integrated into CI/CD security pipelines."
-keywords: ["IaC SAST", "Policy as Code", "OPA Rego", "Checkov", "tfsec", "Terrascan", "GitHub Actions Security", "CI/CD Security"]
+title: 04 - IaC SAST and Policy as Code Masterclass
+description: Master Static Analysis (Checkov, tfsec, Terrascan) and Policy as Code
+  (OPA/Rego, custom Checkov Python rules) integrated into CI/CD security pipelines.
+keywords:
+- IaC
+- SAST
+- Policy
+- as
+- Code
+- OPA
+- Rego
+- Checkov
+- tfsec
+- Terrascan
+- GitHub
+- Actions
+- Security
+- CI
+- CD
+- Security
+slug: /cloud-and-infra/iac-security/iac-sast-and-policy-as-code
 ---
+
 
 # 04 - IaC SAST and Policy as Code Masterclass
 

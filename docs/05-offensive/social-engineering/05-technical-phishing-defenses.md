@@ -1,8 +1,25 @@
 ---
-title: "05 - Technical Phishing Defenses"
-description: "Beyond email authentication (DMARC) and user awareness, organizations must implement technical controls to analyze payloads and monitor the external t..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Social Engineering", "05 Technical Phishing Defenses.Md"]
+title: 05 - Technical Phishing Defenses
+description: Beyond email authentication (DMARC) and user awareness, organizations
+  must implement technical controls to analyze payloads and monitor the external t...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '05'
+- Offensive
+- Social
+- Engineering
+- '05'
+- Technical
+- Phishing
+- Defenses
+- Md
+slug: /offensive/social-engineering/technical-phishing-defenses
 ---
+
 
 # 05 - Technical Phishing Defenses
 
@@ -46,7 +63,7 @@ rule Suspicious_VBA_Macro {
         $shell = "WScript.Shell" nocase ascii wide
         $http = "MSXML2.XMLHTTP" nocase ascii wide
     condition:
-        `$auto and (`$`shell or $`http)
+        `$auto and ($``shell or $`http)
 }
 ```
 

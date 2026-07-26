@@ -1,9 +1,26 @@
 ---
-title: "05. Runtime Threat Detection with Falco"
-description: "Detect container escapes, shell execution, and unauthorized kernel syscalls in real time using eBPF and CNCF Falco rules."
-keywords: ["falco", "ebpf", "runtime security", "container threat detection", "syscall monitoring", "falcosidekick", "k8s runtime defense", "appsec"]
+title: 05. Runtime Threat Detection with Falco
+description: Detect container escapes, shell execution, and unauthorized kernel syscalls
+  in real time using eBPF and CNCF Falco rules.
+keywords:
+- falco
+- ebpf
+- runtime
+- security
+- container
+- threat
+- detection
+- syscall
+- monitoring
+- falcosidekick
+- k8s
+- runtime
+- defense
+- appsec
 sidebar_position: 6
+slug: /cloud-and-infra/container-kubernetes/runtime-security-and-falco
 ---
+
 
 # 05. Runtime Threat Detection with Falco
 

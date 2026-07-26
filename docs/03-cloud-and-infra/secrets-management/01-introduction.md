@@ -1,10 +1,26 @@
 ---
-title: "01. Introduction to Secrets Management & Threat Landscape"
-description: "Explore the theoretical foundations of secrets management, the anatomy of secret sprawl, real-world breach case studies, and the formal 6-stage secrets lifecycle."
-keywords: ["secret sprawl", "hardcoded secrets", "secrets lifecycle", "cwe-798", "appsec", "threat landscape", "zero trust"]
-sidebar_label: "01. Introduction & Threats"
+title: 01. Introduction to Secrets Management & Threat Landscape
+description: Explore the theoretical foundations of secrets management, the anatomy
+  of secret sprawl, real-world breach case studies, and the formal 6-stage secrets
+  lifecycle.
+keywords:
+- secret
+- sprawl
+- hardcoded
+- secrets
+- secrets
+- lifecycle
+- cwe-798
+- appsec
+- threat
+- landscape
+- zero
+- trust
+sidebar_label: 01. Introduction & Threats
 sidebar_position: 2
+slug: /cloud-and-infra/secrets-management/introduction
 ---
+
 
 # 01. Introduction to Secrets Management & Threat Landscape
 

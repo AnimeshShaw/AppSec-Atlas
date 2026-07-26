@@ -1,8 +1,31 @@
 ---
-title: "CI/CD Pipeline Security Masterclass"
-description: "Master continuous integration and deployment security: supply chain threat landscape, GitHub Actions hardening, dependency confusion, OIDC auth, and Sigstore/Cosign image signing."
-keywords: ["AppSec", "Cybersecurity", "CI/CD Security", "GitHub Actions Security", "Supply Chain Security", "SLSA Framework", "Sigstore Cosign", "Dependency Confusion", "OIDC AWS"]
+title: CI/CD Pipeline Security Masterclass
+description: 'Master continuous integration and deployment security: supply chain
+  threat landscape, GitHub Actions hardening, dependency confusion, OIDC auth, and
+  Sigstore/Cosign image signing.'
+keywords:
+- AppSec
+- Cybersecurity
+- CI
+- CD
+- Security
+- GitHub
+- Actions
+- Security
+- Supply
+- Chain
+- Security
+- SLSA
+- Framework
+- Sigstore
+- Cosign
+- Dependency
+- Confusion
+- OIDC
+- AWS
+slug: /cloud-and-infra/cicd-pipeline-security
 ---
+
 
 # CI/CD Pipeline Security Masterclass
 

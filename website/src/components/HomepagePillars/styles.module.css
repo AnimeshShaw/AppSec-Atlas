@@ -1,0 +1,60 @@
+.section {
+  padding: 4rem 1.5rem 5rem;
+  background: rgba(15, 23, 42, 0.4);
+  border-top: 1px solid var(--atlas-card-border);
+  border-bottom: 1px solid var(--atlas-card-border);
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.title {
+  font-family: var(--ifm-heading-font-family);
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+  font-weight: 800;
+  margin-bottom: 0.75rem;
+}
+
+.subtitle {
+  font-size: 1.05rem;
+  color: var(--atlas-text-secondary);
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.pillarCard {
+  padding: 1.75rem;
+  border-radius: 14px;
+}
+
+.icon {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.pillarTitle {
+  font-family: var(--ifm-heading-font-family);
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+  color: var(--ifm-font-color-base);
+}
+
+.pillarDesc {
+  font-size: 0.92rem;
+  color: var(--atlas-text-secondary);
+  line-height: 1.6;
+}

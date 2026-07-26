@@ -1,8 +1,26 @@
 ---
-title: "06 - Hands-on Lab: Logging, Detection, & Response"
-description: "In this self-contained lab, we will build a vulnerable Flask application that logs authentication events in structured JSON (ECS format). We will then..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Logging And Monitoring", "06 Hands On Lab.Md"]
+title: '06 - Hands-on Lab: Logging, Detection, & Response'
+description: In this self-contained lab, we will build a vulnerable Flask application
+  that logs authentication events in structured JSON (ECS format). We will then...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '06'
+- Defensive
+- Logging
+- And
+- Monitoring
+- '06'
+- Hands
+- 'On'
+- Lab
+- Md
+slug: /defensive/logging-and-monitoring/hands-on-lab
 ---
+
 
 # 06 - Hands-on Lab: Logging, Detection, & Response
 

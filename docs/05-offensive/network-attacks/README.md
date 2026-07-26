@@ -1,13 +1,16 @@
 ---
 title: Network Security & Attack Techniques
-description: Welcome to the Network Security & Attack Techniques module. Learn foundational principles of securing network infrastructure and attacker exploitation methods.
+description: Welcome to the Network Security & Attack Techniques module. Learn foundational
+  principles of securing network infrastructure and attacker exploitation methods.
 keywords:
-  - Network Security
-  - Attack Techniques
-  - AppSec
-  - OSI Model
-  - Network Defense
+- network
+- security
+- attack
+- techniques
+slug: /offensive/network-attacks
 ---
+
+
 
 # Network Security & Attack Techniques
 

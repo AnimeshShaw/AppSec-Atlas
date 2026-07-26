@@ -1,8 +1,29 @@
 ---
-title: "01. Overview & Adversarial ML Threat Landscape"
-description: "Explore the security paradigm of Machine Learning models, comparing classical software vulnerabilities with adversarial AI threats per NIST AI 100-2 and MITRE ATLAS."
-keywords: ["Adversarial ML", "NIST AI 100-2", "MITRE ATLAS", "Machine Learning Security", "Pickle Insecurity", "Model Supply Chain", "Threat Matrix"]
+title: 01. Overview & Adversarial ML Threat Landscape
+description: Explore the security paradigm of Machine Learning models, comparing classical
+  software vulnerabilities with adversarial AI threats per NIST AI 100-2 and MITRE
+  ATLAS.
+keywords:
+- Adversarial
+- ML
+- NIST
+- AI
+- 100-2
+- MITRE
+- ATLAS
+- Machine
+- Learning
+- Security
+- Pickle
+- Insecurity
+- Model
+- Supply
+- Chain
+- Threat
+- Matrix
+slug: /ai-ml-security/ml-model-security/introduction
 ---
+
 
 # 01. Overview & Adversarial ML Threat Landscape
 
@@ -36,13 +57,13 @@ Why are deep neural networks (DNNs) susceptible to adversarial manipulation?
 ### A. Linear Behavior in High Dimensions
 Deep networks were long assumed to suffer from non-linear overfitting. However, breakthrough research (Goodfellow et al.) demonstrated that modern deep networks behave surprisingly **linearly in high-dimensional input spaces**. 
 
-If an input sample `x` has dimension `d` (e.g., a `$256 \times 256 \times 3`$` image with `$`d = 196,608$` features), a tiny perturbation vector `\eta` with maximum amplitude `\epsilon` across each dimension accumulates linearly across weight vector `w`:
+If an input sample `x` has dimension `d` (e.g., a 256×256×3 image with d = 196,608 features), a tiny perturbation vector `\eta` with maximum amplitude `\epsilon` across each dimension accumulates linearly across weight vector `w`:
 
 ```
 w^T x_adv = w^T (x + \eta) = w^T x + w^T \eta
 ```
 
-If `\eta = \epsilon \cdot \text{sign}(w)`, the change in activation is:
+If `\eta = \epsilon \cdot sign(w)`, the change in activation is:
 
 ```
 w^T \eta = \epsilon \cdot ||w||_1

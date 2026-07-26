@@ -1,8 +1,26 @@
 ---
-title: "07. References & Standards"
-description: "Authoritative security standards, CVE bibliography, framework specifications, and open-source tooling repositories for CI/CD Pipeline Security."
-keywords: ["AppSec", "Cybersecurity", "SLSA Framework", "OWASP CI/CD", "NIST SP 800-218", "TruffleHog", "Sigstore Cosign", "Security Tools"]
+title: 07. References & Standards
+description: Authoritative security standards, CVE bibliography, framework specifications,
+  and open-source tooling repositories for CI/CD Pipeline Security.
+keywords:
+- AppSec
+- Cybersecurity
+- SLSA
+- Framework
+- OWASP
+- CI
+- CD
+- NIST
+- SP
+- 800-218
+- TruffleHog
+- Sigstore
+- Cosign
+- Security
+- Tools
+slug: /cloud-and-infra/cicd-pipeline-security/references
 ---
+
 
 # 07. References & Standards
 

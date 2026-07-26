@@ -1,7 +1,13 @@
 ---
-title: "04 - SOC 2 Policy Templates"
-description: "Comprehensive guide and best practices for 04 - SOC 2 Policy Templates in the soc2-guide section of AppSec Atlas. Learn how to secure your infrastructure."
-keywords: ['soc2-guide', '04---soc-2-policy-templates', 'appsec', 'security', 'compliance']
+title: 04 - SOC 2 Policy Templates
+description: Comprehensive guide and best practices for 04 - SOC 2 Policy Templates
+  in the soc2-guide section of AppSec Atlas. Learn how to secure your infrastructure.
+keywords:
+- soc2-guide
+- '04'
+slug: /compliance/soc2-guide/soc2-policy-templates
+---
+soc-2-policy-templates', 'appsec', 'security', 'compliance']
 ---
 # 04 - SOC 2 Policy Templates
 

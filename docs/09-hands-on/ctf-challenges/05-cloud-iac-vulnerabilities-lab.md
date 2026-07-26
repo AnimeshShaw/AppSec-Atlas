@@ -1,8 +1,26 @@
 ---
-title: "Cloud & IaC Vulnerabilities Lab"
-description: "RUN apt-get update && apt-get install -y curl"
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "09 Hands On", "Ctf Challenges", "05 Cloud Iac Vulnerabilities Lab.Md"]
+title: Cloud & IaC Vulnerabilities Lab
+description: RUN apt-get update && apt-get install -y curl
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- 09
+- Hands
+- 'On'
+- Ctf
+- Challenges
+- '05'
+- Cloud
+- Iac
+- Vulnerabilities
+- Lab
+- Md
+slug: /hands-on/ctf-challenges/cloud-iac-vulnerabilities-lab
 ---
+
 
 # Cloud & IaC Vulnerabilities Lab
 

@@ -1,8 +1,22 @@
 ---
-title: "07 - References & Resources"
-description: "Comprehensive security guide and practical technical implementation handbook."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Digital Forensics", "07 References.Md"]
+title: 07 - References & Resources
+description: Comprehensive security guide and practical technical implementation handbook.
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '06'
+- Defensive
+- Digital
+- Forensics
+- '07'
+- References
+- Md
+slug: /defensive/digital-forensics/references
 ---
+
 
 # 07 - References & Resources
 

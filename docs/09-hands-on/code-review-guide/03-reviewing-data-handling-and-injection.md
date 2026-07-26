@@ -1,8 +1,29 @@
 ---
-title: "03 Reviewing Data Handling and Injection"
-description: "Data handling flaws occur when untrusted data is processed without sufficient validation, sanitization, or parameterization."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "09 Hands On", "Code Review Guide", "03 Reviewing Data Handling And Injection.Md"]
+title: 03 Reviewing Data Handling and Injection
+description: Data handling flaws occur when untrusted data is processed without sufficient
+  validation, sanitization, or parameterization.
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- 09
+- Hands
+- 'On'
+- Code
+- Review
+- Guide
+- '03'
+- Reviewing
+- Data
+- Handling
+- And
+- Injection
+- Md
+slug: /hands-on/code-review-guide/reviewing-data-handling-and-injection
 ---
+
 
 # 03 Reviewing Data Handling and Injection
 

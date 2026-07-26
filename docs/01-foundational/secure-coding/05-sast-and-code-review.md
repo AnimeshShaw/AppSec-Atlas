@@ -1,8 +1,24 @@
 ---
-title: "Chapter 5: SAST & Code Review"
-description: "Master Static Application Security Testing (SAST) with Semgrep, custom rule engineering, CI/CD SARIF integration, pre-commit hooks, and security code review checklists."
-keywords: ["AppSec", "SAST", "Semgrep", "Static Analysis", "Code Review", "DevSecOps", "GitHub Actions", "Pre-commit", "SARIF"]
+title: 'Chapter 5: SAST & Code Review'
+description: Master Static Application Security Testing (SAST) with Semgrep, custom
+  rule engineering, CI/CD SARIF integration, pre-commit hooks, and security code review
+  checklists.
+keywords:
+- AppSec
+- SAST
+- Semgrep
+- Static
+- Analysis
+- Code
+- Review
+- DevSecOps
+- GitHub
+- Actions
+- Pre-commit
+- SARIF
+slug: /foundational/secure-coding/sast-and-code-review
 ---
+
 
 # Chapter 5: SAST & Code Review
 
@@ -78,7 +94,7 @@ rules:
 rules:
   - id: node-jwt-hardcoded-secret
     patterns:
-      - pattern: jwt.sign(`$PAYLOAD, "$`SECRET", ...)
+      - pattern: jwt.sign(`$PAYLOAD, "$SECRET"`SECRET", ...)
     message: "Hardcoded secret string detected in JWT signing function. Move secret to secure vault/environment variable!"
     severity: CRITICAL
     languages: [javascript, typescript]

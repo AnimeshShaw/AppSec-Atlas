@@ -1,8 +1,25 @@
 ---
-title: "01 - Introduction to Authentication & Authorization"
-description: "Explore the foundational mechanics, architectural patterns, stateful vs stateless trade-offs, and threat landscape of Authentication (AuthN) and Authorization (AuthZ)."
-keywords: ["AppSec", "Cybersecurity", "AuthN", "AuthZ", "NIST SP 800-63B", "Session Security", "JWT", "OWASP Top 10"]
+title: 01 - Introduction to Authentication & Authorization
+description: Explore the foundational mechanics, architectural patterns, stateful
+  vs stateless trade-offs, and threat landscape of Authentication (AuthN) and Authorization
+  (AuthZ).
+keywords:
+- AppSec
+- Cybersecurity
+- AuthN
+- AuthZ
+- NIST
+- SP
+- 800-63B
+- Session
+- Security
+- JWT
+- OWASP
+- Top
+- '10'
+slug: /foundational/auth-and-authz/introduction
 ---
+
 
 # 01 - Introduction to Authentication & Authorization
 

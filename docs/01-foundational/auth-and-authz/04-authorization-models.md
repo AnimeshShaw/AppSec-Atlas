@@ -1,8 +1,24 @@
 ---
-title: "04 - Authorization Models & Policy-as-Code Architecture"
-description: "Master modern authorization paradigms (RBAC, ABAC, ReBAC), mitigate BOLA/BFLA vulnerabilities, and implement Policy-as-Code with Open Policy Agent (OPA) and Rego."
-keywords: ["Authorization", "RBAC", "ABAC", "ReBAC", "Zanzibar", "OPA", "Rego", "BOLA", "IDOR", "BFLA", "Policy as Code"]
+title: 04 - Authorization Models & Policy-as-Code Architecture
+description: Master modern authorization paradigms (RBAC, ABAC, ReBAC), mitigate BOLA/BFLA
+  vulnerabilities, and implement Policy-as-Code with Open Policy Agent (OPA) and Rego.
+keywords:
+- Authorization
+- RBAC
+- ABAC
+- ReBAC
+- Zanzibar
+- OPA
+- Rego
+- BOLA
+- IDOR
+- BFLA
+- Policy
+- as
+- Code
+slug: /foundational/auth-and-authz/authorization-models
 ---
+
 
 # 04 - Authorization Models & Policy-as-Code Architecture
 
@@ -51,7 +67,7 @@ Access decisions are computed dynamically by evaluating boolean logic across fou
 Based on Google's **Zanzibar** whitepaper (powering Google Drive/Cloud IAM), ReBAC models access as a directed graph of relationship tuples:
 
 ```math
-\text{tuple} = \langle \text{object} \rangle \# \langle \text{relation} \rangle @ \langle \text{user} \rangle
+tuple = \langle object \rangle \# \langle relation \rangle @ \langle user \rangle
 ```
 
 *Example tuples:*
@@ -69,7 +85,7 @@ ReBAC resolves permissions dynamically by traversing relation graphs (e.g., "Bob
 | :--- | :--- | :--- | :--- |
 | **Granularity Level** | Coarse-grained (Group level) | Fine-grained (Contextual) | Ultra Fine-grained (Object graph) |
 | **Complexity** | Low | High (Complex rule engines) | High (Graph traversal stores) |
-| **Performance Overhead** | `$O(1)`$` constant key lookup | `$`O(N)`$` rule evaluation cost | `$`O(D)$` graph depth traversal |
+| **Performance Overhead** | `$O(1)` constant key lookup | `O(N)`$ rule evaluation cost | `O(D)` graph depth traversal |
 | **Instance Ownership** | Poor (Requires role per object) | Excellent (Evaluates `user.id == doc.owner_id`) | Native (`doc#owner@user`) |
 | **Industry Adoption** | Enterprise IT, Traditional Web | High-security financial/health systems | Modern SaaS platforms (Authzed, OpenFGA) |
 

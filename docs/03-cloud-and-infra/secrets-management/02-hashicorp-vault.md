@@ -1,10 +1,35 @@
 ---
-title: "02. HashiCorp Vault Deep Dive"
-description: "Master HashiCorp Vault architecture, AppRole & Kubernetes authentication, KV v2 versioning, dynamic database credentials, transit envelope encryption, and multi-language SDK integrations."
-keywords: ["hashicorp vault", "approle", "dynamic secrets", "transit engine", "encryption as a service", "raft integrated storage", "hvac", "node-vault", "go vault api", "java vault"]
-sidebar_label: "02. HashiCorp Vault Deep Dive"
+title: 02. HashiCorp Vault Deep Dive
+description: Master HashiCorp Vault architecture, AppRole & Kubernetes authentication,
+  KV v2 versioning, dynamic database credentials, transit envelope encryption, and
+  multi-language SDK integrations.
+keywords:
+- hashicorp
+- vault
+- approle
+- dynamic
+- secrets
+- transit
+- engine
+- encryption
+- as
+- a
+- service
+- raft
+- integrated
+- storage
+- hvac
+- node-vault
+- go
+- vault
+- api
+- java
+- vault
+sidebar_label: 02. HashiCorp Vault Deep Dive
 sidebar_position: 3
+slug: /cloud-and-infra/secrets-management/hashicorp-vault
 ---
+
 
 # 02. HashiCorp Vault Deep Dive
 

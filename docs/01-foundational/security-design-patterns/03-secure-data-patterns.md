@@ -1,8 +1,27 @@
 ---
-title: "03 - Secure Data Patterns & Cryptography"
-description: "Master advanced data security design patterns including Envelope Encryption with KMS/DEK, Format-Preserving Tokenization, Input Sanitization Pipelines, and Cryptographic Immutable Ledger Auditing."
-keywords: ["AppSec", "Envelope Encryption", "KMS", "DEK", "KEK", "Tokenization", "Format-Preserving Encryption", "Input Sanitization", "Immutable Ledger", "Merkle Tree"]
+title: 03 - Secure Data Patterns & Cryptography
+description: Master advanced data security design patterns including Envelope Encryption
+  with KMS/DEK, Format-Preserving Tokenization, Input Sanitization Pipelines, and
+  Cryptographic Immutable Ledger Auditing.
+keywords:
+- AppSec
+- Envelope
+- Encryption
+- KMS
+- DEK
+- KEK
+- Tokenization
+- Format-Preserving
+- Encryption
+- Input
+- Sanitization
+- Immutable
+- Ledger
+- Merkle
+- Tree
+slug: /foundational/security-design-patterns/secure-data-patterns
 ---
+
 
 # 03 - Secure Data Patterns & Cryptography
 

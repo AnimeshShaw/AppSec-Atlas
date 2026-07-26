@@ -1,8 +1,19 @@
 ---
-title: "05. Continuous Compliance Automation & Vendor Management"
-description: "Comprehensive guide and best practices for 05. Continuous Compliance Automation & Vendor Management in the soc2-guide section of AppSec Atlas. Learn how to secu"
-keywords: ['soc2-guide', '05.-continuous-compliance-automation-&-vendor-management', 'appsec', 'security', 'compliance']
+title: 05. Continuous Compliance Automation & Vendor Management
+description: Comprehensive guide and best practices for 05. Continuous Compliance
+  Automation & Vendor Management in the soc2-guide section of AppSec Atlas. Learn
+  how to secu
+keywords:
+- soc2-guide
+- '05'
+- -continuous-compliance-automation-
+- -vendor-management
+- appsec
+- security
+- compliance
+slug: /compliance/soc2-guide/continuous-compliance-and-vanta-drata
 ---
+
 # 05. Continuous Compliance Automation & Vendor Management
 
 Automating evidence collection eliminates manual screenshotting and ensures continuous audit readiness across cloud infrastructure.

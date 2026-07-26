@@ -1,8 +1,27 @@
 ---
-title: "02 - Manifest V3 Security and Permissions"
-description: "MV3 introduces several major security enhancements over MV2:"
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Browser Extension Security", "02 Manifest V3 Security And Permissions.Md"]
+title: 02 - Manifest V3 Security and Permissions
+description: 'MV3 introduces several major security enhancements over MV2:'
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '07'
+- Specialized
+- Browser
+- Extension
+- Security
+- '02'
+- Manifest
+- V3
+- Security
+- And
+- Permissions
+- Md
+slug: /specialized/browser-extension-security/manifest-v3-security-and-permissions
 ---
+
 
 # 02 - Manifest V3 Security and Permissions
 

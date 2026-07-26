@@ -1,8 +1,27 @@
 ---
-title: "05 - Cloud Incident Response & Digital Forensics"
-description: "Master cloud incident response: Dynamic VM isolation, STS session revocation, EBS forensic disk snapshotting, and cloud log triage."
-keywords: ["Cloud Incident Response", "Digital Forensics", "AWS Incident Response", "EBS Snapshot", "STS Session Revocation", "Cloud Forensics", "AppSec"]
+title: 05 - Cloud Incident Response & Digital Forensics
+description: 'Master cloud incident response: Dynamic VM isolation, STS session revocation,
+  EBS forensic disk snapshotting, and cloud log triage.'
+keywords:
+- Cloud
+- Incident
+- Response
+- Digital
+- Forensics
+- AWS
+- Incident
+- Response
+- EBS
+- Snapshot
+- STS
+- Session
+- Revocation
+- Cloud
+- Forensics
+- AppSec
+slug: /cloud-and-infra/cloud-security/cloud-incident-response
 ---
+
 
 # 05 - Cloud Incident Response & Digital Forensics
 

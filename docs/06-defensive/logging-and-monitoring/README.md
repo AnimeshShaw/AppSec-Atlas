@@ -1,8 +1,23 @@
 ---
-title: "Logging & SIEM Masterclass"
-description: "Welcome to the **Logging & SIEM Masterclass**. This module covers the critical defensive capabilities of security logging, centralized monitoring, det..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "06 Defensive", "Logging And Monitoring", "Readme.Md"]
+title: Logging & SIEM Masterclass
+description: Welcome to the **Logging & SIEM Masterclass**. This module covers the
+  critical defensive capabilities of security logging, centralized monitoring, det...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '06'
+- Defensive
+- Logging
+- And
+- Monitoring
+- Readme
+- Md
+slug: /defensive/logging-and-monitoring
 ---
+
 
 # Logging & SIEM Masterclass
 

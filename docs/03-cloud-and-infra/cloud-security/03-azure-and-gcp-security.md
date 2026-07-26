@@ -1,8 +1,29 @@
 ---
-title: "03 - Azure and GCP Security Architecture & Hardening"
-description: "Explore Microsoft Entra ID RBAC, Azure Storage Account security, GCP IAM Service Account impersonation, and GCP VPC Service Controls."
-keywords: ["Azure Security", "GCP Security", "Microsoft Entra ID", "Azure RBAC", "GCP Service Accounts", "VPC Service Controls", "GCS Hardening", "AppSec"]
+title: 03 - Azure and GCP Security Architecture & Hardening
+description: Explore Microsoft Entra ID RBAC, Azure Storage Account security, GCP
+  IAM Service Account impersonation, and GCP VPC Service Controls.
+keywords:
+- Azure
+- Security
+- GCP
+- Security
+- Microsoft
+- Entra
+- ID
+- Azure
+- RBAC
+- GCP
+- Service
+- Accounts
+- VPC
+- Service
+- Controls
+- GCS
+- Hardening
+- AppSec
+slug: /cloud-and-infra/cloud-security/azure-and-gcp-security
 ---
+
 
 # 03 - Azure and GCP Security Architecture & Hardening
 

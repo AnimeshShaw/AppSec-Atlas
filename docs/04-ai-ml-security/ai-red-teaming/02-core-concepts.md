@@ -1,8 +1,30 @@
 ---
-title: "02. Core Concepts & Attack Mechanics"
-description: "In-depth technical breakdown of AI vulnerability mechanics: Direct & Indirect Prompt Injection, Multi-Turn Crescendo attacks, PAIR/TAP/GCG automated optimization, token smuggling, and attention hijacking."
-keywords: ["Prompt Injection", "Crescendo Attack", "PAIR Framework", "TAP Framework", "GCG Attack", "Token Smuggling", "RAG Poisoning", "Attention Hijacking", "AppSec Atlas"]
+title: 02. Core Concepts & Attack Mechanics
+description: 'In-depth technical breakdown of AI vulnerability mechanics: Direct &
+  Indirect Prompt Injection, Multi-Turn Crescendo attacks, PAIR/TAP/GCG automated
+  optimization, token smuggling, and attention hijacking.'
+keywords:
+- Prompt
+- Injection
+- Crescendo
+- Attack
+- PAIR
+- Framework
+- TAP
+- Framework
+- GCG
+- Attack
+- Token
+- Smuggling
+- RAG
+- Poisoning
+- Attention
+- Hijacking
+- AppSec
+- Atlas
+slug: /ai-ml-security/ai-red-teaming/core-concepts
 ---
+
 
 # 02. Core Concepts & Attack Mechanics
 

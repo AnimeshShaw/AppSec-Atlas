@@ -1,8 +1,22 @@
 ---
-title: "IoT & Hardware Security Guide"
-description: "Welcome to the AppSec Atlas guide on IoT & Hardware Security! As physical devices become increasingly connected, securing the Internet of Things (IoT)..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Iot Security", "Readme.Md"]
+title: IoT & Hardware Security Guide
+description: Welcome to the AppSec Atlas guide on IoT & Hardware Security! As physical
+  devices become increasingly connected, securing the Internet of Things (IoT)...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '07'
+- Specialized
+- Iot
+- Security
+- Readme
+- Md
+slug: /specialized/iot-security
 ---
+
 
 # IoT & Hardware Security Guide
 

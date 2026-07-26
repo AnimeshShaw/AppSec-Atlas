@@ -1,8 +1,28 @@
 ---
-title: "03. gRPC Attack Scenarios & Multi-Language Code Examples"
-description: "Production code examples comparing vulnerable vs secure gRPC implementations across Go, Python, Node.js, and Java."
-keywords: ["gRPC Code Examples", "Vulnerable vs Secure", "Go gRPC", "Python gRPC", "Node.js gRPC", "Java gRPC", "Interceptors", "mTLS"]
+title: 03. gRPC Attack Scenarios & Multi-Language Code Examples
+description: Production code examples comparing vulnerable vs secure gRPC implementations
+  across Go, Python, Node.js, and Java.
+keywords:
+- gRPC
+- Code
+- Examples
+- Vulnerable
+- vs
+- Secure
+- Go
+- gRPC
+- Python
+- gRPC
+- Node
+- js
+- gRPC
+- Java
+- gRPC
+- Interceptors
+- mTLS
+slug: /web-and-api/grpc-security/code-examples
 ---
+
 
 # 03. gRPC Attack Scenarios & Multi-Language Code Examples
 

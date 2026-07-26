@@ -1,7 +1,13 @@
 ---
-title: "07 - References and Further Reading"
-description: "Comprehensive guide and best practices for 07 - References and Further Reading in the soc2-guide section of AppSec Atlas. Learn how to secure your infrastructur"
-keywords: ['soc2-guide', '07---references-and-further-reading', 'appsec', 'security', 'compliance']
+title: 07 - References and Further Reading
+description: Comprehensive guide and best practices for 07 - References and Further
+  Reading in the soc2-guide section of AppSec Atlas. Learn how to secure your infrastructur
+keywords:
+- soc2-guide
+- '07'
+slug: /compliance/soc2-guide/references
+---
+references-and-further-reading', 'appsec', 'security', 'compliance']
 ---
 # 07 - References and Further Reading
 

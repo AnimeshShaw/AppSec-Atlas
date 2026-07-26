@@ -1,8 +1,26 @@
 ---
-title: "07. References, Standards & CVE Index"
-description: "Authoritative standards, frameworks, academic papers, MITRE ATLAS techniques, OWASP Top 10 for LLM 2025, and real-world CVE records."
-keywords: ["AppSec References", "OWASP LLM01:2025", "NIST AI RMF", "MITRE ATLAS", "LLM CVEs", "Prompt Injection Research"]
+title: 07. References, Standards & CVE Index
+description: Authoritative standards, frameworks, academic papers, MITRE ATLAS techniques,
+  OWASP Top 10 for LLM 2025, and real-world CVE records.
+keywords:
+- AppSec
+- References
+- OWASP
+- LLM01
+- '2025'
+- NIST
+- AI
+- RMF
+- MITRE
+- ATLAS
+- LLM
+- CVEs
+- Prompt
+- Injection
+- Research
+slug: /ai-ml-security/llm-prompt-injection/references
 ---
+
 
 # 07. References, Standards & CVE Index
 

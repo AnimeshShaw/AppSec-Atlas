@@ -1,9 +1,27 @@
 ---
-title: "05 - Serverless Runtime Security & Defenses"
-description: "Production-grade runtime protection, threat monitoring, Denial of Wallet (DoW) mitigation, SAST/DAST tooling configuration, and structured logging."
-keywords: ["Runtime Security", "Denial of Wallet", "AWS Lambda Extensions", "Semgrep Rules", "Checkov", "Structured Logging", "Concurrency Limits"]
-sidebar_label: "05 - Runtime Security & Tools"
+title: 05 - Serverless Runtime Security & Defenses
+description: Production-grade runtime protection, threat monitoring, Denial of Wallet
+  (DoW) mitigation, SAST/DAST tooling configuration, and structured logging.
+keywords:
+- Runtime
+- Security
+- Denial
+- of
+- Wallet
+- AWS
+- Lambda
+- Extensions
+- Semgrep
+- Rules
+- Checkov
+- Structured
+- Logging
+- Concurrency
+- Limits
+sidebar_label: 05 - Runtime Security & Tools
+slug: /cloud-and-infra/serverless-security/serverless-runtime-security
 ---
+
 
 # 05 - Serverless Runtime Security & Defenses
 

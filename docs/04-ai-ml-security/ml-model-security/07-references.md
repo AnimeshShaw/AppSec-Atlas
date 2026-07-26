@@ -1,8 +1,27 @@
 ---
-title: "07. References & Standards"
-description: "Authoritative standards, benchmark leaderboards, foundational academic research papers, and open-source security toolkits for Machine Learning Security."
-keywords: ["ML Security References", "NIST AI 100-2", "MITRE ATLAS", "Adversarial Machine Learning Papers", "RobustBench", "ART Framework", "Safetensors"]
+title: 07. References & Standards
+description: Authoritative standards, benchmark leaderboards, foundational academic
+  research papers, and open-source security toolkits for Machine Learning Security.
+keywords:
+- ML
+- Security
+- References
+- NIST
+- AI
+- 100-2
+- MITRE
+- ATLAS
+- Adversarial
+- Machine
+- Learning
+- Papers
+- RobustBench
+- ART
+- Framework
+- Safetensors
+slug: /ai-ml-security/ml-model-security/references
 ---
+
 
 # 07. References & Standards
 

@@ -1,8 +1,20 @@
 ---
-title: "05. GraphQL Security Tools & Automation"
-description: "Hands-on guide to GraphQL security auditing tools: InQL, Clairvoyance, GraphQL-Cop, Graphw0of, Burp Suite Extensions, and custom Semgrep SAST rules."
-keywords: ["GraphQL Tools", "InQL", "Clairvoyance", "GraphQL-Cop", "Graphw0of", "Semgrep", "DAST", "SAST"]
+title: 05. GraphQL Security Tools & Automation
+description: 'Hands-on guide to GraphQL security auditing tools: InQL, Clairvoyance,
+  GraphQL-Cop, Graphw0of, Burp Suite Extensions, and custom Semgrep SAST rules.'
+keywords:
+- GraphQL
+- Tools
+- InQL
+- Clairvoyance
+- GraphQL-Cop
+- Graphw0of
+- Semgrep
+- DAST
+- SAST
+slug: /web-and-api/graphql-security/tools
 ---
+
 
 # 05. GraphQL Security Tools & Automation
 

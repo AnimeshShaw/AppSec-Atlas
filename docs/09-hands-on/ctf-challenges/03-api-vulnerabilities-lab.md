@@ -1,8 +1,26 @@
 ---
-title: "API Vulnerabilities Lab"
-description: "(Covered similarly in the Web Lab, ensure authorization checks validate object ownership against the current user context.)"
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "09 Hands On", "Ctf Challenges", "03 Api Vulnerabilities Lab.Md"]
+title: API Vulnerabilities Lab
+description: (Covered similarly in the Web Lab, ensure authorization checks validate
+  object ownership against the current user context.)
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- 09
+- Hands
+- 'On'
+- Ctf
+- Challenges
+- '03'
+- Api
+- Vulnerabilities
+- Lab
+- Md
+slug: /hands-on/ctf-challenges/api-vulnerabilities-lab
 ---
+
 
 # API Vulnerabilities Lab
 

@@ -1,8 +1,29 @@
 ---
-title: "Web Application Security Handbook"
-description: "Master modern web application security fundamentals, threat modeling, security headers, injection defenses, session protection, DAST tooling, and hands-on vulnerability labs."
-keywords: ["AppSec", "Cybersecurity", "Web Security", "OWASP Top 10", "XSS", "CSRF", "SSRF", "File Upload", "Session Management", "DAST", "Security Headers"]
+title: Web Application Security Handbook
+description: Master modern web application security fundamentals, threat modeling,
+  security headers, injection defenses, session protection, DAST tooling, and hands-on
+  vulnerability labs.
+keywords:
+- AppSec
+- Cybersecurity
+- Web
+- Security
+- OWASP
+- Top
+- '10'
+- XSS
+- CSRF
+- SSRF
+- File
+- Upload
+- Session
+- Management
+- DAST
+- Security
+- Headers
+slug: /web-and-api/web-application-security
 ---
+
 
 # Web Application Security Handbook
 

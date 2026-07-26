@@ -1,8 +1,25 @@
 ---
-title: "04 - Reverse Engineering and Tampering"
-description: "Mastering mobile reverse engineering methodologies, static/dynamic analysis, R8/ProGuard obfuscation, root/jailbreak heuristics, and hardware attestation via Play Integrity and App Attest."
-keywords: ["Reverse Engineering", "Decompilation", "Frida", "JADX", "Obfuscation", "Play Integrity API", "App Attest", "RASP", "AppSec"]
+title: 04 - Reverse Engineering and Tampering
+description: Mastering mobile reverse engineering methodologies, static/dynamic analysis,
+  R8/ProGuard obfuscation, root/jailbreak heuristics, and hardware attestation via
+  Play Integrity and App Attest.
+keywords:
+- Reverse
+- Engineering
+- Decompilation
+- Frida
+- JADX
+- Obfuscation
+- Play
+- Integrity
+- API
+- App
+- Attest
+- RASP
+- AppSec
+slug: /web-and-api/mobile-security/reverse-engineering-and-tampering
 ---
+
 
 # 04 - Reverse Engineering and Tampering
 

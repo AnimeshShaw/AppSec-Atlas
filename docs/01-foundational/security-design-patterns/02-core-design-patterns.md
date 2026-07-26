@@ -1,8 +1,27 @@
 ---
-title: "02 - Core Structural & Resilience Security Patterns"
-description: "Master foundational structural security design patterns including Circuit Breakers, Token Bucket Rate Limiting, Secure Factories, Bulkheads, and Container Jails with production code snippets in Python, Go, and Java."
-keywords: ["AppSec", "Circuit Breaker", "Token Bucket", "Rate Limiting", "Secure Factory", "Bulkhead Pattern", "Seccomp", "gVisor", "Resilience Patterns"]
+title: 02 - Core Structural & Resilience Security Patterns
+description: Master foundational structural security design patterns including Circuit
+  Breakers, Token Bucket Rate Limiting, Secure Factories, Bulkheads, and Container
+  Jails with production code snippets in Python, Go, and Java.
+keywords:
+- AppSec
+- Circuit
+- Breaker
+- Token
+- Bucket
+- Rate
+- Limiting
+- Secure
+- Factory
+- Bulkhead
+- Pattern
+- Seccomp
+- gVisor
+- Resilience
+- Patterns
+slug: /foundational/security-design-patterns/core-design-patterns
 ---
+
 
 # 02 - Core Structural & Resilience Security Patterns
 
@@ -157,7 +176,7 @@ stateDiagram-v2
 ## 2. Token Bucket Rate Limiting Pattern
 
 ### 🛠️ Mechanics & Architecture
-Rate limiting restricts the frequency of requests a client can make within a given time window. The **Token Bucket Algorithm** maintains a fixed-capacity bucket populated with tokens at a steady rate `$R`$` tokens/sec up to capacity `$`C$`. Each request consumes 1 token.
+Rate limiting restricts the frequency of requests a client can make within a given time window. The **Token Bucket Algorithm** maintains a fixed-capacity bucket populated with tokens at a steady rate `R` tokens/sec up to capacity `C`. Each request consumes 1 token.
 
 ```
        +------------------------------------+

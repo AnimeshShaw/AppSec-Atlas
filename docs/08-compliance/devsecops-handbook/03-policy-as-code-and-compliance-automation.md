@@ -1,7 +1,14 @@
 ---
-title: "03 - Policy as Code & Compliance Automation"
-description: "Comprehensive guide and best practices for 03 - Policy as Code & Compliance Automation in the devsecops-handbook section of AppSec Atlas. Learn how to secure yo"
-keywords: ['devsecops-handbook', '03---policy-as-code-&-compliance-automation', 'appsec', 'security', 'compliance']
+title: 03 - Policy as Code & Compliance Automation
+description: Comprehensive guide and best practices for 03 - Policy as Code & Compliance
+  Automation in the devsecops-handbook section of AppSec Atlas. Learn how to secure
+  yo
+keywords:
+- devsecops-handbook
+- '03'
+slug: /compliance/devsecops-handbook/policy-as-code-and-compliance-automation
+---
+policy-as-code-&-compliance-automation', 'appsec', 'security', 'compliance']
 ---
 # 03 - Policy as Code & Compliance Automation
 

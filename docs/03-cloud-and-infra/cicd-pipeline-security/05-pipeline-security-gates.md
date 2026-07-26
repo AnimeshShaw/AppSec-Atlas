@@ -1,8 +1,29 @@
 ---
-title: "05. Pipeline Security Gates & Governance"
-description: "Build an end-to-end security pipeline with TruffleHog, Semgrep, Trivy, zizmor, and Policy-as-Code (OPA Rego) alongside strict branch protection rules."
-keywords: ["AppSec", "Cybersecurity", "CI/CD Security Gates", "Semgrep SAST", "Trivy SCA", "zizmor", "Policy as Code", "OPA Rego", "Branch Protection"]
+title: 05. Pipeline Security Gates & Governance
+description: Build an end-to-end security pipeline with TruffleHog, Semgrep, Trivy,
+  zizmor, and Policy-as-Code (OPA Rego) alongside strict branch protection rules.
+keywords:
+- AppSec
+- Cybersecurity
+- CI
+- CD
+- Security
+- Gates
+- Semgrep
+- SAST
+- Trivy
+- SCA
+- zizmor
+- Policy
+- as
+- Code
+- OPA
+- Rego
+- Branch
+- Protection
+slug: /cloud-and-infra/cicd-pipeline-security/pipeline-security-gates
 ---
+
 
 # 05. Pipeline Security Gates & Governance
 

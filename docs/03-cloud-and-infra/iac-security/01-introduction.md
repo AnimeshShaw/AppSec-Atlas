@@ -1,8 +1,29 @@
 ---
-title: "01 - Introduction to IaC Security & Threat Landscape"
-description: "Understand the foundational security concepts, threat landscape, root causes of misconfigurations, and Security as Code (SaC) principles in Infrastructure as Code."
-keywords: ["IaC Security", "Infrastructure as Code", "Threat Landscape", "Immutable Infrastructure", "Shift Left Security", "Security as Code", "Cloud Misconfigurations"]
+title: 01 - Introduction to IaC Security & Threat Landscape
+description: Understand the foundational security concepts, threat landscape, root
+  causes of misconfigurations, and Security as Code (SaC) principles in Infrastructure
+  as Code.
+keywords:
+- IaC
+- Security
+- Infrastructure
+- as
+- Code
+- Threat
+- Landscape
+- Immutable
+- Infrastructure
+- Shift
+- Left
+- Security
+- Security
+- as
+- Code
+- Cloud
+- Misconfigurations
+slug: /cloud-and-infra/iac-security/introduction
 ---
+
 
 # 01 - Introduction to IaC Security & Threat Landscape
 

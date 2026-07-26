@@ -1,8 +1,26 @@
 ---
-title: "LLM Security & Prompt Injection Guide"
-description: "Master LLM Prompt Injection (OWASP LLM01:2025): Direct, Indirect, and Multimodal vectors. Learn root causes, mechanics, multi-language defenses, red teaming tools, and hands-on lab."
-keywords: ["AppSec", "LLM Security", "Prompt Injection", "OWASP LLM01", "AI Security", "RAG Security", "Llama-Guard", "PyRIT", "garak"]
+title: LLM Security & Prompt Injection Guide
+description: 'Master LLM Prompt Injection (OWASP LLM01:2025): Direct, Indirect, and
+  Multimodal vectors. Learn root causes, mechanics, multi-language defenses, red teaming
+  tools, and hands-on lab.'
+keywords:
+- AppSec
+- LLM
+- Security
+- Prompt
+- Injection
+- OWASP
+- LLM01
+- AI
+- Security
+- RAG
+- Security
+- Llama-Guard
+- PyRIT
+- garak
+slug: /ai-ml-security/llm-prompt-injection
 ---
+
 
 # 🛡️ LLM Security & Prompt Injection Guide
 

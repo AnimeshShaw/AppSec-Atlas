@@ -1,8 +1,28 @@
 ---
-title: "06. Hands-On Vulnerability Lab"
-description: "Audit and exploit a vulnerable GitHub Actions workflow with a Poisoned Pipeline Execution (PPE) PoC script, then remediate and verify using an automated audit tool."
-keywords: ["AppSec", "Cybersecurity", "CI/CD Lab", "PPE Exploit PoC", "GitHub Actions Lab", "Script Injection", "Pipeline Auditor", "Remediation"]
+title: 06. Hands-On Vulnerability Lab
+description: Audit and exploit a vulnerable GitHub Actions workflow with a Poisoned
+  Pipeline Execution (PPE) PoC script, then remediate and verify using an automated
+  audit tool.
+keywords:
+- AppSec
+- Cybersecurity
+- CI
+- CD
+- Lab
+- PPE
+- Exploit
+- PoC
+- GitHub
+- Actions
+- Lab
+- Script
+- Injection
+- Pipeline
+- Auditor
+- Remediation
+slug: /cloud-and-infra/cicd-pipeline-security/hands-on-lab
 ---
+
 
 # 06. Hands-On Vulnerability Lab
 

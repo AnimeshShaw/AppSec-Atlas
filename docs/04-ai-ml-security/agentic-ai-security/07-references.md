@@ -1,8 +1,26 @@
 ---
-title: "07. References, Standards & Frameworks"
-description: "Explore industry standards (OWASP, NIST, MITRE ATLAS), CVEs, academic papers, and security tooling documentation for Agentic AI."
-keywords: ["AppSec", "Agentic AI References", "OWASP LLM 2025", "NIST AI RMF", "MITRE ATLAS", "Agent CVEs", "AgentDojo"]
+title: 07. References, Standards & Frameworks
+description: Explore industry standards (OWASP, NIST, MITRE ATLAS), CVEs, academic
+  papers, and security tooling documentation for Agentic AI.
+keywords:
+- AppSec
+- Agentic
+- AI
+- References
+- OWASP
+- LLM
+- '2025'
+- NIST
+- AI
+- RMF
+- MITRE
+- ATLAS
+- Agent
+- CVEs
+- AgentDojo
+slug: /ai-ml-security/agentic-ai-security/references
 ---
+
 
 # 07. References, Standards & Frameworks
 

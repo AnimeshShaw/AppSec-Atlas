@@ -1,8 +1,31 @@
 ---
-title: "05. Frontend Security Scanners & CI/CD Automated Defense"
-description: "Implement frontend security automation using SAST linters (eslint-plugin-security, Semgrep), dependency scanners (retire.js, npm audit), DAST analyzers (DOMInvader, Lighthouse), and GitHub Actions CI/CD workflows."
-keywords: ["AppSec", "Cybersecurity", "ESLint Security", "Semgrep", "Retire.js", "npm audit", "DOMInvader", "Lighthouse Security", "CI/CD Pipeline", "GitHub Actions", "SAST", "DAST"]
+title: 05. Frontend Security Scanners & CI/CD Automated Defense
+description: Implement frontend security automation using SAST linters (eslint-plugin-security,
+  Semgrep), dependency scanners (retire.js, npm audit), DAST analyzers (DOMInvader,
+  Lighthouse), and GitHub Actions CI/CD workflows.
+keywords:
+- AppSec
+- Cybersecurity
+- ESLint
+- Security
+- Semgrep
+- Retire
+- js
+- npm
+- audit
+- DOMInvader
+- Lighthouse
+- Security
+- CI
+- CD
+- Pipeline
+- GitHub
+- Actions
+- SAST
+- DAST
+slug: /web-and-api/frontend-security/frontend-security-scanners
 ---
+
 
 # 05. Frontend Security Scanners & CI/CD Automated Defense
 

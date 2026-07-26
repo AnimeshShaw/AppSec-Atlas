@@ -1,8 +1,22 @@
 ---
-title: "05. gRPC Security Tools & Auditing Frameworks"
-description: "Complete guide to gRPC security testing tools, CLI utility usage, load/DoS testing, SAST rules, and automated vulnerability scanning."
-keywords: ["gRPC Tools", "grpcurl", "grpcui", "ghz", "Semgrep", "Buf", "DAST Scanning", "Penetration Testing"]
+title: 05. gRPC Security Tools & Auditing Frameworks
+description: Complete guide to gRPC security testing tools, CLI utility usage, load/DoS
+  testing, SAST rules, and automated vulnerability scanning.
+keywords:
+- gRPC
+- Tools
+- grpcurl
+- grpcui
+- ghz
+- Semgrep
+- Buf
+- DAST
+- Scanning
+- Penetration
+- Testing
+slug: /web-and-api/grpc-security/tools
 ---
+
 
 # 05. gRPC Security Tools & Auditing Frameworks
 

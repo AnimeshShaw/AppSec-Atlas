@@ -1,8 +1,27 @@
 ---
-title: "02. BOLA & BFLA Masterclass"
-description: "Mastering Broken Object Level Authorization (BOLA), Broken Function Level Authorization (BFLA), and Broken Property Level Authorization (BOPLA) with production code patterns in Node.js, Python, Go, and Java."
-keywords: ["AppSec", "BOLA", "BFLA", "BOPLA", "IDOR", "Mass Assignment", "Authorization", "Security Architecture", "Node.js", "Python", "Go", "Java"]
+title: 02. BOLA & BFLA Masterclass
+description: Mastering Broken Object Level Authorization (BOLA), Broken Function Level
+  Authorization (BFLA), and Broken Property Level Authorization (BOPLA) with production
+  code patterns in Node.js, Python, Go, and Java.
+keywords:
+- AppSec
+- BOLA
+- BFLA
+- BOPLA
+- IDOR
+- Mass
+- Assignment
+- Authorization
+- Security
+- Architecture
+- Node
+- js
+- Python
+- Go
+- Java
+slug: /web-and-api/api-security/bola-and-bfla
 ---
+
 
 # 02. BOLA & BFLA Masterclass
 

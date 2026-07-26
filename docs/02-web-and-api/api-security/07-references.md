@@ -1,8 +1,22 @@
 ---
-title: "07. References & Testing Tools"
-description: "Comprehensive reference directory for API security standards, open-source auditing and testing tools, SAST/DAST rulesets, and notable CVE case studies."
-keywords: ["AppSec", "API Security Tools", "Nuclei", "Kiterunner", "Schemathesis", "GraphQLmap", "Semgrep", "OpenAPI", "CVEs"]
+title: 07. References & Testing Tools
+description: Comprehensive reference directory for API security standards, open-source
+  auditing and testing tools, SAST/DAST rulesets, and notable CVE case studies.
+keywords:
+- AppSec
+- API
+- Security
+- Tools
+- Nuclei
+- Kiterunner
+- Schemathesis
+- GraphQLmap
+- Semgrep
+- OpenAPI
+- CVEs
+slug: /web-and-api/api-security/references
 ---
+
 
 # 07. References & Testing Tools
 

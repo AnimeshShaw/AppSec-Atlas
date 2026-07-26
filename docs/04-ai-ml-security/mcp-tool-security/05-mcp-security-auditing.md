@@ -1,8 +1,25 @@
 ---
-title: "05 - MCP Security Auditing, Telemetry & SAST Rules"
-description: "Production guide to JSON-RPC message auditing, OpenTelemetry integration, anomaly detection, multi-language proxy middleware, and Semgrep SAST rules for MCP security."
-keywords: ["MCP Telemetry", "JSON-RPC Auditing", "OpenTelemetry", "SIEM", "Semgrep Rules", "Python Interceptor", "TypeScript Proxy", "AppSec"]
+title: 05 - MCP Security Auditing, Telemetry & SAST Rules
+description: Production guide to JSON-RPC message auditing, OpenTelemetry integration,
+  anomaly detection, multi-language proxy middleware, and Semgrep SAST rules for MCP
+  security.
+keywords:
+- MCP
+- Telemetry
+- JSON-RPC
+- Auditing
+- OpenTelemetry
+- SIEM
+- Semgrep
+- Rules
+- Python
+- Interceptor
+- TypeScript
+- Proxy
+- AppSec
+slug: /ai-ml-security/mcp-tool-security/mcp-security-auditing
 ---
+
 
 # 05 - MCP Security Auditing, Telemetry & SAST Rules
 

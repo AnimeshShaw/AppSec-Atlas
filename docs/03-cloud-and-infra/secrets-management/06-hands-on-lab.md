@@ -1,10 +1,29 @@
 ---
-title: "06. Hands-On Lab: Hardcoded Secrets to Vault AppRole Remediation"
-description: "A self-contained runnable lab. Exploit a microservice with hardcoded secrets and environment variable leaks, then remediate it using HashiCorp Vault AppRole authentication and dynamic DB credentials."
-keywords: ["hands-on lab", "vulnerability lab", "approle", "vault dev server", "docker compose", "python exploit", "secrets remediation", "appsec"]
-sidebar_label: "06. Hands-On Lab"
+title: '06. Hands-On Lab: Hardcoded Secrets to Vault AppRole Remediation'
+description: A self-contained runnable lab. Exploit a microservice with hardcoded
+  secrets and environment variable leaks, then remediate it using HashiCorp Vault
+  AppRole authentication and dynamic DB credentials.
+keywords:
+- hands-on
+- lab
+- vulnerability
+- lab
+- approle
+- vault
+- dev
+- server
+- docker
+- compose
+- python
+- exploit
+- secrets
+- remediation
+- appsec
+sidebar_label: 06. Hands-On Lab
 sidebar_position: 7
+slug: /cloud-and-infra/secrets-management/hands-on-lab
 ---
+
 
 # 06. Hands-On Lab: Hardcoded Secrets to Vault AppRole Remediation
 

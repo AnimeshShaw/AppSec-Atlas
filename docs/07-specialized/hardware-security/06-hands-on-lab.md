@@ -1,8 +1,26 @@
 ---
-title: "06 - Hands-on Lab: Timing Side-Channel"
-description: "This lab demonstrates a non-invasive side-channel attack on software. We will exploit a timing leak in a string comparison function to guess a secret ..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Hardware Security", "06 Hands On Lab.Md"]
+title: '06 - Hands-on Lab: Timing Side-Channel'
+description: This lab demonstrates a non-invasive side-channel attack on software.
+  We will exploit a timing leak in a string comparison function to guess a secret
+  ...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '07'
+- Specialized
+- Hardware
+- Security
+- '06'
+- Hands
+- 'On'
+- Lab
+- Md
+slug: /specialized/hardware-security/hands-on-lab
 ---
+
 
 # 06 - Hands-on Lab: Timing Side-Channel
 

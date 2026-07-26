@@ -1,8 +1,31 @@
 ---
-title: "04 - Session Management and Authentication"
-description: "Master secure session state management, server-side Redis session stores, JWT attack vectors (alg: none, key confusion), cookie security flags (__Host- prefixes), and Session Fixation defenses in Python, Node.js, and Go."
-keywords: ["Session Management", "Authentication", "Session Fixation", "Session Hijacking", "JWT Vulnerabilities", "Redis Session Store", "Cookie Security", "__Host- Prefix", "OAuth2", "SameSite Cookie"]
+title: 04 - Session Management and Authentication
+description: 'Master secure session state management, server-side Redis session stores,
+  JWT attack vectors (alg: none, key confusion), cookie security flags (__Host- prefixes),
+  and Session Fixation defenses in Python, Node.js, and Go.'
+keywords:
+- Session
+- Management
+- Authentication
+- Session
+- Fixation
+- Session
+- Hijacking
+- JWT
+- Vulnerabilities
+- Redis
+- Session
+- Store
+- Cookie
+- Security
+- __Host-
+- Prefix
+- OAuth2
+- SameSite
+- Cookie
+slug: /web-and-api/web-application-security/session-management-and-auth
 ---
+
 
 # 04 - Session Management and Authentication
 

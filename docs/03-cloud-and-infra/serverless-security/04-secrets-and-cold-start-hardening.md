@@ -1,9 +1,30 @@
 ---
-title: "04 - Secrets Management and Cold Start Hardening"
-description: "Secure secret storage, memory caching across warm starts, cold start lifecycle optimization, environment variable security, and KMS customer managed keys."
-keywords: ["Secrets Management", "AWS Secrets Manager", "SSM Parameter Store", "Cold Start Security", "Environment Variables", "KMS CMK", "HashiCorp Vault"]
-sidebar_label: "04 - Secrets & Cold Start Hardening"
+title: 04 - Secrets Management and Cold Start Hardening
+description: Secure secret storage, memory caching across warm starts, cold start
+  lifecycle optimization, environment variable security, and KMS customer managed
+  keys.
+keywords:
+- Secrets
+- Management
+- AWS
+- Secrets
+- Manager
+- SSM
+- Parameter
+- Store
+- Cold
+- Start
+- Security
+- Environment
+- Variables
+- KMS
+- CMK
+- HashiCorp
+- Vault
+sidebar_label: 04 - Secrets & Cold Start Hardening
+slug: /cloud-and-infra/serverless-security/secrets-and-cold-start-hardening
 ---
+
 
 # 04 - Secrets Management and Cold Start Hardening
 

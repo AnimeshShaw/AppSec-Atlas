@@ -1,8 +1,26 @@
 ---
-title: "Chapter 4: Defensive Design & OpenZeppelin"
-description: "To mitigate vulnerabilities, the Ethereum community has developed standardized, peer-reviewed libraries. **OpenZeppelin** is the gold standard for sec..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Blockchain Security", "04 Defensive Design And Openzeppelin.Md"]
+title: 'Chapter 4: Defensive Design & OpenZeppelin'
+description: To mitigate vulnerabilities, the Ethereum community has developed standardized,
+  peer-reviewed libraries. **OpenZeppelin** is the gold standard for sec...
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '07'
+- Specialized
+- Blockchain
+- Security
+- '04'
+- Defensive
+- Design
+- And
+- Openzeppelin
+- Md
+slug: /specialized/blockchain-security/defensive-design-and-openzeppelin
 ---
+
 
 # Chapter 4: Defensive Design & OpenZeppelin
 

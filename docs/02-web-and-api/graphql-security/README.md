@@ -1,8 +1,27 @@
 ---
-title: "GraphQL Security Masterclass"
-description: "Master the architecture, attack vectors, query complexity analysis, field-level authorization, and production defense patterns for modern GraphQL APIs."
-keywords: ["AppSec", "GraphQL Security", "API Security", "GraphQL Introspection", "Batching Attacks", "GraphQL Authorization", "Persisted Queries", "Query Cost Analysis"]
+title: GraphQL Security Masterclass
+description: Master the architecture, attack vectors, query complexity analysis, field-level
+  authorization, and production defense patterns for modern GraphQL APIs.
+keywords:
+- AppSec
+- GraphQL
+- Security
+- API
+- Security
+- GraphQL
+- Introspection
+- Batching
+- Attacks
+- GraphQL
+- Authorization
+- Persisted
+- Queries
+- Query
+- Cost
+- Analysis
+slug: /web-and-api/graphql-security
 ---
+
 
 # GraphQL Security Masterclass
 

@@ -1,8 +1,26 @@
 ---
-title: "Cryptography for Developers"
-description: "Master foundational and advanced cryptography for modern application security. Learn AEAD encryption, secure digital signatures, password hashing KDFs, and Post-Quantum Cryptography transition."
-keywords: ["AppSec", "Cybersecurity", "Cryptography", "AES-GCM", "Argon2", "Ed25519", "Post-Quantum Cryptography", "AEAD", "Key Derivation", "TLS 1.3"]
+title: Cryptography for Developers
+description: Master foundational and advanced cryptography for modern application
+  security. Learn AEAD encryption, secure digital signatures, password hashing KDFs,
+  and Post-Quantum Cryptography transition.
+keywords:
+- AppSec
+- Cybersecurity
+- Cryptography
+- AES-GCM
+- Argon2
+- Ed25519
+- Post-Quantum
+- Cryptography
+- AEAD
+- Key
+- Derivation
+- TLS
+- '1'
+- '3'
+slug: /foundational/cryptography
 ---
+
 
 # Cryptography for Developers
 

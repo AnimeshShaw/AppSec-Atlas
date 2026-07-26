@@ -1,8 +1,27 @@
 ---
-title: "06 - Hands-On Lab: IaC Vulnerability Audit, Exploitation & Remediation"
-description: "Self-contained hands-on security lab featuring vulnerable Terraform manifests, automated Checkov SAST scanning, adversary credential harvesting exploit simulation, and production-grade secure remediation."
-keywords: ["IaC Lab", "Hands-On Lab", "Vulnerable Terraform", "Checkov Exploit Report", "Credential Exfiltration", "Terraform Hardening", "OPA Verification"]
+title: '06 - Hands-On Lab: IaC Vulnerability Audit, Exploitation & Remediation'
+description: Self-contained hands-on security lab featuring vulnerable Terraform manifests,
+  automated Checkov SAST scanning, adversary credential harvesting exploit simulation,
+  and production-grade secure remediation.
+keywords:
+- IaC
+- Lab
+- Hands-On
+- Lab
+- Vulnerable
+- Terraform
+- Checkov
+- Exploit
+- Report
+- Credential
+- Exfiltration
+- Terraform
+- Hardening
+- OPA
+- Verification
+slug: /cloud-and-infra/iac-security/hands-on-lab
 ---
+
 
 # 06 - Hands-On Lab: IaC Vulnerability Audit, Exploitation & Remediation
 

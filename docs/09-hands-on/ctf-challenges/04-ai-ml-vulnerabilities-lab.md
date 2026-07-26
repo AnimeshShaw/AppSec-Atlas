@@ -1,8 +1,27 @@
 ---
-title: "AI & ML Vulnerabilities Lab"
-description: "system_prompt = 'You are a helpful customer service bot. The secret company password is 'flag{pr0mpt_h4ck3d}'.'"
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "09 Hands On", "Ctf Challenges", "04 Ai Ml Vulnerabilities Lab.Md"]
+title: AI & ML Vulnerabilities Lab
+description: system_prompt = 'You are a helpful customer service bot. The secret company
+  password is 'flag{pr0mpt_h4ck3d}'.'
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- 09
+- Hands
+- 'On'
+- Ctf
+- Challenges
+- '04'
+- Ai
+- Ml
+- Vulnerabilities
+- Lab
+- Md
+slug: /hands-on/ctf-challenges/ai-ml-vulnerabilities-lab
 ---
+
 
 # AI & ML Vulnerabilities Lab
 

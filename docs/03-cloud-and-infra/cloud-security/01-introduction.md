@@ -1,8 +1,30 @@
 ---
-title: "01 - Introduction to Cloud Security Architecture & Threat Landscape"
-description: "Explore cloud security paradigms, the Shared Responsibility Model across IaaS, PaaS, SaaS, and Serverless, and MITRE ATT&CK cloud threat vectors."
-keywords: ["Cloud Security", "Shared Responsibility Model", "MITRE ATT&CK Cloud", "IaaS Security", "PaaS Security", "SaaS Security", "Cloud Threat Landscape", "AppSec"]
+title: 01 - Introduction to Cloud Security Architecture & Threat Landscape
+description: Explore cloud security paradigms, the Shared Responsibility Model across
+  IaaS, PaaS, SaaS, and Serverless, and MITRE ATT&CK cloud threat vectors.
+keywords:
+- Cloud
+- Security
+- Shared
+- Responsibility
+- Model
+- MITRE
+- ATT
+- CK
+- Cloud
+- IaaS
+- Security
+- PaaS
+- Security
+- SaaS
+- Security
+- Cloud
+- Threat
+- Landscape
+- AppSec
+slug: /cloud-and-infra/cloud-security/introduction
 ---
+
 
 # 01 - Introduction to Cloud Security Architecture & Threat Landscape
 

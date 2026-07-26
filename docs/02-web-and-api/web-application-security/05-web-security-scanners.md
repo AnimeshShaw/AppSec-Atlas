@@ -1,8 +1,27 @@
 ---
-title: "05 - Web Security Scanners and Testing Automation"
-description: "Master Dynamic Application Security Testing (DAST) and SAST automation using OWASP ZAP, Burp Suite, ProjectDiscovery Nuclei, and Semgrep in CI/CD pipelines."
-keywords: ["DAST", "SAST", "OWASP ZAP", "Burp Suite", "Nuclei", "Semgrep", "Security Testing", "CI/CD Security", "Vulnerability Scanner", "Fuzzing"]
+title: 05 - Web Security Scanners and Testing Automation
+description: Master Dynamic Application Security Testing (DAST) and SAST automation
+  using OWASP ZAP, Burp Suite, ProjectDiscovery Nuclei, and Semgrep in CI/CD pipelines.
+keywords:
+- DAST
+- SAST
+- OWASP
+- ZAP
+- Burp
+- Suite
+- Nuclei
+- Semgrep
+- Security
+- Testing
+- CI
+- CD
+- Security
+- Vulnerability
+- Scanner
+- Fuzzing
+slug: /web-and-api/web-application-security/web-security-scanners
 ---
+
 
 # 05 - Web Security Scanners & Testing Automation
 

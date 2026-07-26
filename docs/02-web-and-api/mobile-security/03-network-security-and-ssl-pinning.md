@@ -1,8 +1,26 @@
 ---
-title: "03 - Network Security & SSL Pinning"
-description: "In-depth technical guide to mobile network security, Man-in-the-Middle (MitM) prevention, declarative network configurations, and Subject Public Key Info (SPKI) SSL pinning in Android and iOS."
-keywords: ["SSL Pinning", "Certificate Pinning", "Network Security Config", "App Transport Security", "OkHttp", "Alamofire", "MitM", "AppSec"]
+title: 03 - Network Security & SSL Pinning
+description: In-depth technical guide to mobile network security, Man-in-the-Middle
+  (MitM) prevention, declarative network configurations, and Subject Public Key Info
+  (SPKI) SSL pinning in Android and iOS.
+keywords:
+- SSL
+- Pinning
+- Certificate
+- Pinning
+- Network
+- Security
+- Config
+- App
+- Transport
+- Security
+- OkHttp
+- Alamofire
+- MitM
+- AppSec
+slug: /web-and-api/mobile-security/network-security-and-ssl-pinning
 ---
+
 
 # 03 - Network Security & SSL Pinning
 

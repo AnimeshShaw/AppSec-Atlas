@@ -1,8 +1,28 @@
 ---
-title: "gRPC Security Masterclass"
-description: "Master gRPC security architecture, HTTP/2 attack vectors, mTLS, gRPC interceptors, protobuf validation, reflection hardening, and microservice identity."
-keywords: ["AppSec", "Cybersecurity", "gRPC Security", "HTTP/2", "Protobuf", "mTLS", "SPIFFE/SPIRE", "Envoy", "Interceptors", "Go", "Python", "Node.js", "Java"]
+title: gRPC Security Masterclass
+description: Master gRPC security architecture, HTTP/2 attack vectors, mTLS, gRPC
+  interceptors, protobuf validation, reflection hardening, and microservice identity.
+keywords:
+- AppSec
+- Cybersecurity
+- gRPC
+- Security
+- HTTP
+- '2'
+- Protobuf
+- mTLS
+- SPIFFE
+- SPIRE
+- Envoy
+- Interceptors
+- Go
+- Python
+- Node
+- js
+- Java
+slug: /web-and-api/grpc-security
 ---
+
 
 # gRPC Security Masterclass
 

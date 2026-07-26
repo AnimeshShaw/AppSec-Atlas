@@ -1,7 +1,14 @@
 ---
-title: "06 - Hands-On Lab: Automated SOC 2 Evidence Collector"
-description: "Comprehensive guide and best practices for 06 - Hands-On Lab: Automated SOC 2 Evidence Collector in the soc2-guide section of AppSec Atlas. Learn how to secure "
-keywords: ['soc2-guide', '06---hands-on-lab:-automated-soc-2-evidence-collector', 'appsec', 'security', 'compliance']
+title: '06 - Hands-On Lab: Automated SOC 2 Evidence Collector'
+description: 'Comprehensive guide and best practices for 06 - Hands-On Lab: Automated
+  SOC 2 Evidence Collector in the soc2-guide section of AppSec Atlas. Learn how to
+  secure '
+keywords:
+- soc2-guide
+- '06'
+slug: /compliance/soc2-guide/hands-on-lab
+---
+hands-on-lab:-automated-soc-2-evidence-collector', 'appsec', 'security', 'compliance']
 ---
 # 06 - Hands-On Lab: Automated SOC 2 Evidence Collector
 

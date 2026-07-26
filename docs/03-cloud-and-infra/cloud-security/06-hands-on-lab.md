@@ -1,8 +1,28 @@
 ---
-title: "06 - Hands-on Lab: Cloud Vulnerability Exploitation & Remediation"
-description: "Self-contained hands-on lab: Execute an offensive cloud attack chain from leaked access keys to IMDSv1 SSRF and S3 data exfiltration, followed by defensive remediation."
-keywords: ["Cloud Security Lab", "Hands-on Lab", "AWS Attack Simulation", "IMDSv1 SSRF", "S3 Data Exfiltration", "AWS Remediation", "AppSec"]
+title: '06 - Hands-on Lab: Cloud Vulnerability Exploitation & Remediation'
+description: 'Self-contained hands-on lab: Execute an offensive cloud attack chain
+  from leaked access keys to IMDSv1 SSRF and S3 data exfiltration, followed by defensive
+  remediation.'
+keywords:
+- Cloud
+- Security
+- Lab
+- Hands-on
+- Lab
+- AWS
+- Attack
+- Simulation
+- IMDSv1
+- SSRF
+- S3
+- Data
+- Exfiltration
+- AWS
+- Remediation
+- AppSec
+slug: /cloud-and-infra/cloud-security/hands-on-lab
 ---
+
 
 # 06 - Hands-on Lab: Cloud Vulnerability Exploitation & Remediation
 
@@ -58,7 +78,7 @@ def create_lab_environment():
         s3.put_object(
             Bucket=bucket_name,
             Key="customer_database_dump.sql",
-            Body=b"CREATE TABLE users (id INT, username VARCHAR(50), password_hash VARCHAR(255));\nINSERT INTO users VALUES (1, 'admin', '`$2b`$`12$`eImiTXuWVxfM37uY4JANjO');\n"
+            Body=b"CREATE TABLE users (id INT, username VARCHAR(50), password_hash VARCHAR(255));\nINSERT INTO users VALUES (1, 'admin', '`$2b$``12$`eImiTXuWVxfM37uY4JANjO');\n"
         )
         print("[+] Confidential data uploaded to S3 bucket.")
         

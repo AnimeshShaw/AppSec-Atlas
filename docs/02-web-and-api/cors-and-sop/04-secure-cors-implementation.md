@@ -1,8 +1,27 @@
 ---
-title: "04 - Secure CORS Implementation & Mitigations"
-description: "Production-ready, secure CORS implementation patterns across Node.js (Express), Python (FastAPI, Flask), Go (Gin), Java (Spring Boot), Nginx, and Apache."
-keywords: ["AppSec", "Secure CORS", "Express CORS", "FastAPI CORS", "Spring Boot CORS", "Nginx CORS", "Defensive Security", "CORS Allowlist"]
+title: 04 - Secure CORS Implementation & Mitigations
+description: Production-ready, secure CORS implementation patterns across Node.js
+  (Express), Python (FastAPI, Flask), Go (Gin), Java (Spring Boot), Nginx, and Apache.
+keywords:
+- AppSec
+- Secure
+- CORS
+- Express
+- CORS
+- FastAPI
+- CORS
+- Spring
+- Boot
+- CORS
+- Nginx
+- CORS
+- Defensive
+- Security
+- CORS
+- Allowlist
+slug: /web-and-api/cors-and-sop/secure-cors-implementation
 ---
+
 
 # 04 - Secure CORS Implementation & Mitigations
 

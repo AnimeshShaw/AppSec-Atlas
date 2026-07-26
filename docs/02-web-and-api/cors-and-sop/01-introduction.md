@@ -1,8 +1,25 @@
 ---
-title: "01 - Introduction to Same-Origin Policy (SOP)"
-description: "Explore the theoretical foundations, architectural mechanisms, origin mathematical rules, and threat landscape of the browser Same-Origin Policy (SOP)."
-keywords: ["AppSec", "Same-Origin Policy", "SOP", "Browser Security", "Origin Tuple", "Web Security Architecture", "OWASP Top 10"]
+title: 01 - Introduction to Same-Origin Policy (SOP)
+description: Explore the theoretical foundations, architectural mechanisms, origin
+  mathematical rules, and threat landscape of the browser Same-Origin Policy (SOP).
+keywords:
+- AppSec
+- Same-Origin
+- Policy
+- SOP
+- Browser
+- Security
+- Origin
+- Tuple
+- Web
+- Security
+- Architecture
+- OWASP
+- Top
+- '10'
+slug: /web-and-api/cors-and-sop/introduction
 ---
+
 
 # 01 - Introduction to Same-Origin Policy (SOP)
 

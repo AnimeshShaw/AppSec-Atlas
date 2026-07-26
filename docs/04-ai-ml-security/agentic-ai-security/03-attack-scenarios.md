@@ -1,8 +1,27 @@
 ---
-title: "03. Practical Attack Scenarios & Code PoCs"
-description: "Explore runnable proof-of-concept attacks against Agentic AI systems: Financial Agent Hijacking, Unsandboxed Code Execution, Multi-Agent State Poisoning, and Tool SSRF."
-keywords: ["AppSec", "Agentic AI", "Attack Scenarios", "Proof of Concept", "Exploit Code", "Tool Hijacking", "SSRF", "Multi-Agent Poisoning"]
+title: 03. Practical Attack Scenarios & Code PoCs
+description: 'Explore runnable proof-of-concept attacks against Agentic AI systems:
+  Financial Agent Hijacking, Unsandboxed Code Execution, Multi-Agent State Poisoning,
+  and Tool SSRF.'
+keywords:
+- AppSec
+- Agentic
+- AI
+- Attack
+- Scenarios
+- Proof
+- of
+- Concept
+- Exploit
+- Code
+- Tool
+- Hijacking
+- SSRF
+- Multi-Agent
+- Poisoning
+slug: /ai-ml-security/agentic-ai-security/attack-scenarios
 ---
+
 
 # 03. Practical Attack Scenarios & Code PoCs
 

@@ -1,8 +1,24 @@
 ---
-title: "01 - Introduction"
-description: "The software supply chain encompasses everything that touches your software before it reaches production: source code, dependencies, build tools, CI/C..."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Supply Chain Security", "01 Introduction.Md"]
+title: 01 - Introduction
+description: 'The software supply chain encompasses everything that touches your software
+  before it reaches production: source code, dependencies, build tools, CI/C...'
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '07'
+- Specialized
+- Supply
+- Chain
+- Security
+- '01'
+- Introduction
+- Md
+slug: /specialized/supply-chain-security/introduction
 ---
+
 
 # 01 - Introduction
 

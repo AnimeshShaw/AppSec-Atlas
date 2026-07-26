@@ -1,7 +1,13 @@
 ---
-title: "05 - NIST CSF Compliance Automation"
-description: "Comprehensive guide and best practices for 05 - NIST CSF Compliance Automation in the nist-csf section of AppSec Atlas. Learn how to secure your infrastructure."
-keywords: ['nist-csf', '05---nist-csf-compliance-automation', 'appsec', 'security', 'compliance']
+title: 05 - NIST CSF Compliance Automation
+description: Comprehensive guide and best practices for 05 - NIST CSF Compliance Automation
+  in the nist-csf section of AppSec Atlas. Learn how to secure your infrastructure.
+keywords:
+- nist-csf
+- '05'
+slug: /compliance/nist-csf/nist-csf-compliance-automation
+---
+nist-csf-compliance-automation', 'appsec', 'security', 'compliance']
 ---
 # 05 - NIST CSF Compliance Automation
 

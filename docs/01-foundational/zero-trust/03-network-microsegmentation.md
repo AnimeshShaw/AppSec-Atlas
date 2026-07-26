@@ -1,8 +1,25 @@
 ---
-title: "Network Microsegmentation"
-description: "Design and implement production-grade microsegmentation using Kubernetes NetworkPolicies, Cilium eBPF, Istio Service Mesh, and Software-Defined Perimeters (SDP)."
-keywords: ["Microsegmentation", "Service Mesh", "Istio", "Cilium", "eBPF", "Kubernetes NetworkPolicy", "WireGuard", "Software Defined Perimeter", "mTLS"]
+title: Network Microsegmentation
+description: Design and implement production-grade microsegmentation using Kubernetes
+  NetworkPolicies, Cilium eBPF, Istio Service Mesh, and Software-Defined Perimeters
+  (SDP).
+keywords:
+- Microsegmentation
+- Service
+- Mesh
+- Istio
+- Cilium
+- eBPF
+- Kubernetes
+- NetworkPolicy
+- WireGuard
+- Software
+- Defined
+- Perimeter
+- mTLS
+slug: /foundational/zero-trust/network-microsegmentation
 ---
+
 
 # Network Microsegmentation
 
@@ -37,7 +54,7 @@ graph TD
 | :--- | :--- | :--- |
 | **Inspection Depth** | Source/Dest IP, Protocol (TCP/UDP), Port | HTTP Method, Request Path, JWT Claims, gRPC Method |
 | **Identity Basis** | Ephemeral IP addresses, Pod Selectors | Cryptographic mTLS certificates (SPIFFE IDs) |
-| **Performance Impact** | Near-zero (`$< 1\text{ms}`$`) | Low to moderate (`$`1-5\text{ms}$` sidecar proxy latency) |
+| **Performance Impact** | Near-zero (< 1ms) | Low to moderate (1–5ms sidecar proxy latency) |
 | **Bypass Vectors** | Port reuse / HTTP smuggling over allowed port | Resilient; inspects exact HTTP payload & headers |
 
 ---
@@ -191,7 +208,7 @@ For multi-cloud or hybrid environments, Software-Defined Perimeters build encryp
 ## 3. Implementation Nuances & Performance Edge Cases
 
 ### 1. The Sidecar Latency Tax
-Deploying Envoy proxy sidecars introduces CPU/memory overhead (`$50-150\text{MB}`$` RAM per pod) and adds `$`1-3\text{ms}$` of latency per network hop.
+Deploying Envoy proxy sidecars introduces CPU/memory overhead (50–150MB RAM per pod) and adds 1–3ms of latency per network hop.
 * **Mitigation**: Move toward **Ambient Mesh** (sidecarless service meshes using eBPF ztunnels) or kernel-native Cilium eBPF for latency-critical workloads.
 
 ### 2. Legacy / Un-meshable Workloads

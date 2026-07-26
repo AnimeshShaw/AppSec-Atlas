@@ -1,8 +1,27 @@
 ---
-title: "02. Adversarial Input Robustness & Sensitivity"
-description: "Deep technical analysis of adversarial evasion attacks, perturbation norms (L0, L2, L_inf), FGSM, PGD, Carlini & Wagner attacks, and robust adversarial training in PyTorch and TensorFlow."
-keywords: ["Adversarial Evasion", "FGSM", "PGD Attack", "Carlini Wagner", "PyTorch Robustness", "L_inf norm", "Adversarial Training", "Gradient Masking"]
+title: 02. Adversarial Input Robustness & Sensitivity
+description: Deep technical analysis of adversarial evasion attacks, perturbation
+  norms (L0, L2, L_inf), FGSM, PGD, Carlini & Wagner attacks, and robust adversarial
+  training in PyTorch and TensorFlow.
+keywords:
+- Adversarial
+- Evasion
+- FGSM
+- PGD
+- Attack
+- Carlini
+- Wagner
+- PyTorch
+- Robustness
+- L_inf
+- norm
+- Adversarial
+- Training
+- Gradient
+- Masking
+slug: /ai-ml-security/ml-model-security/adversarial-robustness-evaluations
 ---
+
 
 # 02. Adversarial Input Robustness & Sensitivity
 
@@ -69,7 +88,7 @@ sequenceDiagram
 Proposed by Goodfellow et al., FGSM is a single-step white-box attack that computes the gradient of the loss function with respect to the input sample and shifts the input in the direction of maximum loss:
 
 ```
-x_{adv} = x + \epsilon \cdot \text{sign}\left(\nabla_x J(\theta, x, y)\right)
+x_{adv} = x + \epsilon \cdot sign\left(\nabla_x J(\theta, x, y)\right)
 ```
 
 Where:
@@ -83,7 +102,7 @@ Where:
 PGD (Madry et al.) is an iterative extension of FGSM and is considered the **gold standard for white-box `L_\infty` robustness evaluation**. PGD runs multiple small gradient steps and projects the resulting vector back into the `\epsilon`-ball surrounding original sample `x`:
 
 ```
-x^{t+1} = \Pi_{x + S} \left( x^t + \alpha \cdot \text{sign}\left(\nabla_x J(\theta, x^t, y)\right) \right)
+x^{t+1} = \Pi_{x + S} \left( x^t + \alpha \cdot sign\left(\nabla_x J(\theta, x^t, y)\right) \right)
 ```
 
 Where:

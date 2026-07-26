@@ -1,8 +1,25 @@
 ---
-title: "06 - Hands-On Lab: Exploiting and Fixing Broken Crypto"
-description: "Self-contained hands-on vulnerability lab: audit insecure code, execute exploits against broken crypto (MD5, AES-ECB, CBC bit-flipping, PRNG prediction), and implement secure Argon2id and AES-256-GCM remediations."
-keywords: ["AppSec", "Hands-On Lab", "Exploit Script", "AES-ECB", "CBC Bit-Flipping", "Padding Oracle", "Argon2id", "AES-GCM", "CSPRNG"]
+title: '06 - Hands-On Lab: Exploiting and Fixing Broken Crypto'
+description: 'Self-contained hands-on vulnerability lab: audit insecure code, execute
+  exploits against broken crypto (MD5, AES-ECB, CBC bit-flipping, PRNG prediction),
+  and implement secure Argon2id and AES-256-GCM remediations.'
+keywords:
+- AppSec
+- Hands-On
+- Lab
+- Exploit
+- Script
+- AES-ECB
+- CBC
+- Bit-Flipping
+- Padding
+- Oracle
+- Argon2id
+- AES-GCM
+- CSPRNG
+slug: /foundational/cryptography/hands-on-lab
 ---
+
 
 # 06 - Hands-On Lab: Exploiting and Fixing Broken Crypto
 

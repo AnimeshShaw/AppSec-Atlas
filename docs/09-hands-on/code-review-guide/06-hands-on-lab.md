@@ -1,8 +1,27 @@
 ---
-title: "06 Hands-on Lab: Secure Code Review"
-description: "In this lab, you act as the Security Champion reviewing a Pull Request (PR) for a new Python/Flask microservice."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "09 Hands On", "Code Review Guide", "06 Hands On Lab.Md"]
+title: '06 Hands-on Lab: Secure Code Review'
+description: In this lab, you act as the Security Champion reviewing a Pull Request
+  (PR) for a new Python/Flask microservice.
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- 09
+- Hands
+- 'On'
+- Code
+- Review
+- Guide
+- '06'
+- Hands
+- 'On'
+- Lab
+- Md
+slug: /hands-on/code-review-guide/hands-on-lab
 ---
+
 
 # 06 Hands-on Lab: Secure Code Review
 

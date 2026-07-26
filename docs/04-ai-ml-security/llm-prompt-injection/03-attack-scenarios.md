@@ -1,8 +1,26 @@
 ---
-title: "03. Practical Attack Scenarios & Proofs of Concept"
-description: "Step-by-step runnable Proofs of Concept (PoCs) for Direct Prompt Injection, RAG Indirect Injection, Agent Tool Hijacking, and Multimodal Vision Attacks."
-keywords: ["AppSec", "Prompt Injection PoC", "RAG Security", "Agent Security", "Jailbreak PoC", "System Prompt Extraction", "Data Exfiltration"]
+title: 03. Practical Attack Scenarios & Proofs of Concept
+description: Step-by-step runnable Proofs of Concept (PoCs) for Direct Prompt Injection,
+  RAG Indirect Injection, Agent Tool Hijacking, and Multimodal Vision Attacks.
+keywords:
+- AppSec
+- Prompt
+- Injection
+- PoC
+- RAG
+- Security
+- Agent
+- Security
+- Jailbreak
+- PoC
+- System
+- Prompt
+- Extraction
+- Data
+- Exfiltration
+slug: /ai-ml-security/llm-prompt-injection/attack-scenarios
 ---
+
 
 # 03. Practical Attack Scenarios & Proofs of Concept
 

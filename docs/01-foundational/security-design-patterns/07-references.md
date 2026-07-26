@@ -1,8 +1,29 @@
 ---
-title: "07 - References & Standards"
-description: "Comprehensive references, industry security standards, RFC specifications, foundational literature, open-source security tools, and real-world CVE case studies."
-keywords: ["AppSec", "References", "NIST SP 800-160", "NIST SP 800-207", "OWASP ASVS", "OWASP SAMM", "RFC 8693", "SPIFFE", "CVE Case Studies"]
+title: 07 - References & Standards
+description: Comprehensive references, industry security standards, RFC specifications,
+  foundational literature, open-source security tools, and real-world CVE case studies.
+keywords:
+- AppSec
+- References
+- NIST
+- SP
+- 800-160
+- NIST
+- SP
+- 800-207
+- OWASP
+- ASVS
+- OWASP
+- SAMM
+- RFC
+- '8693'
+- SPIFFE
+- CVE
+- Case
+- Studies
+slug: /foundational/security-design-patterns/references
 ---
+
 
 # 07 - References & Standards
 

@@ -1,8 +1,35 @@
 ---
-title: "03. Attack Scenarios & Multi-Turn PoCs"
-description: "Practical proof-of-concept audit scripts and multi-language code examples in Python, Node.js/TypeScript, Go, and Java demonstrating multi-turn context accumulation, token smuggling, and side-by-side vulnerable vs secure implementation patterns."
-keywords: ["AI Red Teaming Code", "Crescendo PoC", "Python AI Security", "TypeScript AI Audit", "Go Fuzzer", "Java Spring AI", "Vulnerable vs Secure Code", "AppSec Atlas"]
+title: 03. Attack Scenarios & Multi-Turn PoCs
+description: Practical proof-of-concept audit scripts and multi-language code examples
+  in Python, Node.js/TypeScript, Go, and Java demonstrating multi-turn context accumulation,
+  token smuggling, and side-by-side vulnerable vs secure implementation patterns.
+keywords:
+- AI
+- Red
+- Teaming
+- Code
+- Crescendo
+- PoC
+- Python
+- AI
+- Security
+- TypeScript
+- AI
+- Audit
+- Go
+- Fuzzer
+- Java
+- Spring
+- AI
+- Vulnerable
+- vs
+- Secure
+- Code
+- AppSec
+- Atlas
+slug: /ai-ml-security/ai-red-teaming/code-examples
 ---
+
 
 # 03. Attack Scenarios & Multi-Turn PoCs
 

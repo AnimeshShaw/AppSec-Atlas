@@ -1,8 +1,25 @@
 ---
-title: "08. References & Tooling"
-description: "Authoritative security standards (NIST, ASVS, WSTG, PCI-DSS), SAST/DAST scanner matrix, and notable CVE case study references."
-keywords: ["AppSec", "References", "OWASP ASVS", "NIST SP 800-53", "WSTG", "CVE Case Studies", "Semgrep", "OWASP ZAP"]
+title: 08. References & Tooling
+description: Authoritative security standards (NIST, ASVS, WSTG, PCI-DSS), SAST/DAST
+  scanner matrix, and notable CVE case study references.
+keywords:
+- AppSec
+- References
+- OWASP
+- ASVS
+- NIST
+- SP
+- 800-53
+- WSTG
+- CVE
+- Case
+- Studies
+- Semgrep
+- OWASP
+- ZAP
+slug: /foundational/owasp-top-10/references
 ---
+
 
 # 08. References & Tooling
 

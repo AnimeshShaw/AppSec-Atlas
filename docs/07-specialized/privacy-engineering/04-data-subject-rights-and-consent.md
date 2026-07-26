@@ -1,8 +1,27 @@
 ---
-title: "Data Subject Rights and Consent Management"
-description: "A major part of privacy engineering is building systems to respect Data Subject Rights (DSRs) automatically."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "07 Specialized", "Privacy Engineering", "04 Data Subject Rights And Consent.Md"]
+title: Data Subject Rights and Consent Management
+description: A major part of privacy engineering is building systems to respect Data
+  Subject Rights (DSRs) automatically.
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '07'
+- Specialized
+- Privacy
+- Engineering
+- '04'
+- Data
+- Subject
+- Rights
+- And
+- Consent
+- Md
+slug: /specialized/privacy-engineering/data-subject-rights-and-consent
 ---
+
 
 # Data Subject Rights and Consent Management
 

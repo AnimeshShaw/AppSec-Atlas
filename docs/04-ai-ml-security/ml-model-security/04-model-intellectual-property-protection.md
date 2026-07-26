@@ -1,8 +1,27 @@
 ---
-title: "04. Model Intellectual Property & Extraction Defense"
-description: "Protecting proprietary machine learning models against model stealing (extraction), membership inference attacks, and data inversion using differential privacy (DP-SGD), logit truncation, and model watermarking."
-keywords: ["Model Extraction", "Model Stealing", "Membership Inference Attack", "Differential Privacy", "DP-SGD", "Opacus", "Model Watermarking", "Inference Security"]
+title: 04. Model Intellectual Property & Extraction Defense
+description: Protecting proprietary machine learning models against model stealing
+  (extraction), membership inference attacks, and data inversion using differential
+  privacy (DP-SGD), logit truncation, and model watermarking.
+keywords:
+- Model
+- Extraction
+- Model
+- Stealing
+- Membership
+- Inference
+- Attack
+- Differential
+- Privacy
+- DP-SGD
+- Opacus
+- Model
+- Watermarking
+- Inference
+- Security
+slug: /ai-ml-security/ml-model-security/model-intellectual-property-protection
 ---
+
 
 # 04. Model Intellectual Property & Extraction Defense
 

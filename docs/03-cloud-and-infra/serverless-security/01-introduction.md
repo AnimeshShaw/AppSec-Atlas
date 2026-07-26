@@ -1,9 +1,28 @@
 ---
-title: "01 - Introduction & Serverless Threat Landscape"
-description: "In-depth analysis of serverless security architecture, shared responsibility models, threat vectors, ephemeral context risks, and root causes of serverless vulnerabilities."
-keywords: ["Serverless Threat Model", "Shared Responsibility Model", "AWS Lambda Security", "Ephemeral Execution", "Micro-Perimeters", "OWASP Serverless Top 10"]
-sidebar_label: "01 - Introduction & Threat Model"
+title: 01 - Introduction & Serverless Threat Landscape
+description: In-depth analysis of serverless security architecture, shared responsibility
+  models, threat vectors, ephemeral context risks, and root causes of serverless vulnerabilities.
+keywords:
+- Serverless
+- Threat
+- Model
+- Shared
+- Responsibility
+- Model
+- AWS
+- Lambda
+- Security
+- Ephemeral
+- Execution
+- Micro-Perimeters
+- OWASP
+- Serverless
+- Top
+- '10'
+sidebar_label: 01 - Introduction & Threat Model
+slug: /cloud-and-infra/serverless-security/introduction
 ---
+
 
 # 01 - Introduction & Serverless Threat Landscape
 

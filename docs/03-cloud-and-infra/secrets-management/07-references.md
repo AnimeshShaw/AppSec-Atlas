@@ -1,10 +1,28 @@
 ---
-title: "07. References, Compliance Standards & Tooling"
-description: "Authoritative references, NIST SP 800-57 guidelines, PCI DSS v4.0 requirements, CIS Kubernetes benchmarks, CWE taxonomy, and open-source tooling catalog."
-keywords: ["nist sp 800-57", "pci dss v4.0", "cis benchmark", "cwe-798", "secrets management standards", "appsec references"]
-sidebar_label: "07. References & Standards"
+title: 07. References, Compliance Standards & Tooling
+description: Authoritative references, NIST SP 800-57 guidelines, PCI DSS v4.0 requirements,
+  CIS Kubernetes benchmarks, CWE taxonomy, and open-source tooling catalog.
+keywords:
+- nist
+- sp
+- 800-57
+- pci
+- dss
+- v4
+- '0'
+- cis
+- benchmark
+- cwe-798
+- secrets
+- management
+- standards
+- appsec
+- references
+sidebar_label: 07. References & Standards
 sidebar_position: 8
+slug: /cloud-and-infra/secrets-management/references
 ---
+
 
 # 07. References, Compliance Standards & Tooling
 

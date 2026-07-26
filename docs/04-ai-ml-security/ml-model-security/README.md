@@ -1,8 +1,31 @@
 ---
-title: "ML Model Security & Adversarial Attacks Guide"
-description: "Comprehensive guide to Machine Learning Model Security: evaluating and defending predictive models and neural networks against data poisoning, adversarial input evasion, model stealing, membership inference, and supply chain attacks."
-keywords: ["AppSec", "Cybersecurity", "Machine Learning Security", "Adversarial Machine Learning", "Data Poisoning", "Model Extraction", "PyTorch Security", "NIST AI 100-2", "MITRE ATLAS"]
+title: ML Model Security & Adversarial Attacks Guide
+description: 'Comprehensive guide to Machine Learning Model Security: evaluating and
+  defending predictive models and neural networks against data poisoning, adversarial
+  input evasion, model stealing, membership inference, and supply chain attacks.'
+keywords:
+- AppSec
+- Cybersecurity
+- Machine
+- Learning
+- Security
+- Adversarial
+- Machine
+- Learning
+- Data
+- Poisoning
+- Model
+- Extraction
+- PyTorch
+- Security
+- NIST
+- AI
+- 100-2
+- MITRE
+- ATLAS
+slug: /ai-ml-security/ml-model-security
 ---
+
 
 # ML Model Security & Adversarial Attacks Guide
 

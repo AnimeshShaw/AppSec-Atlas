@@ -1,8 +1,30 @@
 ---
-title: "Zero Trust Architecture Guide"
-description: "Master the paradigm shift from traditional perimeter security to continuous verification, explicit identity trust, microsegmentation, and cloud-native Zero Trust Architecture."
-keywords: ["AppSec", "Cybersecurity", "Zero Trust Architecture", "ZTA", "NIST SP 800-207", "Microsegmentation", "Identity Trust", "Continuous Verification", "Service Mesh", "SPIFFE/SPIRE"]
+title: Zero Trust Architecture Guide
+description: Master the paradigm shift from traditional perimeter security to continuous
+  verification, explicit identity trust, microsegmentation, and cloud-native Zero
+  Trust Architecture.
+keywords:
+- AppSec
+- Cybersecurity
+- Zero
+- Trust
+- Architecture
+- ZTA
+- NIST
+- SP
+- 800-207
+- Microsegmentation
+- Identity
+- Trust
+- Continuous
+- Verification
+- Service
+- Mesh
+- SPIFFE
+- SPIRE
+slug: /foundational/zero-trust
 ---
+
 
 # Zero Trust Architecture (ZTA)
 

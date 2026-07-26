@@ -1,8 +1,27 @@
 ---
-title: "04 - Retrieval Sanitization, Guardrails & Defensive Patterns"
-description: "Build production-grade RAG defenses: Dual-LLM Quarantine, structural XML tags, NeMo Guardrails, zero-width character stripping, and output exfiltration filters."
-keywords: ["RAG Defenses", "Dual-LLM Quarantine", "NeMo Guardrails", "Guardrails AI", "Context Delimiting", "Sanitization", "Prompt Injection Defense", "AppSec"]
+title: 04 - Retrieval Sanitization, Guardrails & Defensive Patterns
+description: 'Build production-grade RAG defenses: Dual-LLM Quarantine, structural
+  XML tags, NeMo Guardrails, zero-width character stripping, and output exfiltration
+  filters.'
+keywords:
+- RAG
+- Defenses
+- Dual-LLM
+- Quarantine
+- NeMo
+- Guardrails
+- Guardrails
+- AI
+- Context
+- Delimiting
+- Sanitization
+- Prompt
+- Injection
+- Defense
+- AppSec
+slug: /ai-ml-security/rag-security/retrieval-sanitization-and-guardrails
 ---
+
 
 # 04 - Retrieval Sanitization, Guardrails & Defensive Patterns
 

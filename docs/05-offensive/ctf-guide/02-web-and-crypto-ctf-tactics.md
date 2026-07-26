@@ -1,8 +1,27 @@
 ---
-title: "02 - Web and Crypto CTF Tactics 🕸️🔐"
-description: "This chapter dives deep into the two most accessible yet conceptually profound CTF categories: Web Exploitation and Cryptography."
-keywords: ["AppSec", "Cybersecurity", "Security Guide", "Tutorial", "05 Offensive", "Ctf Guide", "02 Web And Crypto Ctf Tactics.Md"]
+title: 02 - Web and Crypto CTF Tactics 🕸️🔐
+description: 'This chapter dives deep into the two most accessible yet conceptually
+  profound CTF categories: Web Exploitation and Cryptography.'
+keywords:
+- AppSec
+- Cybersecurity
+- Security
+- Guide
+- Tutorial
+- '05'
+- Offensive
+- Ctf
+- Guide
+- '02'
+- Web
+- And
+- Crypto
+- Ctf
+- Tactics
+- Md
+slug: /offensive/ctf-guide/web-and-crypto-ctf-tactics
 ---
+
 
 # 02 - Web and Crypto CTF Tactics 🕸️🔐
 
@@ -57,7 +76,7 @@ JWTs are often used for authentication. In CTFs, they are frequently misconfigur
 Crypto challenges test your understanding of math and encryption algorithms.
 
 ### 1. The XOR Cipher
-XOR (`$\oplus$`) is the foundation of many cryptographic systems.
+XOR (`\oplus`) is the foundation of many cryptographic systems.
 Properties:
 - `A ⊕ 0 = A`
 - `A ⊕ A = 0`
@@ -84,7 +103,7 @@ print(f"Flag: {flag.decode()}")
 ```
 
 ### 2. RSA - Weak Keys
-RSA relies on the difficulty of factoring a large number `$N`$` into its prime components `$`p`$` and `$`q`$`. If `$`N$` is too small, or poorly generated, we can break it.
+RSA relies on the difficulty of factoring a large number `N` into its prime components `p` and `q`. If `N` is too small, or poorly generated, we can break it.
 
 **Common RSA Attacks in CTFs:**
 - **Small N:** Factor N using [factordb.com](http://factordb.com/).

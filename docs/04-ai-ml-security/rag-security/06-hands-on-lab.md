@@ -1,8 +1,27 @@
 ---
-title: "06 - Hands-on Lab: Exploiting & Securing RAG Applications"
-description: "Step-by-step vulnerability lab: Build a vulnerable multi-tenant RAG app, execute indirect prompt injection & cross-tenant data leakage, and apply verified defenses."
-keywords: ["RAG Security Lab", "Hands-on Security Tutorial", "Exploit RAG", "Indirect Prompt Injection PoC", "Multi-Tenant Isolation", "AppSec"]
+title: '06 - Hands-on Lab: Exploiting & Securing RAG Applications'
+description: 'Step-by-step vulnerability lab: Build a vulnerable multi-tenant RAG
+  app, execute indirect prompt injection & cross-tenant data leakage, and apply verified
+  defenses.'
+keywords:
+- RAG
+- Security
+- Lab
+- Hands-on
+- Security
+- Tutorial
+- Exploit
+- RAG
+- Indirect
+- Prompt
+- Injection
+- PoC
+- Multi-Tenant
+- Isolation
+- AppSec
+slug: /ai-ml-security/rag-security/hands-on-lab
 ---
+
 
 # 06 - Hands-on Lab: Exploiting & Securing RAG Applications
 
@@ -171,7 +190,7 @@ python exploit_rag.py
 ```
 
 **Observed Output:**
-Both attacks succeed. The LLM executes the prompt override in Attack 1 and returns Tenant A's confidential `$500M acquisition` details in Attack 2.
+Both attacks succeed. The LLM executes the prompt override in Attack 1 and returns Tenant A's confidential **$500M acquisition** details in Attack 2.
 
 ---
 

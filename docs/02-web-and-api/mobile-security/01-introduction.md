@@ -1,8 +1,27 @@
 ---
-title: "01 - Introduction to Mobile Security"
-description: "Deep dive into mobile application security threat modeling, OWASP Mobile Top 10 (2024), Android vs iOS architecture, IPC attack surfaces, and core root causes."
-keywords: ["Mobile Security", "Android Architecture", "iOS Architecture", "OWASP Mobile Top 10", "App Sandboxing", "SELinux", "IPC Security", "AppSec"]
+title: 01 - Introduction to Mobile Security
+description: Deep dive into mobile application security threat modeling, OWASP Mobile
+  Top 10 (2024), Android vs iOS architecture, IPC attack surfaces, and core root causes.
+keywords:
+- Mobile
+- Security
+- Android
+- Architecture
+- iOS
+- Architecture
+- OWASP
+- Mobile
+- Top
+- '10'
+- App
+- Sandboxing
+- SELinux
+- IPC
+- Security
+- AppSec
+slug: /web-and-api/mobile-security/introduction
 ---
+
 
 # 01 - Introduction to Mobile Security
 

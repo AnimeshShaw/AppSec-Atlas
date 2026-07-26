@@ -1,8 +1,28 @@
 ---
-title: "06 - Hands-on Lab: Secure Architecture Refactoring & Verification"
-description: "Refactor a vulnerable monolithic microservice into a hardened, production-grade architecture incorporating Circuit Breakers, Envelope Encryption, Token Bucket Rate Limiting, and Cryptographic Audit Chains."
-keywords: ["AppSec", "Hands-on Lab", "Secure Refactoring", "Circuit Breaker", "Envelope Encryption", "Rate Limiting", "HMAC", "Security Unit Tests", "Python"]
+title: '06 - Hands-on Lab: Secure Architecture Refactoring & Verification'
+description: Refactor a vulnerable monolithic microservice into a hardened, production-grade
+  architecture incorporating Circuit Breakers, Envelope Encryption, Token Bucket Rate
+  Limiting, and Cryptographic Audit Chains.
+keywords:
+- AppSec
+- Hands-on
+- Lab
+- Secure
+- Refactoring
+- Circuit
+- Breaker
+- Envelope
+- Encryption
+- Rate
+- Limiting
+- HMAC
+- Security
+- Unit
+- Tests
+- Python
+slug: /foundational/security-design-patterns/hands-on-lab
 ---
+
 
 # 06 - Hands-on Lab: Secure Architecture Refactoring & Verification
 

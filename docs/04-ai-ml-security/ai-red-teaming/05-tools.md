@@ -1,8 +1,32 @@
 ---
-title: "05. Security Testing & Tooling Automation"
-description: "Comprehensive guide to automating AI Red Teaming using Microsoft PyRIT, garak, UK AISI Inspect AI, and Promptfoo, including CI/CD integration pipelines with GitHub Actions."
-keywords: ["PyRIT", "garak scanner", "Inspect AI", "Promptfoo", "AI Security Automation", "CI/CD AI Testing", "GitHub Actions AI Red Team", "AppSec Atlas"]
+title: 05. Security Testing & Tooling Automation
+description: Comprehensive guide to automating AI Red Teaming using Microsoft PyRIT,
+  garak, UK AISI Inspect AI, and Promptfoo, including CI/CD integration pipelines
+  with GitHub Actions.
+keywords:
+- PyRIT
+- garak
+- scanner
+- Inspect
+- AI
+- Promptfoo
+- AI
+- Security
+- Automation
+- CI
+- CD
+- AI
+- Testing
+- GitHub
+- Actions
+- AI
+- Red
+- Team
+- AppSec
+- Atlas
+slug: /ai-ml-security/ai-red-teaming/tools
 ---
+
 
 # 05. Security Testing & Tooling Automation
 
