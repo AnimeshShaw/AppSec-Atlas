@@ -145,6 +145,11 @@ const config: Config = {
           label: '💬 Discord',
           position: 'right',
         },
+        {
+          href: 'https://github.com/sponsors/AnimeshShaw',
+          label: '💖 Sponsor',
+          position: 'right',
+        },
       ],
     },
     footer: {
@@ -168,19 +173,23 @@ const config: Config = {
           ],
         },
         {
-          title: 'Community',
+          title: 'Community & Support',
           items: [
             {
               label: 'GitHub',
               href: 'https://github.com/AnimeshShaw/AppSec-Atlas',
             },
             {
-              label: 'Discord',
+              label: 'Discord Community',
               href: 'https://discord.gg/NHvrkJ5Hg3',
             },
             {
-              label: 'Twitter / X',
-              href: 'https://x.com/appsecatlas',
+              label: '💖 GitHub Sponsors',
+              href: 'https://github.com/sponsors/AnimeshShaw',
+            },
+            {
+              label: '☕ Buy Me a Coffee (Ko-fi)',
+              href: 'https://ko-fi.com/animeshshaw',
             },
           ],
         },

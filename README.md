@@ -16,7 +16,7 @@
 
 <br/>
 
-[🌐 Website](https://appsecatlas.com) · [📚 Browse Guides](#-guides) · [🗺️ Learning Paths](#-learning-paths) · [🤝 Contribute](CONTRIBUTING.md) · [💬 Discord](https://discord.gg/NHvrkJ5Hg3) · [💝 Sponsor](https://github.com/sponsors/AnimeshShaw)
+[🌐 Website](https://appsecatlas.com) · [📚 Browse Guides](#-guides) · [🗺️ Learning Paths](#-learning-paths) · [🤝 Contribute](CONTRIBUTING.md) · [💬 Discord](https://discord.gg/NHvrkJ5Hg3) · [💖 Sponsor](https://github.com/sponsors/AnimeshShaw) · [☕ Ko-fi](https://ko-fi.com/animeshshaw)
 
 </div>
 
@@ -204,12 +204,11 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) to get started. First-time contributors:
 
 ## 💝 Support This Project
 
-AppSec Atlas is 100% free and open-source. If it helps you, consider supporting it:
+AppSec Atlas is 100% free and open-source. If this project has saved you time, helped you pass an audit, or advanced your career, consider supporting ongoing research:
 
-- ⭐ **Star this repo** — it helps more people discover the Atlas
-- 💝 **[GitHub Sponsors](https://github.com/sponsors/AnimeshShaw)** — sustain ongoing development
-- ☕ **[Ko-fi](https://ko-fi.com/appsecatlas)** — buy the team a coffee
-- 🏢 **[Corporate Sponsorship](https://appsecatlas.com/sponsor)** — logo in README + more
+- 💖 **[GitHub Sponsors](https://github.com/sponsors/AnimeshShaw)** — Become a monthly sponsor to sustain ongoing research & development
+- ☕ **[Ko-fi](https://ko-fi.com/animeshshaw)** — Buy the author a coffee to show your appreciation
+- ⭐ **Star this repository** — Help more security engineers and developers discover the Atlas
 
 ---
 
@@ -225,7 +224,7 @@ You are free to share and adapt the material for any purpose, even commercially,
 
 **Built with ❤️ by the security community, for the security community.**
 
-[🌐 appsecatlas.com](https://appsecatlas.com) · [Discord](https://discord.gg/appsecatlas) · [Twitter](https://twitter.com/appsecatlas)
+[🌐 appsecatlas.com](https://appsecatlas.com) · [💬 Discord](https://discord.gg/NHvrkJ5Hg3) · [💖 GitHub Sponsors](https://github.com/sponsors/AnimeshShaw) · [☕ Ko-fi](https://ko-fi.com/animeshshaw)
 
 *If AppSec Atlas helped you, please ⭐ star it to help others find it.*
 
