@@ -49,7 +49,7 @@ By participating in this project, you agree to abide by our [Code of Conduct](CO
 
 ### 6. Translate Guides
 - Help make AppSec Atlas accessible in more languages
-- See our [translation guidelines](community/templates/translation-guide.md)
+- See our [translation guidelines](CONTRIBUTING.md)
 
 ---
 

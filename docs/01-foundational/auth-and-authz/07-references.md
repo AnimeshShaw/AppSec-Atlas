@@ -58,7 +58,7 @@ This index contains authoritative technical specifications, NIST guidelines, OWA
 - **OWASP API Security Top 10:2023:** [https://owasp.org/www-project-api-security/](https://owasp.org/www-project-api-security/)
 - **OWASP Authentication Cheat Sheet:** [https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
 - **OWASP Authorization Cheat Sheet:** [https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html)
-- **OWASP JSON Web Token (JWT) Cheat Sheet:** [https://cheatsheetseries.owasp.org/cheatsheets/JSON_Web_Token_for_Java_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/JSON_Web_Token_for_Java_Cheat_Sheet.html)
+- **OWASP JSON Web Token (JWT) Cheat Sheet:** [https://cheatsheetseries.owasp.org/cheatsheets/JSON_Web_Token_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/JSON_Web_Token_Cheat_Sheet.html)
 
 ---
 

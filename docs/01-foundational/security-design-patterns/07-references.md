@@ -33,7 +33,7 @@ This chapter provides an exhaustive index of regulatory standards, official spec
 
 ## 📜 Industry Frameworks & Regulatory Standards
 
-* **NIST SP 800-160 Vol. 1 Rev. 1:** *Systems Security Engineering: Considerations for a Multidisciplinary Approach in the Engineering of Trustworthy Secure Systems.* National Institute of Standards and Technology. [NIST Publication SP 800-160](https://csrc.nist.gov/publications/detail/sp/800-160/vol-1/rev-1/final)
+* **NIST SP 800-160 Vol. 1 Rev. 1:** *Systems Security Engineering: Considerations for a Multidisciplinary Approach in the Engineering of Trustworthy Secure Systems.* National Institute of Standards and Technology. [NIST Publication SP 800-160](https://csrc.nist.gov/pubs/sp/800/160/v1/r1/final)
 * **NIST SP 800-207:** *Zero Trust Architecture (ZTA).* Defines core tenets of identity-centric security boundaries and micro-perimeters. [NIST SP 800-207](https://csrc.nist.gov/publications/detail/sp/800-207/final)
 * **OWASP ASVS v4.0.3:** *Application Security Verification Standard.* Chapter 1 (Architecture, Design, and Threat Modeling). [OWASP ASVS](https://owasp.org/www-project-application-security-verification-standard/)
 * **OWASP SAMM v2.0:** *Software Assurance Maturity Model.* Architectural Assessment and Design Review practice. [OWASP SAMM](https://owaspsamm.org/)
