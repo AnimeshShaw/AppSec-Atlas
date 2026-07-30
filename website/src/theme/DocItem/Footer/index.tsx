@@ -7,6 +7,7 @@ export default function DocItemFooter(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   const location = useLocation();
   const [copied, setCopied] = useState(false);
+  const [feedback, setFeedback] = useState<'yes' | 'no' | null>(null);
 
   const pageUrl = `${siteConfig.url}${location.pathname}`;
   const pageTitle = typeof document !== 'undefined' ? document.title : 'AppSec Atlas';
@@ -86,29 +87,71 @@ export default function DocItemFooter(): JSX.Element {
         </script>
       </Head>
 
-      <div className="atlas-share-bar">
-        <span className="atlas-share-label">Share this guide</span>
-        <div className="atlas-share-buttons">
-          {shareLinks.map(({label, href, color}) => (
-            <a
-              key={label}
-              href={href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="atlas-share-btn"
-              style={{'--share-color': color} as React.CSSProperties}
-              aria-label={`Share on ${label}`}
+      <div className="atlas-doc-footer-wrapper">
+        {/* Interactive "Was this helpful?" Feedback Widget */}
+        <div className="atlas-feedback-card">
+          <div className="atlas-feedback-header">
+            <span className="atlas-feedback-title">Was this guide helpful?</span>
+            {feedback === null ? (
+              <div className="atlas-feedback-actions">
+                <button
+                  onClick={() => setFeedback('yes')}
+                  className="atlas-feedback-btn atlas-feedback-yes"
+                  aria-label="Mark guide as helpful"
+                >
+                  👍 Yes
+                </button>
+                <button
+                  onClick={() => setFeedback('no')}
+                  className="atlas-feedback-btn atlas-feedback-no"
+                  aria-label="Mark guide as needs improvement"
+                >
+                  👎 Needs Work
+                </button>
+              </div>
+            ) : (
+              <div className="atlas-feedback-thanks">
+                🎉 Thanks for your feedback!{' '}
+                {feedback === 'no' && (
+                  <a
+                    href="https://github.com/AnimeshShaw/AppSec-Atlas/issues/new"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="atlas-feedback-issue-link"
+                  >
+                    Suggest an edit or issue on GitHub →
+                  </a>
+                )}
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* Share Bar */}
+        <div className="atlas-share-bar">
+          <span className="atlas-share-label">Share this guide</span>
+          <div className="atlas-share-buttons">
+            {shareLinks.map(({label, href, color}) => (
+              <a
+                key={label}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="atlas-share-btn"
+                style={{'--share-color': color} as React.CSSProperties}
+                aria-label={`Share on ${label}`}
+              >
+                {label}
+              </a>
+            ))}
+            <button
+              onClick={handleCopy}
+              className="atlas-share-btn atlas-share-copy"
+              aria-label="Copy link to clipboard"
             >
-              {label}
-            </a>
-          ))}
-          <button
-            onClick={handleCopy}
-            className="atlas-share-btn atlas-share-copy"
-            aria-label="Copy link to clipboard"
-          >
-            {copied ? '✓ Copied!' : '🔗 Copy Link'}
-          </button>
+              {copied ? '✓ Copied!' : '🔗 Copy Link'}
+            </button>
+          </div>
         </div>
       </div>
     </>

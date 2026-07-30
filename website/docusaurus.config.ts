@@ -233,6 +233,14 @@ const config: Config = {
   ],
 
   themeConfig: {
+    announcementBar: {
+      id: 'devcipher_spotlight',
+      content:
+        '🔐 Explore <b><a href="https://devcipher.dev/" target="_blank" rel="noopener noreferrer">DevCipher Platform</a></b> &amp; <b><a href="https://github.com/AnimeshShaw/agentic-ai-security-guide" target="_blank" rel="noopener noreferrer">Agentic AI Security</a></b> — Star AppSec Atlas on <a href="https://github.com/AnimeshShaw/AppSec-Atlas" target="_blank" rel="noopener noreferrer">GitHub ⭐</a>',
+      backgroundColor: '#0f172a',
+      textColor: '#38bdf8',
+      isCloseable: true,
+    },
     mermaid: {
       theme: {light: 'neutral', dark: 'dark'},
     },

@@ -376,3 +376,72 @@ p, li, td {
     margin-bottom: 1.5rem;
   }
 }
+
+/* ─── Feedback Widget (Bottom of Docs) ───────────── */
+.atlas-doc-footer-wrapper {
+  margin-top: 3rem;
+}
+
+.atlas-feedback-card {
+  background: var(--atlas-card-bg);
+  border: 1px solid var(--atlas-card-border);
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+  transition: border-color 0.2s ease;
+}
+
+.atlas-feedback-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.atlas-feedback-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--ifm-font-color-base);
+}
+
+.atlas-feedback-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.atlas-feedback-btn {
+  padding: 5px 14px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border: 1px solid var(--atlas-card-border);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--ifm-font-color-base);
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+
+.atlas-feedback-yes:hover {
+  background: rgba(16, 185, 129, 0.15);
+  border-color: #10b981;
+  color: #10b981;
+}
+
+.atlas-feedback-no:hover {
+  background: rgba(244, 63, 94, 0.15);
+  border-color: #f43f5e;
+  color: #f43f5e;
+}
+
+.atlas-feedback-thanks {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #10b981;
+}
+
+.atlas-feedback-issue-link {
+  color: var(--ifm-color-primary);
+  text-decoration: underline;
+  margin-left: 6px;
+}
