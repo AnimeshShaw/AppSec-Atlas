@@ -5,8 +5,8 @@ import Link from '@docusaurus/Link';
 export default function NotFound(): JSX.Element {
   return (
     <Layout
-      title="404 — Page Not Found"
-      description="The page you're looking for doesn't exist. Navigate back to AppSec Atlas."
+      title="404 — Security Perimeter Exceeded"
+      description="The guide or resource you are looking for does not exist or has moved. Explore the AppSec Atlas knowledge base."
     >
       <main
         style={{
@@ -14,8 +14,8 @@ export default function NotFound(): JSX.Element {
           flexDirection: 'column',
           alignItems: 'center',
           justifyContent: 'center',
-          minHeight: '70vh',
-          padding: '2rem 1.5rem',
+          minHeight: '75vh',
+          padding: '3rem 1.5rem',
           textAlign: 'center',
         }}
       >
@@ -23,11 +23,11 @@ export default function NotFound(): JSX.Element {
         <div
           style={{
             fontFamily: 'var(--ifm-heading-font-family)',
-            fontSize: 'clamp(5rem, 15vw, 9rem)',
+            fontSize: 'clamp(5.5rem, 16vw, 9.5rem)',
             fontWeight: 900,
-            lineHeight: 1,
-            marginBottom: '1rem',
-            background: 'linear-gradient(135deg, #38bdf8 0%, #818cf8 50%, #c084fc 100%)',
+            lineHeight: 0.95,
+            marginBottom: '1.25rem',
+            background: 'var(--atlas-accent-gradient)',
             WebkitBackgroundClip: 'text',
             WebkitTextFillColor: 'transparent',
             backgroundClip: 'text',
@@ -39,40 +39,40 @@ export default function NotFound(): JSX.Element {
 
         <div
           style={{
-            fontSize: '0.85rem',
+            fontSize: '0.82rem',
             fontWeight: 700,
             color: '#38bdf8',
             textTransform: 'uppercase',
-            letterSpacing: '0.1em',
-            marginBottom: '1rem',
+            letterSpacing: '0.12em',
+            marginBottom: '1.25rem',
           }}
         >
-          Page Not Found
+          Resource Not Found
         </div>
 
         <h1
           style={{
             fontFamily: 'var(--ifm-heading-font-family)',
-            fontSize: 'clamp(1.5rem, 3vw, 2rem)',
-            fontWeight: 700,
+            fontSize: 'clamp(1.6rem, 3.2vw, 2.25rem)',
+            fontWeight: 800,
+            letterSpacing: '-0.02em',
             marginBottom: '1rem',
-            maxWidth: '540px',
+            maxWidth: '560px',
           }}
         >
-          Looks like this page escaped the security perimeter.
+          This route escaped the security perimeter.
         </h1>
 
         <p
           style={{
-            color: 'var(--atlas-text-secondary, #94a3b8)',
-            fontSize: '1.05rem',
+            color: 'var(--atlas-text-secondary)',
+            fontSize: '1.08rem',
             lineHeight: 1.6,
-            maxWidth: '480px',
+            maxWidth: '500px',
             marginBottom: '2.5rem',
           }}
         >
-          The guide or resource you're looking for may have moved, been renamed,
-          or doesn't exist yet. Let's get you back on track.
+          The security guide or lab module you requested may have been renamed or refactored. Let's get you back on track.
         </p>
 
         <div
@@ -81,6 +81,7 @@ export default function NotFound(): JSX.Element {
             gap: '1rem',
             flexWrap: 'wrap',
             justifyContent: 'center',
+            marginBottom: '3rem',
           }}
         >
           <Link
@@ -89,17 +90,17 @@ export default function NotFound(): JSX.Element {
               display: 'inline-flex',
               alignItems: 'center',
               gap: '0.5rem',
-              padding: '0.8rem 1.6rem',
-              borderRadius: '10px',
+              padding: '0.85rem 1.8rem',
+              borderRadius: '12px',
               fontWeight: 700,
               fontSize: '0.95rem',
-              color: '#fff',
-              background: 'linear-gradient(135deg, #0284c7 0%, #4f46e5 100%)',
+              color: '#ffffff',
+              background: 'var(--atlas-accent-gradient)',
               textDecoration: 'none',
-              transition: 'transform 0.2s, box-shadow 0.2s',
+              boxShadow: '0 8px 20px -4px rgba(2, 132, 199, 0.4)',
             }}
           >
-            🗺️ Explore All Guides
+            🗺️ Explore All 45 Guides
           </Link>
 
           <Link
@@ -108,73 +109,71 @@ export default function NotFound(): JSX.Element {
               display: 'inline-flex',
               alignItems: 'center',
               gap: '0.5rem',
-              padding: '0.8rem 1.6rem',
-              borderRadius: '10px',
+              padding: '0.85rem 1.8rem',
+              borderRadius: '12px',
               fontWeight: 600,
               fontSize: '0.95rem',
               color: 'var(--ifm-font-color-base)',
-              background: 'rgba(255,255,255,0.05)',
-              border: '1px solid rgba(255,255,255,0.12)',
+              background: 'rgba(255, 255, 255, 0.04)',
+              border: '1px solid var(--atlas-card-border)',
               textDecoration: 'none',
             }}
           >
-            ← Back to Home
+            ← Back to Homepage
           </Link>
         </div>
 
-        {/* Quick links to popular guides */}
+        {/* Popular Guide Shortcuts */}
         <div
           style={{
-            marginTop: '3rem',
-            padding: '1.5rem 2rem',
-            borderRadius: '12px',
-            border: '1px solid rgba(255,255,255,0.08)',
-            background: 'rgba(255,255,255,0.03)',
-            maxWidth: '520px',
+            padding: '1.75rem 2rem',
+            borderRadius: '16px',
+            border: '1px solid var(--atlas-card-border)',
+            background: 'var(--atlas-card-bg)',
+            maxWidth: '560px',
             width: '100%',
           }}
         >
           <p
             style={{
-              fontSize: '0.8rem',
-              fontWeight: 600,
+              fontSize: '0.78rem',
+              fontWeight: 700,
               textTransform: 'uppercase',
               letterSpacing: '0.08em',
-              color: '#64748b',
-              marginBottom: '1rem',
+              color: 'var(--atlas-text-muted)',
+              marginBottom: '1.1rem',
             }}
           >
-            Popular Guides
+            Popular Security Masterclasses
           </p>
           <div
             style={{
               display: 'flex',
               flexWrap: 'wrap',
-              gap: '0.5rem',
+              gap: '0.55rem',
               justifyContent: 'center',
             }}
           >
             {[
               { label: 'OWASP Top 10', to: '/docs/foundational/owasp-top-10' },
               { label: 'LLM Prompt Injection', to: '/docs/ai-ml-security/llm-prompt-injection' },
+              { label: 'Agentic AI Security', to: '/docs/ai-ml-security/agentic-ai-security' },
               { label: 'Kubernetes Security', to: '/docs/cloud-and-infra/container-kubernetes' },
               { label: 'API Security', to: '/docs/web-and-api/api-security' },
               { label: 'Zero Trust', to: '/docs/foundational/zero-trust' },
-              { label: 'Agentic AI', to: '/docs/ai-ml-security/agentic-ai-security' },
             ].map(({ label, to }) => (
               <Link
                 key={to}
                 to={to}
                 style={{
-                  padding: '4px 12px',
-                  borderRadius: '6px',
+                  padding: '5px 14px',
+                  borderRadius: '8px',
                   fontSize: '0.82rem',
-                  fontWeight: 500,
-                  color: '#94a3b8',
-                  background: 'rgba(255,255,255,0.05)',
-                  border: '1px solid rgba(255,255,255,0.08)',
+                  fontWeight: 600,
+                  color: 'var(--atlas-text-secondary)',
+                  background: 'rgba(255, 255, 255, 0.04)',
+                  border: '1px solid var(--atlas-card-border)',
                   textDecoration: 'none',
-                  transition: 'color 0.15s, border-color 0.15s',
                 }}
               >
                 {label}

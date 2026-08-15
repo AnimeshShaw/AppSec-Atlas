@@ -1,6 +1,6 @@
 .section {
-  padding: 5rem 1.5rem;
-  max-width: 1240px;
+  padding: 5.5rem 1.5rem;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -10,7 +10,7 @@
 }
 
 .tagline {
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   font-weight: 700;
   color: #38bdf8;
   text-transform: uppercase;
@@ -21,27 +21,28 @@
 
 .title {
   font-family: var(--ifm-heading-font-family);
-  font-size: clamp(2rem, 3.5vw, 2.75rem);
+  font-size: clamp(2.1rem, 3.8vw, 2.85rem);
   font-weight: 800;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.02em;
   margin-bottom: 1rem;
 }
 
 .description {
   font-size: 1.1rem;
   color: var(--atlas-text-secondary);
-  max-width: 720px;
+  max-width: 740px;
   margin: 0 auto;
+  line-height: 1.6;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 1.75rem;
 }
 
 .domainCard {
-  padding: 1.75rem;
+  padding: 1.85rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -49,68 +50,81 @@
   color: inherit !important;
   position: relative;
   overflow: hidden;
+  background: var(--atlas-card-bg);
+  border: 1px solid var(--atlas-card-border);
+  border-radius: 16px;
+  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.22s ease, box-shadow 0.22s ease;
+}
+
+.domainCard:hover {
+  transform: translateY(-4px);
+  border-color: rgba(56, 189, 248, 0.45);
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.6), 0 0 25px rgba(56, 189, 248, 0.1);
 }
 
 .domainHeader {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 1rem;
+  margin-bottom: 1.1rem;
 }
 
 .iconWrapper {
-  width: 48px;
-  height: 48px;
-  border-radius: 12px;
+  width: 50px;
+  height: 50px;
+  border-radius: 14px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
-  background: rgba(56, 189, 248, 0.1);
-  border: 1px solid rgba(56, 189, 248, 0.2);
+  font-size: 1.55rem;
+  background: rgba(56, 189, 248, 0.08);
+  border: 1px solid rgba(56, 189, 248, 0.22);
 }
 
 .chapterBadge {
   font-size: 0.78rem;
   font-weight: 700;
   color: var(--atlas-text-muted);
-  background: rgba(148, 163, 184, 0.12);
-  padding: 0.25rem 0.65rem;
+  background: rgba(255, 255, 255, 0.04);
+  padding: 0.3rem 0.75rem;
   border-radius: 9999px;
   border: 1px solid var(--atlas-card-border);
+  letter-spacing: 0.02em;
 }
 
 .domainTitle {
   font-family: var(--ifm-heading-font-family);
   font-size: 1.35rem;
   font-weight: 700;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.65rem;
   color: var(--ifm-font-color-base);
+  letter-spacing: -0.01em;
 }
 
 .domainDescription {
   font-size: 0.95rem;
   color: var(--atlas-text-secondary);
-  line-height: 1.55;
-  margin-bottom: 1.25rem;
+  line-height: 1.6;
+  margin-bottom: 1.35rem;
   flex-grow: 1;
 }
 
 .topicsList {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4rem;
-  margin-bottom: 1.25rem;
+  gap: 0.45rem;
+  margin-bottom: 1.35rem;
 }
 
 .topicTag {
   font-size: 0.75rem;
   font-weight: 600;
-  padding: 0.2rem 0.55rem;
+  padding: 0.22rem 0.6rem;
   border-radius: 6px;
-  background: rgba(148, 163, 184, 0.12);
+  background: rgba(255, 255, 255, 0.035);
   color: var(--atlas-text-secondary);
   border: 1px solid var(--atlas-card-border);
+  letter-spacing: 0.01em;
 }
 
 .arrowLink {
@@ -127,23 +141,23 @@
   gap: 0.65rem;
 }
 
-/* ─── Mobile Breakpoints ────────────────────────── */
+/* Mobile Breakpoints */
 @media (max-width: 768px) {
   .section {
-    padding: 3rem 1rem;
+    padding: 3.5rem 1rem;
   }
 
   .grid {
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: 1.25rem;
   }
 
   .domainCard {
-    padding: 1.25rem;
+    padding: 1.4rem;
   }
 
   .domainTitle {
-    font-size: 1.15rem;
+    font-size: 1.2rem;
   }
 
   .description {
@@ -157,9 +171,8 @@
   }
 }
 
-/* ─── Reduced Motion ────────────────────────────── */
 @media (prefers-reduced-motion: reduce) {
-  .arrowLink {
+  .arrowLink, .domainCard {
     transition: none;
   }
 

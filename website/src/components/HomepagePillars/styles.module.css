@@ -1,12 +1,12 @@
 .section {
-  padding: 4rem 1.5rem 5rem;
-  background: rgba(15, 23, 42, 0.4);
+  padding: 5rem 1.5rem 5.5rem;
+  background: var(--atlas-surface-1);
   border-top: 1px solid var(--atlas-card-border);
   border-bottom: 1px solid var(--atlas-card-border);
 }
 
 .container {
-  max-width: 1240px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -17,61 +17,81 @@
 
 .title {
   font-family: var(--ifm-heading-font-family);
-  font-size: clamp(1.8rem, 3vw, 2.5rem);
+  font-size: clamp(2rem, 3.5vw, 2.75rem);
   font-weight: 800;
-  margin-bottom: 0.75rem;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.85rem;
 }
 
 .subtitle {
-  font-size: 1.05rem;
+  font-size: 1.08rem;
   color: var(--atlas-text-secondary);
-  max-width: 680px;
+  max-width: 700px;
   margin: 0 auto;
+  line-height: 1.6;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 1.75rem;
 }
 
 .pillarCard {
-  padding: 1.75rem;
-  border-radius: 14px;
+  padding: 2rem 1.75rem;
+  border-radius: 16px;
+  background: var(--atlas-canvas);
+  border: 1px solid var(--atlas-card-border);
+  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.22s ease, box-shadow 0.22s ease;
+}
+
+.pillarCard:hover {
+  transform: translateY(-3px);
+  border-color: rgba(56, 189, 248, 0.35);
+  box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.5);
 }
 
 .icon {
-  font-size: 2.2rem;
-  margin-bottom: 1rem;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  background: rgba(56, 189, 248, 0.08);
+  border: 1px solid rgba(56, 189, 248, 0.2);
+  margin-bottom: 1.25rem;
 }
 
 .pillarTitle {
   font-family: var(--ifm-heading-font-family);
-  font-size: 1.2rem;
+  font-size: 1.22rem;
   font-weight: 700;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.65rem;
   color: var(--ifm-font-color-base);
+  letter-spacing: -0.01em;
 }
 
 .pillarDesc {
-  font-size: 0.92rem;
+  font-size: 0.93rem;
   color: var(--atlas-text-secondary);
   line-height: 1.6;
 }
 
-/* ─── Mobile Breakpoints ────────────────────────── */
+/* Mobile Breakpoints */
 @media (max-width: 768px) {
   .section {
-    padding: 3rem 1rem;
+    padding: 3.5rem 1rem;
   }
 
   .grid {
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: 1.25rem;
   }
 
   .pillarCard {
-    padding: 1.25rem;
+    padding: 1.5rem;
   }
 }
 
