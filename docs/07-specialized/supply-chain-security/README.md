@@ -1,49 +1,26 @@
 ---
-title: Supply Chain Security Guide
-description: Welcome to the AppSec Atlas **Supply Chain Security Guide**. In modern
-  software development, a large portion of the application code originates from t...
-keywords:
-- AppSec
-- Cybersecurity
-- Security
-- Guide
-- Tutorial
-- '07'
-- Specialized
-- Supply
-- Chain
-- Security
-- Readme
-- Md
-slug: /specialized/supply-chain-security
+sidebar_position: 1
+title: "Supply Chain Security & SLSA"
 ---
 
+# Software Supply Chain Security Masterclass
 
-# Supply Chain Security Guide
+Welcome to the Software Supply Chain Security guide. In an era where attackers target the build pipelines, dependencies, and deployment mechanisms rather than the application itself, securing the software supply chain is paramount.
 
-## Overview
-Welcome to the AppSec Atlas **Supply Chain Security Guide**. In modern software development, a large portion of the application code originates from third-party dependencies, open-source libraries, and external services. This chapter covers how to secure the software supply chain against attacks, ensure the integrity of the build process, and manage the vulnerabilities introduced by dependencies.
+This sub-guide focuses on the **Supply-chain Levels for Software Artifacts (SLSA)** framework, specifically version 1.0, and practical implementations using tools like Sigstore, Cosign, and in-toto provenance.
 
-## Prerequisites
-Before diving into this guide, you should have a basic understanding of:
-- Software development lifecycles (SDLC) and CI/CD pipelines.
-- Package managers (e.g., npm, pip, Maven, Cargo).
-- Basic cryptography concepts (e.g., digital signatures, hashing).
+## The Scope of the Problem
+Modern software is rarely written from scratch. It is assembled from hundreds or thousands of open-source components, built in distributed CI/CD pipelines, and deployed across complex cloud environments. A compromise at any point—a hijacked npm package, a compromised CI runner, or an unauthenticated artifact registry—can lead to devastating consequences (e.g., SolarWinds, log4j).
 
-## Learning Objectives
-By completing this guide, you will be able to:
-- Understand the Software Supply Chain threat landscape.
-- Generate and analyze Software Bill of Materials (SBOMs).
-- Implement the Supply-chain Levels for Software Artifacts (SLSA) framework principles.
-- Use dependency pinning and lockfile hardening.
-- Detect and prevent the integration of malicious packages or typosquatting attacks.
-- Secure the software publishing process.
+## What We Will Cover
+This masterclass is divided into 7 core chapters, each following our strict "4-Layer Pattern" (Concept, Visual, Code, Guardrail):
 
-## Navigation
-- [01 Introduction](01-introduction.md)
-- [02 SBOM Generation & Vulnerability Management](02-sbom-generation-and-vulnerability-management.md)
-- [03 Dependency Pinning & Provenance](03-dependency-pinning-and-provenance.md)
-- [04 Open Source Malware & Typosquatting](04-open-source-malware-and-typosquatting.md)
-- [05 Secure Software Publishing](05-secure-software-publishing.md)
-- [06 Hands-on Lab](06-hands-on-lab.md)
-- [07 References](07-references.md)
+1. **Chapter 1: Understanding SLSA v1.0 Foundation** - Core principles of SLSA and why build integrity matters.
+2. **Chapter 2: Dependency Confusion & Substitution Attacks** - Preventing attackers from hijacking private packages.
+3. **Chapter 3: Typosquatting & Malicious Dependencies** - Defending against rogue open-source packages.
+4. **Chapter 4: Build Integrity & Provenance (in-toto)** - Generating and verifying unforgeable build records.
+5. **Chapter 5: Artifact Signing with Sigstore & Cosign** - Keyless signing and verifying container images and binaries.
+6. **Chapter 6: Securing CI/CD Pipelines** - Hardening GitHub Actions, GitLab CI, and Jenkins.
+7. **Chapter 7: SBOM Generation & Validation** - Creating, managing, and utilizing Software Bills of Materials.
+
+Let's dive into Chapter 1 and start building an unbreakable software supply chain.

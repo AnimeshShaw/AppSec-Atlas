@@ -51,8 +51,8 @@ function useCountUp(target: number, duration = 1800, suffix = '') {
 }
 
 const STATS = [
-  { target: 45, suffix: '', label: 'Security Guides' },
-  { target: 300, suffix: '+', label: 'Deep-Dive Chapters' },
+  { target: 54, suffix: '', label: 'Security Guides' },
+  { target: 378, suffix: '+', label: 'Deep-Dive Chapters' },
   { target: 9, suffix: '', label: 'Core Domains' },
   { target: 100, suffix: '%', label: 'Open-Source (CC BY 4.0)' },
 ];
@@ -159,7 +159,7 @@ export default function HomepageHero() {
 
         <p className={styles.heroSubtitle}>
           AppSec Atlas is the ultimate open-source security knowledge engine—spanning
-          <strong> 45 masterclass guides</strong>, <strong>300+ technical chapters</strong>, multi-language code labs,
+          <strong> 54 masterclass guides</strong>, <strong>375+ technical chapters</strong>, multi-language code labs,
           and real-world threat models from Web/API to Agentic AI Security.
         </p>
 

@@ -68,13 +68,13 @@
   gap: 2.5rem;
   margin-bottom: 2.75rem;
   padding: 1rem 1.5rem;
-  background: rgba(10, 13, 20, 0.5);
-  border: 1px solid var(--atlas-card-border);
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
   border-radius: 16px;
   max-width: 860px;
   margin-left: auto;
   margin-right: auto;
-  backdrop-filter: blur(16px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
 .statItem {
