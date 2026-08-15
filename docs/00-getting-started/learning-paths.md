@@ -1,5 +1,5 @@
 ---
-title: AppSec Atlas Security Guide
+title: Learning Paths
 description: Choose the path that matches your role and goals. Each path orders the
   guides for maximum learning efficiency.
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: AppSec Atlas Security Guide
+title: Welcome to AppSec Atlas
 description: AppSec Atlas is a comprehensive, community-driven security knowledge
   base covering 45 guides across 9 security domains.
 keywords:
