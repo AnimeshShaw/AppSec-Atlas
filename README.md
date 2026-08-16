@@ -9,7 +9,7 @@
 **Map the entire security landscape. One repo. Zero excuses.**
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-EF4444?style=for-the-badge&labelColor=0A0F1E)](LICENSE)
-[![Guides](https://img.shields.io/badge/Guides-45%20Modules-10B981?style=for-the-badge&labelColor=0A0F1E)](#-guides)
+[![Guides](https://img.shields.io/badge/Guides-54%20Modules-10B981?style=for-the-badge&labelColor=0A0F1E)](#-guides)
 [![Website](https://img.shields.io/badge/🌐%20Live-appsecatlas.com-8B5CF6?style=for-the-badge&labelColor=0A0F1E)](https://www.appsecatlas.com)
 [![GitHub Stars](https://img.shields.io/github/stars/AnimeshShaw/AppSec-Atlas?style=for-the-badge&logo=github&color=3B82F6&labelColor=0A0F1E)](https://github.com/AnimeshShaw/AppSec-Atlas/stargazers)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-10B981?style=for-the-badge&labelColor=0A0F1E)](CONTRIBUTING.md)
@@ -38,7 +38,7 @@ AppSec Atlas is the **only** open-source security knowledge base that covers the
 | 100% Free, no paywalls | ✅ | ✅ |
 | Active community & Discord | ✅ | Varies |
 
-> **45 guides. 9 security domains. One atlas.**
+> **54 guides. 9 security domains. One atlas.**
 
 ---
 
@@ -52,6 +52,7 @@ AppSec Atlas is the **only** open-source security knowledge base that covers the
 | [OWASP Top 10 Deep Dive](docs/01-foundational/owasp-top-10/) | ✅ Available | Beginner |
 | [Secure Coding Practices](docs/01-foundational/secure-coding/) | ✅ Available | Beginner |
 | [Cryptography for Developers](docs/01-foundational/cryptography/) | ✅ Available | Intermediate |
+| [Post-Quantum Cryptography](docs/01-foundational/post-quantum-cryptography/) | ✅ Available | Advanced |
 | [Authentication & Authorization Masterclass](docs/01-foundational/auth-and-authz/) | ✅ Available | Intermediate |
 | [Zero Trust Architecture Guide](docs/01-foundational/zero-trust/) | ✅ Available | Advanced |
 | [Security Design Patterns](docs/01-foundational/security-design-patterns/) | ✅ Available | Intermediate |
@@ -63,6 +64,7 @@ AppSec Atlas is the **only** open-source security knowledge base that covers the
 |-------|--------|-------|
 | [Web Application Security Handbook](docs/02-web-and-api/web-application-security/) | ✅ Available | Intermediate |
 | [API Security Guide](docs/02-web-and-api/api-security/) | ✅ Available | Intermediate |
+| [Modern API Identity](docs/02-web-and-api/modern-api-identity/) | ✅ Available | Advanced |
 | [Frontend Security Playbook](docs/02-web-and-api/frontend-security/) | ✅ Available | Intermediate |
 | [Mobile App Security Guide](docs/02-web-and-api/mobile-security/) | ✅ Available | Intermediate |
 | [CORS & Same-Origin Policy Explained](docs/02-web-and-api/cors-and-sop/) | ✅ Available | Beginner |
@@ -73,7 +75,11 @@ AppSec Atlas is the **only** open-source security knowledge base that covers the
 | Guide | Status | Level |
 |-------|--------|-------|
 | [Cloud Security Fundamentals](docs/03-cloud-and-infra/cloud-security/) | ✅ Available | Intermediate |
+| [Cross-Cloud IAM Federation](docs/03-cloud-and-infra/cross-cloud-iam-federation/) | ✅ Available | Advanced |
+| [Confidential Computing Enclaves](docs/03-cloud-and-infra/confidential-computing/) | ✅ Available | Advanced |
+| [Cloud Zero-Day Playbooks](docs/03-cloud-and-infra/cloud-zero-day-playbooks/) | ✅ Available | Advanced |
 | [Container & Kubernetes Security](docs/03-cloud-and-infra/container-kubernetes/) | ✅ Available | Intermediate |
+| [Kubernetes & eBPF Runtime Security](docs/03-cloud-and-infra/kubernetes-ebpf-runtime/) | ✅ Available | Advanced |
 | [Infrastructure as Code Security](docs/03-cloud-and-infra/iac-security/) | ✅ Available | Intermediate |
 | [Serverless Security Guide](docs/03-cloud-and-infra/serverless-security/) | ✅ Available | Intermediate |
 | [CI/CD Pipeline Security](docs/03-cloud-and-infra/cicd-pipeline-security/) | ✅ Available | Intermediate |
@@ -97,6 +103,7 @@ AppSec Atlas is the **only** open-source security knowledge base that covers the
 | Guide | Status | Level |
 |-------|--------|-------|
 | [Penetration Testing Methodology](docs/05-offensive/penetration-testing/) | ✅ Available | Intermediate |
+| [Enterprise Security Assessment](docs/05-offensive/enterprise-security-assessment/) | ✅ Available | Advanced |
 | [Social Engineering & Phishing](docs/05-offensive/social-engineering/) | ✅ Available | Beginner |
 | [Network Security & Attack Techniques](docs/05-offensive/network-attacks/) | ✅ Available | Intermediate |
 | [Bug Bounty Hunting Guide](docs/05-offensive/bug-bounty/) | ✅ Available | Intermediate |
@@ -108,6 +115,7 @@ AppSec Atlas is the **only** open-source security knowledge base that covers the
 | Guide | Status | Level |
 |-------|--------|-------|
 | [Incident Response Playbook](docs/06-defensive/incident-response/) | ✅ Available | Intermediate |
+| [Security Chaos Engineering](docs/06-defensive/security-chaos-engineering/) | ✅ Available | Advanced |
 | [Security Logging & Monitoring](docs/06-defensive/logging-and-monitoring/) | ✅ Available | Intermediate |
 | [Digital Forensics Basics](docs/06-defensive/digital-forensics/) | ✅ Available | Intermediate |
 | [Vulnerability Management Guide](docs/06-defensive/vulnerability-management/) | ✅ Available | Intermediate |
