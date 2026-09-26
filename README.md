@@ -4,7 +4,7 @@
 
 # 🗺️ AppSec Atlas
 
-### *The World's Most Comprehensive Open-Source Security Knowledge Base*
+### *An Open-Source Security Knowledge Base Across the Full AppSec Landscape*
 
 **Map the entire security landscape. One repo. Zero excuses.**
 
